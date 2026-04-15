@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AIScope SG Methodology</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    body { margin: 0; padding: 24px; background: #080b0f; color: #e8edf2; font-family: "Sora", sans-serif; }
+    .wrap { max-width: 840px; margin: 0 auto; }
+    h1 { margin-bottom: 8px; }
+    h2 { margin-top: 20px; font-size: 18px; }
+    p, li { color: #b8c4d3; line-height: 1.7; }
+    .meta { color: #6b7a8d; font-family: "IBM Plex Mono", monospace; font-size: 12px; }
+    a { color: #00d4a0; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>AIScope SG Methodology</h1>
+    <p class="meta">Transparent scoring framework for Singapore AI Job Exposure Index</p>
+
+    <h2>1. Core Score</h2>
+    <p>
+      Each occupation receives an AI exposure score on a 0-10 scale. The baseline is estimated from
+      task automability, language dependence, workflow digitization readiness, and substitution speed.
+    </p>
+
+    <h2>2. Singapore Local Protection Factors</h2>
+    <ul>
+      <li><strong>PWM constraint:</strong> PWM-covered occupations apply a hard risk cap to reflect wage-floor protection and physical task isolation.</li>
+      <li><strong>Regulatory moat:</strong> SAL, MOH, and MAS licensing barriers reduce short-term replacement exposure.</li>
+      <li><strong>Work context:</strong> on-site physical presence and multi-lingual frontline communication can reduce pure automation risk.</li>
+    </ul>
+
+    <h2>3. Explainability and Audit Trail</h2>
+    <p>
+      Every occupation includes source metadata in <code>source_meta</code>:
+      SSOC version, wage statistic year, and LLM model used for scoring.
+    </p>
+
+    <h2>4. Intended Use</h2>
+    <p>
+      AIScope SG is designed for policy research, workforce transition planning, and public education.
+      It is not legal advice or a formal determination of employment rights.
+    </p>
+
+    <p class="meta"><a href="./index.html">Back to dashboard</a></p>
+  </main>
+</body>
+</html>

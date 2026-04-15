@@ -1,0 +1,1140 @@
+{"head": "Clerical Support Occupation 001", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 001", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 005", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 005", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 009", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 009", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 013", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 013", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 017", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 017", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 021", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 021", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 025", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 025", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 029", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 029", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 033", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 033", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 037", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 037", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 041", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 041", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 045", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 045", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 049", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 049", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 053", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 053", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 057", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 057", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 061", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 061", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 065", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 065", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 069", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 069", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 073", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 073", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 077", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 077", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 081", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 081", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 085", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 085", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 089", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 089", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 093", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 093", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 097", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 097", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 101", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 101", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 105", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 105", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 109", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 109", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 113", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 113", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 117", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 117", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 121", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 121", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 125", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 125", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 129", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 129", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 133", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 133", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 137", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 137", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 141", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 141", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 145", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 145", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 149", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 149", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 153", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 153", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 157", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 157", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 161", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 161", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 165", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 165", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 169", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 169", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 173", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 173", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 177", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 177", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 181", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 181", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 185", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 185", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 189", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 189", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 193", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 193", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 197", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 197", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 201", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 201", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 205", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 205", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 209", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 209", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 213", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 213", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 217", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 217", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 221", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 221", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 225", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 225", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 229", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 229", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 233", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 233", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 237", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 237", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 241", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 241", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 245", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 245", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 249", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 249", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 253", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 253", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 257", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 257", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 261", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 261", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 265", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 265", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 269", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 269", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 273", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 273", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 277", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 277", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 281", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 281", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 285", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 285", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 289", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 289", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 293", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 293", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 297", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 297", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 301", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 301", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 305", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 305", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 309", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 309", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 313", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 313", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 317", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 317", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 321", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 321", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 325", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 325", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 329", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 329", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 333", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 333", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 337", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 337", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 341", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 341", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 345", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 345", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 349", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 349", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 353", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 353", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 357", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 357", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 361", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 361", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 365", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 365", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 369", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 369", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 373", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 373", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 377", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 377", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 381", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 381", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 385", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 385", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 389", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 389", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 393", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 393", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 397", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 397", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 401", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 401", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 405", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 405", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 409", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 409", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 413", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 413", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 417", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 417", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 421", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 421", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 425", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 425", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 429", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 429", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 433", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 433", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 437", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 437", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 441", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 441", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 445", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 445", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 449", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 449", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 453", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 453", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 457", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 457", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 461", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 461", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 465", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 465", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 469", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 469", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 473", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 473", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 477", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 477", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 481", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 481", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 485", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 485", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 489", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 489", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 493", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 493", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 497", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 497", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 501", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 501", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 505", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 505", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 509", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 509", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 513", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 513", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 517", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 517", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 521", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 521", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 525", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 525", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 529", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 529", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 533", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 533", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 537", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 537", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 541", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 541", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 545", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 545", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 549", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 549", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 553", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 553", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 557", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 557", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Clerical Support Occupation 561", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Clerical Support Occupation 561", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Data Entry Clerk", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Data Entry Clerk", "relation": "HAS_RISK", "tail": "RPA plus document AI", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "General Office Clerk", "relation": "IN_SECTOR", "tail": "Clerical Support", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "General Office Clerk", "relation": "HAS_RISK", "tail": "Workflow copilots", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Accountant", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Accountant", "relation": "HAS_RISK", "tail": "Automated financial analysis", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 002", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 002", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 006", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 006", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 010", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 010", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 014", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 014", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 018", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 018", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 022", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 022", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 026", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 026", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 030", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 030", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 034", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 034", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 038", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 038", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 042", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 042", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 046", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 046", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 050", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 050", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 054", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 054", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 058", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 058", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 062", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 062", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 066", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 066", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 070", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 070", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 074", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 074", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 078", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 078", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 082", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 082", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 086", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 086", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 090", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 090", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 094", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 094", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 098", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 098", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 102", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 102", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 106", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 106", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 110", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 110", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 114", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 114", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 118", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 118", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 122", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 122", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 126", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 126", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 130", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 130", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 134", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 134", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 138", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 138", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 142", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 142", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 146", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 146", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 150", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 150", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 154", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 154", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 158", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 158", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 162", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 162", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 166", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 166", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 170", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 170", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 174", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 174", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 178", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 178", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 182", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 182", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 186", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 186", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 190", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 190", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 194", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 194", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 198", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 198", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 202", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 202", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 206", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 206", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 210", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 210", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 214", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 214", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 218", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 218", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 222", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 222", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 226", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 226", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 230", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 230", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 234", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 234", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 238", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 238", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 242", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 242", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 246", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 246", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 250", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 250", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 254", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 254", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 258", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 258", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 262", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 262", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 266", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 266", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 270", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 270", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 274", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 274", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 278", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 278", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 282", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 282", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 286", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 286", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 290", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 290", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 294", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 294", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 298", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 298", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 302", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 302", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 306", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 306", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 310", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 310", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 314", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 314", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 318", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 318", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 322", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 322", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 326", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 326", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 330", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 330", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 334", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 334", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 338", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 338", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 342", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 342", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 346", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 346", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 350", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 350", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 354", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 354", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 358", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 358", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 362", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 362", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 366", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 366", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 370", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 370", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 374", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 374", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 378", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 378", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 382", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 382", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 386", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 386", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 390", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 390", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 394", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 394", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 398", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 398", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 402", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 402", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 406", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 406", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 410", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 410", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 414", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 414", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 418", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 418", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 422", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 422", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 426", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 426", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 430", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 430", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 434", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 434", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 438", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 438", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 442", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 442", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 446", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 446", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 450", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 450", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 454", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 454", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 458", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 458", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 462", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 462", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 466", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 466", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 470", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 470", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 474", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 474", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 478", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 478", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 482", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 482", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 486", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 486", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 490", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 490", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 494", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 494", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 498", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 498", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 502", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 502", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 506", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 506", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 510", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 510", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 514", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 514", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 518", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 518", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 522", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 522", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 526", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 526", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 530", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 530", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 534", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 534", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 538", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 538", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 542", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 542", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 546", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 546", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 550", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 550", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 554", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 554", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 558", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 558", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Professionals Occupation 562", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Professionals Occupation 562", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Software Developer", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Software Developer", "relation": "HAS_RISK", "tail": "LLM code generation", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Retail Sales Assistant", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Retail Sales Assistant", "relation": "HAS_RISK", "tail": "Self-checkout and AI recommendations", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 003", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 003", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 007", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 007", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 011", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 011", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 015", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 015", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 019", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 019", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 023", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 023", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 027", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 027", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 031", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 031", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 035", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 035", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 039", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 039", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 043", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 043", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 047", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 047", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 051", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 051", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 055", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 055", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 059", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 059", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 063", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 063", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 067", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 067", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 071", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 071", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 075", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 075", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 079", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 079", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 083", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 083", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 087", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 087", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 091", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 091", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 095", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 095", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 099", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 099", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 103", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 103", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 107", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 107", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 111", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 111", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 115", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 115", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 119", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 119", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 123", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 123", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 127", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 127", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 131", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 131", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 135", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 135", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 139", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 139", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 143", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 143", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 147", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 147", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 151", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 151", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 155", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 155", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 159", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 159", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 163", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 163", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 167", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 167", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 171", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 171", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 175", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 175", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 179", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 179", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 183", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 183", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 187", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 187", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 191", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 191", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 195", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 195", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 199", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 199", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 203", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 203", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 207", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 207", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 211", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 211", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 215", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 215", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 219", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 219", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 223", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 223", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 227", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 227", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 231", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 231", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 235", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 235", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 239", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 239", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 243", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 243", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 247", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 247", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 251", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 251", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 255", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 255", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 259", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 259", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 263", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 263", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 267", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 267", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 271", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 271", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 275", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 275", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 279", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 279", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 283", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 283", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 287", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 287", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 291", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 291", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 295", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 295", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 299", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 299", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 303", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 303", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 307", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 307", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 311", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 311", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 315", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 315", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 319", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 319", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 323", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 323", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 327", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 327", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 331", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 331", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 335", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 335", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 339", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 339", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 343", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 343", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 347", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 347", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 351", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 351", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 355", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 355", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 359", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 359", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 363", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 363", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 367", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 367", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 371", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 371", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 375", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 375", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 379", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 379", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 383", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 383", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 387", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 387", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 391", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 391", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 395", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 395", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 399", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 399", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 403", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 403", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 407", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 407", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 411", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 411", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 415", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 415", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 419", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 419", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 423", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 423", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 427", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 427", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 431", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 431", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 435", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 435", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 439", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 439", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 443", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 443", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 447", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 447", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 451", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 451", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 455", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 455", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 459", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 459", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 463", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 463", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 467", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 467", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 471", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 471", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 475", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 475", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 479", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 479", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 483", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 483", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 487", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 487", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 491", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 491", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 495", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 495", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 499", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 499", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 503", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 503", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 507", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 507", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 511", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 511", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 515", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 515", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 519", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 519", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 523", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 523", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 527", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 527", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 531", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 531", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 535", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 535", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 539", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 539", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 543", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 543", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 547", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 547", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 551", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 551", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 555", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 555", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Service and Sales Occupation 559", "relation": "IN_SECTOR", "tail": "Service and Sales", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Service and Sales Occupation 559", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Childcare Worker", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Childcare Worker", "relation": "HAS_RISK", "tail": "Administrative automation only", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Plumber", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Plumber", "relation": "HAS_RISK", "tail": "Limited robotics substitution", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Roof Worker", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Roof Worker", "relation": "HAS_RISK", "tail": "Very low near-term automation feasibility", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 004", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 004", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 008", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 008", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 012", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 012", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 016", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 016", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 020", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 020", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 024", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 024", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 028", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 028", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 032", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 032", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 036", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 036", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 040", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 040", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 044", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 044", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 048", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 048", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 052", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 052", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 056", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 056", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 060", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 060", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 064", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 064", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 068", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 068", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 072", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 072", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 076", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 076", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 080", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 080", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 084", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 084", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 088", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 088", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 092", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 092", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 096", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 096", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 100", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 100", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 104", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 104", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 108", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 108", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 112", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 112", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 116", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 116", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 120", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 120", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 124", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 124", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 128", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 128", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 132", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 132", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 136", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 136", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 140", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 140", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 144", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 144", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 148", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 148", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 152", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 152", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 156", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 156", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 160", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 160", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 164", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 164", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 168", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 168", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 172", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 172", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 176", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 176", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 180", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 180", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 184", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 184", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 188", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 188", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 192", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 192", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 196", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 196", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 200", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 200", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 204", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 204", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 208", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 208", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 212", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 212", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 216", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 216", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 220", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 220", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 224", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 224", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 228", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 228", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 232", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 232", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 236", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 236", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 240", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 240", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 244", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 244", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 248", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 248", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 252", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 252", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 256", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 256", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 260", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 260", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 264", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 264", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 268", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 268", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 272", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 272", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 276", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 276", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 280", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 280", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 284", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 284", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 288", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 288", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 292", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 292", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 296", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 296", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 300", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 300", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 304", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 304", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 308", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 308", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 312", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 312", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 316", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 316", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 320", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 320", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 324", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 324", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 328", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 328", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 332", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 332", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 336", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 336", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 340", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 340", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 344", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 344", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 348", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 348", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 352", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 352", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 356", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 356", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 360", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 360", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 364", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 364", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 368", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 368", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 372", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 372", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 376", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 376", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 380", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 380", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 384", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 384", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 388", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 388", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 392", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 392", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 396", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 396", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 400", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 400", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 404", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 404", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 408", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 408", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 412", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 412", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 416", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 416", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 420", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 420", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 424", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 424", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 428", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 428", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 432", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 432", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 436", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 436", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 440", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 440", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 444", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 444", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 448", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 448", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 452", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 452", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 456", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 456", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 460", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 460", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 464", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 464", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 468", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 468", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 472", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 472", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 476", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 476", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 480", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 480", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 484", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 484", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 488", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 488", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 492", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 492", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 496", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 496", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 500", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 500", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 504", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 504", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 508", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 508", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 512", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 512", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 516", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 516", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 520", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 520", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 524", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 524", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 528", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 528", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 532", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 532", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 536", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 536", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 540", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 540", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 544", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 544", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 548", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 548", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 552", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 552", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 556", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 556", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
+{"head": "Trades and Labourers Occupation 560", "relation": "IN_SECTOR", "tail": "Trades and Labourers", "head_type": "Occupation", "tail_type": "Sector"}
+{"head": "Trades and Labourers Occupation 560", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}

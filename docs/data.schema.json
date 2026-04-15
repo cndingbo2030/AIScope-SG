@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AIScope SG data.json schema",
+  "type": "object",
+  "required": ["meta", "name", "children"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["title", "source", "generated_at", "total_occupations", "total_employment", "avg_ai_score"],
+      "properties": {
+        "title": { "type": "string" },
+        "source": { "type": "string" },
+        "generated_at": { "type": "string" },
+        "total_occupations": { "type": "integer", "minimum": 1 },
+        "total_employment": { "type": "integer", "minimum": 1 },
+        "avg_ai_score": { "type": "number", "minimum": 0, "maximum": 10 }
+      }
+    },
+    "name": { "type": "string" },
+    "children": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["name", "order", "children"],
+        "properties": {
+          "name": { "type": "string" },
+          "order": { "type": "integer", "minimum": 1 },
+          "children": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "name",
+                "ssoc_code",
+                "employment",
+                "gross_wage",
+                "basic_wage",
+                "ai_score",
+                "reason",
+                "wfh",
+                "ai_assists",
+                "risk_factor",
+                "pwm",
+                "regulated",
+                "source_meta",
+                "vulnerability_index"
+              ],
+              "properties": {
+                "name": { "type": "string" },
+                "ssoc_code": { "type": "string", "minLength": 3 },
+                "employment": { "type": "integer", "minimum": 1 },
+                "gross_wage": { "type": "integer", "minimum": 1 },
+                "basic_wage": { "type": "integer", "minimum": 1 },
+                "ai_score": { "type": "number", "minimum": 0, "maximum": 10 },
+                "reason": { "type": "string" },
+                "wfh": { "type": "boolean" },
+                "ai_assists": { "type": "boolean" },
+                "risk_factor": { "type": "string" },
+                "pwm": { "type": "boolean" },
+                "regulated": { "type": "boolean" },
+                "vulnerability_index": { "type": "number", "minimum": 0, "maximum": 1 },
+                "source_meta": {
+                  "type": "object",
+                  "required": ["ssoc_version", "wage_stat_year", "llm_model"],
+                  "properties": {
+                    "ssoc_version": { "type": "string" },
+                    "wage_stat_year": { "type": "integer", "minimum": 2000, "maximum": 2100 },
+                    "llm_model": { "type": "string" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

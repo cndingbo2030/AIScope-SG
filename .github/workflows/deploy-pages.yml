@@ -1,0 +1,65 @@
+name: Deploy AIScope SG
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "data/processed/**"
+      - "web/**"
+      - "scripts/validate_data.py"
+      - ".github/workflows/deploy-pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  validate-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Validate data schema
+        run: python scripts/validate_data.py
+
+      - name: Prepare static cache headers
+        run: |
+          mkdir -p dist/aiscope-sg
+          cp -R web/. dist/aiscope-sg/
+          cat <<'EOF' > dist/aiscope-sg/_headers
+          /*
+            Cache-Control: public, max-age=300
+          /app.js
+            Cache-Control: public, max-age=86400
+          /styles.css
+            Cache-Control: public, max-age=86400
+          /data/*
+            Cache-Control: public, max-age=3600
+          EOF
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload web artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
