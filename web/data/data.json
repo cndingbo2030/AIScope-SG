@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "title": "AIScope SG",
+    "source": "MOM 2024 + seeded sample",
+    "generated_at": "2026-04-15T17:30:00Z",
+    "total_occupations": 8,
+    "total_employment": 273000,
+    "avg_ai_score": 5.56
+  },
+  "name": "Singapore Occupations",
+  "children": [
+    {
+      "name": "Professionals",
+      "order": 1,
+      "children": [
+        {
+          "name": "Software Developer",
+          "employment": 52000,
+          "gross_wage": 7800,
+          "basic_wage": 7000,
+          "ai_score": 8.1,
+          "reason": "Coding assistance is rapidly improving and compressing routine implementation work. Complex architecture, accountability, and product judgment still require senior human control.",
+          "wfh": true,
+          "ai_assists": true,
+          "risk_factor": "LLM code generation",
+          "pwm": false,
+          "regulated": false
+        },
+        {
+          "name": "Accountant",
+          "employment": 21000,
+          "gross_wage": 6200,
+          "basic_wage": 5600,
+          "ai_score": 7.2,
+          "reason": "Structured reporting and reconciliation are heavily automatable. Regulatory and assurance duties slow full replacement.",
+          "wfh": true,
+          "ai_assists": true,
+          "risk_factor": "Automated financial analysis",
+          "pwm": false,
+          "regulated": true
+        }
+      ]
+    },
+    {
+      "name": "Clerical Support",
+      "order": 2,
+      "children": [
+        {
+          "name": "Data Entry Clerk",
+          "employment": 18000,
+          "gross_wage": 2900,
+          "basic_wage": 2600,
+          "ai_score": 9.5,
+          "reason": "This role is template-driven and repetitive, making it a direct target for OCR and workflow automation.",
+          "wfh": true,
+          "ai_assists": false,
+          "risk_factor": "RPA plus document AI",
+          "pwm": false,
+          "regulated": false
+        },
+        {
+          "name": "General Office Clerk",
+          "employment": 36000,
+          "gross_wage": 3200,
+          "basic_wage": 2900,
+          "ai_score": 8.9,
+          "reason": "Inbox handling, scheduling, and filing are increasingly handled by copilots and digital process tools.",
+          "wfh": true,
+          "ai_assists": false,
+          "risk_factor": "Workflow copilots",
+          "pwm": false,
+          "regulated": false
+        }
+      ]
+    },
+    {
+      "name": "Service and Sales",
+      "order": 3,
+      "children": [
+        {
+          "name": "Retail Sales Assistant",
+          "employment": 47000,
+          "gross_wage": 3000,
+          "basic_wage": 2700,
+          "ai_score": 4.3,
+          "reason": "Customer interaction and physical presence remain necessary. AI mainly assists inventory, recommendations, and scheduling.",
+          "wfh": false,
+          "ai_assists": true,
+          "risk_factor": "Self-checkout and AI recommendations",
+          "pwm": true,
+          "regulated": false
+        }
+      ]
+    },
+    {
+      "name": "Trades and Labourers",
+      "order": 4,
+      "children": [
+        {
+          "name": "Plumber",
+          "employment": 28000,
+          "gross_wage": 3600,
+          "basic_wage": 3200,
+          "ai_score": 1.5,
+          "reason": "Physical site constraints and non-standard field conditions limit immediate automation.",
+          "wfh": false,
+          "ai_assists": true,
+          "risk_factor": "Limited robotics substitution",
+          "pwm": true,
+          "regulated": false
+        },
+        {
+          "name": "Roof Worker",
+          "employment": 9000,
+          "gross_wage": 3400,
+          "basic_wage": 3000,
+          "ai_score": 1.0,
+          "reason": "Work requires on-site manual operation under variable safety constraints, making AI replacement minimal.",
+          "wfh": false,
+          "ai_assists": false,
+          "risk_factor": "Very low near-term automation feasibility",
+          "pwm": true,
+          "regulated": false
+        },
+        {
+          "name": "Childcare Worker",
+          "employment": 62000,
+          "gross_wage": 4100,
+          "basic_wage": 3700,
+          "ai_score": 2.0,
+          "reason": "Care, trust, and supervision rely on human emotional labor and responsibility. AI is mostly administrative support.",
+          "wfh": false,
+          "ai_assists": true,
+          "risk_factor": "Administrative automation only",
+          "pwm": false,
+          "regulated": true
+        }
+      ]
+    }
+  ]
+}

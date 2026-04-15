@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AIScope SG — Singapore AI Job Exposure Index</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg: #080b0f; --surface: #0f1419; --border: #1e2730; --text: #e8edf2; --muted: #6b7a8d; --accent: #00d4a0;
+  --mono: "IBM Plex Mono", monospace; --sans: "Sora", sans-serif;
+}
+html, body { height: 100%; background: var(--bg); color: var(--text); font-family: var(--sans); }
+#app { height: 100vh; display: flex; flex-direction: column; overflow: hidden; }
+header { padding: 16px 20px; border-bottom: 1px solid var(--border); background: var(--surface); display: flex; justify-content: space-between; gap: 12px; }
+.brand-name { font-size: 20px; font-weight: 600; }
+.brand-name span { color: var(--accent); }
+.brand-sub { font-family: var(--mono); font-size: 10px; letter-spacing: 0.1em; color: var(--muted); text-transform: uppercase; margin-top: 4px; }
+.header-stats { display: flex; gap: 16px; align-items: end; }
+.stat-val { font-family: var(--mono); font-size: 16px; text-align: right; }
+.stat-val.accent { color: var(--accent); }
+.stat-label { font-size: 10px; color: var(--muted); letter-spacing: 0.08em; text-transform: uppercase; text-align: right; }
+#controls { padding: 10px 20px; border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+#search, #cat-select {
+  background: var(--surface); border: 1px solid var(--border); border-radius: 6px; color: var(--text);
+  font-family: var(--mono); font-size: 12px; padding: 7px 10px;
+}
+#search { min-width: 220px; }
+.filter-group { display: flex; align-items: center; gap: 6px; }
+.filter-label { color: var(--muted); font-family: var(--mono); font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; }
+.pill {
+  border: 1px solid var(--border); background: var(--surface); color: var(--muted); border-radius: 4px; padding: 4px 8px;
+  font-family: var(--mono); font-size: 11px; cursor: pointer;
+}
+.pill.active { border-color: var(--accent); color: var(--accent); background: rgba(0, 212, 160, 0.08); }
+#canvas-wrap { flex: 1; position: relative; min-height: 0; }
+#treemap { width: 100%; height: 100%; display: block; }
+#mobile-list { display: none; height: 100%; overflow: auto; padding: 10px; }
+.mobile-card {
+  border: 1px solid var(--border); background: var(--surface); border-radius: 8px; padding: 12px; margin-bottom: 8px; cursor: pointer;
+}
+.mobile-title { font-size: 14px; font-weight: 600; margin-bottom: 6px; }
+.mobile-meta { font-family: var(--mono); color: var(--muted); font-size: 11px; display: flex; justify-content: space-between; gap: 8px; }
+.mobile-score { font-family: var(--mono); font-size: 16px; font-weight: 500; }
+#legend { padding: 8px 20px; border-top: 1px solid var(--border); font-family: var(--mono); font-size: 10px; color: var(--muted); background: var(--surface); }
+#tooltip {
+  position: fixed; width: 300px; pointer-events: none; display: none; z-index: 50;
+  background: rgba(8, 11, 15, 0.97); border: 1px solid var(--border); border-radius: 8px; padding: 12px;
+}
+#drawer-backdrop { display: none; position: fixed; inset: 0; background: rgba(0, 0, 0, 0.45); z-index: 70; }
+#drawer {
+  position: fixed; top: 0; right: -480px; width: min(480px, 92vw); height: 100vh; z-index: 80; transition: right 0.24s ease;
+  background: var(--surface); border-left: 1px solid var(--border); padding: 16px; overflow: auto;
+}
+#drawer.open { right: 0; }
+.drawer-close { float: right; border: 1px solid var(--border); background: transparent; color: var(--muted); border-radius: 4px; padding: 4px 8px; cursor: pointer; }
+.drawer-title { font-size: 20px; font-weight: 600; margin-bottom: 8px; }
+.drawer-score { font-family: var(--mono); font-size: 34px; margin-bottom: 12px; }
+.drawer-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 12px 0; }
+.drawer-item-label { font-family: var(--mono); font-size: 10px; text-transform: uppercase; color: var(--muted); }
+.drawer-item-val { font-family: var(--mono); font-size: 13px; margin-top: 4px; }
+.drawer-reason { color: var(--muted); line-height: 1.65; font-size: 13px; margin-top: 10px; }
+@media (max-width: 1024px) {
+  header { flex-direction: column; align-items: flex-start; }
+  .header-stats { width: 100%; justify-content: space-between; }
+}
+@media (max-width: 768px) {
+  #treemap { display: none; }
+  #mobile-list { display: block; }
+  #legend { display: none; }
+  #search { min-width: 0; width: 100%; }
+}
+</style>
+</head>
+<body>
+<div id="app">
+  <header>
+    <div>
+      <div class="brand-name">AI<span>Scope</span> SG</div>
+      <div class="brand-sub">Singapore AI Job Exposure Index · 2024</div>
+    </div>
+    <div class="header-stats">
+      <div><div class="stat-val" id="stat-occ">—</div><div class="stat-label">Occupations</div></div>
+      <div><div class="stat-val" id="stat-emp">—</div><div class="stat-label">Workers Tracked</div></div>
+      <div><div class="stat-val accent" id="stat-avg">—</div><div class="stat-label">Avg AI Score /10</div></div>
+    </div>
+  </header>
+  <div id="controls">
+    <input id="search" type="text" placeholder="Search occupation...">
+    <div class="filter-group">
+      <span class="filter-label">Risk</span>
+      <button class="pill active" data-filter="all">All</button>
+      <button class="pill" data-filter="low" data-min="0" data-max="3">Low</button>
+      <button class="pill" data-filter="medium" data-min="3" data-max="6">Medium</button>
+      <button class="pill" data-filter="high" data-min="6" data-max="10">High</button>
+    </div>
+    <div class="filter-group">
+      <span class="filter-label">Category</span>
+      <select id="cat-select"><option value="all">All categories</option></select>
+    </div>
+  </div>
+  <div id="canvas-wrap">
+    <svg id="treemap"></svg>
+    <div id="mobile-list"></div>
+  </div>
+  <div id="legend">Desktop: treemap | Mobile: ranked list with touch details</div>
+</div>
+<div id="tooltip"></div>
+<div id="drawer-backdrop"></div>
+<aside id="drawer">
+  <button class="drawer-close" id="drawer-close">Close</button>
+  <div id="drawer-content"></div>
+</aside>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script>
+const scoreColor = d3.scaleLinear().domain([0, 2, 4, 6, 8, 10]).range(["#0fa76f", "#3ecf8e", "#f0b429", "#e07b3d", "#d94040", "#a01c1c"]).clamp(true);
+let rawData = null;
+let filterMin = 0, filterMax = 10, filterCat = "all", searchQ = "";
+const tt = document.getElementById("tooltip");
+
+fetch("data/data.json").then(r => r.json()).then(data => {
+  rawData = data;
+  initUI();
+  draw();
+}).catch(() => {
+  document.getElementById("canvas-wrap").innerHTML = "<div style='padding:24px;color:#6b7a8d;font-family:IBM Plex Mono,monospace'>Cannot load data/data.json</div>";
+});
+
+function initUI() {
+  document.getElementById("stat-occ").textContent = rawData.meta.total_occupations.toLocaleString();
+  document.getElementById("stat-emp").textContent = Math.round(rawData.meta.total_employment / 1000) + "K";
+  document.getElementById("stat-avg").textContent = rawData.meta.avg_ai_score.toFixed(1);
+
+  const sel = document.getElementById("cat-select");
+  rawData.children.forEach(cat => {
+    const opt = document.createElement("option");
+    opt.value = cat.name;
+    opt.textContent = cat.name;
+    sel.appendChild(opt);
+  });
+
+  sel.addEventListener("change", () => { filterCat = sel.value; draw(); });
+  document.getElementById("search").addEventListener("input", e => { searchQ = e.target.value.trim().toLowerCase(); draw(); });
+  document.querySelectorAll("[data-filter]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll("[data-filter]").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      if (btn.dataset.filter === "all") { filterMin = 0; filterMax = 10; }
+      else { filterMin = +btn.dataset.min; filterMax = +btn.dataset.max; }
+      draw();
+    });
+  });
+
+  document.getElementById("drawer-close").addEventListener("click", closeDrawer);
+  document.getElementById("drawer-backdrop").addEventListener("click", closeDrawer);
+  window.addEventListener("resize", draw);
+}
+
+function getFilteredLeaves() {
+  const leaves = [];
+  rawData.children.forEach(cat => {
+    if (filterCat !== "all" && cat.name !== filterCat) return;
+    cat.children.forEach(occ => {
+      if (occ.ai_score < filterMin || occ.ai_score > filterMax) return;
+      if (searchQ && !occ.name.toLowerCase().includes(searchQ)) return;
+      leaves.push({ ...occ, category: cat.name });
+    });
+  });
+  return leaves;
+}
+
+function drawMobileList(leaves) {
+  const list = document.getElementById("mobile-list");
+  list.innerHTML = "";
+  leaves.sort((a, b) => b.ai_score - a.ai_score).forEach(occ => {
+    const item = document.createElement("article");
+    item.className = "mobile-card";
+    item.innerHTML = `
+      <div class="mobile-title">${occ.name}</div>
+      <div class="mobile-meta"><span>${occ.category}</span><span class="mobile-score" style="color:${scoreColor(occ.ai_score)}">${occ.ai_score.toFixed(1)}</span></div>
+      <div class="mobile-meta"><span>S$${occ.gross_wage.toLocaleString()}/mo</span><span>${occ.employment.toLocaleString()} workers</span></div>
+    `;
+    item.addEventListener("click", () => openDrawer(occ));
+    list.appendChild(item);
+  });
+}
+
+function draw() {
+  if (!rawData) return;
+  const leaves = getFilteredLeaves();
+  drawMobileList(leaves);
+  if (window.innerWidth <= 768) return;
+
+  const treeData = {
+    name: "root",
+    children: rawData.children
+      .filter(c => filterCat === "all" || c.name === filterCat)
+      .map(c => ({ ...c, children: c.children.filter(o => leaves.some(l => l.name === o.name && l.category === c.name)) }))
+      .filter(c => c.children.length > 0)
+  };
+
+  const wrap = document.getElementById("canvas-wrap");
+  const W = wrap.clientWidth, H = wrap.clientHeight;
+  const svg = d3.select("#treemap").attr("width", W).attr("height", H);
+  svg.selectAll("*").remove();
+  tt.style.display = "none";
+  if (!treeData.children.length) return;
+
+  const hier = d3.hierarchy(treeData).sum(d => d.children ? 0 : d.employment).sort((a, b) => b.value - a.value);
+  d3.treemap().size([W, H]).paddingOuter(4).paddingTop(22).paddingInner(2)(hier);
+  const cell = svg.selectAll("g.cell").data(hier.leaves()).enter().append("g").attr("class", "cell").style("cursor", "pointer");
+
+  cell.append("rect")
+    .attr("x", d => d.x0).attr("y", d => d.y0).attr("width", d => d.x1 - d.x0).attr("height", d => d.y1 - d.y0)
+    .attr("fill", d => scoreColor(d.data.ai_score)).attr("stroke", "rgba(0,0,0,0.45)").attr("rx", 2);
+
+  cell.each(function(d) {
+    const w = d.x1 - d.x0, h = d.y1 - d.y0;
+    if (w < 36 || h < 20) return;
+    d3.select(this).append("text")
+      .attr("x", d.x0 + 4).attr("y", d.y0 + h / 2).attr("dominant-baseline", "middle")
+      .attr("font-size", Math.min(12, Math.max(8, h * 0.14))).attr("fill", "rgba(255,255,255,0.9)")
+      .text(d.data.name.slice(0, Math.floor(w / 7)));
+  });
+
+  cell.on("mousemove", (event, d) => {
+    tt.style.display = "block";
+    tt.style.left = (event.clientX + 12) + "px";
+    tt.style.top = (event.clientY + 12) + "px";
+    tt.innerHTML = `<div style="font-family:var(--mono);font-size:28px;color:${scoreColor(d.data.ai_score)}">${d.data.ai_score.toFixed(1)}</div>
+      <div style="font-weight:600;margin-top:4px">${d.data.name}</div>
+      <div style="font-family:var(--mono);color:var(--muted);font-size:10px;margin-top:2px">${d.parent.data.name}</div>
+      <div style="font-family:var(--mono);font-size:12px;margin-top:8px">S$${d.data.gross_wage.toLocaleString()}/mo · ${d.data.employment.toLocaleString()} workers</div>`;
+  }).on("mouseleave", () => { tt.style.display = "none"; })
+  .on("click", (event, d) => { openDrawer({ ...d.data, category: d.parent.data.name }); });
+}
+
+function openDrawer(occ) {
+  const content = document.getElementById("drawer-content");
+  const aiRole = occ.ai_assists ? "AI augments this role" : "AI can directly replace core tasks";
+  content.innerHTML = `
+    <div class="drawer-title">${occ.name}</div>
+    <div class="drawer-score" style="color:${scoreColor(occ.ai_score)}">${occ.ai_score.toFixed(1)} / 10</div>
+    <div class="drawer-grid">
+      <div><div class="drawer-item-label">Category</div><div class="drawer-item-val">${occ.category}</div></div>
+      <div><div class="drawer-item-label">Median wage</div><div class="drawer-item-val">S$${occ.gross_wage.toLocaleString()}/mo</div></div>
+      <div><div class="drawer-item-label">Employment</div><div class="drawer-item-val">${occ.employment.toLocaleString()}</div></div>
+      <div><div class="drawer-item-label">AI role</div><div class="drawer-item-val">${aiRole}</div></div>
+      <div><div class="drawer-item-label">Risk factor</div><div class="drawer-item-val">${occ.risk_factor || "—"}</div></div>
+      <div><div class="drawer-item-label">WFH / PWM / Regulated</div><div class="drawer-item-val">${occ.wfh ? "Yes" : "No"} / ${occ.pwm ? "Yes" : "No"} / ${occ.regulated ? "Yes" : "No"}</div></div>
+    </div>
+    <div class="drawer-reason">${occ.reason || "No detailed reason yet."}</div>
+  `;
+  document.getElementById("drawer-backdrop").style.display = "block";
+  document.getElementById("drawer").classList.add("open");
+}
+
+function closeDrawer() {
+  document.getElementById("drawer-backdrop").style.display = "none";
+  document.getElementById("drawer").classList.remove("open");
+}
+</script>
+</body>
+</html>
