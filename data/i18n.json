@@ -42,8 +42,8 @@
   "exec_top_exposed": { "en": "Most AI-Exposed Sector", "zh": "AI 暴露度最高的行业" },
   "exec_bottom_protected": { "en": "Most Policy-Protected Sector", "zh": "政策保护度最高的行业" },
   "exec_sector_footnote": {
-    "en": "Dataset covers 4 SSOC major groups. Ranked by employment-weighted mean.",
-    "zh": "数据集覆盖 4 个 SSOC 大类；按就业加权平均排序。"
+    "en": "Dataset covers 9 SSOC major groups (SSOC 2024). Ranked by employment-weighted mean.",
+    "zh": "数据集覆盖 9 个 SSOC 大类（SSOC 2024）；按就业加权平均排序。"
   },
   "exec_salary_split": { "en": "Salary Exposure Split", "zh": "薪资与暴露结构" },
   "exec_auto_comment": { "en": "Auto Comment", "zh": "自动解读" },

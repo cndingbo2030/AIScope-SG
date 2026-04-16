@@ -1245,6 +1245,13 @@ function renderConciergeCards(results) {
 
 function renderExecutiveSummary() {
   const all = flattenOccupations();
+  const execRoot = document.getElementById("executive-summary");
+  if (!execRoot) return;
+  if (!all.length) {
+    execRoot.style.display = "none";
+    return;
+  }
+  execRoot.style.display = "";
   const byCategory = new Map();
   all.forEach((occ) => {
     if (!byCategory.has(occ.category)) byCategory.set(occ.category, []);
@@ -1342,7 +1349,7 @@ function renderExecutiveSummary() {
       ${sectorFoot}
     </div>`;
 
-  const outlookPanel = `
+  const outlookPanel = insightsData ? `
     <div class="exec-outlook" data-exec-panel="outlook" style="display:${executiveTab === "outlook" ? "block" : "none"}">
       <div class="outlook-meta">${escapeHtml(t("exec_last_updated"))}: ${escapeHtml(stamp)}</div>
       ${wvHtml}
@@ -1352,12 +1359,12 @@ function renderExecutiveSummary() {
       <p>${policyTxt || "—"}</p>
       <h4>${escapeHtml(t("exec_market_title"))}</h4>
       <p>${overviewTxt || "—"}</p>
-    </div>`;
+    </div>` : "";
 
-  document.getElementById("executive-summary").innerHTML = `
+  execRoot.innerHTML = `
     <div class="exec-tabs" role="tablist">
       <button type="button" class="exec-tab ${executiveTab === "overview" ? "active" : ""}" data-exec-tab="overview" role="tab" aria-selected="${executiveTab === "overview"}">${escapeHtml(t("exec_tab_overview"))}</button>
-      <button type="button" class="exec-tab ${executiveTab === "outlook" ? "active" : ""}" data-exec-tab="outlook" role="tab" aria-selected="${executiveTab === "outlook"}">${escapeHtml(t("exec_tab_outlook"))}</button>
+      ${insightsData ? `<button type="button" class="exec-tab ${executiveTab === "outlook" ? "active" : ""}" data-exec-tab="outlook" role="tab" aria-selected="${executiveTab === "outlook"}">${escapeHtml(t("exec_tab_outlook"))}</button>` : ""}
     </div>
     ${overviewPanel}
     ${outlookPanel}
