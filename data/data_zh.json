@@ -2,12 +2,12 @@
   "meta": {
     "title": "AIScope SG",
     "source": "MOM occupational data + AIScope SG localized scoring",
-    "generated_at": "2026-04-16T09:39:27.674541+00:00",
+    "generated_at": "2026-04-16T10:03:35.570544+00:00",
     "total_occupations": 570,
     "total_employment": 340000,
     "employment_anchor": 3720000,
     "employment_method": "meta.total_employment is the sum of employment_est across tracked SSOC rows (SingStat principal titles; default target ~370k AISCOPE_TRACKED_WORKFORCE in step2_merge). Per-row employment in this bundle is scaled from those weights to AISCOPE_TARGET_TOTAL_EMPLOYMENT (default 3_720_000) for treemap national scale.",
-    "avg_ai_score": 5.4,
+    "avg_ai_score": 5.35,
     "data_year": "2024",
     "wage_source": "MOM Occupational Wages 2024",
     "national_median_2025": null
@@ -275,8 +275,8 @@
           "employment": 5569,
           "gross_wage": 4155,
           "basic_wage": 3685,
-          "ai_score": 9.4,
-          "reason": "Singapore context applied across regulation, language demands, and workflow digitalization. SkillsFuture pathway: shift into AI-assisted operations, annotation, or compliance monitoring.",
+          "ai_score": 2.5,
+          "reason": "Animal husbandry requires physical care, feeding and monitoring of live animals. Singapore's local food security farms rely on hands-on workers. Some automation in feeding exists but cannot fully replace farm worker presence.",
           "wfh": false,
           "ai_assists": false,
           "risk_factor": "Process automation exposure",
@@ -291,7 +291,7 @@
           "employment_est": 509,
           "name_zh": "Poultry Farm Workers",
           "singstat_official": true,
-          "vulnerability_index": 0.94
+          "vulnerability_index": 0.25
         },
         {
           "name": "Vegetable Farm Workers",
@@ -881,8 +881,8 @@
           "employment": 8884,
           "gross_wage": 3130,
           "basic_wage": 2810,
-          "ai_score": 8.8,
-          "reason": "Singapore context applied across regulation, language demands, and workflow digitalization. SkillsFuture pathway: shift into AI-assisted operations, annotation, or compliance monitoring.",
+          "ai_score": 4.5,
+          "reason": "Site supervision, material inspection and BCA compliance checks require on-site human presence. AI assists with drawings and calculations but field technician roles remain essential in Singapore's construction sector.",
           "wfh": true,
           "ai_assists": false,
           "risk_factor": "Process automation exposure",
@@ -897,7 +897,7 @@
           "employment_est": 812,
           "name_zh": "土木工程师",
           "singstat_official": true,
-          "vulnerability_index": 0.96
+          "vulnerability_index": 0.53
         },
         {
           "name": "Commercial and Marketing Sales Executives",
@@ -7455,8 +7455,8 @@
           "employment": 4201,
           "gross_wage": 3570,
           "basic_wage": 3190,
-          "ai_score": 9.5,
-          "reason": "Singapore context applied across regulation, language demands, and workflow digitalization. SkillsFuture pathway: shift into AI-assisted operations, annotation, or compliance monitoring.",
+          "ai_score": 2.0,
+          "reason": "Constitutionally elected or appointed roles in Singapore Parliament and Ministries. Political authority, public accountability and constituency representation cannot be delegated to AI systems under Singapore's system of parliamentary democracy.",
           "wfh": true,
           "ai_assists": false,
           "risk_factor": "Process automation exposure",
@@ -7471,7 +7471,7 @@
           "employment_est": 384,
           "name_zh": "LEGISLATORS AND SENIOR OFFICIALS",
           "singstat_official": true,
-          "vulnerability_index": 1.0
+          "vulnerability_index": 0.28
         },
         {
           "name": "LEGISLATORS, SENIOR OFFICIALS AND CHIEF EXECUTIVES",
@@ -11323,8 +11323,8 @@
           "employment": 4956,
           "gross_wage": 4545,
           "basic_wage": 4015,
-          "ai_score": 9.5,
-          "reason": "Singapore context applied across regulation, language demands, and workflow digitalization. SkillsFuture pathway: shift into AI-assisted operations, annotation, or compliance monitoring.",
+          "ai_score": 5.5,
+          "reason": "Cataloguing and search are increasingly automated by AI systems in NLB and national archives. However, curation, community outreach and archival interpretation require human expertise and cultural judgment.",
           "wfh": false,
           "ai_assists": false,
           "risk_factor": "Process automation exposure",
@@ -11339,7 +11339,7 @@
           "employment_est": 453,
           "name_zh": "LIBRARIANS, ARCHIVISTS AND CURATORS",
           "singstat_official": true,
-          "vulnerability_index": 0.95
+          "vulnerability_index": 0.55
         },
         {
           "name": "LIFE SCIENCE PROFESSIONALS",
@@ -12173,8 +12173,8 @@
           "employment": 8272,
           "gross_wage": 3845,
           "basic_wage": 3415,
-          "ai_score": 9.5,
-          "reason": "Singapore context applied across regulation, language demands, and workflow digitalization. SkillsFuture pathway: shift into AI-assisted operations, annotation, or compliance monitoring.",
+          "ai_score": 2.5,
+          "reason": "Pastoral care, spiritual guidance and religious ritual require human presence and authentic emotional connection. Singapore's diverse faith communities depend on human religious leadership for community cohesion.",
           "wfh": false,
           "ai_assists": false,
           "risk_factor": "Process automation exposure",
@@ -12189,7 +12189,7 @@
           "employment_est": 756,
           "name_zh": "Religious Professionals",
           "singstat_official": true,
-          "vulnerability_index": 0.95
+          "vulnerability_index": 0.25
         },
         {
           "name": "SCIENCE AND ENGINEERING PROFESSIONALS",
