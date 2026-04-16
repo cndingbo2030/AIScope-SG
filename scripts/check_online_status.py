@@ -16,7 +16,8 @@ def main() -> int:
     base = os.environ.get("GITHUB_PAGES_URL", DEFAULT_URL).strip()
     if not base.endswith("/"):
         base += "/"
-    urls = [base, base + "?job=20008"]
+    no_slash = base.rstrip("/")
+    urls = [base, no_slash, base + "?job=20008"]
     session = requests.Session()
     session.headers.update({"User-Agent": "AIScope-SG-check_online_status/1.0"})
 

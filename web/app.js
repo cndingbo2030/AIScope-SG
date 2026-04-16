@@ -16,11 +16,28 @@ try {
   pendingDeepLinkJob = null;
 }
 
+function pathnameToBaseDirectory() {
+  const p = window.location.pathname || "/";
+  if (p === "/" || p === "") return "/";
+  if (p.endsWith("/")) return p;
+  const last = p.slice(p.lastIndexOf("/") + 1);
+  if (!last.includes(".")) return `${p}/`;
+  return p.replace(/\/[^/]*$/, "/") || "/";
+}
+
 function getBaseHrefForAssets() {
   const baseEl = document.querySelector("base#ais-base");
-  if (baseEl && baseEl.href) return baseEl.href;
-  const p = window.location.pathname || "/";
-  const dir = p.endsWith("/") ? p : p.replace(/\/[^/]*$/, "/") || "/";
+  if (baseEl && baseEl.href) {
+    try {
+      const u = new URL(baseEl.href);
+      if (u.pathname && u.pathname !== "/" && u.pathname !== "") {
+        return baseEl.href;
+      }
+    } catch (_) {
+      /* fall through */
+    }
+  }
+  const dir = pathnameToBaseDirectory();
   return new URL(dir, window.location.origin).href;
 }
 

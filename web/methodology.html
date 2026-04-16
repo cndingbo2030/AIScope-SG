@@ -5,8 +5,20 @@
   <base id="ais-base" href="./">
   <script>
     (function () {
-      var p = window.location.pathname;
-      var dir = p.endsWith("/") ? p : p.replace(/\/[^/]*$/, "/") || "/";
+      var p = window.location.pathname || "/";
+      var dir;
+      if (p === "/" || p === "") {
+        dir = "/";
+      } else if (p.endsWith("/")) {
+        dir = p;
+      } else {
+        var last = p.slice(p.lastIndexOf("/") + 1);
+        if (last.indexOf(".") === -1) {
+          dir = p + "/";
+        } else {
+          dir = p.replace(/\/[^/]*$/, "/") || "/";
+        }
+      }
       if (dir === "//") dir = "/";
       var b = document.getElementById("ais-base");
       if (b) b.href = dir;

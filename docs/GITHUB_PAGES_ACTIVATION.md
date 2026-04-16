@@ -31,6 +31,8 @@ Use this after the first successful run of `.github/workflows/deploy-pages.yml` 
 - User Pages project URL: **`https://cndingbo2030.github.io/AIiScope-SG/`** (trailing **`/`** recommended for relative assets + `<base>`).
 - Deep link example: `https://cndingbo2030.github.io/AIiScope-SG/?job=20008`
 
+**`<base href>` pitfall (fixed in tree):** If the pathname is exactly `/AIiScope-SG` with **no** trailing slash, a naive `replace(/\/[^/]*$/, "/")` collapses the path to `/`, so `./app.js` resolves to the **user site root** and everything 404s. `index.html` / `methodology.html` / `app.js` now treat a final segment **without a dot** as a directory and append `/`.
+
 ---
 
 ## 4) Automated smoke test | 自动化线上自检
