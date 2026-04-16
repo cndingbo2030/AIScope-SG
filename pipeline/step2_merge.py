@@ -29,11 +29,16 @@ MERGED = BASE / "data" / "processed" / "occupations_merged.json"
 
 _PLACEHOLDER_NAME_RE = re.compile(r"^.+\sOccupation\s\d{3}\s*$")
 
-_CATEGORY_PREFIXES: dict[str, tuple[str, ...]] = {
-    "Professionals": ("2",),
-    "Clerical Support": ("4",),
-    "Service and Sales": ("5",),
-    "Trades and Labourers": ("7", "8", "9"),
+SSOC_MAJOR: dict[str, str] = {
+    "1": "Managers",
+    "2": "Professionals",
+    "3": "Associate Professionals & Technicians",
+    "4": "Clerical Support Workers",
+    "5": "Service & Sales Workers",
+    "6": "Agricultural & Fishery Workers",
+    "7": "Craft & Trades Workers",
+    "8": "Plant & Machine Operators",
+    "9": "Cleaners, Labourers & Related Workers",
 }
 
 _TRACKED_TARGET = int(os.getenv("AISCOPE_TRACKED_WORKFORCE", "340000"))
@@ -56,9 +61,13 @@ def _resolve_title(code: str, by_code: dict[str, str], ssoc20_to24: dict[str, st
     return None
 
 
-def _pool_for_category(category: str, by_code: dict[str, str]) -> list[str]:
-    prefs = _CATEGORY_PREFIXES.get(category, ("2", "4", "5", "7"))
-    pool = sorted({k for k in by_code if k.startswith(prefs)}, key=lambda x: int(x))
+def _major_digit(code: str) -> str:
+    c = str(code or "").strip()
+    return c[0] if c and c[0] in SSOC_MAJOR else "2"
+
+
+def _pool_for_major(major_digit: str, by_code: dict[str, str]) -> list[str]:
+    pool = sorted({k for k in by_code if k.startswith(major_digit)}, key=lambda x: int(x))
     if not pool:
         pool = sorted(by_code.keys(), key=lambda x: int(x))
     return pool
@@ -74,18 +83,18 @@ def merge_rows(rows: list[dict[str, Any]], payload: dict[str, Any]) -> list[dict
     ptr: dict[str, int] = {}
     all_sorted = sorted(by_code.keys(), key=lambda x: int(x))
 
-    def next_code(category: str) -> str:
-        if category not in pool_iters:
-            pool_iters[category] = _pool_for_category(category, by_code)
-            ptr[category] = 0
-        pool = pool_iters[category]
+    def next_code(major_digit: str) -> str:
+        if major_digit not in pool_iters:
+            pool_iters[major_digit] = _pool_for_major(major_digit, by_code)
+            ptr[major_digit] = 0
+        pool = pool_iters[major_digit]
         if not pool:
-            raise RuntimeError(f"empty SSOC pool for category={category}")
-        start = ptr[category] % len(pool)
+            raise RuntimeError(f"empty SSOC pool for major={major_digit}")
+        start = ptr[major_digit] % len(pool)
         for step in range(len(pool)):
             cand = pool[(start + step) % len(pool)]
             if cand not in used_codes:
-                ptr[category] = (start + step + 1) % len(pool)
+                ptr[major_digit] = (start + step + 1) % len(pool)
                 return cand
         for cand in all_sorted:
             if cand not in used_codes:
@@ -97,25 +106,27 @@ def merge_rows(rows: list[dict[str, Any]], payload: dict[str, Any]) -> list[dict
         r = dict(row)
         raw_emp = int(r.get("employment") or 0)
         r["employment_est"] = max(0, raw_emp)
-        cat = str(r.get("category") or "General")
         code = str(r.get("ssoc_code") or "").strip().zfill(5)
+        major = _major_digit(code)
         title = _resolve_title(code, by_code, ssoc20_to24)
         name = str(r.get("name") or "")
         placeholder = bool(_PLACEHOLDER_NAME_RE.match(name.strip()))
         needs_reassign = title is None or placeholder or code in used_codes
 
         if needs_reassign:
-            new_code = next_code(cat)
+            new_code = next_code(major)
             used_codes.add(new_code)
             r["ssoc_code"] = new_code
             r["name"] = by_code[new_code]
             r["name_zh"] = (by_code_bilingual.get(new_code) or {}).get("name_zh", r["name"])
+            r["category"] = SSOC_MAJOR.get(_major_digit(new_code), "Professionals")
             r["singstat_official"] = True
         else:
             used_codes.add(code)
             r["ssoc_code"] = code
             r["name"] = title or name
             r["name_zh"] = (by_code_bilingual.get(code) or {}).get("name_zh", r["name"])
+            r["category"] = SSOC_MAJOR.get(_major_digit(code), "Professionals")
             r["singstat_official"] = bool(title)
 
         out.append(r)

@@ -154,9 +154,9 @@ function applyLocaleStatic() {
     const empEl = document.getElementById("stat-emp");
     const empSub = document.getElementById("stat-emp-sub");
     if (empEl) {
-      const tracked = rawData.meta.total_employment < 1_000_000;
-      empEl.textContent = tracked ? formatTrackedWorkers(rawData.meta.total_employment) : formatWorkerScale(rawData.meta.total_employment);
-      empEl.title = t(tracked ? "stat_emp_tooltip_tracked" : "stat_emp_tooltip");
+      const totalWorkers = Number(rawData.meta.employment_anchor || 0);
+      empEl.textContent = formatWorkerScale(totalWorkers);
+      empEl.title = t("stat_emp_tooltip");
     }
     if (empSub) {
       empSub.textContent = t("stat_emp_sub");
@@ -606,9 +606,9 @@ async function bootstrap() {
 function initUI() {
   document.getElementById("stat-occ").textContent = rawData.meta.total_occupations.toLocaleString();
   const empEl = document.getElementById("stat-emp");
-  const tracked = rawData.meta && rawData.meta.total_employment < 1_000_000;
-  empEl.textContent = tracked ? formatTrackedWorkers(rawData.meta.total_employment) : formatWorkerScale(rawData.meta.total_employment);
-  empEl.title = t(tracked ? "stat_emp_tooltip_tracked" : "stat_emp_tooltip");
+  const totalWorkers = Number(rawData.meta.employment_anchor || 0);
+  empEl.textContent = formatWorkerScale(totalWorkers);
+  empEl.title = t("stat_emp_tooltip");
   document.getElementById("stat-avg").textContent = rawData.meta.avg_ai_score.toFixed(2);
   updateHeaderProvenance();
 
