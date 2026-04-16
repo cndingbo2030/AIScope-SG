@@ -170,6 +170,48 @@ html, body {
   color: var(--muted);
 }
 
+.loading-job-hint {
+  display: block;
+  max-width: 90%;
+  text-align: center;
+  margin-top: 6px;
+  font-size: 11px;
+  color: var(--accent);
+  letter-spacing: 0.04em;
+}
+
+.toast-root {
+  position: fixed;
+  top: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 220;
+  pointer-events: none;
+}
+
+.toast-msg {
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text);
+  background: rgba(15, 20, 25, 0.96);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 10px 18px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.45);
+}
+
+.exec-interests-card {
+  margin-top: 10px;
+}
+
+.exec-interests-list span {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 12px;
+}
+
 .loader {
   width: 34px;
   height: 34px;
