@@ -178,6 +178,15 @@ html, body {
   text-align: right;
   line-height: 1.45;
 }
+.header-emp-sub {
+  font-family: var(--mono);
+  font-size: 9px;
+  color: var(--muted);
+  letter-spacing: 0.04em;
+  max-width: min(420px, 92vw);
+  text-align: right;
+  line-height: 1.4;
+}
 .stat { text-align: right; }
 .stat-val { font-family: var(--mono); font-size: 16px; }
 .stat-val.accent { color: var(--accent); }
@@ -708,6 +717,7 @@ html, body {
 }
 
 .drawer-item-val { font-family: var(--mono); margin-top: 4px; font-size: 12px; }
+.drawer-item-val.ok { color: #0fa76f; }
 .drawer-item-val.warning { color: #f4a582; }
 .drawer-item-val.danger { color: #d6604d; }
 .drawer-reason { margin-top: 12px; color: var(--muted); line-height: 1.6; font-size: 13px; }
@@ -795,5 +805,32 @@ html, body {
   }
   #mobile-list {
     display: block;
+    padding: 12px;
+  }
+  .mob-card {
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: var(--surface);
+    padding: 10px;
+    margin-bottom: 8px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 8px;
+    align-items: center;
+    cursor: pointer;
+  }
+  .mob-card .score {
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .mob-card .name {
+    font-size: 13px;
+    color: var(--text);
+  }
+  .mob-card .wage {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--muted);
   }
 }

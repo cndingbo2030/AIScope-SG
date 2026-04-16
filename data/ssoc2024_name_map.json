@@ -1982,7 +1982,7 @@
     },
     "21222": {
       "name_en": "Data scientist",
-      "name_zh": "Data scientist"
+      "name_zh": "数据科学家"
     },
     "21231": {
       "name_en": "Statistical officer/Data analyst",
@@ -2546,23 +2546,23 @@
     },
     "23109": {
       "name_en": "University/Polytechnic/Higher education teacher n.e.c.",
-      "name_zh": "University/Polytechnic/Higher education teacher n.e.c."
+      "name_zh": "教师"
     },
     "23200": {
       "name_en": "Junior college/Pre-university teacher",
-      "name_zh": "Junior college/Pre-university teacher"
+      "name_zh": "教师"
     },
     "23300": {
       "name_en": "Technical/Vocational/Commercial education institute teacher/trainer",
-      "name_zh": "Technical/Vocational/Commercial education institute teacher/trainer"
+      "name_zh": "教师"
     },
     "23400": {
       "name_en": "Secondary school teacher",
-      "name_zh": "Secondary school teacher"
+      "name_zh": "教师"
     },
     "23500": {
       "name_en": "Primary school teacher",
-      "name_zh": "Primary school teacher"
+      "name_zh": "教师"
     },
     "23611": {
       "name_en": "Education methods adviser",
@@ -2578,15 +2578,15 @@
     },
     "23621": {
       "name_en": "Teacher of the visually impaired",
-      "name_zh": "Teacher of the visually impaired"
+      "name_zh": "教师"
     },
     "23622": {
       "name_en": "Early intervention teacher for infants and children",
-      "name_zh": "Early intervention teacher for infants and children"
+      "name_zh": "教师"
     },
     "23629": {
       "name_en": "Special education teacher n.e.c.",
-      "name_zh": "Special education teacher n.e.c."
+      "name_zh": "教师"
     },
     "23690": {
       "name_en": "Teaching professional n.e.c.",
@@ -2614,7 +2614,7 @@
     },
     "24131": {
       "name_en": "Financial analyst",
-      "name_zh": "Financial analyst"
+      "name_zh": "金融分析师"
     },
     "24132": {
       "name_en": "Compliance officer/Risk analyst (financial)",
@@ -2638,7 +2638,7 @@
     },
     "24139": {
       "name_en": "Financial analyst and related professional n.e.c.",
-      "name_zh": "Financial analyst and related professional n.e.c."
+      "name_zh": "金融分析师"
     },
     "24141": {
       "name_en": "Securities/Finance dealer",
@@ -3990,7 +3990,7 @@
     },
     "36100": {
       "name_en": "Preschool education teacher",
-      "name_zh": "Preschool education teacher"
+      "name_zh": "教师"
     },
     "36201": {
       "name_en": "Language instructor (extracurriculum)",
@@ -4026,7 +4026,7 @@
     },
     "36991": {
       "name_en": "Relief teacher",
-      "name_zh": "Relief teacher"
+      "name_zh": "教师"
     },
     "36999": {
       "name_en": "Other teaching associate professional n.e.c.",
@@ -4538,7 +4538,7 @@
     },
     "53120": {
       "name_en": "Teacher aide",
-      "name_zh": "Teacher aide"
+      "name_zh": "教师"
     },
     "53201": {
       "name_en": "Healthcare assistant",
@@ -5850,7 +5850,7 @@
     },
     "02122": {
       "name_en": "Statisticians and Data Scientists",
-      "name_zh": "Statisticians and Data Scientists"
+      "name_zh": "数据科学家"
     },
     "02123": {
       "name_en": "Other Statistical, Mathematical and Actuarial Professionals",
@@ -5978,7 +5978,7 @@
     },
     "00221": {
       "name_en": "MEDICAL DOCTORS",
-      "name_zh": "MEDICAL DOCTORS"
+      "name_zh": "医生"
     },
     "02211": {
       "name_en": "Generalist Medical Practitioners",
@@ -6066,43 +6066,43 @@
     },
     "00231": {
       "name_en": "UNIVERSITY, POLYTECHNIC AND HIGHER EDUCATION TEACHERS",
-      "name_zh": "UNIVERSITY, POLYTECHNIC AND HIGHER EDUCATION TEACHERS"
+      "name_zh": "教师"
     },
     "02310": {
       "name_en": "University, Polytechnic and Higher Education Teachers",
-      "name_zh": "University, Polytechnic and Higher Education Teachers"
+      "name_zh": "教师"
     },
     "00232": {
       "name_en": "JUNIOR COLLEGE AND PRE-UNIVERSITY EDUCATION TEACHERS",
-      "name_zh": "JUNIOR COLLEGE AND PRE-UNIVERSITY EDUCATION TEACHERS"
+      "name_zh": "教师"
     },
     "02320": {
       "name_en": "Junior College and Pre-University Education Teachers",
-      "name_zh": "Junior College and Pre-University Education Teachers"
+      "name_zh": "教师"
     },
     "00233": {
       "name_en": "VOCATIONAL EDUCATION TEACHERS AND TRAINERS",
-      "name_zh": "VOCATIONAL EDUCATION TEACHERS AND TRAINERS"
+      "name_zh": "教师"
     },
     "02330": {
       "name_en": "Vocational Education Teachers and Trainers",
-      "name_zh": "Vocational Education Teachers and Trainers"
+      "name_zh": "教师"
     },
     "00234": {
       "name_en": "SECONDARY EDUCATION TEACHERS",
-      "name_zh": "SECONDARY EDUCATION TEACHERS"
+      "name_zh": "教师"
     },
     "02340": {
       "name_en": "Secondary Education Teachers",
-      "name_zh": "Secondary Education Teachers"
+      "name_zh": "教师"
     },
     "00235": {
       "name_en": "PRIMARY EDUCATION TEACHERS",
-      "name_zh": "PRIMARY EDUCATION TEACHERS"
+      "name_zh": "教师"
     },
     "02350": {
       "name_en": "Primary School Teachers",
-      "name_zh": "Primary School Teachers"
+      "name_zh": "教师"
     },
     "00236": {
       "name_en": "OTHER TEACHING PROFESSIONALS",
@@ -6114,7 +6114,7 @@
     },
     "02362": {
       "name_en": "Special Education Teachers",
-      "name_zh": "Special Education Teachers"
+      "name_zh": "教师"
     },
     "02369": {
       "name_en": "Teaching Professionals Not Elsewhere Classified",
@@ -6138,7 +6138,7 @@
     },
     "02413": {
       "name_en": "Financial Analysts and Related Professionals",
-      "name_zh": "Financial Analysts and Related Professionals"
+      "name_zh": "金融分析师"
     },
     "02414": {
       "name_en": "Securities and Finance Dealers",
@@ -6810,11 +6810,11 @@
     },
     "00361": {
       "name_en": "PRESCHOOL EDUCATION TEACHERS",
-      "name_zh": "PRESCHOOL EDUCATION TEACHERS"
+      "name_zh": "教师"
     },
     "03610": {
       "name_en": "Preschool Education Teachers",
-      "name_zh": "Preschool Education Teachers"
+      "name_zh": "教师"
     },
     "00362": {
       "name_en": "EXTRACURRICULUM INSTRUCTORS",
@@ -7174,7 +7174,7 @@
     },
     "00531": {
       "name_en": "CHILD CARE WORKERS AND TEACHER AIDES",
-      "name_zh": "CHILD CARE WORKERS AND TEACHER AIDES"
+      "name_zh": "教师"
     },
     "05311": {
       "name_en": "Child Care and Related Workers",
@@ -7182,7 +7182,7 @@
     },
     "05312": {
       "name_en": "Teacher Aides",
-      "name_zh": "Teacher Aides"
+      "name_zh": "教师"
     },
     "00532": {
       "name_en": "HEALTHCARE ASSISTANTS AND RELATED PERSONAL CARE WORKERS",

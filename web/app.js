@@ -152,10 +152,14 @@ function applyLocaleStatic() {
   updateHeaderProvenance();
   if (rawData && rawData.meta) {
     const empEl = document.getElementById("stat-emp");
+    const empSub = document.getElementById("stat-emp-sub");
     if (empEl) {
       const tracked = rawData.meta.total_employment < 1_000_000;
       empEl.textContent = tracked ? formatTrackedWorkers(rawData.meta.total_employment) : formatWorkerScale(rawData.meta.total_employment);
       empEl.title = t(tracked ? "stat_emp_tooltip_tracked" : "stat_emp_tooltip");
+    }
+    if (empSub) {
+      empSub.textContent = t("stat_emp_sub");
     }
   }
 }
@@ -324,10 +328,9 @@ function formatTrackedWorkers(v) {
   if (!Number.isFinite(n)) return "—";
   const k = Math.round(n / 1000);
   if (state.lang === "zh") {
-    const wan = (n / 10000).toFixed(1).replace(/\.0$/, "");
-    return `约${wan}万追踪岗位（具名职业）`;
+    return `约${k}K 追踪职业`;
   }
-  return `~${k}K tracked workers (named occupations)`;
+  return `~${k}K tracked`;
 }
 
 function updateHeaderProvenance() {
@@ -708,6 +711,25 @@ function draw() {
 
 function drawMobile(categories) {
   mobileList.innerHTML = "";
+  if (window.innerWidth <= 480) {
+    const occs = categories
+      .flatMap((cat) => cat.children.map((occ) => ({ ...occ, category: cat.name })))
+      .sort((a, b) => Number(displayScore(b)) - Number(displayScore(a)));
+    occs.forEach((occ) => {
+      const card = document.createElement("div");
+      card.className = "mob-card";
+      card.innerHTML = `
+        <span class="score" style="color:${scoreColor(displayScore(occ))}">${displayScore(occ).toFixed(1)}</span>
+        <span class="name">${escapeHtml(nameForOcc(occ))}</span>
+        <span class="wage">S$${Number(occ.gross_wage).toLocaleString()}/mo</span>
+      `;
+      card.addEventListener("click", () => {
+        openDrawer(occ, true);
+      });
+      mobileList.appendChild(card);
+    });
+    return;
+  }
   categories.forEach((cat) => {
     const section = document.createElement("section");
     section.className = "mobile-category";
@@ -990,12 +1012,12 @@ function openDrawer(occupation, updateUrl = false) {
   recordOccupationView(occupation);
   emitViewOccupation(occupation);
   const rawAiDrawer = Number(occupation.ai_score) || 0;
-  let aiRole = t("drawer_ai_replace");
-  let aiRoleClass = "danger";
-  if (rawAiDrawer >= 6.5) {
-    aiRole = t("drawer_ai_displacement").replace(/\{\{score\}\}/g, rawAiDrawer.toFixed(1));
+  let aiRole = t("drawer_ai_low");
+  let aiRoleClass = "ok";
+  if (rawAiDrawer >= 7.0) {
+    aiRole = t("drawer_ai_displacement");
     aiRoleClass = "danger";
-  } else if (rawAiDrawer >= 4.0) {
+  } else if (rawAiDrawer >= 5.0) {
     aiRole = t("drawer_ai_augment");
     aiRoleClass = "warning";
   }
@@ -1132,8 +1154,11 @@ function getSemanticMatches(query) {
 
 function getFeaturedCards() {
   const allOccupations = flattenOccupations();
+  const q = String(searchQ || "").toLowerCase();
   const filtered = allOccupations.filter((o) =>
-    Number(o.ai_score) >= filterMin && Number(o.ai_score) <= filterMax
+    Number(o.ai_score) >= filterMin &&
+    Number(o.ai_score) <= filterMax &&
+    (q === "" || String(o.name || "").toLowerCase().includes(q) || nameForOcc(o).toLowerCase().includes(q))
   );
   return filtered
     .slice()
@@ -1304,28 +1329,23 @@ function renderExecutiveSummary() {
 }
 
 async function shareSnapshot() {
-  const quote = document.getElementById("summary-quote")?.textContent || "AIScope SG summary";
-  const canvas = await html2canvas(document.getElementById("app"), { backgroundColor: "#080b0f", scale: 1.5 });
-  const blob = await new Promise((resolve) => canvas.toBlob(resolve, "image/png"));
-  const file = new File([blob], "aiscope-sg-summary.png", { type: "image/png" });
-  const shareText = `${quote} #AIScopeSG #FutureOfWork`;
-
-  if (navigator.canShare && navigator.canShare({ files: [file] })) {
-    await navigator.share({ title: "AIScope SG Snapshot", text: shareText, files: [file] });
-    showToast("Snapshot saved", { center: true, duration: 2000 });
-    return;
-  }
-
-  const link = document.createElement("a");
-  link.href = URL.createObjectURL(blob);
-  link.download = "aiscope-sg-summary.png";
-  link.click();
-  const deepLink = `${window.location.origin}${window.location.pathname}?job=${encodeURIComponent(drawerOpenSsoc || "")}`;
-  navigator.clipboard.writeText(deepLink).then(() => {
+  const btn = document.getElementById("share-btn");
+  const deepLink = drawerOpenSsoc
+    ? `${window.location.origin}${window.location.pathname}?job=${encodeURIComponent(drawerOpenSsoc)}`
+    : window.location.href;
+  try {
+    await navigator.clipboard.writeText(deepLink);
+    if (btn) {
+      const original = t("share_btn");
+      btn.textContent = "✓ Copied!";
+      setTimeout(() => {
+        btn.textContent = original;
+      }, 2000);
+    }
     showToast(`Link copied to clipboard: ${deepLink}`, { center: true, duration: 2000 });
-  }).catch(() => {
+  } catch (_) {
     showToast("Snapshot saved", { center: true, duration: 2000 });
-  });
+  }
 }
 
 function applyDeepLink() {
