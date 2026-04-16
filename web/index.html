@@ -21,11 +21,37 @@
 <meta property="og:description" content="Explore Singapore occupations by AI exposure, wages, and policy-aware transition insights.">
 <meta property="og:image" content="https://aiscope.sg/og-cover.png">
 <meta property="og:url" content="https://aiscope.sg/">
+<meta name="aiscope-ga4-id" content="">
+<!-- Optional: Cloudflare Web Analytics — paste beacon script below when using Cloudflare proxy; same github.io gate as GA4. -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./styles.css">
+<script>
+(function () {
+  function shouldInjectGa4() {
+    var h = (location.hostname || "").toLowerCase();
+    if (!h.endsWith(".github.io")) return false;
+    return (location.pathname || "").toLowerCase().indexOf("aiiscope-sg") !== -1;
+  }
+  var meta = document.querySelector('meta[name="aiscope-ga4-id"]');
+  var id = meta && meta.getAttribute("content") ? meta.getAttribute("content").trim() : "";
+  if (!shouldInjectGa4() || !id) return;
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { window.dataLayer.push(arguments); }
+  window.gtag = gtag;
+  var s = document.createElement("script");
+  s.async = true;
+  s.src = "https://www.googletagmanager.com/gtag/js?id=" + encodeURIComponent(id);
+  s.onload = function () {
+    gtag("js", new Date());
+    gtag("config", id, { anonymize_ip: true });
+  };
+  document.head.appendChild(s);
+})();
+</script>
 </head>
 <body>
+<div id="toast-root" class="toast-root" aria-live="polite"></div>
 <div id="app">
   <header class="top-header">
     <div class="brand">
@@ -60,7 +86,7 @@
   <section id="concierge-results" class="concierge-results" aria-live="polite"></section>
 
   <div id="canvas-wrap">
-    <div id="loading-overlay"><div class="loader"></div><span>Loading Singapore occupation graph...</span></div>
+    <div id="loading-overlay"><div class="loader"></div><span id="loading-main-msg">Loading Singapore occupation graph...</span><span id="loading-job-hint" class="loading-job-hint" aria-live="polite"></span></div>
     <svg id="treemap"></svg>
     <div id="mobile-list"></div>
   </div>

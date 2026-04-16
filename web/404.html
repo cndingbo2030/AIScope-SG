@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AIScope SG — Redirecting</title>
+  <script>
+  (function () {
+    var origin = window.location.origin;
+    var path = window.location.pathname || "/";
+    var search = window.location.search || "";
+    var hash = window.location.hash || "";
+    var host = (window.location.hostname || "").toLowerCase();
+    var target;
+    if (host.endsWith(".github.io")) {
+      var parts = path.split("/").filter(Boolean);
+      if (parts.length >= 1) {
+        var repo = parts[0];
+        target = origin + "/" + repo + "/index.html" + search + hash;
+      } else {
+        target = origin + "/index.html" + search + hash;
+      }
+    } else {
+      var dir = path.endsWith("/") ? path : path.replace(/\/[^/]*$/, "/");
+      if (!dir || dir === "//") dir = "/";
+      target = origin + dir + "index.html" + search + hash;
+    }
+    window.location.replace(target);
+  })();
+  </script>
+  <noscript>
+    <meta http-equiv="refresh" content="0; url=./index.html">
+  </noscript>
+</head>
+<body style="margin:0;background:#080b0f;color:#6b7a8d;font-family:IBM Plex Mono,monospace;padding:24px;text-align:center;">
+  <p>Redirecting to AIScope SG…</p>
+  <p><a href="./index.html" style="color:#21c7d9">Continue to index</a></p>
+</body>
+</html>

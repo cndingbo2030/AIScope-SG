@@ -6,6 +6,27 @@ const scoreColor = d3.scaleLinear()
 const CACHE_DB = "aiscope-cache-v1";
 const CACHE_STORE = "payloads";
 const CACHE_TTL_MS = 12 * 60 * 60 * 1000;
+const INTEREST_STORAGE_KEY = "aiscope-sg-recent-interests-v1";
+
+let pendingDeepLinkJob = null;
+try {
+  pendingDeepLinkJob = new URL(window.location.href).searchParams.get("job");
+} catch (_) {
+  pendingDeepLinkJob = null;
+}
+
+function getBaseHrefForAssets() {
+  const baseEl = document.querySelector("base#ais-base");
+  if (baseEl && baseEl.href) return baseEl.href;
+  const p = window.location.pathname || "/";
+  const dir = p.endsWith("/") ? p : p.replace(/\/[^/]*$/, "/") || "/";
+  return new URL(dir, window.location.origin).href;
+}
+
+function assetUrl(relativePath) {
+  const clean = String(relativePath).replace(/^\.\//, "");
+  return new URL(clean, getBaseHrefForAssets()).href;
+}
 
 let rawData = null;
 let kgIndices = [];
@@ -28,12 +49,15 @@ bootstrap();
 
 async function bootstrap() {
   try {
-    setLoading(true);
+    setLoading(true, pendingDeepLinkJob);
     const startTs = performance.now();
+    const dataUrl = assetUrl("data/data.json");
+    const kgUrl = assetUrl("data/kg_indices.jsonl");
+    const tripleUrl = assetUrl("data/triples.jsonl");
     const [data, kgRaw, triplesRaw] = await Promise.all([
-      cachedJson("./data/data.json"),
-      cachedText("./data/kg_indices.jsonl"),
-      cachedText("./data/triples.jsonl"),
+      cachedJson(dataUrl),
+      cachedText(kgUrl),
+      cachedText(tripleUrl),
     ]);
     rawData = data;
     kgIndices = kgRaw.trim() ? kgRaw.trim().split("\n").map((line) => JSON.parse(line)) : [];
@@ -46,7 +70,7 @@ async function bootstrap() {
     applyDeepLink();
     renderConciergeCards(getSemanticMatches(searchQ));
     const elapsed = performance.now() - startTs;
-    console.info(`[AIScope] data bootstrapped in ${elapsed.toFixed(1)}ms`);
+    console.info(`[AIScope] data bootstrapped in ${elapsed.toFixed(1)}ms (base=${getBaseHrefForAssets()})`);
   } catch (error) {
     document.getElementById("canvas-wrap").innerHTML = `<div style="padding:24px;color:#6b7a8d;font-family:'IBM Plex Mono',monospace">${error.message}</div>`;
   } finally {
@@ -335,7 +359,66 @@ function clamp01(value) {
   return Math.max(0, Math.min(1, value));
 }
 
+function escapeHtml(text) {
+  return String(text)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function showToast(text) {
+  const root = document.getElementById("toast-root");
+  if (!root) return;
+  root.innerHTML = `<div class="toast-msg">${escapeHtml(text)}</div>`;
+  setTimeout(() => {
+    root.innerHTML = "";
+  }, 2600);
+}
+
+function getTopInterests(limit) {
+  try {
+    const raw = localStorage.getItem(INTEREST_STORAGE_KEY);
+    const list = raw ? JSON.parse(raw) : [];
+    if (!Array.isArray(list)) return [];
+    return list.slice().sort((a, b) => (b.count || 0) - (a.count || 0)).slice(0, limit);
+  } catch (_) {
+    return [];
+  }
+}
+
+function recordOccupationView(occ) {
+  try {
+    const ssoc = String(occ.ssoc_code || "");
+    if (!ssoc) return;
+    const raw = localStorage.getItem(INTEREST_STORAGE_KEY);
+    let list = raw ? JSON.parse(raw) : [];
+    if (!Array.isArray(list)) list = [];
+    const idx = list.findIndex((x) => x.ssoc === ssoc);
+    if (idx >= 0) {
+      list[idx].count = (list[idx].count || 0) + 1;
+      list[idx].name = occ.name;
+    } else {
+      list.push({ ssoc, name: occ.name || "Occupation", count: 1 });
+    }
+    list.sort((a, b) => (b.count || 0) - (a.count || 0));
+    localStorage.setItem(INTEREST_STORAGE_KEY, JSON.stringify(list.slice(0, 30)));
+  } catch (_) {
+    /* ignore */
+  }
+}
+
+function emitViewOccupation(occ) {
+  const detail = { ssoc_code: String(occ.ssoc_code || ""), job_title: occ.name || "" };
+  window.dispatchEvent(new CustomEvent("view_occupation", { detail }));
+  if (typeof window.gtag === "function") {
+    window.gtag("event", "view_occupation", detail);
+  }
+}
+
 function openDrawer(occupation, updateUrl = false) {
+  recordOccupationView(occupation);
+  emitViewOccupation(occupation);
   const aiRole = occupation.ai_assists ? "AI augments this role" : "AI may replace core routine tasks";
   const all = flattenOccupations();
   const nationalAvg = average(all.map((x) => Number(x.ai_score)));
@@ -382,6 +465,7 @@ function openDrawer(occupation, updateUrl = false) {
 
   document.getElementById("copy-link-btn").addEventListener("click", () => {
     navigator.clipboard.writeText(deepLink).then(() => {
+      showToast("Link Copied to Clipboard");
       const btn = document.getElementById("copy-link-btn");
       if (btn) {
         btn.textContent = "Copied";
@@ -389,6 +473,7 @@ function openDrawer(occupation, updateUrl = false) {
       }
     }).catch(() => {});
   });
+  renderExecutiveSummary();
 }
 
 function closeDrawer() {
@@ -496,15 +581,20 @@ function renderExecutiveSummary() {
 
   const insight = `In Singapore, ${lowPct}% of occupations currently sit in the low-wage/high-exposure bucket.`;
 
+  const interests = getTopInterests(5);
+  const interestsHtml = interests.length
+    ? interests.map((x) => `<span>${escapeHtml(x.name)} · SSOC ${escapeHtml(x.ssoc)} · ${x.count}×</span>`).join("")
+    : "<span>Explore occupations above — your clicks will appear here.</span>";
+
   document.getElementById("executive-summary").innerHTML = `
     <div class="exec-grid">
       <article class="exec-card">
         <div class="exec-label">Top 5 Exposed Sectors</div>
-        <div class="exec-list">${top5.map((x) => `<span>${x.category} (${x.avg.toFixed(2)})</span>`).join("")}</div>
+        <div class="exec-list">${top5.map((x) => `<span>${escapeHtml(x.category)} (${x.avg.toFixed(2)})</span>`).join("")}</div>
       </article>
       <article class="exec-card">
         <div class="exec-label">Bottom 5 Protected Sectors</div>
-        <div class="exec-list">${bottom5.map((x) => `<span>${x.category} (${x.avg.toFixed(2)})</span>`).join("")}</div>
+        <div class="exec-list">${bottom5.map((x) => `<span>${escapeHtml(x.category)} (${x.avg.toFixed(2)})</span>`).join("")}</div>
       </article>
       <article class="exec-card">
         <div class="exec-label">Salary Exposure Split</div>
@@ -515,9 +605,13 @@ function renderExecutiveSummary() {
       </article>
       <article class="exec-card">
         <div class="exec-label">Auto Comment</div>
-        <div class="exec-list"><span id="summary-quote">${insight}</span></div>
+        <div class="exec-list"><span id="summary-quote">${escapeHtml(insight)}</span></div>
       </article>
     </div>
+    <article class="exec-card exec-interests-card">
+      <div class="exec-label">Your Recent Interests</div>
+      <div class="exec-list exec-interests-list">${interestsHtml}</div>
+    </article>
   `;
 }
 
@@ -543,14 +637,27 @@ async function shareSnapshot() {
 
 function applyDeepLink() {
   const url = new URL(window.location.href);
-  const job = url.searchParams.get("job");
+  const job = pendingDeepLinkJob || url.searchParams.get("job");
+  pendingDeepLinkJob = null;
   if (!job) return;
-  const occ = bySsocCode.get(job);
-  if (occ) openDrawer(occ, false);
+  const occ = bySsocCode.get(String(job));
+  if (occ) {
+    requestAnimationFrame(() => openDrawer(occ, false));
+  } else {
+    showToast("Occupation not found for SSOC: " + String(job));
+  }
 }
 
-function setLoading(isLoading) {
+function setLoading(isLoading, jobHint) {
   if (!loadingOverlay) return;
+  const hint = document.getElementById("loading-job-hint");
+  if (hint) {
+    if (isLoading && jobHint) {
+      hint.textContent = "SSOC " + String(jobHint) + " — preparing occupation profile…";
+    } else {
+      hint.textContent = "";
+    }
+  }
   loadingOverlay.style.display = isLoading ? "flex" : "none";
 }
 
