@@ -12,6 +12,7 @@ import networkx as nx
 
 BASE = Path(__file__).resolve().parent.parent
 DATA_JSON = BASE / "web" / "data" / "data.json"
+SSOC_NAME_MAP = BASE / "data" / "ssoc2024_name_map.json"
 GRAPH_JSON = BASE / "data" / "processed" / "occupation_graph.json"
 CORPUS_TXT = BASE / "data" / "processed" / "graph_corpus.txt"
 TRIPLES_JSONL = BASE / "data" / "processed" / "triples.jsonl"
@@ -39,6 +40,29 @@ def infer_skill_set(occ: dict[str, Any]) -> set[str]:
     return fallback
 
 
+def _load_ssoc_titles() -> dict[str, str]:
+    if not SSOC_NAME_MAP.is_file():
+        return {}
+    try:
+        payload = json.loads(SSOC_NAME_MAP.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+    by_code = payload.get("by_code") or {}
+    return {str(k).strip().zfill(5): str(v).strip() for k, v in by_code.items() if str(k).strip()}
+
+
+def occupation_display_label(occ: dict[str, Any], ssoc_titles: dict[str, str]) -> str:
+    """Prefer SingStat principal title for graph labels; never use a bare SSOC code as the display name."""
+    code = str(occ.get("ssoc_code") or "").strip().zfill(5)
+    mapped = ssoc_titles.get(code)
+    name = str(occ.get("name") or "").strip()
+    if mapped:
+        return mapped
+    if name and not name.isdigit() and len(name) > 4:
+        return name
+    return name or code
+
+
 def vulnerability_index(occ: dict[str, Any]) -> float:
     ai_score = float(occ.get("ai_score", 0))
     pwm = bool(occ.get("pwm", False))
@@ -54,15 +78,17 @@ def vulnerability_index(occ: dict[str, Any]) -> float:
     return round(max(0.0, min(1.0, idx)), 3)
 
 
-def build_graph(data: dict[str, Any]) -> nx.MultiDiGraph:
+def build_graph(data: dict[str, Any], ssoc_titles: dict[str, str] | None = None) -> nx.MultiDiGraph:
     graph = nx.MultiDiGraph()
     occupations: list[dict[str, Any]] = []
+    titles = ssoc_titles if ssoc_titles is not None else _load_ssoc_titles()
 
     for category in data.get("children", []):
         sector = category["name"]
         graph.add_node(f"sector::{sector}", node_type="Sector", label=sector)
 
         for occ in category.get("children", []):
+            disp = occupation_display_label(occ, titles)
             occ_id = f"occupation::{occ['name']}"
             occupations.append({**occ, "category": sector})
             vuln = vulnerability_index(occ)
@@ -70,7 +96,8 @@ def build_graph(data: dict[str, Any]) -> nx.MultiDiGraph:
             graph.add_node(
                 occ_id,
                 node_type="Occupation",
-                label=occ["name"],
+                label=disp,
+                occ_name=str(occ.get("name") or ""),
                 ai_score=float(occ.get("ai_score", 0)),
                 wage=float(occ.get("gross_wage", 0)),
                 vulnerability_index=vuln,
@@ -133,7 +160,7 @@ def build_graph(data: dict[str, Any]) -> nx.MultiDiGraph:
         for _, bname, via in candidates[:5]:
             graph.add_edge(
                 f"occupation::{occ_a['name']}",
-                f"occupation::{occ_b['name']}",
+                f"occupation::{bname}",
                 rel_type="TRANSFER_PATH",
                 via=list(via),
             )
@@ -175,6 +202,13 @@ def graph_to_corpus(graph: nx.MultiDiGraph) -> str:
     return "\n".join(lines)
 
 
+def _triple_endpoint_label(graph: nx.MultiDiGraph, node: str) -> str:
+    attrs = graph.nodes[node]
+    if attrs.get("node_type") == "Occupation":
+        return str(attrs.get("occ_name") or attrs.get("label") or node)
+    return str(attrs.get("label", node))
+
+
 def emit_triples(graph: nx.MultiDiGraph) -> list[dict[str, Any]]:
     triples: list[dict[str, Any]] = []
     for source, target, _, edge_attrs in graph.edges(keys=True, data=True):
@@ -183,9 +217,9 @@ def emit_triples(graph: nx.MultiDiGraph) -> list[dict[str, Any]]:
             continue
         triples.append(
             {
-                "head": graph.nodes[source].get("label", source),
+                "head": _triple_endpoint_label(graph, source),
                 "relation": rel,
-                "tail": graph.nodes[target].get("label", target),
+                "tail": _triple_endpoint_label(graph, target),
                 "head_type": graph.nodes[source].get("node_type", "unknown"),
                 "tail_type": graph.nodes[target].get("node_type", "unknown"),
             }
