@@ -270,6 +270,10 @@ flowchart LR
           <code>meta.generated_at</code> field records the last hierarchy export; snapshot archives under
           <code>data/processed/snapshots/</code> support wage-drift checks in <code>generate_insights.py</code>.
         </p>
+        <p>
+          <strong>Wage data:</strong> MOM Occupational Wages 2024 (official), with 2025 projections applied at +5.5% growth
+          rate per MOM Labour Force Report 2025. Official 2025 occupation-level tables expected August 2026.
+        </p>
         <h3>Employment headline on the dashboard</h3>
         <p>
           Per-occupation employment weights are proportionally scaled in <code>pipeline/step4_export.py</code> so
@@ -405,6 +409,10 @@ flowchart LR
         <p>
           当运维执行 <code>python run_pipeline.py --fetch</code>（或等效 GitHub Actions 步骤）时，经 <strong>Production API</strong> 与 MOM/SSOC 对齐库同步。
           仪表板 <code>meta.generated_at</code> 记录最近层级导出；<code>data/processed/snapshots/</code> 下的快照支持 <code>generate_insights.py</code> 的工资漂移检查。
+        </p>
+        <p>
+          <strong>工资数据声明：</strong>以 MOM Occupational Wages 2024 官方值为基准，并按 MOM Labour Force Report 2025 使用 +5.5% 增长率投影至 2025。
+          2025 年职业级官方表预计于 2026 年 8 月发布。
         </p>
         <h3>仪表板就业总人数</h3>
         <p>
