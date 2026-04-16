@@ -46,7 +46,8 @@
   function shouldInjectGa4() {
     var h = (location.hostname || "").toLowerCase();
     if (!h.endsWith(".github.io")) return false;
-    return (location.pathname || "").toLowerCase().indexOf("aiiscope-sg") !== -1;
+    var path = (location.pathname || "").toLowerCase();
+    return path.indexOf("/aiiscope-sg") !== -1 || path.indexOf("/aiscope-sg") !== -1;
   }
   var meta = document.querySelector('meta[name="aiscope-ga4-id"]');
   var id = meta && meta.getAttribute("content") ? meta.getAttribute("content").trim() : "";
