@@ -63,6 +63,8 @@
                 "pwm": { "type": "boolean" },
                 "regulated": { "type": "boolean" },
                 "vulnerability_index": { "type": "number", "minimum": 0, "maximum": 1 },
+                "employment_est": { "type": "integer", "minimum": 0 },
+                "singstat_official": { "type": "boolean" },
                 "source_meta": {
                   "type": "object",
                   "required": ["ssoc_version", "wage_stat_year", "llm_model"],

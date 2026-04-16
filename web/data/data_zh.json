@@ -12,7 +12,7 @@
   "name": "Singapore Occupations",
   "children": [
     {
-      "name": "Clerical Support",
+      "name": "文书支援",
       "order": 1,
       "children": [
         {
@@ -566,7 +566,7 @@
           "vulnerability_index": 0.79
         },
         {
-          "name": "CLEANERS AND RELATED WORKERS",
+          "name": "清洁工",
           "category": "Clerical Support",
           "ssoc_code": "00091",
           "employment": 4967,
@@ -591,7 +591,7 @@
           "vulnerability_index": 0.37
         },
         {
-          "name": "CLEANERS, LABOURERS AND RELATED WORKERS",
+          "name": "清洁工",
           "category": "Clerical Support",
           "ssoc_code": "00009",
           "employment": 4665,
@@ -841,7 +841,7 @@
           "vulnerability_index": 0.32
         },
         {
-          "name": "Data entry clerk",
+          "name": "数据录入员",
           "category": "Clerical Support",
           "ssoc_code": "41320",
           "employment": 4665,
@@ -3593,7 +3593,7 @@
       ]
     },
     {
-      "name": "Professionals",
+      "name": "专业人员",
       "order": 2,
       "children": [
         {
@@ -4247,7 +4247,7 @@
           "vulnerability_index": 0.28
         },
         {
-          "name": "Civil engineer",
+          "name": "土木工程师",
           "category": "Professionals",
           "ssoc_code": "21421",
           "employment": 5379,
@@ -6597,7 +6597,7 @@
           "vulnerability_index": 0.53
         },
         {
-          "name": "Registered nurse and related nursing professional (excluding enrolled nurse)",
+          "name": "注册护士",
           "category": "Professionals",
           "ssoc_code": "22200",
           "employment": 7199,
@@ -7174,7 +7174,7 @@
       ]
     },
     {
-      "name": "Service and Sales",
+      "name": "服务与销售",
       "order": 3,
       "children": [
         {
@@ -7703,7 +7703,7 @@
           "vulnerability_index": 0.54
         },
         {
-          "name": "COOKS",
+          "name": "厨师",
           "category": "Service and Sales",
           "ssoc_code": "00512",
           "employment": 8445,
@@ -8003,7 +8003,7 @@
           "vulnerability_index": 0.76
         },
         {
-          "name": "Cook",
+          "name": "厨师",
           "category": "Service and Sales",
           "ssoc_code": "51201",
           "employment": 9199,
@@ -10103,7 +10103,7 @@
           "vulnerability_index": 0.61
         },
         {
-          "name": "Senior cook",
+          "name": "厨师",
           "category": "Service and Sales",
           "ssoc_code": "51202",
           "employment": 9049,
@@ -10705,7 +10705,7 @@
       ]
     },
     {
-      "name": "Trades and Labourers",
+      "name": "工艺与劳务",
       "order": 4,
       "children": [
         {
@@ -11159,7 +11159,7 @@
           "vulnerability_index": 0.56
         },
         {
-          "name": "Building structure cleaner and related worker",
+          "name": "清洁工",
           "category": "Trades and Labourers",
           "ssoc_code": "71332",
           "employment": 5731,
@@ -14285,5 +14285,17 @@
         }
       ]
     }
-  ]
+  ],
+  "category_label_map": {
+    "Clerical Support": "文书支援",
+    "Professionals": "专业人员",
+    "Service and Sales": "服务与销售",
+    "Trades and Labourers": "工艺与劳务"
+  },
+  "category_labels": {
+    "Clerical Support": "文书支援",
+    "Professionals": "专业人员",
+    "Service and Sales": "服务与销售",
+    "Trades and Labourers": "工艺与劳务"
+  }
 }

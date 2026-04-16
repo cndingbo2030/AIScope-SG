@@ -117,15 +117,28 @@ def main() -> int:
 
     meta = data.get("meta") or {}
     te = meta.get("total_employment")
-    sum_rows = sum(int(o.get("employment") or 0) for o in all_occupations)
+    sum_emp = sum(int(o.get("employment") or 0) for o in all_occupations)
+    sum_est = sum(int(o.get("employment_est") or 0) for o in all_occupations)
+    has_est = any("employment_est" in o for o in all_occupations)
     if isinstance(te, (int, float)):
-        if int(te) > 4_800_000 or int(te) < 2_800_000:
-            errors.append(
-                f"meta.total_employment={int(te)} outside policy-credible band 2.8M–4.8M "
-                "(national workforce scale; re-run pipeline.step4_export if synthetic data regressed)"
-            )
-        if abs(int(te) - sum_rows) > 8:
-            errors.append(f"meta.total_employment ({int(te)}) != sum of occupation employment ({sum_rows})")
+        if has_est:
+            if int(te) < 250_000 or int(te) > 500_000:
+                errors.append(
+                    f"meta.total_employment={int(te)} outside tracked-workforce band 250k–500k "
+                    "(expected sum of employment_est; re-run pipeline.step2_merge + step4_export)"
+                )
+            if abs(int(te) - sum_est) > 8:
+                errors.append(
+                    f"meta.total_employment ({int(te)}) != sum of employment_est ({sum_est})"
+                )
+        else:
+            if int(te) > 4_800_000 or int(te) < 2_800_000:
+                errors.append(
+                    f"meta.total_employment={int(te)} outside policy-credible band 2.8M–4.8M "
+                    "(national workforce scale; re-run pipeline.step4_export if synthetic data regressed)"
+                )
+            if abs(int(te) - sum_emp) > 8:
+                errors.append(f"meta.total_employment ({int(te)}) != sum of occupation employment ({sum_emp})")
 
     errors.extend(validate_occupations_zh(all_occupations))
 
