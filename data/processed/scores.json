@@ -101,5 +101,9 @@
   "Civil Engineering Technicians": {
     "score": 4.5,
     "reason": "Site supervision, material inspection and BCA compliance checks require on-site human presence. AI assists with drawings and calculations but field technician roles remain essential in Singapore's construction sector."
+  },
+  "Generalist Medical Practitioners": {
+    "score": 4.5,
+    "reason": "MOH-licensed GPs require clinical judgment, physical examination and doctor-patient trust that current AI systems cannot legally substitute in Singapore's healthcare system. AI assists with diagnosis but MOM/MOH regulations require human physician oversight."
   }
 }

@@ -58,6 +58,11 @@ _WAGE_OVERRIDES = {
     "financial analyst": 7900,
     "accountant": 5800,
 }
+WAGE_CAPS = {
+    "Cleaners & Labourers": 3000,
+    "Craft & Trades Workers": 5000,
+    "Plant & Machine Operators": 4000,
+}
 
 
 def _load_map() -> dict[str, Any]:
@@ -151,6 +156,19 @@ def merge_rows(rows: list[dict[str, Any]], payload: dict[str, Any]) -> list[dict
         if "medical" in nm and int(x.get("gross_wage") or 0) < 9000:
             x["gross_wage"] = 9000
             x["basic_wage"] = min(int(x.get("basic_wage") or 7300), 8500)
+
+    # Cap wages for physical / lower-skill major groups.
+    for x in out:
+        cat = str(x.get("category") or "")
+        cap = WAGE_CAPS.get(cat)
+        if cap is None:
+            continue
+        gross = int(x.get("gross_wage") or 0)
+        if gross > cap:
+            x["gross_wage"] = cap
+            basic = int(x.get("basic_wage") or 0)
+            if basic > cap:
+                x["basic_wage"] = int(round(cap * 0.82))
 
     # Remove duplicate occupation names (case-insensitive), keep first occurrence.
     deduped: list[dict[str, Any]] = []
