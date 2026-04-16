@@ -13,6 +13,7 @@ from typing import Any
 BASE = Path(__file__).resolve().parent.parent
 DEFAULT_INPUT = BASE / "data" / "processed" / "occupations_expanded.json"
 DEFAULT_OUTPUT = BASE / "web" / "data" / "data.json"
+SNAPSHOT_DIR = BASE / "data" / "processed" / "snapshots"
 
 
 def build_hierarchy(occupations: list[dict[str, Any]]) -> dict[str, Any]:
@@ -68,6 +69,16 @@ def build_hierarchy(occupations: list[dict[str, Any]]) -> dict[str, Any]:
     }
 
 
+def write_snapshot(payload: dict[str, Any]) -> Path | None:
+    """Versioned copy of exported hierarchy for wage / diff analytics."""
+    SNAPSHOT_DIR.mkdir(parents=True, exist_ok=True)
+    stamp = datetime.now(timezone.utc).strftime("%Y%m%d")
+    snap_path = SNAPSHOT_DIR / f"data_{stamp}.json"
+    text = json.dumps(payload, ensure_ascii=False, indent=2)
+    snap_path.write_text(text, encoding="utf-8")
+    return snap_path
+
+
 def export_data_json(
     input_path: Path = DEFAULT_INPUT,
     output_path: Path = DEFAULT_OUTPUT,
@@ -76,6 +87,9 @@ def export_data_json(
     payload = build_hierarchy(occupations)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    snap = write_snapshot(payload)
+    if snap:
+        print(f"[Step 4] Snapshot -> {snap}")
     return output_path
 
 

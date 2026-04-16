@@ -14,6 +14,25 @@ BASE = Path(__file__).resolve().parent.parent
 WEB = BASE / "web"
 INDEX = WEB / "index.html"
 
+RECENCY_META = """<meta name="aiscope-recency" content="AI Exposure Model v2026.4 · Updated Apr 2026">
+<meta name="aiscope-methodology" content="./methodology.html">
+"""
+
+TICKER_TEXT = "● Live Data: AI Exposure Model v2026.4 (Updated Apr 2026)"
+
+
+def inject_index_recency(html: str) -> tuple[str, bool]:
+    """Insert machine-readable recency + default ticker (i18n overrides in app.js)."""
+    changed = False
+    if "<!--AISCOPE_RECENCY_META-->" in html:
+        html = html.replace("<!--AISCOPE_RECENCY_META-->", RECENCY_META, 1)
+        changed = True
+    if "__AISCOPE_TICKER__" in html:
+        html = html.replace("__AISCOPE_TICKER__", TICKER_TEXT, 1)
+        changed = True
+    return html, changed
+
+
 # Replace root-absolute same-origin paths (not // URLs) with ./ prefix for static hosting.
 # Examples: href="/data/x" -> href="./data/x", fetch("/data/ -> fetch("./data/
 REPLACEMENTS: list[tuple[re.Pattern[str], str]] = [
@@ -72,6 +91,9 @@ def verify_index() -> list[str]:
     elif "https://aiscope.sg" not in html:
         errors.append("index.html: canonical should reference https://aiscope.sg")
 
+    if 'name="aiscope-recency"' not in html and "name='aiscope-recency'" not in html:
+        errors.append("index.html: missing aiscope-recency meta (run pre_deploy_check to inject)")
+
     # Reject obvious root-absolute asset refs that break under /repo/
     bad = re.findall(r'(?:href|src)\s*=\s*"/(?!/)', html)
     if bad:
@@ -84,6 +106,13 @@ def main() -> int:
     if not WEB.is_dir():
         print("ERROR: web/ directory not found", file=sys.stderr)
         return 1
+
+    if INDEX.exists():
+        idx_html = INDEX.read_text(encoding="utf-8")
+        idx_new, idx_changed = inject_index_recency(idx_html)
+        if idx_changed:
+            INDEX.write_text(idx_new, encoding="utf-8")
+            print("[pre-deploy] injected recency meta + default ticker into index.html")
 
     changed = 0
     for path in scan_files():

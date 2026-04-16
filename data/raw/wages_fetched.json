@@ -1,0 +1,24 @@
+{
+  "source": "fallback_file",
+  "resource_id": null,
+  "endpoint": null,
+  "fetched_at": "2026-04-16T04:18:50.479597+00:00",
+  "fields": null,
+  "records": [
+    {
+      "_id": 1,
+      "ssoc_code": "20008",
+      "occupation": "Clerical Support Occupation 001",
+      "gross_median_wage": 3570,
+      "employment_count": 25640
+    },
+    {
+      "_id": 2,
+      "ssoc_code": "20012",
+      "occupation": "Clerical Support Occupation 005",
+      "gross_median_wage": 3830,
+      "employment_count": 24960
+    }
+  ],
+  "_total": 2
+}

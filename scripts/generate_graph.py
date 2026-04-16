@@ -27,9 +27,9 @@ def normalize_skill_tokens(text: str) -> set[str]:
 
 def infer_skill_set(occ: dict[str, Any]) -> set[str]:
     explicit = occ.get("skills", [])
-    if isinstance(explicit, list):
+    if isinstance(explicit, list) and explicit:
         return {str(s).strip().lower() for s in explicit if str(s).strip()}
-    if isinstance(explicit, str):
+    if isinstance(explicit, str) and explicit.strip():
         return normalize_skill_tokens(explicit)
 
     risk_factor = str(occ.get("risk_factor", ""))
@@ -109,25 +109,34 @@ def build_graph(data: dict[str, Any]) -> nx.MultiDiGraph:
                     overlap_count=len(overlap),
                 )
 
-    # TRANSFER_PATH: A high-risk skill maps to B low-risk occupation skill
+    # TRANSFER_PATH: high-risk -> lower-risk within same sector; cap per source to avoid O(n^2) blowups.
     for occ_a in occupations:
         if float(occ_a.get("ai_score", 0)) < 7:
             continue
         a_skills = infer_skill_set(occ_a)
+        candidates: list[tuple[float, str, tuple[str, ...]]] = []
         for occ_b in occupations:
             if occ_a["name"] == occ_b["name"]:
+                continue
+            if occ_a.get("category") != occ_b.get("category"):
                 continue
             if float(occ_b.get("ai_score", 0)) > 4.5:
                 continue
             b_skills = infer_skill_set(occ_b)
             shared = a_skills.intersection(b_skills)
-            if shared:
-                graph.add_edge(
-                    f"occupation::{occ_a['name']}",
-                    f"occupation::{occ_b['name']}",
-                    rel_type="TRANSFER_PATH",
-                    via=sorted(shared),
-                )
+            if not shared:
+                continue
+            wage = float(occ_b.get("gross_wage", 0))
+            rank = wage + 50 * len(shared) - float(occ_b.get("ai_score", 0)) * 40
+            candidates.append((rank, occ_b["name"], tuple(sorted(shared))))
+        candidates.sort(reverse=True)
+        for _, bname, via in candidates[:5]:
+            graph.add_edge(
+                f"occupation::{occ_a['name']}",
+                f"occupation::{occ_b['name']}",
+                rel_type="TRANSFER_PATH",
+                via=list(via),
+            )
 
     return graph
 
@@ -184,6 +193,17 @@ def emit_triples(graph: nx.MultiDiGraph) -> list[dict[str, Any]]:
     return triples
 
 
+def skill_tokens_for_node(graph: nx.MultiDiGraph, node: str) -> list[str]:
+    skills: list[str] = []
+    for _, target, _, attrs in graph.out_edges(node, keys=True, data=True):
+        if attrs.get("rel_type") != "REQUIRES_SKILL":
+            continue
+        label = graph.nodes[target].get("label")
+        if label:
+            skills.append(str(label).strip().lower())
+    return sorted(set(skills))
+
+
 def best_transfer_targets(graph: nx.MultiDiGraph, node: str, top_n: int = 2) -> list[str]:
     candidates: list[tuple[float, str]] = []
     for _, target, _, attrs in graph.out_edges(node, keys=True, data=True):
@@ -204,6 +224,7 @@ def emit_kg_indices(graph: nx.MultiDiGraph) -> list[dict[str, Any]]:
         if attrs.get("node_type") != "Occupation":
             continue
         transfer = best_transfer_targets(graph, node, top_n=2)
+        skill_tokens = skill_tokens_for_node(graph, node)
         summary = (
             f"{attrs.get('label')} (SSOC {attrs.get('ssoc_code', 'N/A')}) has AI score {attrs.get('ai_score')}, "
             f"vulnerability index {attrs.get('vulnerability_index')}, PWM={attrs.get('pwm')}, "
@@ -219,6 +240,7 @@ def emit_kg_indices(graph: nx.MultiDiGraph) -> list[dict[str, Any]]:
                 "core_node": attrs.get("core_node"),
                 "enhanced_summary": summary,
                 "transition_suggestions": transfer,
+                "skill_tokens": skill_tokens,
             }
         )
     return indices

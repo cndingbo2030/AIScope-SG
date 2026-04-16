@@ -5,9 +5,14 @@ on:
     branches: ["main"]
     paths:
       - "data/processed/**"
+      - "data/raw/**"
+      - "pipeline/**"
       - "web/**"
       - "scripts/validate_data.py"
       - "scripts/pre_deploy_check.py"
+      - "scripts/generate_insights.py"
+      - "scripts/translate_data.py"
+      - "run_pipeline.py"
       - ".github/workflows/deploy-pages.yml"
   workflow_dispatch:
 
@@ -33,8 +38,18 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Fetch data.gov.sg wage extract (best-effort, fallback-safe)
+        env:
+          DATA_GOV_SG_API_KEY: ${{ secrets.DATA_GOV_SG_API_KEY }}
+        run: python run_pipeline.py --fetch
+
       - name: Gatekeeper — validate data schema and audit
         run: python scripts/validate_data.py
+
+      - name: Build insights payload for web/data/insights.json
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/generate_insights.py
 
       - name: Pre-deploy — fix absolute paths and verify SEO
         run: python scripts/pre_deploy_check.py
