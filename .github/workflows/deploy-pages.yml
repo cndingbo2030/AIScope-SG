@@ -78,14 +78,23 @@ jobs:
 
       - name: Remove Pages custom domain (restore default github.io URL)
         env:
-          GH_TOKEN: ${{ github.token }}
+          OPTIONAL_PAT: ${{ secrets.AISCOPE_PAGES_ADMIN_TOKEN }}
+          GITHUB_TOKEN_BUILTIN: ${{ github.token }}
         run: |
-          set -euo pipefail
-          # Settings → Pages "Custom domain" (e.g. aiscope.sg) makes GitHub 301
-          # https://USER.github.io/REPO/ → that host. Re-fetch current Pages config
-          # and PUT it back with cname=null so the demo stays on github.io.
+          set -uo pipefail
+          # Custom domain in Settings → Pages forces 301 from github.io to that host.
+          # Clearing cname requires an API token with permission to update Pages; the
+          # default GITHUB_TOKEN is often 403 on PUT — use optional PAT or fix manually.
+          if [ -n "${OPTIONAL_PAT:-}" ]; then export GH_TOKEN="$OPTIONAL_PAT"
+          else export GH_TOKEN="$GITHUB_TOKEN_BUILTIN"
+          fi
           API="repos/${{ github.repository }}/pages"
-          gh api "$API" -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28" > /tmp/pages.json
+          HDR=( -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28" )
+          if ! gh api "$API" "${HDR[@]}" > /tmp/pages.json 2>/tmp/pages-get.err; then
+            echo "::warning::Could not read Pages settings (see below). If github.io redirects to aiscope.sg, open Repo Settings → Pages and remove Custom domain."
+            cat /tmp/pages-get.err || true
+            exit 0
+          fi
           jq '
             {
               cname: null,
@@ -95,8 +104,12 @@ jobs:
             }
             | if .source == null then del(.source) else . end
           ' /tmp/pages.json > /tmp/pages-put.json
-          gh api --method PUT "$API" \
-            -H "Accept: application/vnd.github+json" \
-            -H "X-GitHub-Api-Version: 2022-11-28" \
-            --input /tmp/pages-put.json
-          echo "OK: Pages cname cleared (default github.io host)."
+          if ! gh api --method PUT "$API" "${HDR[@]}" --input /tmp/pages-put.json 2>/tmp/pages-put.err; then
+            echo "::warning::Could not clear Pages custom domain via API (403 is common for GITHUB_TOKEN)."
+            echo "::warning::Fix: (1) Repo Settings → Pages → delete Custom domain and Save, OR"
+            echo "::warning::    (2) Settings → Actions → General → Workflow permissions → Read and write, OR"
+            echo "::warning::    (3) Add repo secret AISCOPE_PAGES_ADMIN_TOKEN (classic PAT with repo scope)."
+            cat /tmp/pages-put.err || true
+            exit 0
+          fi
+          echo "::notice::Pages custom domain cleared (cname=null); github.io URL should stop redirecting."

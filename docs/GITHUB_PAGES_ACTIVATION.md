@@ -23,6 +23,16 @@ Use this after the first successful run of `.github/workflows/deploy-pages.yml` 
 
 > If you previously used **GitHub Actions** as the *official* Pages source, switch to **Deploy from a branch** + `gh-pages` to match this repo’s workflow.
 
+### 2.1) If `github.io` redirects to `aiscope.sg` | 若自动跳到自定义域名
+
+GitHub **ignores** `web/CNAME` for this workflow (and `pre_deploy_check.py` rejects committing `web/CNAME`). A redirect to `http://aiscope.sg/` almost always means **Settings → Pages → Custom domain** is still set in the repository UI (GitHub stores it separately from git).
+
+**Fix (pick one):**
+
+1. **Manual (fastest):** Repo → **Settings** → **Pages** → **Custom domain** → **clear the field** → **Save**. Wait ~1–5 minutes, then reload `https://cndingbo2030.github.io/AIiScope-SG/`.
+2. **Let CI clear it:** Repo → **Settings** → **Actions** → **General** → **Workflow permissions** → select **Read and write permissions** → Save. The deploy workflow will `PUT` Pages with `cname: null` after each deploy.
+3. **PAT fallback:** Create a classic PAT with **`repo`** scope, add repository secret **`AISCOPE_PAGES_ADMIN_TOKEN`**, re-run **Deploy AIScope SG**.
+
 ---
 
 ## 3) URL shape | 访问地址
