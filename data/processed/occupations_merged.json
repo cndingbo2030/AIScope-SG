@@ -19,7 +19,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 569,
+    "employment_est": 523,
     "name_zh": "Office supervisor",
     "singstat_official": true
   },
@@ -43,7 +43,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 554,
+    "employment_est": 509,
     "name_zh": "Office clerk",
     "singstat_official": true
   },
@@ -67,7 +67,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 539,
+    "employment_est": 495,
     "name_zh": "Personnel/Human resource (HR) clerk",
     "singstat_official": true
   },
@@ -91,7 +91,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 524,
+    "employment_est": 482,
     "name_zh": "General office clerk n.e.c.",
     "singstat_official": true
   },
@@ -115,7 +115,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 509,
+    "employment_est": 468,
     "name_zh": "Secretary",
     "singstat_official": true
   },
@@ -139,7 +139,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 494,
+    "employment_est": 454,
     "name_zh": "Verbatim reporter",
     "singstat_official": true
   },
@@ -163,7 +163,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 479,
+    "employment_est": 440,
     "name_zh": "Typist/Word processing operator",
     "singstat_official": true
   },
@@ -187,7 +187,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 464,
+    "employment_est": 426,
     "name_zh": "数据录入员",
     "singstat_official": true
   },
@@ -211,7 +211,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 449,
+    "employment_est": 412,
     "name_zh": "Bank teller",
     "singstat_official": true
   },
@@ -235,7 +235,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 433,
+    "employment_est": 398,
     "name_zh": "Postal service counter clerk",
     "singstat_official": true
   },
@@ -259,7 +259,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 418,
+    "employment_est": 384,
     "name_zh": "Money changer",
     "singstat_official": true
   },
@@ -283,7 +283,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 403,
+    "employment_est": 371,
     "name_zh": "Bank teller and related counter clerk n.e.c.",
     "singstat_official": true
   },
@@ -307,7 +307,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 388,
+    "employment_est": 357,
     "name_zh": "Pawnbroker",
     "singstat_official": true
   },
@@ -331,7 +331,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 373,
+    "employment_est": 343,
     "name_zh": "Moneylender",
     "singstat_official": true
   },
@@ -355,7 +355,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 358,
+    "employment_est": 329,
     "name_zh": "Bill collector",
     "singstat_official": true
   },
@@ -379,7 +379,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 343,
+    "employment_est": 315,
     "name_zh": "Bill collector and related worker n.e.c.",
     "singstat_official": true
   },
@@ -403,7 +403,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 328,
+    "employment_est": 301,
     "name_zh": "Travel consultant/reservation executive",
     "singstat_official": true
   },
@@ -427,7 +427,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 313,
+    "employment_est": 287,
     "name_zh": "Telephone operator",
     "singstat_official": true
   },
@@ -451,7 +451,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 600,
+    "employment_est": 551,
     "name_zh": "Receptionist (general)",
     "singstat_official": true
   },
@@ -475,7 +475,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 584,
+    "employment_est": 537,
     "name_zh": "Hotel receptionist",
     "singstat_official": true
   },
@@ -499,7 +499,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 569,
+    "employment_est": 523,
     "name_zh": "Medical/Dental receptionist",
     "singstat_official": true
   },
@@ -523,7 +523,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 554,
+    "employment_est": 509,
     "name_zh": "Passenger services agent",
     "singstat_official": true
   },
@@ -547,7 +547,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 539,
+    "employment_est": 495,
     "name_zh": "Customer service officer/clerk",
     "singstat_official": true
   },
@@ -571,7 +571,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 524,
+    "employment_est": 482,
     "name_zh": "Contact centre information clerk",
     "singstat_official": true
   },
@@ -595,7 +595,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 509,
+    "employment_est": 468,
     "name_zh": "Hotel executive",
     "singstat_official": true
   },
@@ -619,7 +619,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 494,
+    "employment_est": 454,
     "name_zh": "Receptionist/Customer service/information clerk n.e.c.",
     "singstat_official": true
   },
@@ -643,7 +643,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 479,
+    "employment_est": 440,
     "name_zh": "Client information clerk n.e.c.",
     "singstat_official": true
   },
@@ -667,7 +667,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 464,
+    "employment_est": 426,
     "name_zh": "Bookkeeper",
     "singstat_official": true
   },
@@ -691,7 +691,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 449,
+    "employment_est": 412,
     "name_zh": "Ledger/Accounts clerk",
     "singstat_official": true
   },
@@ -715,7 +715,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 433,
+    "employment_est": 398,
     "name_zh": "Audit clerk",
     "singstat_official": true
   },
@@ -739,7 +739,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 418,
+    "employment_est": 384,
     "name_zh": "Payroll/Wages clerk",
     "singstat_official": true
   },
@@ -763,7 +763,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 403,
+    "employment_est": 371,
     "name_zh": "Billing clerk",
     "singstat_official": true
   },
@@ -787,7 +787,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 388,
+    "employment_est": 357,
     "name_zh": "Procurement/Purchasing clerk",
     "singstat_official": true
   },
@@ -811,7 +811,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 373,
+    "employment_est": 343,
     "name_zh": "Accounting/Bookkeeping clerk n.e.c.",
     "singstat_official": true
   },
@@ -835,7 +835,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 358,
+    "employment_est": 329,
     "name_zh": "Bank operations clerk",
     "singstat_official": true
   },
@@ -859,7 +859,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 343,
+    "employment_est": 315,
     "name_zh": "Insurance/Underwriting clerk",
     "singstat_official": true
   },
@@ -883,7 +883,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 328,
+    "employment_est": 301,
     "name_zh": "Securities clerk",
     "singstat_official": true
   },
@@ -907,7 +907,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 313,
+    "employment_est": 287,
     "name_zh": "Finance/Insurance clerk n.e.c.",
     "singstat_official": true
   },
@@ -931,7 +931,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 600,
+    "employment_est": 551,
     "name_zh": "Statistical clerk",
     "singstat_official": true
   },
@@ -955,7 +955,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 584,
+    "employment_est": 537,
     "name_zh": "Enumerator/Market research interviewer",
     "singstat_official": true
   },
@@ -979,7 +979,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 569,
+    "employment_est": 523,
     "name_zh": "Data processing control clerk",
     "singstat_official": true
   },
@@ -1003,7 +1003,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 554,
+    "employment_est": 509,
     "name_zh": "Computer operations clerk n.e.c.",
     "singstat_official": true
   },
@@ -1027,7 +1027,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 539,
+    "employment_est": 495,
     "name_zh": "Stock records clerk",
     "singstat_official": true
   },
@@ -1051,7 +1051,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 524,
+    "employment_est": 482,
     "name_zh": "Storekeeper",
     "singstat_official": true
   },
@@ -1075,7 +1075,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 509,
+    "employment_est": 468,
     "name_zh": "Stock clerk n.e.c.",
     "singstat_official": true
   },
@@ -1099,7 +1099,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 494,
+    "employment_est": 454,
     "name_zh": "Material planning clerk",
     "singstat_official": true
   },
@@ -1123,7 +1123,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 479,
+    "employment_est": 440,
     "name_zh": "Production planning clerk",
     "singstat_official": true
   },
@@ -1147,7 +1147,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 464,
+    "employment_est": 426,
     "name_zh": "Production clerk n.e.c.",
     "singstat_official": true
   },
@@ -1171,7 +1171,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 449,
+    "employment_est": 412,
     "name_zh": "Shipping clerk",
     "singstat_official": true
   },
@@ -1195,7 +1195,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 433,
+    "employment_est": 398,
     "name_zh": "Land transport clerk",
     "singstat_official": true
   },
@@ -1219,7 +1219,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 418,
+    "employment_est": 384,
     "name_zh": "Air transport clerk",
     "singstat_official": true
   },
@@ -1243,7 +1243,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 403,
+    "employment_est": 371,
     "name_zh": "Transport clerk n.e.c.",
     "singstat_official": true
   },
@@ -1267,7 +1267,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 388,
+    "employment_est": 357,
     "name_zh": "Library clerk",
     "singstat_official": true
   },
@@ -1291,7 +1291,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 373,
+    "employment_est": 343,
     "name_zh": "Postal service supervisor",
     "singstat_official": true
   },
@@ -1315,7 +1315,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 358,
+    "employment_est": 329,
     "name_zh": "Postman",
     "singstat_official": true
   },
@@ -1339,7 +1339,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 343,
+    "employment_est": 315,
     "name_zh": "Process server",
     "singstat_official": true
   },
@@ -1363,7 +1363,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 328,
+    "employment_est": 301,
     "name_zh": "Mail carrier/sorting worker n.e.c.",
     "singstat_official": true
   },
@@ -1387,7 +1387,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 313,
+    "employment_est": 287,
     "name_zh": "Legal clerk",
     "singstat_official": true
   },
@@ -1411,7 +1411,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 600,
+    "employment_est": 551,
     "name_zh": "Proofreading clerk",
     "singstat_official": true
   },
@@ -1435,7 +1435,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 584,
+    "employment_est": 537,
     "name_zh": "Other clerical support worker n.e.c.",
     "singstat_official": true
   },
@@ -1459,7 +1459,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 569,
+    "employment_est": 523,
     "name_zh": "PROFESSIONALS",
     "singstat_official": true
   },
@@ -1483,7 +1483,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 554,
+    "employment_est": 509,
     "name_zh": "ASSOCIATE PROFESSIONALS AND TECHNICIANS",
     "singstat_official": true
   },
@@ -1507,7 +1507,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 539,
+    "employment_est": 495,
     "name_zh": "CLERICAL SUPPORT WORKERS",
     "singstat_official": true
   },
@@ -1531,7 +1531,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 524,
+    "employment_est": 482,
     "name_zh": "SERVICES AND SALES WORKERS",
     "singstat_official": true
   },
@@ -1555,7 +1555,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 509,
+    "employment_est": 468,
     "name_zh": "AGRICULTURAL AND FISHERY WORKERS",
     "singstat_official": true
   },
@@ -1579,7 +1579,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 494,
+    "employment_est": 454,
     "name_zh": "CRAFTSMEN AND RELATED TRADES WORKERS",
     "singstat_official": true
   },
@@ -1603,7 +1603,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 479,
+    "employment_est": 440,
     "name_zh": "PLANT AND MACHINE OPERATORS AND ASSEMBLERS",
     "singstat_official": true
   },
@@ -1627,7 +1627,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 464,
+    "employment_est": 426,
     "name_zh": "清洁工",
     "singstat_official": true
   },
@@ -1651,7 +1651,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 449,
+    "employment_est": 412,
     "name_zh": "LEGISLATORS, SENIOR OFFICIALS AND CHIEF EXECUTIVES",
     "singstat_official": true
   },
@@ -1675,7 +1675,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 433,
+    "employment_est": 398,
     "name_zh": "ADMINISTRATIVE AND COMMERCIAL MANAGERS",
     "singstat_official": true
   },
@@ -1699,7 +1699,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 418,
+    "employment_est": 384,
     "name_zh": "PRODUCTION AND SPECIALISED SERVICES MANAGERS",
     "singstat_official": true
   },
@@ -1723,7 +1723,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 403,
+    "employment_est": 371,
     "name_zh": "HOSPITALITY, RETAIL AND RELATED SERVICES MANAGERS",
     "singstat_official": true
   },
@@ -1747,7 +1747,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 388,
+    "employment_est": 357,
     "name_zh": "SCIENCE AND ENGINEERING PROFESSIONALS",
     "singstat_official": true
   },
@@ -1771,7 +1771,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 373,
+    "employment_est": 343,
     "name_zh": "HEALTH PROFESSIONALS",
     "singstat_official": true
   },
@@ -1795,7 +1795,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 358,
+    "employment_est": 329,
     "name_zh": "TEACHING AND TRAINING PROFESSIONALS",
     "singstat_official": true
   },
@@ -1819,7 +1819,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 343,
+    "employment_est": 315,
     "name_zh": "BUSINESS AND ADMINISTRATION PROFESSIONALS",
     "singstat_official": true
   },
@@ -1843,7 +1843,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 328,
+    "employment_est": 301,
     "name_zh": "INFORMATION AND COMMUNICATIONS TECHNOLOGY (ICT) PROFESSIONALS",
     "singstat_official": true
   },
@@ -1867,7 +1867,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 313,
+    "employment_est": 287,
     "name_zh": "LEGAL, SOCIAL, RELIGIOUS AND CULTURAL PROFESSIONALS",
     "singstat_official": true
   },
@@ -1891,7 +1891,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 600,
+    "employment_est": 551,
     "name_zh": "PHYSICAL AND ENGINEERING SCIENCE ASSOCIATE PROFESSIONALS",
     "singstat_official": true
   },
@@ -1915,7 +1915,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 584,
+    "employment_est": 537,
     "name_zh": "HEALTH ASSOCIATE PROFESSIONALS",
     "singstat_official": true
   },
@@ -1939,7 +1939,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 569,
+    "employment_est": 523,
     "name_zh": "BUSINESS AND ADMINISTRATION ASSOCIATE PROFESSIONALS",
     "singstat_official": true
   },
@@ -1963,7 +1963,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 554,
+    "employment_est": 509,
     "name_zh": "LEGAL, SOCIAL, CULTURAL AND RELATED ASSOCIATE PROFESSIONALS",
     "singstat_official": true
   },
@@ -1987,7 +1987,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 539,
+    "employment_est": 495,
     "name_zh": "INFORMATION AND COMMUNICATIONS TECHNICIANS",
     "singstat_official": true
   },
@@ -2011,7 +2011,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 524,
+    "employment_est": 482,
     "name_zh": "TEACHING ASSOCIATE PROFESSIONALS",
     "singstat_official": true
   },
@@ -2035,7 +2035,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 509,
+    "employment_est": 468,
     "name_zh": "OTHER ASSOCIATE PROFESSIONALS NOT ELSEWHERE CLASSIFIED",
     "singstat_official": true
   },
@@ -2059,7 +2059,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 494,
+    "employment_est": 454,
     "name_zh": "CLERICAL SUPERVISORS",
     "singstat_official": true
   },
@@ -2083,7 +2083,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 479,
+    "employment_est": 440,
     "name_zh": "GENERAL AND KEYBOARD CLERKS",
     "singstat_official": true
   },
@@ -2107,7 +2107,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 464,
+    "employment_est": 426,
     "name_zh": "CUSTOMER SERVICES OFFICERS AND CLERKS",
     "singstat_official": true
   },
@@ -2131,7 +2131,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 449,
+    "employment_est": 412,
     "name_zh": "NUMERICAL AND MATERIAL-RECORDING CLERKS",
     "singstat_official": true
   },
@@ -2155,7 +2155,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 433,
+    "employment_est": 398,
     "name_zh": "OTHER CLERICAL SUPPORT WORKERS",
     "singstat_official": true
   },
@@ -2179,7 +2179,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 418,
+    "employment_est": 384,
     "name_zh": "PERSONAL SERVICES WORKERS",
     "singstat_official": true
   },
@@ -2203,7 +2203,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 403,
+    "employment_est": 371,
     "name_zh": "SALES WORKERS",
     "singstat_official": true
   },
@@ -2227,7 +2227,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 388,
+    "employment_est": 357,
     "name_zh": "PERSONAL CARE WORKERS",
     "singstat_official": true
   },
@@ -2251,7 +2251,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 373,
+    "employment_est": 343,
     "name_zh": "PROTECTIVE SERVICES WORKERS",
     "singstat_official": true
   },
@@ -2275,7 +2275,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 358,
+    "employment_est": 329,
     "name_zh": "SERVICES WORKERS NOT ELSEWHERE CLASSIFIED",
     "singstat_official": true
   },
@@ -2299,7 +2299,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 343,
+    "employment_est": 315,
     "name_zh": "AGRICULTURAL WORKERS",
     "singstat_official": true
   },
@@ -2323,7 +2323,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 328,
+    "employment_est": 301,
     "name_zh": "FISHERY WORKERS",
     "singstat_official": true
   },
@@ -2347,7 +2347,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 313,
+    "employment_est": 287,
     "name_zh": "BUILDING AND RELATED TRADES WORKERS (EXCLUDING ELECTRICIANS)",
     "singstat_official": true
   },
@@ -2371,7 +2371,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 600,
+    "employment_est": 551,
     "name_zh": "METAL, MACHINERY AND RELATED TRADES WORKERS",
     "singstat_official": true
   },
@@ -2395,7 +2395,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 584,
+    "employment_est": 537,
     "name_zh": "PRECISION, HANDICRAFT, PRINTING AND RELATED TRADES WORKERS",
     "singstat_official": true
   },
@@ -2419,7 +2419,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 569,
+    "employment_est": 523,
     "name_zh": "ELECTRICAL AND ELECTRONIC TRADES WORKERS",
     "singstat_official": true
   },
@@ -2443,7 +2443,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 554,
+    "employment_est": 509,
     "name_zh": "FOOD PROCESSING, WOODWORKING, GARMENT, LEATHER AND OTHER CRAFT AND RELATED TRADES WORKERS",
     "singstat_official": true
   },
@@ -2467,7 +2467,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 539,
+    "employment_est": 495,
     "name_zh": "STATIONARY PLANT AND MACHINE OPERATORS",
     "singstat_official": true
   },
@@ -2491,7 +2491,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 524,
+    "employment_est": 482,
     "name_zh": "ASSEMBLERS AND QUALITY CHECKERS",
     "singstat_official": true
   },
@@ -2515,7 +2515,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 509,
+    "employment_est": 468,
     "name_zh": "DRIVERS AND MOBILE MACHINERY OPERATORS",
     "singstat_official": true
   },
@@ -2539,7 +2539,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 494,
+    "employment_est": 454,
     "name_zh": "清洁工",
     "singstat_official": true
   },
@@ -2563,7 +2563,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 479,
+    "employment_est": 440,
     "name_zh": "AGRICULTURAL, FISHERY AND RELATED LABOURERS",
     "singstat_official": true
   },
@@ -2587,7 +2587,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 464,
+    "employment_est": 426,
     "name_zh": "LABOURERS AND RELATED WORKERS",
     "singstat_official": true
   },
@@ -2611,7 +2611,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 449,
+    "employment_est": 412,
     "name_zh": "FOOD PREPARATION AND KITCHEN ASSISTANTS",
     "singstat_official": true
   },
@@ -2635,7 +2635,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 433,
+    "employment_est": 398,
     "name_zh": "WASTE COLLECTION, RECYCLING AND MATERIAL RECOVERY WORKERS AND OTHER ELEMENTARY WORKERS",
     "singstat_official": true
   },
@@ -2659,7 +2659,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 418,
+    "employment_est": 384,
     "name_zh": "LEGISLATORS AND SENIOR OFFICIALS",
     "singstat_official": true
   },
@@ -2683,7 +2683,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 403,
+    "employment_est": 371,
     "name_zh": "MANAGING DIRECTORS, CHIEF EXECUTIVES AND GENERAL MANAGERS",
     "singstat_official": true
   },
@@ -2707,7 +2707,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 388,
+    "employment_est": 357,
     "name_zh": "BUSINESS SERVICES AND ADMINISTRATION MANAGERS",
     "singstat_official": true
   },
@@ -2731,7 +2731,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 373,
+    "employment_est": 343,
     "name_zh": "SALES, MARKETING, DEVELOPMENT AND CUSTOMER SERVICE MANAGERS",
     "singstat_official": true
   },
@@ -2755,7 +2755,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 358,
+    "employment_est": 329,
     "name_zh": "PRODUCTION MANAGERS IN AGRICULTURE AND FISHERIES",
     "singstat_official": true
   },
@@ -2779,7 +2779,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 343,
+    "employment_est": 315,
     "name_zh": "MANUFACTURING, CONSTRUCTION, TRANSPORT, DISTRIBUTION AND RELATED PRODUCTION AND OPERATIONS MANAGERS",
     "singstat_official": true
   },
@@ -2803,7 +2803,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 328,
+    "employment_est": 301,
     "name_zh": "INFORMATION AND COMMUNICATIONS TECHNOLOGY SERVICE MANAGERS",
     "singstat_official": true
   },
@@ -2827,7 +2827,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 313,
+    "employment_est": 287,
     "name_zh": "PROFESSIONAL, FINANCIAL, COMMUNITY AND SOCIAL SERVICES MANAGERS",
     "singstat_official": true
   },
@@ -2851,7 +2851,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 600,
+    "employment_est": 551,
     "name_zh": "HOTEL AND FOOD AND BEVERAGES SERVICES MANAGERS",
     "singstat_official": true
   },
@@ -2875,7 +2875,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 584,
+    "employment_est": 537,
     "name_zh": "RETAIL AND WHOLESALE TRADE MANAGERS",
     "singstat_official": true
   },
@@ -2899,7 +2899,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 569,
+    "employment_est": 523,
     "name_zh": "OTHER SERVICES MANAGERS",
     "singstat_official": true
   },
@@ -2923,7 +2923,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 554,
+    "employment_est": 509,
     "name_zh": "PHYSICAL AND EARTH SCIENCE PROFESSIONALS",
     "singstat_official": true
   },
@@ -2947,7 +2947,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 539,
+    "employment_est": 495,
     "name_zh": "MATHEMATICIANS, ACTUARIES, STATISTICIANS AND RELATED PROFESSIONALS",
     "singstat_official": true
   },
@@ -2971,7 +2971,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 524,
+    "employment_est": 482,
     "name_zh": "LIFE SCIENCE PROFESSIONALS",
     "singstat_official": true
   },
@@ -2995,7 +2995,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 509,
+    "employment_est": 468,
     "name_zh": "ENGINEERING PROFESSIONALS I",
     "singstat_official": true
   },
@@ -3019,7 +3019,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 494,
+    "employment_est": 454,
     "name_zh": "ENGINEERING PROFESSIONALS II (Cont’d)",
     "singstat_official": true
   },
@@ -3043,7 +3043,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 479,
+    "employment_est": 440,
     "name_zh": "ARCHITECTS, PLANNERS, SURVEYORS AND DESIGNERS",
     "singstat_official": true
   },
@@ -3067,7 +3067,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 464,
+    "employment_est": 426,
     "name_zh": "SHIP AND AIRCRAFT RELATED PROFESSIONALS",
     "singstat_official": true
   },
@@ -3091,8 +3091,8 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 449,
-    "name_zh": "MEDICAL DOCTORS",
+    "employment_est": 412,
+    "name_zh": "医生",
     "singstat_official": true
   },
   {
@@ -3115,7 +3115,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 433,
+    "employment_est": 398,
     "name_zh": "NURSING PROFESSIONALS",
     "singstat_official": true
   },
@@ -3139,7 +3139,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 418,
+    "employment_est": 384,
     "name_zh": "TRADITIONAL AND COMPLEMENTARY MEDICINE PROFESSIONALS",
     "singstat_official": true
   },
@@ -3163,7 +3163,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 403,
+    "employment_est": 371,
     "name_zh": "VETERINARIANS",
     "singstat_official": true
   },
@@ -3187,7 +3187,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 388,
+    "employment_est": 357,
     "name_zh": "OTHER HEALTH PROFESSIONALS",
     "singstat_official": true
   },
@@ -3211,8 +3211,8 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 373,
-    "name_zh": "UNIVERSITY, POLYTECHNIC AND HIGHER EDUCATION TEACHERS",
+    "employment_est": 343,
+    "name_zh": "教师",
     "singstat_official": true
   },
   {
@@ -3235,8 +3235,8 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 358,
-    "name_zh": "JUNIOR COLLEGE AND PRE-UNIVERSITY EDUCATION TEACHERS",
+    "employment_est": 329,
+    "name_zh": "教师",
     "singstat_official": true
   },
   {
@@ -3259,8 +3259,8 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 343,
-    "name_zh": "VOCATIONAL EDUCATION TEACHERS AND TRAINERS",
+    "employment_est": 315,
+    "name_zh": "教师",
     "singstat_official": true
   },
   {
@@ -3283,8 +3283,8 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 328,
-    "name_zh": "SECONDARY EDUCATION TEACHERS",
+    "employment_est": 301,
+    "name_zh": "教师",
     "singstat_official": true
   },
   {
@@ -3307,8 +3307,8 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 313,
-    "name_zh": "PRIMARY EDUCATION TEACHERS",
+    "employment_est": 287,
+    "name_zh": "教师",
     "singstat_official": true
   },
   {
@@ -3331,7 +3331,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 600,
+    "employment_est": 551,
     "name_zh": "OTHER TEACHING PROFESSIONALS",
     "singstat_official": true
   },
@@ -3355,7 +3355,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 584,
+    "employment_est": 537,
     "name_zh": "FINANCE PROFESSIONALS",
     "singstat_official": true
   },
@@ -3379,7 +3379,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 569,
+    "employment_est": 523,
     "name_zh": "ADMINISTRATION PROFESSIONALS",
     "singstat_official": true
   },
@@ -3403,7 +3403,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 400,
+    "employment_est": 367,
     "name_zh": "MARKETING AND PUBLIC RELATIONS PROFESSIONALS",
     "singstat_official": true
   },
@@ -3427,7 +3427,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 799,
+    "employment_est": 735,
     "name_zh": "SOFTWARE AND APPLICATIONS DEVELOPERS AND ANALYSTS",
     "singstat_official": true
   },
@@ -3451,7 +3451,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 466,
+    "employment_est": 428,
     "name_zh": "Physicist/Astronomer",
     "singstat_official": true
   },
@@ -3475,7 +3475,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 776,
+    "employment_est": 714,
     "name_zh": "Meteorologist",
     "singstat_official": true
   },
@@ -3499,7 +3499,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 761,
+    "employment_est": 700,
     "name_zh": "Chemist",
     "singstat_official": true
   },
@@ -3523,7 +3523,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 746,
+    "employment_est": 686,
     "name_zh": "Geologist",
     "singstat_official": true
   },
@@ -3547,7 +3547,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 731,
+    "employment_est": 672,
     "name_zh": "Geophysicist",
     "singstat_official": true
   },
@@ -3571,7 +3571,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 716,
+    "employment_est": 658,
     "name_zh": "Geologist/Geophysicist and related physical science professional n.e.c.",
     "singstat_official": true
   },
@@ -3595,7 +3595,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 701,
+    "employment_est": 644,
     "name_zh": "Mathematician",
     "singstat_official": true
   },
@@ -3619,7 +3619,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 686,
+    "employment_est": 630,
     "name_zh": "Operations research analyst",
     "singstat_official": true
   },
@@ -3643,7 +3643,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 671,
+    "employment_est": 616,
     "name_zh": "Actuary",
     "singstat_official": true
   },
@@ -3667,7 +3667,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 656,
+    "employment_est": 603,
     "name_zh": "Statistician",
     "singstat_official": true
   },
@@ -3691,8 +3691,8 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 641,
-    "name_zh": "Data scientist",
+    "employment_est": 589,
+    "name_zh": "数据科学家",
     "singstat_official": true
   },
   {
@@ -3715,7 +3715,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 626,
+    "employment_est": 575,
     "name_zh": "Statistical officer/Data analyst",
     "singstat_official": true
   },
@@ -3739,7 +3739,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 610,
+    "employment_est": 561,
     "name_zh": "Other statistical/mathematical/actuarial professional n.e.c.",
     "singstat_official": true
   },
@@ -3763,7 +3763,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 595,
+    "employment_est": 547,
     "name_zh": "Biologist",
     "singstat_official": true
   },
@@ -3787,7 +3787,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 580,
+    "employment_est": 533,
     "name_zh": "Zoologist",
     "singstat_official": true
   },
@@ -3811,7 +3811,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 565,
+    "employment_est": 519,
     "name_zh": "Biologist/Botanist/Zoologist and related professional n.e.c.",
     "singstat_official": true
   },
@@ -3835,7 +3835,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 550,
+    "employment_est": 505,
     "name_zh": "Horticulturist/Arborist",
     "singstat_official": true
   },
@@ -3859,7 +3859,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 535,
+    "employment_est": 492,
     "name_zh": "Aquaculturist",
     "singstat_official": true
   },
@@ -3883,7 +3883,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 520,
+    "employment_est": 478,
     "name_zh": "Agriculturist",
     "singstat_official": true
   },
@@ -3907,7 +3907,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 807,
+    "employment_est": 741,
     "name_zh": "Farming/Forestry/Fishery adviser n.e.c.",
     "singstat_official": true
   },
@@ -3931,7 +3931,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 792,
+    "employment_est": 727,
     "name_zh": "Environmental officer (environmental protection)",
     "singstat_official": true
   },
@@ -3955,7 +3955,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 776,
+    "employment_est": 714,
     "name_zh": "Environment research scientist",
     "singstat_official": true
   },
@@ -3979,7 +3979,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 761,
+    "employment_est": 700,
     "name_zh": "Environmental analyst",
     "singstat_official": true
   },
@@ -4003,7 +4003,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 746,
+    "employment_est": 686,
     "name_zh": "Environmental protection and related professional n.e.c.",
     "singstat_official": true
   },
@@ -4027,7 +4027,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 731,
+    "employment_est": 672,
     "name_zh": "Pharmacologist",
     "singstat_official": true
   },
@@ -4051,7 +4051,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 716,
+    "employment_est": 658,
     "name_zh": "Medical laboratory scientist",
     "singstat_official": true
   },
@@ -4075,7 +4075,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 701,
+    "employment_est": 644,
     "name_zh": "Biochemist",
     "singstat_official": true
   },
@@ -4099,7 +4099,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 686,
+    "employment_est": 630,
     "name_zh": "Physiologist",
     "singstat_official": true
   },
@@ -4123,7 +4123,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 671,
+    "employment_est": 616,
     "name_zh": "Animal scientist",
     "singstat_official": true
   },
@@ -4147,7 +4147,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 656,
+    "employment_est": 603,
     "name_zh": "Medical scientist",
     "singstat_official": true
   },
@@ -4171,7 +4171,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 641,
+    "employment_est": 589,
     "name_zh": "Clinical research professional",
     "singstat_official": true
   },
@@ -4195,7 +4195,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 626,
+    "employment_est": 575,
     "name_zh": "Pharmacologist and related professional n.e.c.",
     "singstat_official": true
   },
@@ -4219,7 +4219,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 610,
+    "employment_est": 561,
     "name_zh": "Manufacturing engineer",
     "singstat_official": true
   },
@@ -4243,7 +4243,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 595,
+    "employment_est": 547,
     "name_zh": "Production engineer",
     "singstat_official": true
   },
@@ -4267,7 +4267,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 580,
+    "employment_est": 533,
     "name_zh": "Automation engineer",
     "singstat_official": true
   },
@@ -4291,7 +4291,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 565,
+    "employment_est": 519,
     "name_zh": "Quality control/assurance engineer",
     "singstat_official": true
   },
@@ -4315,7 +4315,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 550,
+    "employment_est": 505,
     "name_zh": "Process engineer",
     "singstat_official": true
   },
@@ -4339,7 +4339,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 535,
+    "employment_est": 492,
     "name_zh": "土木工程师",
     "singstat_official": true
   },
@@ -4363,7 +4363,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 520,
+    "employment_est": 478,
     "name_zh": "Building construction engineer",
     "singstat_official": true
   },
@@ -4387,7 +4387,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 807,
+    "employment_est": 741,
     "name_zh": "Environmental engineer",
     "singstat_official": true
   },
@@ -4411,7 +4411,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 792,
+    "employment_est": 727,
     "name_zh": "Mechanical engineer",
     "singstat_official": true
   },
@@ -4435,7 +4435,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 776,
+    "employment_est": 714,
     "name_zh": "Industrial machinery/tools engineer",
     "singstat_official": true
   },
@@ -4459,7 +4459,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 761,
+    "employment_est": 700,
     "name_zh": "Air-conditioning/Refrigeration engineer",
     "singstat_official": true
   },
@@ -4483,7 +4483,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 746,
+    "employment_est": 686,
     "name_zh": "Port equipment engineer",
     "singstat_official": true
   },
@@ -4507,7 +4507,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 731,
+    "employment_est": 672,
     "name_zh": "Chemical engineer (excluding petroleum and petrochemical)",
     "singstat_official": true
   },
@@ -4531,7 +4531,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 716,
+    "employment_est": 658,
     "name_zh": "Chemical engineer (petroleum)",
     "singstat_official": true
   },
@@ -4555,7 +4555,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 701,
+    "employment_est": 644,
     "name_zh": "Chemical engineer (petrochemical)",
     "singstat_official": true
   },
@@ -4579,7 +4579,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 686,
+    "employment_est": 630,
     "name_zh": "Food/Drink technologist",
     "singstat_official": true
   },
@@ -4603,7 +4603,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 671,
+    "employment_est": 616,
     "name_zh": "Mining engineer/Metallurgist and related professional",
     "singstat_official": true
   },
@@ -4627,7 +4627,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 656,
+    "employment_est": 603,
     "name_zh": "Aeronautical engineer",
     "singstat_official": true
   },
@@ -4651,7 +4651,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 641,
+    "employment_est": 589,
     "name_zh": "Automotive engineer",
     "singstat_official": true
   },
@@ -4675,7 +4675,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 626,
+    "employment_est": 575,
     "name_zh": "Marine engineer",
     "singstat_official": true
   },
@@ -4699,7 +4699,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 610,
+    "employment_est": 561,
     "name_zh": "Naval architect",
     "singstat_official": true
   },
@@ -4723,7 +4723,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 595,
+    "employment_est": 547,
     "name_zh": "Rolling stock engineer",
     "singstat_official": true
   },
@@ -4747,7 +4747,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 580,
+    "employment_est": 533,
     "name_zh": "Biomedical engineer",
     "singstat_official": true
   },
@@ -4771,7 +4771,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 565,
+    "employment_est": 519,
     "name_zh": "Materials engineer",
     "singstat_official": true
   },
@@ -4795,7 +4795,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 550,
+    "employment_est": 505,
     "name_zh": "Industrial safety engineer",
     "singstat_official": true
   },
@@ -4819,7 +4819,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 535,
+    "employment_est": 492,
     "name_zh": "Quantity surveyor",
     "singstat_official": true
   },
@@ -4843,7 +4843,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 520,
+    "employment_est": 478,
     "name_zh": "Intellectual property engineer",
     "singstat_official": true
   },
@@ -4867,7 +4867,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 807,
+    "employment_est": 741,
     "name_zh": "Energy engineer",
     "singstat_official": true
   },
@@ -4891,7 +4891,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 792,
+    "employment_est": 727,
     "name_zh": "Optical engineer",
     "singstat_official": true
   },
@@ -4915,7 +4915,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 776,
+    "employment_est": 714,
     "name_zh": "Procurement engineer",
     "singstat_official": true
   },
@@ -4939,7 +4939,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 761,
+    "employment_est": 700,
     "name_zh": "Other engineering professional n.e.c.",
     "singstat_official": true
   },
@@ -4963,7 +4963,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 746,
+    "employment_est": 686,
     "name_zh": "Electrical engineer",
     "singstat_official": true
   },
@@ -4987,7 +4987,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 731,
+    "employment_est": 672,
     "name_zh": "Power generation/Distribution engineer",
     "singstat_official": true
   },
@@ -5011,7 +5011,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 716,
+    "employment_est": 658,
     "name_zh": "Lift engineer",
     "singstat_official": true
   },
@@ -5035,7 +5035,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 701,
+    "employment_est": 644,
     "name_zh": "Electronics engineer",
     "singstat_official": true
   },
@@ -5059,7 +5059,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 686,
+    "employment_est": 630,
     "name_zh": "Computer engineer",
     "singstat_official": true
   },
@@ -5083,7 +5083,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 671,
+    "employment_est": 616,
     "name_zh": "Semi-conductor engineer",
     "singstat_official": true
   },
@@ -5107,7 +5107,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 656,
+    "employment_est": 603,
     "name_zh": "Audio/Video equipment engineer",
     "singstat_official": true
   },
@@ -5131,7 +5131,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 641,
+    "employment_est": 589,
     "name_zh": "Instrumentation engineer",
     "singstat_official": true
   },
@@ -5155,7 +5155,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 626,
+    "employment_est": 575,
     "name_zh": "Embedded systems engineer",
     "singstat_official": true
   },
@@ -5179,7 +5179,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 610,
+    "employment_est": 561,
     "name_zh": "Media/Broadcast engineer",
     "singstat_official": true
   },
@@ -5203,7 +5203,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 595,
+    "employment_est": 547,
     "name_zh": "Telecommunications engineer",
     "singstat_official": true
   },
@@ -5227,7 +5227,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 580,
+    "employment_est": 533,
     "name_zh": "Building architect",
     "singstat_official": true
   },
@@ -5251,7 +5251,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 565,
+    "employment_est": 519,
     "name_zh": "Landscape architect",
     "singstat_official": true
   },
@@ -5275,7 +5275,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 550,
+    "employment_est": 505,
     "name_zh": "Landscape designer",
     "singstat_official": true
   },
@@ -5299,7 +5299,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 535,
+    "employment_est": 492,
     "name_zh": "Fashion designer",
     "singstat_official": true
   },
@@ -5323,7 +5323,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 520,
+    "employment_est": 478,
     "name_zh": "Product/Industrial designer",
     "singstat_official": true
   },
@@ -5347,7 +5347,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 807,
+    "employment_est": 741,
     "name_zh": "Urban planner",
     "singstat_official": true
   },
@@ -5371,7 +5371,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 792,
+    "employment_est": 727,
     "name_zh": "Urban and related planner n.e.c.",
     "singstat_official": true
   },
@@ -5395,7 +5395,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 776,
+    "employment_est": 714,
     "name_zh": "Land surveyor",
     "singstat_official": true
   },
@@ -5419,7 +5419,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 761,
+    "employment_est": 700,
     "name_zh": "Hydrographic surveyor",
     "singstat_official": true
   },
@@ -5443,7 +5443,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 746,
+    "employment_est": 686,
     "name_zh": "Surveyor/Cartographer n.e.c.",
     "singstat_official": true
   },
@@ -5467,7 +5467,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 731,
+    "employment_est": 672,
     "name_zh": "Graphic designer",
     "singstat_official": true
   },
@@ -5491,7 +5491,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 716,
+    "employment_est": 658,
     "name_zh": "Multimedia designer/artist/animator",
     "singstat_official": true
   },
@@ -5515,7 +5515,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 701,
+    "employment_est": 644,
     "name_zh": "Graphic/Multimedia designer/artist n.e.c.",
     "singstat_official": true
   },
@@ -5539,7 +5539,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 686,
+    "employment_est": 630,
     "name_zh": "Service designer",
     "singstat_official": true
   },
@@ -5563,7 +5563,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 671,
+    "employment_est": 616,
     "name_zh": "Chief/Second engineer (ship)",
     "singstat_official": true
   },
@@ -5587,7 +5587,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 656,
+    "employment_est": 603,
     "name_zh": "Technical superintendent",
     "singstat_official": true
   },
@@ -5611,7 +5611,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 641,
+    "employment_est": 589,
     "name_zh": "Ship captain/Chief mate",
     "singstat_official": true
   },
@@ -5635,7 +5635,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 626,
+    "employment_est": 575,
     "name_zh": "Marine superintendent",
     "singstat_official": true
   },
@@ -5659,7 +5659,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 610,
+    "employment_est": 561,
     "name_zh": "Commercial airline pilot",
     "singstat_official": true
   },
@@ -5683,7 +5683,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 595,
+    "employment_est": 547,
     "name_zh": "Aircraft pilot (excluding commercial airline and air force)",
     "singstat_official": true
   },
@@ -5707,7 +5707,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 580,
+    "employment_est": 533,
     "name_zh": "Flying instructor (excluding air force)",
     "singstat_official": true
   },
@@ -5731,7 +5731,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 565,
+    "employment_est": 519,
     "name_zh": "Flight engineer",
     "singstat_official": true
   },
@@ -5755,7 +5755,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 550,
+    "employment_est": 505,
     "name_zh": "Aircraft pilot and related professional n.e.c.",
     "singstat_official": true
   },
@@ -5779,7 +5779,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 535,
+    "employment_est": 492,
     "name_zh": "General practitioner/physician",
     "singstat_official": true
   },
@@ -5803,7 +5803,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 520,
+    "employment_est": 478,
     "name_zh": "Cardiologist",
     "singstat_official": true
   },
@@ -5827,7 +5827,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 807,
+    "employment_est": 741,
     "name_zh": "Dermatologist",
     "singstat_official": true
   },
@@ -5851,7 +5851,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 792,
+    "employment_est": 727,
     "name_zh": "Gastroenterologist",
     "singstat_official": true
   },
@@ -5875,7 +5875,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 776,
+    "employment_est": 714,
     "name_zh": "Internal medicine physician",
     "singstat_official": true
   },
@@ -5899,7 +5899,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 761,
+    "employment_est": 700,
     "name_zh": "Medical oncologist",
     "singstat_official": true
   },
@@ -5923,7 +5923,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 746,
+    "employment_est": 686,
     "name_zh": "Paediatrician",
     "singstat_official": true
   },
@@ -5947,7 +5947,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 731,
+    "employment_est": 672,
     "name_zh": "Respiratory physician",
     "singstat_official": true
   },
@@ -5971,7 +5971,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 716,
+    "employment_est": 658,
     "name_zh": "Psychiatrist",
     "singstat_official": true
   },
@@ -5995,7 +5995,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 701,
+    "employment_est": 644,
     "name_zh": "Specialist medical practitioner (medical) n.e.c.",
     "singstat_official": true
   },
@@ -6019,7 +6019,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 686,
+    "employment_est": 630,
     "name_zh": "General surgeon",
     "singstat_official": true
   },
@@ -6043,7 +6043,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 671,
+    "employment_est": 616,
     "name_zh": "Cardiothoracic surgeon",
     "singstat_official": true
   },
@@ -6067,7 +6067,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 656,
+    "employment_est": 603,
     "name_zh": "Hand surgeon",
     "singstat_official": true
   },
@@ -6091,7 +6091,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 641,
+    "employment_est": 589,
     "name_zh": "Neurosurgeon",
     "singstat_official": true
   },
@@ -6115,7 +6115,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 626,
+    "employment_est": 575,
     "name_zh": "Orthopaedic surgeon",
     "singstat_official": true
   },
@@ -6139,7 +6139,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 610,
+    "employment_est": 561,
     "name_zh": "Paediatric surgeon",
     "singstat_official": true
   },
@@ -6163,7 +6163,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 595,
+    "employment_est": 547,
     "name_zh": "Plastic surgeon",
     "singstat_official": true
   },
@@ -6187,7 +6187,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 580,
+    "employment_est": 533,
     "name_zh": "Urologist",
     "singstat_official": true
   },
@@ -6211,7 +6211,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 565,
+    "employment_est": 519,
     "name_zh": "Specialist medical practitioner (surgical) n.e.c.",
     "singstat_official": true
   },
@@ -6235,7 +6235,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 550,
+    "employment_est": 505,
     "name_zh": "Anaesthesiologist",
     "singstat_official": true
   },
@@ -6259,7 +6259,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 535,
+    "employment_est": 492,
     "name_zh": "Diagnostic radiologist",
     "singstat_official": true
   },
@@ -6283,7 +6283,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 520,
+    "employment_est": 478,
     "name_zh": "Emergency physician",
     "singstat_official": true
   },
@@ -6307,7 +6307,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 807,
+    "employment_est": 741,
     "name_zh": "Obstetrician/Gynaecologist",
     "singstat_official": true
   },
@@ -6331,7 +6331,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 792,
+    "employment_est": 727,
     "name_zh": "Ophthalmologist",
     "singstat_official": true
   },
@@ -6355,7 +6355,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 776,
+    "employment_est": 714,
     "name_zh": "Pathologist",
     "singstat_official": true
   },
@@ -6379,7 +6379,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 761,
+    "employment_est": 700,
     "name_zh": "Public health physician",
     "singstat_official": true
   },
@@ -6403,7 +6403,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 746,
+    "employment_est": 686,
     "name_zh": "Otorhinolaryngologist/Ear, nose, throat (ENT) specialist",
     "singstat_official": true
   },
@@ -6427,7 +6427,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 731,
+    "employment_est": 672,
     "name_zh": "Specialist medical practitioner (other specialisation) n.e.c.",
     "singstat_official": true
   },
@@ -6451,7 +6451,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 716,
+    "employment_est": 658,
     "name_zh": "注册护士",
     "singstat_official": true
   },
@@ -6475,7 +6475,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 701,
+    "employment_est": 644,
     "name_zh": "Traditional Chinese Medicine (TCM) practitioner",
     "singstat_official": true
   },
@@ -6499,7 +6499,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 686,
+    "employment_est": 630,
     "name_zh": "Traditional Chinese Medicine (TCM) acupuncturist",
     "singstat_official": true
   },
@@ -6523,7 +6523,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 671,
+    "employment_est": 616,
     "name_zh": "Veterinarian",
     "singstat_official": true
   },
@@ -6547,7 +6547,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 656,
+    "employment_est": 603,
     "name_zh": "General dental practitioner",
     "singstat_official": true
   },
@@ -6571,7 +6571,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 641,
+    "employment_est": 589,
     "name_zh": "Specialised dentist",
     "singstat_official": true
   },
@@ -6595,7 +6595,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 626,
+    "employment_est": 575,
     "name_zh": "Pharmacist (patient care)",
     "singstat_official": true
   },
@@ -6619,7 +6619,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 610,
+    "employment_est": 561,
     "name_zh": "Pharmacist n.e.c.",
     "singstat_official": true
   },
@@ -6643,7 +6643,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 595,
+    "employment_est": 547,
     "name_zh": "Occupational health and safety professional",
     "singstat_official": true
   },
@@ -6667,7 +6667,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 580,
+    "employment_est": 533,
     "name_zh": "Environmental officer (public health)",
     "singstat_official": true
   },
@@ -6691,7 +6691,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 565,
+    "employment_est": 519,
     "name_zh": "Environmental and occupational health and hygiene professional n.e.c.",
     "singstat_official": true
   },
@@ -6715,7 +6715,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 550,
+    "employment_est": 505,
     "name_zh": "Physiotherapist",
     "singstat_official": true
   },
@@ -6739,7 +6739,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 535,
+    "employment_est": 492,
     "name_zh": "Dietitian",
     "singstat_official": true
   },
@@ -6763,7 +6763,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 520,
+    "employment_est": 478,
     "name_zh": "Nutritionist",
     "singstat_official": true
   },
@@ -6787,7 +6787,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 807,
+    "employment_est": 741,
     "name_zh": "Audiologist",
     "singstat_official": true
   },
@@ -6811,7 +6811,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 792,
+    "employment_est": 727,
     "name_zh": "Speech therapist",
     "singstat_official": true
   },
@@ -6835,7 +6835,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 776,
+    "employment_est": 714,
     "name_zh": "Optometrist",
     "singstat_official": true
   },
@@ -6859,7 +6859,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 1155,
+    "employment_est": 1061,
     "name_zh": "Occupational therapist",
     "singstat_official": true
   },
@@ -6883,7 +6883,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 1044,
+    "employment_est": 959,
     "name_zh": "Chief steward",
     "singstat_official": true
   },
@@ -6907,7 +6907,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 1006,
+    "employment_est": 924,
     "name_zh": "Cabin attendant/steward",
     "singstat_official": true
   },
@@ -6931,7 +6931,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 991,
+    "employment_est": 910,
     "name_zh": "Rail station service assistant",
     "singstat_official": true
   },
@@ -6955,7 +6955,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 976,
+    "employment_est": 897,
     "name_zh": "Ticket inspector",
     "singstat_official": true
   },
@@ -6979,7 +6979,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 961,
+    "employment_est": 883,
     "name_zh": "Transport service inspector and related worker n.e.c.",
     "singstat_official": true
   },
@@ -7003,7 +7003,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 945,
+    "employment_est": 869,
     "name_zh": "Tour guide",
     "singstat_official": true
   },
@@ -7027,7 +7027,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 930,
+    "employment_est": 855,
     "name_zh": "Attractions guide",
     "singstat_official": true
   },
@@ -7051,7 +7051,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 915,
+    "employment_est": 841,
     "name_zh": "厨师",
     "singstat_official": true
   },
@@ -7075,7 +7075,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 900,
+    "employment_est": 827,
     "name_zh": "厨师",
     "singstat_official": true
   },
@@ -7099,7 +7099,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 885,
+    "employment_est": 813,
     "name_zh": "Captain waiter/Waiter supervisor",
     "singstat_official": true
   },
@@ -7123,7 +7123,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 870,
+    "employment_est": 799,
     "name_zh": "Waiter",
     "singstat_official": true
   },
@@ -7147,7 +7147,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 855,
+    "employment_est": 786,
     "name_zh": "Sommelier",
     "singstat_official": true
   },
@@ -7171,7 +7171,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 840,
+    "employment_est": 772,
     "name_zh": "Bartender/Mixologist",
     "singstat_official": true
   },
@@ -7195,7 +7195,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 825,
+    "employment_est": 758,
     "name_zh": "Barista",
     "singstat_official": true
   },
@@ -7219,7 +7219,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 810,
+    "employment_est": 744,
     "name_zh": "Bar/Lounge hostess",
     "singstat_official": true
   },
@@ -7243,7 +7243,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 794,
+    "employment_est": 730,
     "name_zh": "Waiter/Bartender n.e.c.",
     "singstat_official": true
   },
@@ -7267,7 +7267,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 779,
+    "employment_est": 716,
     "name_zh": "Hair stylist/Hairdresser",
     "singstat_official": true
   },
@@ -7291,7 +7291,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 764,
+    "employment_est": 702,
     "name_zh": "Barber",
     "singstat_official": true
   },
@@ -7315,7 +7315,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 749,
+    "employment_est": 688,
     "name_zh": "Hairdresser/Barber and related worker n.e.c.",
     "singstat_official": true
   },
@@ -7339,7 +7339,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 1036,
+    "employment_est": 952,
     "name_zh": "Beautician",
     "singstat_official": true
   },
@@ -7363,7 +7363,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 1021,
+    "employment_est": 938,
     "name_zh": "Manicurist",
     "singstat_official": true
   },
@@ -7387,7 +7387,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 1006,
+    "employment_est": 924,
     "name_zh": "Makeup artist (stage/film/studio)",
     "singstat_official": true
   },
@@ -7411,7 +7411,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 991,
+    "employment_est": 910,
     "name_zh": "Masseur (non-medical)",
     "singstat_official": true
   },
@@ -7435,7 +7435,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 976,
+    "employment_est": 897,
     "name_zh": "Slimming consultant",
     "singstat_official": true
   },
@@ -7459,7 +7459,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 961,
+    "employment_est": 883,
     "name_zh": "Other wellness related worker n.e.c.",
     "singstat_official": true
   },
@@ -7483,7 +7483,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 945,
+    "employment_est": 869,
     "name_zh": "Housekeeper (hotel and related establishment)",
     "singstat_official": true
   },
@@ -7507,7 +7507,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 930,
+    "employment_est": 855,
     "name_zh": "House steward",
     "singstat_official": true
   },
@@ -7531,7 +7531,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 915,
+    "employment_est": 841,
     "name_zh": "Housekeeping matron",
     "singstat_official": true
   },
@@ -7555,7 +7555,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 900,
+    "employment_est": 827,
     "name_zh": "Head butler (hotel and related establishment)",
     "singstat_official": true
   },
@@ -7579,7 +7579,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 885,
+    "employment_est": 813,
     "name_zh": "Butler (hotel and related establishment)",
     "singstat_official": true
   },
@@ -7603,7 +7603,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 870,
+    "employment_est": 799,
     "name_zh": "Housekeeper and related worker n.e.c.",
     "singstat_official": true
   },
@@ -7627,7 +7627,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 855,
+    "employment_est": 786,
     "name_zh": "Gaming supervisor",
     "singstat_official": true
   },
@@ -7651,7 +7651,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 840,
+    "employment_est": 772,
     "name_zh": "Bookmaker/Croupier/Casino dealer and related gaming worker",
     "singstat_official": true
   },
@@ -7675,7 +7675,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 825,
+    "employment_est": 758,
     "name_zh": "Astrologer/Fortune-teller and related worker",
     "singstat_official": true
   },
@@ -7699,7 +7699,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 810,
+    "employment_est": 744,
     "name_zh": "Funeral director",
     "singstat_official": true
   },
@@ -7723,7 +7723,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 794,
+    "employment_est": 730,
     "name_zh": "Embalmer",
     "singstat_official": true
   },
@@ -7747,7 +7747,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 779,
+    "employment_est": 716,
     "name_zh": "Pet groomer",
     "singstat_official": true
   },
@@ -7771,7 +7771,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 764,
+    "employment_est": 702,
     "name_zh": "Keeper/Trainer in zoological/bird/aquatic park",
     "singstat_official": true
   },
@@ -7795,7 +7795,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 749,
+    "employment_est": 688,
     "name_zh": "Horse trainer",
     "singstat_official": true
   },
@@ -7819,7 +7819,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 1036,
+    "employment_est": 952,
     "name_zh": "Dog trainer",
     "singstat_official": true
   },
@@ -7843,7 +7843,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 1021,
+    "employment_est": 938,
     "name_zh": "Pet groomer/Animal keeper/trainer n.e.c.",
     "singstat_official": true
   },
@@ -7867,7 +7867,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 1006,
+    "employment_est": 924,
     "name_zh": "Driving instructor/tester",
     "singstat_official": true
   },
@@ -7891,7 +7891,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 991,
+    "employment_est": 910,
     "name_zh": "Social escort",
     "singstat_official": true
   },
@@ -7915,7 +7915,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 976,
+    "employment_est": 897,
     "name_zh": "Other personal services worker n.e.c.",
     "singstat_official": true
   },
@@ -7939,7 +7939,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 961,
+    "employment_est": 883,
     "name_zh": "Hawker/Stall holder (excluding prepared food and drinks)",
     "singstat_official": true
   },
@@ -7963,7 +7963,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 945,
+    "employment_est": 869,
     "name_zh": "Hawker/Stall holder (prepared food/drinks)",
     "singstat_official": true
   },
@@ -7987,7 +7987,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 930,
+    "employment_est": 855,
     "name_zh": "Newsvendor",
     "singstat_official": true
   },
@@ -8011,7 +8011,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 915,
+    "employment_est": 841,
     "name_zh": "Stall sales worker n.e.c.",
     "singstat_official": true
   },
@@ -8035,7 +8035,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 900,
+    "employment_est": 827,
     "name_zh": "Sales supervisor",
     "singstat_official": true
   },
@@ -8059,7 +8059,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 885,
+    "employment_est": 813,
     "name_zh": "Shop sales assistant",
     "singstat_official": true
   },
@@ -8083,7 +8083,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 870,
+    "employment_est": 799,
     "name_zh": "Cage/Count supervisor",
     "singstat_official": true
   },
@@ -8107,7 +8107,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 855,
+    "employment_est": 786,
     "name_zh": "Cashier (general)",
     "singstat_official": true
   },
@@ -8131,7 +8131,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 840,
+    "employment_est": 772,
     "name_zh": "Office cashier",
     "singstat_official": true
   },
@@ -8155,7 +8155,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 825,
+    "employment_est": 758,
     "name_zh": "Cashier/Ticket clerk n.e.c.",
     "singstat_official": true
   },
@@ -8179,7 +8179,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 810,
+    "employment_est": 744,
     "name_zh": "Fashion and related model",
     "singstat_official": true
   },
@@ -8203,7 +8203,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 794,
+    "employment_est": 730,
     "name_zh": "Sales demonstrator",
     "singstat_official": true
   },
@@ -8227,7 +8227,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 779,
+    "employment_est": 716,
     "name_zh": "Salesperson (door-to-door)",
     "singstat_official": true
   },
@@ -8251,7 +8251,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 764,
+    "employment_est": 702,
     "name_zh": "Telemarketer",
     "singstat_official": true
   },
@@ -8275,7 +8275,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 749,
+    "employment_est": 688,
     "name_zh": "Petrol station attendant",
     "singstat_official": true
   },
@@ -8299,7 +8299,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 1036,
+    "employment_est": 952,
     "name_zh": "Food service counter attendant",
     "singstat_official": true
   },
@@ -8323,7 +8323,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 1021,
+    "employment_est": 938,
     "name_zh": "Other sales worker n.e.c.",
     "singstat_official": true
   },
@@ -8347,7 +8347,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 1006,
+    "employment_est": 924,
     "name_zh": "Babysitter/Infant care-giver",
     "singstat_official": true
   },
@@ -8371,7 +8371,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 991,
+    "employment_est": 910,
     "name_zh": "Confinement nanny",
     "singstat_official": true
   },
@@ -8395,7 +8395,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 976,
+    "employment_est": 897,
     "name_zh": "Child/After school care centre worker",
     "singstat_official": true
   },
@@ -8419,7 +8419,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 961,
+    "employment_est": 883,
     "name_zh": "Child/Youth residential care assistant",
     "singstat_official": true
   },
@@ -8443,8 +8443,8 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 945,
-    "name_zh": "Teacher aide",
+    "employment_est": 869,
+    "name_zh": "教师",
     "singstat_official": true
   },
   {
@@ -8467,7 +8467,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 930,
+    "employment_est": 855,
     "name_zh": "Healthcare assistant",
     "singstat_official": true
   },
@@ -8491,7 +8491,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 915,
+    "employment_est": 841,
     "name_zh": "Nursing aide/assistant",
     "singstat_official": true
   },
@@ -8515,7 +8515,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 900,
+    "employment_est": 827,
     "name_zh": "Dental aide/assistant",
     "singstat_official": true
   },
@@ -8539,7 +8539,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 885,
+    "employment_est": 813,
     "name_zh": "Healthcare assistant and related personal care worker n.e.c.",
     "singstat_official": true
   },
@@ -8563,7 +8563,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 870,
+    "employment_est": 799,
     "name_zh": "Fire-fighting/Rescue officer",
     "singstat_official": true
   },
@@ -8587,7 +8587,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 855,
+    "employment_est": 786,
     "name_zh": "Police officer",
     "singstat_official": true
   },
@@ -8611,7 +8611,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 840,
+    "employment_est": 772,
     "name_zh": "Narcotics officer",
     "singstat_official": true
   },
@@ -8635,7 +8635,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 825,
+    "employment_est": 758,
     "name_zh": "Auxiliary police officer",
     "singstat_official": true
   },
@@ -8659,7 +8659,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 810,
+    "employment_est": 744,
     "name_zh": "Prison officer",
     "singstat_official": true
   },
@@ -8683,7 +8683,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 794,
+    "employment_est": 730,
     "name_zh": "Senior security supervisor",
     "singstat_official": true
   },
@@ -8707,7 +8707,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 779,
+    "employment_est": 716,
     "name_zh": "Security supervisor",
     "singstat_official": true
   },
@@ -8731,7 +8731,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 764,
+    "employment_est": 702,
     "name_zh": "Senior private security officer",
     "singstat_official": true
   },
@@ -8755,7 +8755,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 749,
+    "employment_est": 688,
     "name_zh": "Private security officer",
     "singstat_official": true
   },
@@ -8779,7 +8779,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 1036,
+    "employment_est": 952,
     "name_zh": "Lifeguard",
     "singstat_official": true
   },
@@ -8803,7 +8803,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 1021,
+    "employment_est": 938,
     "name_zh": "Private investigator",
     "singstat_official": true
   },
@@ -8827,7 +8827,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 1006,
+    "employment_est": 924,
     "name_zh": "Industrial investigator",
     "singstat_official": true
   },
@@ -8851,7 +8851,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 991,
+    "employment_est": 910,
     "name_zh": "Insurance investigator",
     "singstat_official": true
   },
@@ -8875,7 +8875,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 976,
+    "employment_est": 897,
     "name_zh": "Park ranger",
     "singstat_official": true
   },
@@ -8899,7 +8899,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 961,
+    "employment_est": 883,
     "name_zh": "Other protective services and related worker n.e.c.",
     "singstat_official": true
   },
@@ -8923,7 +8923,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 945,
+    "employment_est": 869,
     "name_zh": "Services worker n.e.c.",
     "singstat_official": true
   },
@@ -8947,7 +8947,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 930,
+    "employment_est": 855,
     "name_zh": "DATABASE, NETWORK, INFRASTRUCTURE AND CYBERSECURITY PROFESSIONALS",
     "singstat_official": true
   },
@@ -8971,7 +8971,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 915,
+    "employment_est": 841,
     "name_zh": "LEGAL PROFESSIONALS",
     "singstat_official": true
   },
@@ -8995,7 +8995,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 900,
+    "employment_est": 827,
     "name_zh": "LIBRARIANS, ARCHIVISTS AND CURATORS",
     "singstat_official": true
   },
@@ -9019,7 +9019,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 885,
+    "employment_est": 813,
     "name_zh": "SOCIAL SCIENCE RESEARCHERS AND PROFESSIONALS; RELIGIOUS PROFESSIONALS",
     "singstat_official": true
   },
@@ -9043,7 +9043,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 870,
+    "employment_est": 799,
     "name_zh": "AUTHORS, JOURNALISTS AND EDITORS",
     "singstat_official": true
   },
@@ -9067,7 +9067,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 855,
+    "employment_est": 786,
     "name_zh": "CREATIVE AND PERFORMING ARTISTS",
     "singstat_official": true
   },
@@ -9091,7 +9091,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 840,
+    "employment_est": 772,
     "name_zh": "SOCIAL SERVICES, COUNSELLING AND RELATED PROFESSIONALS",
     "singstat_official": true
   },
@@ -9115,7 +9115,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 825,
+    "employment_est": 758,
     "name_zh": "ASSISTANT ENGINEERS",
     "singstat_official": true
   },
@@ -9139,7 +9139,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 810,
+    "employment_est": 744,
     "name_zh": "PHYSICAL AND ENGINEERING SCIENCE TECHNICIANS I",
     "singstat_official": true
   },
@@ -9163,7 +9163,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 794,
+    "employment_est": 730,
     "name_zh": "PHYSICAL AND ENGINEERING SCIENCE TECHNICIANS II (Cont’d)",
     "singstat_official": true
   },
@@ -9187,7 +9187,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 779,
+    "employment_est": 716,
     "name_zh": "PROCESS CONTROL TECHNICIANS",
     "singstat_official": true
   },
@@ -9211,7 +9211,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 764,
+    "employment_est": 702,
     "name_zh": "LIFE SCIENCE TECHNICIANS AND RELATED ASSOCIATE PROFESSIONALS",
     "singstat_official": true
   },
@@ -9235,7 +9235,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 749,
+    "employment_est": 688,
     "name_zh": "SHIP AND AIRCRAFT CONTROLLERS AND TECHNICIANS",
     "singstat_official": true
   },
@@ -9259,7 +9259,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 1036,
+    "employment_est": 952,
     "name_zh": "PREMISES AND PARKS OFFICERS",
     "singstat_official": true
   },
@@ -9283,7 +9283,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 1021,
+    "employment_est": 938,
     "name_zh": "BUILDING, QUALITY AND SAFETY INSPECTORS",
     "singstat_official": true
   },
@@ -9307,7 +9307,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 1006,
+    "employment_est": 924,
     "name_zh": "MEDICAL AND PHARMACEUTICAL TECHNICIANS",
     "singstat_official": true
   },
@@ -9331,7 +9331,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 991,
+    "employment_est": 910,
     "name_zh": "NURSING ASSOCIATE PROFESSIONALS",
     "singstat_official": true
   },
@@ -9355,7 +9355,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 976,
+    "employment_est": 897,
     "name_zh": "TRADITIONAL AND COMPLEMENTARY MEDICINE ASSOCIATE PROFESSIONALS",
     "singstat_official": true
   },
@@ -9379,7 +9379,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 961,
+    "employment_est": 883,
     "name_zh": "VETERINARY TECHNICIANS AND ASSISTANTS",
     "singstat_official": true
   },
@@ -9403,7 +9403,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 945,
+    "employment_est": 869,
     "name_zh": "OTHER HEALTH ASSOCIATE PROFESSIONALS",
     "singstat_official": true
   },
@@ -9427,7 +9427,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 930,
+    "employment_est": 855,
     "name_zh": "FINANCIAL AND MATHEMATICAL ASSOCIATE PROFESSIONALS",
     "singstat_official": true
   },
@@ -9451,7 +9451,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 915,
+    "employment_est": 841,
     "name_zh": "SALES AND RELATED ASSOCIATE PROFESSIONALS",
     "singstat_official": true
   },
@@ -9475,7 +9475,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 900,
+    "employment_est": 827,
     "name_zh": "BUSINESS SERVICES AGENTS",
     "singstat_official": true
   },
@@ -9499,7 +9499,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 885,
+    "employment_est": 813,
     "name_zh": "ADMINISTRATIVE ASSOCIATE PROFESSIONALS",
     "singstat_official": true
   },
@@ -9523,7 +9523,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 870,
+    "employment_est": 799,
     "name_zh": "GOVERNMENT ASSOCIATE PROFESSIONALS",
     "singstat_official": true
   },
@@ -9547,7 +9547,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 855,
+    "employment_est": 786,
     "name_zh": "TRANSPORT OPERATIONS PLANNERS AND EXECUTIVES",
     "singstat_official": true
   },
@@ -9571,7 +9571,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 840,
+    "employment_est": 772,
     "name_zh": "LEGAL AND SOCIAL ASSOCIATE PROFESSIONALS",
     "singstat_official": true
   },
@@ -9595,7 +9595,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 825,
+    "employment_est": 758,
     "name_zh": "SPORTS AND FITNESS WORKERS",
     "singstat_official": true
   },
@@ -9619,7 +9619,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 810,
+    "employment_est": 744,
     "name_zh": "ARTISTIC AND CULTURAL ASSOCIATE PROFESSIONALS",
     "singstat_official": true
   },
@@ -9643,7 +9643,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 794,
+    "employment_est": 730,
     "name_zh": "CREATIVE AND PERFORMING ARTS ASSOCIATE PROFESSIONALS",
     "singstat_official": true
   },
@@ -9667,7 +9667,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 779,
+    "employment_est": 716,
     "name_zh": "INFORMATION AND COMMUNICATIONS TECHNOLOGY OPERATORS AND TECHNICIANS",
     "singstat_official": true
   },
@@ -9691,7 +9691,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 764,
+    "employment_est": 702,
     "name_zh": "TELECOMMUNICATIONS AND BROADCASTING TECHNICIANS AND AUDIO-VISUAL OPERATORS",
     "singstat_official": true
   },
@@ -9715,8 +9715,8 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 749,
-    "name_zh": "PRESCHOOL EDUCATION TEACHERS",
+    "employment_est": 688,
+    "name_zh": "教师",
     "singstat_official": true
   },
   {
@@ -9739,7 +9739,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 1036,
+    "employment_est": 952,
     "name_zh": "EXTRACURRICULUM INSTRUCTORS",
     "singstat_official": true
   },
@@ -9763,7 +9763,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 1021,
+    "employment_est": 938,
     "name_zh": "TEACHING ASSOCIATE PROFESSIONALS NOT ELSEWHERE CLASSIFIED",
     "singstat_official": true
   },
@@ -9787,7 +9787,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 1006,
+    "employment_est": 924,
     "name_zh": "OTHER ASSOCIATE PROFESSIONALS NOT ELSEWHERE CLASSIFIED",
     "singstat_official": true
   },
@@ -9811,7 +9811,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 991,
+    "employment_est": 910,
     "name_zh": "CLERICAL SUPERVISORS",
     "singstat_official": true
   },
@@ -9835,7 +9835,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 976,
+    "employment_est": 897,
     "name_zh": "GENERAL OFFICE CLERKS",
     "singstat_official": true
   },
@@ -9859,7 +9859,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 961,
+    "employment_est": 883,
     "name_zh": "SECRETARIES AND VERBATIM REPORTERS",
     "singstat_official": true
   },
@@ -9883,7 +9883,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 945,
+    "employment_est": 869,
     "name_zh": "KEYBOARD OPERATORS",
     "singstat_official": true
   },
@@ -9907,7 +9907,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 930,
+    "employment_est": 855,
     "name_zh": "TELLERS, MONEY COLLECTORS AND RELATED CLERKS",
     "singstat_official": true
   },
@@ -9931,7 +9931,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 915,
+    "employment_est": 841,
     "name_zh": "CLIENT INFORMATION CLERKS",
     "singstat_official": true
   },
@@ -9955,7 +9955,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 900,
+    "employment_est": 827,
     "name_zh": "NUMERICAL CLERKS",
     "singstat_official": true
   },
@@ -9979,7 +9979,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 885,
+    "employment_est": 813,
     "name_zh": "MATERIAL-RECORDING AND TRANSPORT CLERKS",
     "singstat_official": true
   },
@@ -10003,7 +10003,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 870,
+    "employment_est": 799,
     "name_zh": "OTHER CLERICAL SUPPORT WORKERS",
     "singstat_official": true
   },
@@ -10027,7 +10027,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 855,
+    "employment_est": 786,
     "name_zh": "TRAVEL ATTENDANTS, CONDUCTORS AND GUIDES",
     "singstat_official": true
   },
@@ -10051,7 +10051,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 840,
+    "employment_est": 772,
     "name_zh": "厨师",
     "singstat_official": true
   },
@@ -10075,7 +10075,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 825,
+    "employment_est": 758,
     "name_zh": "WAITERS AND BARTENDERS",
     "singstat_official": true
   },
@@ -10099,7 +10099,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 810,
+    "employment_est": 744,
     "name_zh": "HAIRDRESSERS, BEAUTICIANS AND RELATED WORKERS",
     "singstat_official": true
   },
@@ -10123,7 +10123,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 794,
+    "employment_est": 730,
     "name_zh": "HOUSEKEEPERS AND RELATED WORKERS",
     "singstat_official": true
   },
@@ -10147,7 +10147,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 779,
+    "employment_est": 716,
     "name_zh": "BOOKMAKERS, CROUPIERS AND RELATED GAMING WORKERS",
     "singstat_official": true
   },
@@ -10171,7 +10171,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 764,
+    "employment_est": 702,
     "name_zh": "PERSONAL SERVICES WORKERS NOT ELSEWHERE CLASSIFIED",
     "singstat_official": true
   },
@@ -10195,7 +10195,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 749,
+    "employment_est": 688,
     "name_zh": "STALL SALES WORKERS",
     "singstat_official": true
   },
@@ -10219,7 +10219,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 1036,
+    "employment_est": 952,
     "name_zh": "SHOP SALESPERSONS",
     "singstat_official": true
   },
@@ -10243,7 +10243,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 1021,
+    "employment_est": 938,
     "name_zh": "CASHIERS AND TICKET CLERKS",
     "singstat_official": true
   },
@@ -10267,7 +10267,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 1377,
+    "employment_est": 1265,
     "name_zh": "Supervisor/General foreman (building and related trades)",
     "singstat_official": true
   },
@@ -10291,7 +10291,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 622,
+    "employment_est": 571,
     "name_zh": "Bricklayer/Blocklayer",
     "singstat_official": true
   },
@@ -10315,7 +10315,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 200,
+    "employment_est": 184,
     "name_zh": "Stonemason/Stone cutter/splitter/carver",
     "singstat_official": true
   },
@@ -10339,7 +10339,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 691,
+    "employment_est": 635,
     "name_zh": "Concrete form worker",
     "singstat_official": true
   },
@@ -10363,7 +10363,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 676,
+    "employment_est": 621,
     "name_zh": "Cement finisher/Screeder",
     "singstat_official": true
   },
@@ -10387,7 +10387,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 661,
+    "employment_est": 607,
     "name_zh": "Concrete placer/finisher and related worker n.e.c.",
     "singstat_official": true
   },
@@ -10411,7 +10411,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 646,
+    "employment_est": 594,
     "name_zh": "Carpenter",
     "singstat_official": true
   },
@@ -10435,7 +10435,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 631,
+    "employment_est": 580,
     "name_zh": "Joiner",
     "singstat_official": true
   },
@@ -10459,7 +10459,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 616,
+    "employment_est": 566,
     "name_zh": "Scaffolder",
     "singstat_official": true
   },
@@ -10483,7 +10483,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 601,
+    "employment_est": 552,
     "name_zh": "Cladding/Curtain wall erector",
     "singstat_official": true
   },
@@ -10507,7 +10507,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 586,
+    "employment_est": 538,
     "name_zh": "Other building frame and related trades worker n.e.c.",
     "singstat_official": true
   },
@@ -10531,7 +10531,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 570,
+    "employment_est": 524,
     "name_zh": "Roofer",
     "singstat_official": true
   },
@@ -10555,7 +10555,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 555,
+    "employment_est": 510,
     "name_zh": "Floor/Wall tiler",
     "singstat_official": true
   },
@@ -10579,7 +10579,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 540,
+    "employment_est": 496,
     "name_zh": "Plasterer",
     "singstat_official": true
   },
@@ -10603,7 +10603,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 525,
+    "employment_est": 483,
     "name_zh": "Refrigeration/Air-conditioning equipment insulator",
     "singstat_official": true
   },
@@ -10627,7 +10627,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 510,
+    "employment_est": 469,
     "name_zh": "Boiler/Pipe insulator",
     "singstat_official": true
   },
@@ -10651,7 +10651,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 495,
+    "employment_est": 455,
     "name_zh": "Insulation worker n.e.c.",
     "singstat_official": true
   },
@@ -10675,7 +10675,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 480,
+    "employment_est": 441,
     "name_zh": "Glazier",
     "singstat_official": true
   },
@@ -10699,7 +10699,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 465,
+    "employment_est": 427,
     "name_zh": "Plumber",
     "singstat_official": true
   },
@@ -10723,7 +10723,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 450,
+    "employment_est": 413,
     "name_zh": "Pipe fitter",
     "singstat_official": true
   },
@@ -10747,7 +10747,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 435,
+    "employment_est": 399,
     "name_zh": "Pipe/Drain layer",
     "singstat_official": true
   },
@@ -10771,7 +10771,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 721,
+    "employment_est": 663,
     "name_zh": "Air-conditioning/Refrigeration equipment mechanic",
     "singstat_official": true
   },
@@ -10795,7 +10795,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 706,
+    "employment_est": 649,
     "name_zh": "Air-conditioning/Refrigeration plant installer",
     "singstat_official": true
   },
@@ -10819,7 +10819,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 691,
+    "employment_est": 635,
     "name_zh": "Building finisher and related trades worker n.e.c.",
     "singstat_official": true
   },
@@ -10843,7 +10843,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 676,
+    "employment_est": 621,
     "name_zh": "Building painter",
     "singstat_official": true
   },
@@ -10867,7 +10867,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 661,
+    "employment_est": 607,
     "name_zh": "Wall/Ceiling paperhanger",
     "singstat_official": true
   },
@@ -10891,7 +10891,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 646,
+    "employment_est": 594,
     "name_zh": "Structural steel/Ship painter",
     "singstat_official": true
   },
@@ -10915,7 +10915,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 631,
+    "employment_est": 580,
     "name_zh": "Motor vehicle spray painter",
     "singstat_official": true
   },
@@ -10939,7 +10939,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 616,
+    "employment_est": 566,
     "name_zh": "Spray painter (excluding ships and motor vehicles)",
     "singstat_official": true
   },
@@ -10963,7 +10963,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 601,
+    "employment_est": 552,
     "name_zh": "Spray painter/Varnisher and related painter n.e.c.",
     "singstat_official": true
   },
@@ -10987,7 +10987,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 586,
+    "employment_est": 538,
     "name_zh": "Building maintenance worker",
     "singstat_official": true
   },
@@ -11011,7 +11011,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 570,
+    "employment_est": 524,
     "name_zh": "清洁工",
     "singstat_official": true
   },
@@ -11035,7 +11035,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 555,
+    "employment_est": 510,
     "name_zh": "Supervisor/General foreman (metal/machinery and related trades)",
     "singstat_official": true
   },
@@ -11059,7 +11059,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 540,
+    "employment_est": 496,
     "name_zh": "Metal moulder/coremaker",
     "singstat_official": true
   },
@@ -11083,7 +11083,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 525,
+    "employment_est": 483,
     "name_zh": "Welder/Flame cutter",
     "singstat_official": true
   },
@@ -11107,7 +11107,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 510,
+    "employment_est": 469,
     "name_zh": "Sheet metal worker",
     "singstat_official": true
   },
@@ -11131,7 +11131,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 495,
+    "employment_est": 455,
     "name_zh": "Structural metal preparer/erector",
     "singstat_official": true
   },
@@ -11155,7 +11155,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 480,
+    "employment_est": 441,
     "name_zh": "Rigger/Cable splicer",
     "singstat_official": true
   },
@@ -11179,7 +11179,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 465,
+    "employment_est": 427,
     "name_zh": "Blacksmith/Hammersmith/Forging-press worker",
     "singstat_official": true
   },
@@ -11203,7 +11203,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 450,
+    "employment_est": 413,
     "name_zh": "Tool/Die maker",
     "singstat_official": true
   },
@@ -11227,7 +11227,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 435,
+    "employment_est": 399,
     "name_zh": "Locksmith",
     "singstat_official": true
   },
@@ -11251,7 +11251,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 721,
+    "employment_est": 663,
     "name_zh": "Toolmaker and related worker n.e.c.",
     "singstat_official": true
   },
@@ -11275,7 +11275,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 706,
+    "employment_est": 649,
     "name_zh": "Metal polisher/Wheel grinder/Tool sharpener",
     "singstat_official": true
   },
@@ -11299,7 +11299,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 691,
+    "employment_est": 635,
     "name_zh": "Automotive mechanic",
     "singstat_official": true
   },
@@ -11323,7 +11323,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 676,
+    "employment_est": 621,
     "name_zh": "Aircraft engine mechanic/repairer",
     "singstat_official": true
   },
@@ -11347,7 +11347,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 661,
+    "employment_est": 607,
     "name_zh": "Rolling stock mechanic",
     "singstat_official": true
   },
@@ -11371,7 +11371,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 646,
+    "employment_est": 594,
     "name_zh": "Bicycle and related repairer",
     "singstat_official": true
   },
@@ -11395,7 +11395,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 631,
+    "employment_est": 580,
     "name_zh": "Marine engine mechanic/repairer",
     "singstat_official": true
   },
@@ -11419,7 +11419,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 616,
+    "employment_est": 566,
     "name_zh": "Machinery mechanic/fitter/repairer n.e.c.",
     "singstat_official": true
   },
@@ -11443,7 +11443,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 601,
+    "employment_est": 552,
     "name_zh": "Supervisor/General foreman (precision/handicraft/printing and related trades)",
     "singstat_official": true
   },
@@ -11467,7 +11467,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 586,
+    "employment_est": 538,
     "name_zh": "Watch/Clock assembler/repairer",
     "singstat_official": true
   },
@@ -11491,7 +11491,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 570,
+    "employment_est": 524,
     "name_zh": "Optical instrument maker/repairer",
     "singstat_official": true
   },
@@ -11515,7 +11515,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 555,
+    "employment_est": 510,
     "name_zh": "Medical device assembler/repairer",
     "singstat_official": true
   },
@@ -11539,7 +11539,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 540,
+    "employment_est": 496,
     "name_zh": "Precision instrument maker/repairer n.e.c.",
     "singstat_official": true
   },
@@ -11563,7 +11563,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 525,
+    "employment_est": 483,
     "name_zh": "Musical instrument maker/repairer/tuner",
     "singstat_official": true
   },
@@ -11587,7 +11587,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 510,
+    "employment_est": 469,
     "name_zh": "Jewellery/Precious metal worker",
     "singstat_official": true
   },
@@ -11611,7 +11611,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 495,
+    "employment_est": 455,
     "name_zh": "Potter and related worker",
     "singstat_official": true
   },
@@ -11635,7 +11635,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 480,
+    "employment_est": 441,
     "name_zh": "Glass maker/cutter/grinder/finisher",
     "singstat_official": true
   },
@@ -11659,7 +11659,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 465,
+    "employment_est": 427,
     "name_zh": "Sign writer/Decorative painter/Engraver/Etcher",
     "singstat_official": true
   },
@@ -11683,7 +11683,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 450,
+    "employment_est": 413,
     "name_zh": "Pre-press trades worker",
     "singstat_official": true
   },
@@ -11707,7 +11707,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 435,
+    "employment_est": 399,
     "name_zh": "Printer",
     "singstat_official": true
   },
@@ -11731,7 +11731,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 721,
+    "employment_est": 663,
     "name_zh": "Lift supervisor",
     "singstat_official": true
   },
@@ -11755,7 +11755,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 706,
+    "employment_est": 649,
     "name_zh": "Supervisor/General foreman (electrical/electronic trades, excluding lift)",
     "singstat_official": true
   },
@@ -11779,7 +11779,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 691,
+    "employment_est": 635,
     "name_zh": "Electrician",
     "singstat_official": true
   },
@@ -11803,7 +11803,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 676,
+    "employment_est": 621,
     "name_zh": "Electrical fitter",
     "singstat_official": true
   },
@@ -11827,7 +11827,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 661,
+    "employment_est": 607,
     "name_zh": "Electrical lift/escalator and related equipment fitter",
     "singstat_official": true
   },
@@ -11851,7 +11851,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 646,
+    "employment_est": 594,
     "name_zh": "Electrical household appliance repairer",
     "singstat_official": true
   },
@@ -11875,7 +11875,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 631,
+    "employment_est": 580,
     "name_zh": "Electrical line installer (overhead)",
     "singstat_official": true
   },
@@ -11899,7 +11899,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 616,
+    "employment_est": 566,
     "name_zh": "Electric cable jointer",
     "singstat_official": true
   },
@@ -11923,7 +11923,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 601,
+    "employment_est": 552,
     "name_zh": "Underground electrical line installer/repairer",
     "singstat_official": true
   },
@@ -11947,7 +11947,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 586,
+    "employment_est": 538,
     "name_zh": "Electronics fitter (excluding broadcasting and communication equipment)",
     "singstat_official": true
   },
@@ -11971,7 +11971,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 570,
+    "employment_est": 524,
     "name_zh": "Consumer audio/video equipment/radar broadcasting/transmitting equipment fitter/mechanic",
     "singstat_official": true
   },
@@ -11995,7 +11995,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 555,
+    "employment_est": 510,
     "name_zh": "Computer and related electronic equipment mechanic",
     "singstat_official": true
   },
@@ -12019,7 +12019,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 540,
+    "employment_est": 496,
     "name_zh": "Telecommunications lineman",
     "singstat_official": true
   },
@@ -12043,7 +12043,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 525,
+    "employment_est": 483,
     "name_zh": "Telecommunications installer/servicer",
     "singstat_official": true
   },
@@ -12067,7 +12067,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 510,
+    "employment_est": 469,
     "name_zh": "Supervisor/General foreman (food processing/woodworking/garment/leather and related trades)",
     "singstat_official": true
   },
@@ -12091,7 +12091,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 495,
+    "employment_est": 455,
     "name_zh": "Butcher/Fishmonger and related food preparer",
     "singstat_official": true
   },
@@ -12115,7 +12115,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 480,
+    "employment_est": 441,
     "name_zh": "Baker",
     "singstat_official": true
   },
@@ -12139,7 +12139,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 465,
+    "employment_est": 427,
     "name_zh": "Pastry/Confectionery maker",
     "singstat_official": true
   },
@@ -12163,7 +12163,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 450,
+    "employment_est": 413,
     "name_zh": "Food and beverage (F&B) taster/grader",
     "singstat_official": true
   },
@@ -12187,7 +12187,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 435,
+    "employment_est": 399,
     "name_zh": "Food processing and related trades worker n.e.c.",
     "singstat_official": true
   },
@@ -12211,7 +12211,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 721,
+    "employment_est": 663,
     "name_zh": "Wood treater",
     "singstat_official": true
   },
@@ -12235,7 +12235,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 706,
+    "employment_est": 649,
     "name_zh": "Cabinet maker/Wood related trades worker",
     "singstat_official": true
   },
@@ -12259,7 +12259,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 691,
+    "employment_est": 635,
     "name_zh": "Furniture maker and related trades worker n.e.c.",
     "singstat_official": true
   },
@@ -12283,7 +12283,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 676,
+    "employment_est": 621,
     "name_zh": "Tailor/Dressmaker",
     "singstat_official": true
   },
@@ -12307,7 +12307,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 661,
+    "employment_est": 607,
     "name_zh": "Garment and related pattern-maker/cutter",
     "singstat_official": true
   },
@@ -12331,7 +12331,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 646,
+    "employment_est": 594,
     "name_zh": "Upholsterer and related worker",
     "singstat_official": true
   },
@@ -12355,7 +12355,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 631,
+    "employment_est": 580,
     "name_zh": "Shoemaker/Cobbler",
     "singstat_official": true
   },
@@ -12379,7 +12379,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 616,
+    "employment_est": 566,
     "name_zh": "Leather goods maker/assembler",
     "singstat_official": true
   },
@@ -12403,7 +12403,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 601,
+    "employment_est": 552,
     "name_zh": "Shoemaker and related worker n.e.c.",
     "singstat_official": true
   },
@@ -12427,7 +12427,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 586,
+    "employment_est": 538,
     "name_zh": "Garment/Leather and related trades worker n.e.c.",
     "singstat_official": true
   },
@@ -12451,7 +12451,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 570,
+    "employment_est": 524,
     "name_zh": "Underwater diver",
     "singstat_official": true
   },
@@ -12475,7 +12475,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 555,
+    "employment_est": 510,
     "name_zh": "Fumigator and related pest/weed controller",
     "singstat_official": true
   },
@@ -12499,7 +12499,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 540,
+    "employment_est": 496,
     "name_zh": "Craft and related worker n.e.c.",
     "singstat_official": true
   },
@@ -12523,7 +12523,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 525,
+    "employment_est": 483,
     "name_zh": "Stationary plant/machine supervisor/general foreman",
     "singstat_official": true
   },
@@ -12547,7 +12547,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 510,
+    "employment_est": 469,
     "name_zh": "Well driller/borer and related mining worker",
     "singstat_official": true
   },
@@ -12571,7 +12571,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 495,
+    "employment_est": 455,
     "name_zh": "Cement and related mineral products machine operator",
     "singstat_official": true
   },
@@ -12595,7 +12595,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 480,
+    "employment_est": 441,
     "name_zh": "Metal melter/caster/rolling mill operator",
     "singstat_official": true
   },
@@ -12619,7 +12619,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 465,
+    "employment_est": 427,
     "name_zh": "Metal heat treating plant operator",
     "singstat_official": true
   },
@@ -12643,7 +12643,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 450,
+    "employment_est": 413,
     "name_zh": "Metal drawer/extruder",
     "singstat_official": true
   },
@@ -12667,7 +12667,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 435,
+    "employment_est": 399,
     "name_zh": "Metal finishing/plating/coating machine operator",
     "singstat_official": true
   },
@@ -12691,7 +12691,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 721,
+    "employment_est": 663,
     "name_zh": "Metalworking machine setter-operator",
     "singstat_official": true
   },
@@ -12715,7 +12715,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 706,
+    "employment_est": 649,
     "name_zh": "Precision grinding machine setter-operator",
     "singstat_official": true
   },
@@ -12739,7 +12739,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 691,
+    "employment_est": 635,
     "name_zh": "Machine-tool setter-operator n.e.c.",
     "singstat_official": true
   },
@@ -12763,7 +12763,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 676,
+    "employment_est": 621,
     "name_zh": "Chemical processing/products plant/machine operator",
     "singstat_official": true
   },
@@ -12787,7 +12787,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 661,
+    "employment_est": 607,
     "name_zh": "Pharmaceutical products machine operator",
     "singstat_official": true
   },
@@ -12811,7 +12811,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 646,
+    "employment_est": 594,
     "name_zh": "Photographic products machine operator",
     "singstat_official": true
   },
@@ -12835,7 +12835,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 631,
+    "employment_est": 580,
     "name_zh": "Chemical processing/chemical/photographic products plant/machine operator n.e.c.",
     "singstat_official": true
   },
@@ -12859,7 +12859,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 616,
+    "employment_est": 566,
     "name_zh": "Rubber products machine operator",
     "singstat_official": true
   },
@@ -12883,7 +12883,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 601,
+    "employment_est": 552,
     "name_zh": "Plastic products machine operator",
     "singstat_official": true
   },
@@ -12907,7 +12907,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 586,
+    "employment_est": 538,
     "name_zh": "Paper/Paperboard products machine operator",
     "singstat_official": true
   },
@@ -12931,7 +12931,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 570,
+    "employment_est": 524,
     "name_zh": "Sewing machine operator",
     "singstat_official": true
   },
@@ -12955,7 +12955,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 555,
+    "employment_est": 510,
     "name_zh": "Laundry/Dry cleaning worker (machine, non-household)",
     "singstat_official": true
   },
@@ -12979,7 +12979,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 540,
+    "employment_est": 496,
     "name_zh": "Textile/Fur/Leather products machine operator n.e.c.",
     "singstat_official": true
   },
@@ -13003,7 +13003,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 525,
+    "employment_est": 483,
     "name_zh": "Meat/Fish products machine operator",
     "singstat_official": true
   },
@@ -13027,7 +13027,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 510,
+    "employment_est": 469,
     "name_zh": "Dairy/Confectionery products machine operator",
     "singstat_official": true
   },
@@ -13051,7 +13051,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 495,
+    "employment_est": 455,
     "name_zh": "Baked/Cereal products machine operator",
     "singstat_official": true
   },
@@ -13075,7 +13075,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 480,
+    "employment_est": 441,
     "name_zh": "Brewer/Wine and related beverages machine operator",
     "singstat_official": true
   },
@@ -13099,7 +13099,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 465,
+    "employment_est": 427,
     "name_zh": "Food and related products machine operator n.e.c.",
     "singstat_official": true
   },
@@ -13123,7 +13123,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 450,
+    "employment_est": 413,
     "name_zh": "Wood processing/Papermaking plant operator",
     "singstat_official": true
   },
@@ -13147,7 +13147,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 435,
+    "employment_est": 399,
     "name_zh": "Glass/Ceramics plant operator",
     "singstat_official": true
   },
@@ -13171,7 +13171,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 721,
+    "employment_est": 663,
     "name_zh": "Boiler fireman",
     "singstat_official": true
   },
@@ -13195,7 +13195,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 706,
+    "employment_est": 649,
     "name_zh": "Ship's oiler/greaser",
     "singstat_official": true
   },
@@ -13219,7 +13219,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 691,
+    "employment_est": 635,
     "name_zh": "Steam engine/boiler operator n.e.c.",
     "singstat_official": true
   },
@@ -13243,7 +13243,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 676,
+    "employment_est": 621,
     "name_zh": "Packing/Bottling/Labelling machine operator",
     "singstat_official": true
   },
@@ -13267,7 +13267,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 661,
+    "employment_est": 607,
     "name_zh": "Printing machine operator",
     "singstat_official": true
   },
@@ -13291,7 +13291,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 646,
+    "employment_est": 594,
     "name_zh": "Bookbinding machine operator",
     "singstat_official": true
   },
@@ -13315,7 +13315,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 631,
+    "employment_est": 580,
     "name_zh": "Printing/Binding and related machine operator n.e.c.",
     "singstat_official": true
   },
@@ -13339,7 +13339,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 616,
+    "employment_est": 566,
     "name_zh": "Stationary plant/machine operator n.e.c.",
     "singstat_official": true
   },
@@ -13363,7 +13363,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 601,
+    "employment_est": 552,
     "name_zh": "Supervisor/General foreman of assemblers/quality checkers",
     "singstat_official": true
   },
@@ -13387,7 +13387,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 586,
+    "employment_est": 538,
     "name_zh": "Mechanical equipment/component assembler",
     "singstat_official": true
   },
@@ -13411,7 +13411,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 570,
+    "employment_est": 524,
     "name_zh": "Electrical equipment/component assembler",
     "singstat_official": true
   },
@@ -13435,7 +13435,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 555,
+    "employment_est": 510,
     "name_zh": "Electronic equipment/component assembler",
     "singstat_official": true
   },
@@ -13459,7 +13459,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 540,
+    "employment_est": 496,
     "name_zh": "Battery assembler",
     "singstat_official": true
   },
@@ -13483,7 +13483,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 525,
+    "employment_est": 483,
     "name_zh": "Electrical/Electronic products quality checker/tester",
     "singstat_official": true
   },
@@ -13507,7 +13507,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 510,
+    "employment_est": 469,
     "name_zh": "Mechanical products quality checker/tester",
     "singstat_official": true
   },
@@ -13531,7 +13531,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 495,
+    "employment_est": 455,
     "name_zh": "Quality checker/tester n.e.c.",
     "singstat_official": true
   },
@@ -13555,7 +13555,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 480,
+    "employment_est": 441,
     "name_zh": "Assembler n.e.c.",
     "singstat_official": true
   },
@@ -13579,7 +13579,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 465,
+    "employment_est": 427,
     "name_zh": "Mobile machinery supervisor/general foreman",
     "singstat_official": true
   },
@@ -13603,7 +13603,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 450,
+    "employment_est": 413,
     "name_zh": "Train operator",
     "singstat_official": true
   },
@@ -13627,7 +13627,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 435,
+    "employment_est": 399,
     "name_zh": "Railway braker and related worker",
     "singstat_official": true
   },
@@ -13651,7 +13651,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 721,
+    "employment_est": 663,
     "name_zh": "Motorcycle delivery worker",
     "singstat_official": true
   },
@@ -13675,7 +13675,7 @@
       "wage_stat_year": 2024,
       "llm_model": "claude-haiku-3.5"
     },
-    "employment_est": 705,
+    "employment_est": 656,
     "name_zh": "Delivery worker using motorised personal mobility aids/devices",
     "singstat_official": true
   }

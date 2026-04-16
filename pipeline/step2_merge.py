@@ -36,7 +36,7 @@ _CATEGORY_PREFIXES: dict[str, tuple[str, ...]] = {
     "Trades and Labourers": ("7", "8", "9"),
 }
 
-_TRACKED_TARGET = int(os.getenv("AISCOPE_TRACKED_WORKFORCE", "370000"))
+_TRACKED_TARGET = int(os.getenv("AISCOPE_TRACKED_WORKFORCE", "340000"))
 
 
 def _load_map() -> dict[str, Any]:
