@@ -129,13 +129,14 @@ def run_fetch(
     return output_path
 
 
-def main() -> int:
+def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Fetch data.gov.sg datastore into data/raw/wages_fetched.json")
     parser.add_argument("--resource-id", default=None, help="Override DATA_GOV_SG_RESOURCE_ID / default dataset id")
     parser.add_argument("--limit", type=int, default=100, help="Max rows per request (pagination not implemented)")
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument("--fallback", type=Path, default=DEFAULT_FALLBACK)
-    args = parser.parse_args()
+    # When argv is [], defaults only (used when invoked from run_pipeline.py --fetch).
+    args = parser.parse_args(argv)
     try:
         run_fetch(
             resource_id=args.resource_id,
@@ -151,4 +152,4 @@ def main() -> int:
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    raise SystemExit(main(None))

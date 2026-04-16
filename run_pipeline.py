@@ -36,7 +36,8 @@ def main() -> None:
     if args.fetch:
         from pipeline.step1_fetch import main as step1_main
 
-        raise SystemExit(step1_main())
+        # step1_fetch must not parse parent's argv (e.g. --fetch is unknown there).
+        raise SystemExit(step1_main([]))
 
     if args.refresh_scores:
         from pipeline.step3_score import run_step3
