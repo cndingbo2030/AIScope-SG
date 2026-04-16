@@ -2,12 +2,12 @@
   "meta": {
     "title": "AIScope SG",
     "source": "MOM occupational data + AIScope SG localized scoring",
-    "generated_at": "2026-04-16T09:23:24.799247+00:00",
+    "generated_at": "2026-04-16T09:39:27.674541+00:00",
     "total_occupations": 570,
     "total_employment": 340000,
     "employment_anchor": 3720000,
     "employment_method": "meta.total_employment is the sum of employment_est across tracked SSOC rows (SingStat principal titles; default target ~370k AISCOPE_TRACKED_WORKFORCE in step2_merge). Per-row employment in this bundle is scaled from those weights to AISCOPE_TARGET_TOTAL_EMPLOYMENT (default 3_720_000) for treemap national scale.",
-    "avg_ai_score": 5.45,
+    "avg_ai_score": 5.4,
     "data_year": "2024",
     "wage_source": "MOM Occupational Wages 2024",
     "national_median_2025": null
@@ -1056,10 +1056,10 @@
           "employment": 9792,
           "gross_wage": 4170,
           "basic_wage": 3690,
-          "ai_score": 9.5,
-          "reason": "Singapore context applied across regulation, language demands, and workflow digitalization. SkillsFuture pathway: shift into AI-assisted operations, annotation, or compliance monitoring.",
+          "ai_score": 3.5,
+          "reason": "ICA-issued authority and physical border presence are constitutionally required. AI assists screening but officers retain full decision-making authority.",
           "wfh": true,
-          "ai_assists": false,
+          "ai_assists": true,
           "risk_factor": "Process automation exposure",
           "pwm": false,
           "regulated": false,
@@ -1072,7 +1072,7 @@
           "employment_est": 895,
           "name_zh": "Customs and Immigration Officers",
           "singstat_official": true,
-          "vulnerability_index": 1.0
+          "vulnerability_index": 0.43
         },
         {
           "name": "Draughtspersons",
@@ -5324,10 +5324,10 @@
           "employment": 5514,
           "gross_wage": 8235,
           "basic_wage": 7345,
-          "ai_score": 9.6,
-          "reason": "Singapore context applied across regulation, language demands, and workflow digitalization. SkillsFuture pathway: shift into AI-assisted operations, annotation, or compliance monitoring.",
+          "ai_score": 3.5,
+          "reason": "Physical electrical trade work requires EMA certification and on-site installation. AI diagnostic tools assist but cannot perform hands-on trade work.",
           "wfh": false,
-          "ai_assists": false,
+          "ai_assists": true,
           "risk_factor": "Process automation exposure",
           "pwm": false,
           "regulated": false,
@@ -5340,7 +5340,7 @@
           "employment_est": 504,
           "name_zh": "ELECTRICAL EQUIPMENT RELATED TRADES WORKERS",
           "singstat_official": true,
-          "vulnerability_index": 0.96
+          "vulnerability_index": 0.35
         },
         {
           "name": "ELECTRONICS AND TELECOMMUNICATIONS RELATED TRADES WORKERS",
@@ -9536,8 +9536,8 @@
           "employment": 4355,
           "gross_wage": 4285,
           "basic_wage": 3795,
-          "ai_score": 9.6,
-          "reason": "Singapore context applied across regulation, language demands, and workflow digitalization. SkillsFuture pathway: shift into AI-assisted operations, annotation, or compliance monitoring.",
+          "ai_score": 5.5,
+          "reason": "Automated plant systems are widely deployed in Singapore's manufacturing sector. Human operators shift to monitoring and exception handling roles.",
           "wfh": true,
           "ai_assists": false,
           "risk_factor": "Process automation exposure",
@@ -9552,7 +9552,7 @@
           "employment_est": 398,
           "name_zh": "Stationary Plant and Machine Operators Not Elsewhere Classified",
           "singstat_official": true,
-          "vulnerability_index": 1.0
+          "vulnerability_index": 0.63
         },
         {
           "name": "Steam Engine and Boiler Operators",
@@ -9809,9 +9809,11 @@
           "name_zh": "会计师",
           "singstat_official": true,
           "transition_targets": [
-            "Financial Analysts and Related Professionals",
-            "Management and Organisation Analysts"
+            "Financial Analyst",
+            "Management Consultant"
           ],
+          "transition_path_1": "Financial Analyst",
+          "transition_path_2": "Management Consultant",
           "vulnerability_index": 0.83
         },
         {
@@ -11996,10 +11998,10 @@
           "employment": 7035,
           "gross_wage": 8560,
           "basic_wage": 7620,
-          "ai_score": 9.6,
-          "reason": "Singapore context applied across regulation, language demands, and workflow digitalization. SkillsFuture pathway: shift into AI-assisted operations, annotation, or compliance monitoring.",
+          "ai_score": 6.5,
+          "reason": "Research scientists at A*STAR and Singapore universities use AI for data analysis and simulation, but scientific creativity, experimental design and peer-review accountability remain human.",
           "wfh": true,
-          "ai_assists": false,
+          "ai_assists": true,
           "risk_factor": "Process automation exposure",
           "pwm": false,
           "regulated": false,
@@ -12012,7 +12014,7 @@
           "employment_est": 643,
           "name_zh": "Physicists and Astronomers",
           "singstat_official": true,
-          "vulnerability_index": 1.0
+          "vulnerability_index": 0.73
         },
         {
           "name": "Physiotherapists",
@@ -13331,10 +13333,10 @@
           "employment": 5120,
           "gross_wage": 4610,
           "basic_wage": 4070,
-          "ai_score": 9.6,
-          "reason": "Singapore context applied across regulation, language demands, and workflow digitalization. SkillsFuture pathway: shift into AI-assisted operations, annotation, or compliance monitoring.",
+          "ai_score": 2.5,
+          "reason": "Modelling requires physical presence, body movement and live client interaction. AI-generated fashion imagery exists but does not substitute for live model work in Singapore's events and retail sectors.",
           "wfh": true,
-          "ai_assists": false,
+          "ai_assists": true,
           "risk_factor": "Process automation exposure",
           "pwm": false,
           "regulated": false,
@@ -13347,7 +13349,7 @@
           "employment_est": 468,
           "name_zh": "Fashion and Related Models",
           "singstat_official": true,
-          "vulnerability_index": 1.0
+          "vulnerability_index": 0.33
         },
         {
           "name": "Fire-Fighting and Rescue Officers",

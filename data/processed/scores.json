@@ -2,9 +2,11 @@
   "Accountants": {
     "score": 7.5,
     "reason": "Routine accounting, reconciliation and financial reporting are being automated by AI accounting software widely adopted in Singapore's SME sector. ICPAS acknowledges significant role transformation.",
+    "transition_path_1": "Financial Analyst",
+    "transition_path_2": "Management Consultant",
     "transition_targets": [
-      "Financial Analysts and Related Professionals",
-      "Management and Organisation Analysts"
+      "Financial Analyst",
+      "Management Consultant"
     ]
   },
   "Financial Analysts and Related Professionals": {
@@ -43,6 +45,36 @@
   "NURSING ASSOCIATE PROFESSIONALS": {
     "score": 3.2,
     "ai_assists": true
+  },
+  "Physicists and Astronomers": {
+    "score": 6.5,
+    "ai_assists": true,
+    "reason": "Research scientists at A*STAR and Singapore universities use AI for data analysis and simulation, but scientific creativity, experimental design and peer-review accountability remain human."
+  },
+  "Fashion and Related Models": {
+    "score": 2.5,
+    "ai_assists": true,
+    "reason": "Modelling requires physical presence, body movement and live client interaction. AI-generated fashion imagery exists but does not substitute for live model work in Singapore's events and retail sectors."
+  },
+  "ELECTRICAL EQUIPMENT RELATED TRADES WORKERS": {
+    "score": 3.5,
+    "ai_assists": true,
+    "reason": "Physical electrical trade work requires EMA certification and on-site installation. AI diagnostic tools assist but cannot perform hands-on trade work."
+  },
+  "Stationary Plant and Machine Operators NEC": {
+    "score": 5.5,
+    "ai_assists": false,
+    "reason": "Automated plant systems are widely deployed in Singapore's manufacturing sector. Human operators shift to monitoring and exception handling roles."
+  },
+  "Stationary Plant and Machine Operators Not Elsewhere Classified": {
+    "score": 5.5,
+    "ai_assists": false,
+    "reason": "Automated plant systems are widely deployed in Singapore's manufacturing sector. Human operators shift to monitoring and exception handling roles."
+  },
+  "Customs and Immigration Officers": {
+    "score": 3.5,
+    "ai_assists": true,
+    "reason": "ICA-issued authority and physical border presence are constitutionally required. AI assists screening but officers retain full decision-making authority."
   },
   "Software and Applications Developers and Analysts Not Elsewhere Classified": {
     "transition_targets": [

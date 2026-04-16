@@ -171,6 +171,10 @@ def _prepare_occupations(occupations: list[dict[str, Any]]) -> list[dict[str, An
                     o["ai_assists"] = bool(hit["ai_assists"])
                 if "transition_targets" in hit and isinstance(hit["transition_targets"], list):
                     o["transition_targets"] = [str(x).strip() for x in hit["transition_targets"] if str(x).strip()]
+                if "transition_path_1" in hit and str(hit["transition_path_1"]).strip():
+                    o["transition_path_1"] = str(hit["transition_path_1"]).strip()
+                if "transition_path_2" in hit and str(hit["transition_path_2"]).strip():
+                    o["transition_path_2"] = str(hit["transition_path_2"]).strip()
         except Exception:
             pass
     return rows

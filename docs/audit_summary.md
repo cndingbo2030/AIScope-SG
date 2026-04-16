@@ -1,6 +1,6 @@
 # AIScope SG Audit Summary
 
-- Generated at: `2026-04-16T09:23:25.582278+00:00`
+- Generated at: `2026-04-16T09:39:27.840524+00:00`
 - Occupation count: `570`
 - Validation pass rate: `100.00%`
 - Error count: `0`
