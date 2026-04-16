@@ -6,8 +6,8 @@
   "market_overview": "Singapore snapshot (570 SSOC-style rows): mean AI exposure sits near 5.78/10 with a fat right tail in clerical and professional services as 2026 reasoning models absorb cross-document work. PWM-covered frontline roles remain capped but face gradual hardware substitution in pilots; policy focus should pair wage statistics with reskilling velocity, not headline model releases alone.",
   "wage_volatility": {
     "flag": false,
-    "pct_change": null,
-    "prior_snapshot": null,
+    "pct_change": 0.0,
+    "prior_snapshot": "data_20260416.json",
     "note_en": "",
     "note_zh": ""
   }

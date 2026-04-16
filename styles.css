@@ -162,7 +162,22 @@ html, body {
   margin-top: 4px;
 }
 
+.header-metrics {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+}
 .header-stats { display: flex; gap: 14px; align-items: flex-end; }
+.header-provenance {
+  font-family: var(--mono);
+  font-size: 9px;
+  color: rgba(107, 122, 141, 0.92);
+  letter-spacing: 0.04em;
+  max-width: min(420px, 92vw);
+  text-align: right;
+  line-height: 1.45;
+}
 .stat { text-align: right; }
 .stat-val { font-family: var(--mono); font-size: 16px; }
 .stat-val.accent { color: var(--accent); }
@@ -184,6 +199,14 @@ html, body {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 10px;
+}
+.exec-sector-foot {
+  grid-column: 1 / -1;
+  margin: 0;
+  font-family: var(--mono);
+  font-size: 10px;
+  line-height: 1.45;
+  color: var(--muted);
 }
 
 .exec-card {

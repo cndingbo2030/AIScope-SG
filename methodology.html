@@ -170,6 +170,18 @@
       $$S_{final} = \min\left(4.0,\; S_{raw} \cdot w_{reg} \cdot w_{pwm}\right)$$
       <p>where \(w_{pwm}\rightarrow 0\) enforces the <strong>PWM ceiling at 4.0</strong> for covered roles, and \(w_{reg}&lt;1\) discounts desk risk when statutory licensing is binding (SAL / MOH / MAS contexts). Non-PWM cognitive roles can approach the top of the scale under the <strong>2026 reasoning-model</strong> calibration (long-horizon document chains).</p>
 
+      <h2>Vulnerability index (0–1)</h2>
+      <p>
+        The concierge / graph bundle also surfaces a <strong>companion metric</strong> separate from the headline 0–10 AI score.
+        It is computed deterministically in <code>scripts/generate_graph.py</code> as a near-term displacement pressure gauge:
+      </p>
+      $$\text{Vulnerability}=\mathrm{clamp}_{[0,1]}\left(\frac{S_{final}}{10}-0.2\cdot\mathbb{1}_{PWM}-0.15\cdot\mathbb{1}_{Reg}+0.08\cdot\mathbb{1}_{WFH}\right)$$
+      <p>
+        PWM and licensing flags lower the index because wage floors and statutory human-in-the-loop duties dampen immediate displacement risk even when cognitive automation is high.
+        Remote-friendly roles receive a small upward nudge (coordination / oversight fragility).
+        Use the <strong>0–10 score</strong> for automation exposure; use <strong>vulnerability</strong> for prioritising transition support in Results-style triage.
+      </p>
+
       <h2>2. Data pipeline (MOM → model → D3)</h2>
       <p>End-to-end delivery: open-data ingest, model scoring with audit artefacts, schema validation, graph generation, and the static GitHub Pages bundle.</p>
       <pre class="mermaid">
@@ -258,6 +270,13 @@ flowchart LR
           <code>meta.generated_at</code> field records the last hierarchy export; snapshot archives under
           <code>data/processed/snapshots/</code> support wage-drift checks in <code>generate_insights.py</code>.
         </p>
+        <h3>Employment headline on the dashboard</h3>
+        <p>
+          Per-occupation employment weights are proportionally scaled in <code>pipeline/step4_export.py</code> so
+          <code>meta.total_employment</code> matches a configurable national anchor (<code>AISCOPE_TARGET_TOTAL_EMPLOYMENT</code>,
+          default 3.72M). This preserves relative SSOC weights while aligning the public total with Singapore workforce scale,
+          correcting synthetic expansions that would otherwise stack multi-year industry totals into occupation rows.
+        </p>
       </div>
 
       <footer class="meth-official-footer" style="margin-top:28px;padding-top:16px;border-top:1px solid var(--border);font-family:var(--mono);font-size:11px;color:var(--muted);display:flex;align-items:center;gap:8px;">
@@ -292,6 +311,17 @@ flowchart LR
       <p>为便于理解，我们用紧凑的乘性直觉表述（线上流水线在 <code>validate_data.py</code> 与 LLM system prompt 中落实上限）：</p>
       $$S_{final} = \min\left(4.0,\; S_{raw} \cdot w_{reg} \cdot w_{pwm}\right)$$
       <p>其中 \(w_{pwm}\rightarrow 0\) 对适用职业落实 <strong>PWM 上限 4.0</strong>；\(w_{reg}&lt;1\) 在法定执业约束显著时下调案头风险（如律师会、卫生部、金管局等语境）。非 PWM 的认知型岗位在 <strong>2026 推理模型</strong>标定下仍可达标尺上端（长链路文档任务）。</p>
+
+      <h2>脆弱度指数（0–1）</h2>
+      <p>
+        礼宾卡片与图谱会展示一个与 headline <strong>0–10 AI 分并列、但含义不同</strong> 的指标。
+        它在 <code>scripts/generate_graph.py</code> 中按确定性规则计算，用于刻画<strong>近端可置换压力</strong>：
+      </p>
+      $$\text{Vulnerability}=\mathrm{clamp}_{[0,1]}\left(\frac{S_{final}}{10}-0.2\cdot\mathbb{1}_{PWM}-0.15\cdot\mathbb{1}_{Reg}+0.08\cdot\mathbb{1}_{WFH}\right)$$
+      <p>
+        PWM 与监管标记会拉低该指数（工资底线与法定人机协同义务缓冲短期替代冲击）；远程友好岗位有小幅上修（协同与监督摩擦）。
+        叙事上：<strong>0–10 分</strong>描述自动化暴露；<strong>脆弱度</strong>更贴近“谁应优先获得转型与再培训资源”的排序参考。
+      </p>
 
       <h2>2. 数据流水线（MOM → 模型 → D3）</h2>
       <p>从开放数据抓取、带审计的模型打分、模式校验、图谱生成到 GitHub Pages 静态交付的完整链路。</p>
@@ -375,6 +405,11 @@ flowchart LR
         <p>
           当运维执行 <code>python run_pipeline.py --fetch</code>（或等效 GitHub Actions 步骤）时，经 <strong>Production API</strong> 与 MOM/SSOC 对齐库同步。
           仪表板 <code>meta.generated_at</code> 记录最近层级导出；<code>data/processed/snapshots/</code> 下的快照支持 <code>generate_insights.py</code> 的工资漂移检查。
+        </p>
+        <h3>仪表板就业总人数</h3>
+        <p>
+          <code>pipeline/step4_export.py</code> 将各职业就业权重按比例缩放，使 <code>meta.total_employment</code> 对齐可配置的国家锚定值（环境变量 <code>AISCOPE_TARGET_TOTAL_EMPLOYMENT</code>，默认 372 万）。
+          这样公开 headline 与新加坡劳动力量级一致，同时保留各 SSOC 行的相对结构，避免把多年度行业时间序列误叠到职业行后造成的数量级膨胀。
         </p>
       </div>
 

@@ -2,6 +2,14 @@
   "brand_sub": { "en": "Singapore AI Job Exposure Index · Public-Interest", "zh": "新加坡人工智能职业暴露指数 · 公共信息" },
   "stat_occ": { "en": "Occupations", "zh": "职业数" },
   "stat_emp": { "en": "Workers", "zh": "就业人数" },
+  "stat_emp_tooltip": {
+    "en": "Total scaled to a national workforce anchor (default 3.72M) so headline totals match Singapore scale; shares preserve SSOC row weights.",
+    "zh": "总人数按全国劳动力锚定值缩放（默认 372 万），与新加坡量级一致；结构占比保留各 SSOC 行的相对权重。"
+  },
+  "header_provenance": {
+    "en": "Scoring model: {{model}} · Data bundle: {{date}}",
+    "zh": "评分模型：{{model}} · 数据快照：{{date}}"
+  },
   "stat_avg": { "en": "Avg AI Score", "zh": "平均 AI 分" },
   "search_ph": { "en": "Search occupation...", "zh": "搜索职业…" },
   "filter_risk": { "en": "Risk", "zh": "风险" },
@@ -25,6 +33,10 @@
   "ticker_live": { "en": "● Live Data: AI Exposure Model v2026.4 (Updated Apr 2026)", "zh": "● 实时数据：AI 暴露模型 v2026.4（2026年4月更新）" },
   "exec_top_exposed": { "en": "Top 5 Exposed Sectors", "zh": "暴露度最高的 5 个行业" },
   "exec_bottom_protected": { "en": "Bottom 5 Protected Sectors", "zh": "受保护程度最高的 5 个行业" },
+  "exec_sector_footnote": {
+    "en": "Only four SSOC major groups ship in this dataset; lists rank the same groups by employment-weighted mean AI score (highest vs lowest first).",
+    "zh": "本版数据仅含四个 SSOC 大类；两栏按就业加权平均 AI 分排序（左为高暴露端，右为低暴露端），因此行业集合相同、顺序相反属预期现象。"
+  },
   "exec_salary_split": { "en": "Salary Exposure Split", "zh": "薪资与暴露结构" },
   "exec_auto_comment": { "en": "Auto Comment", "zh": "自动解读" },
   "exec_interests": { "en": "Your Recent Interests", "zh": "近期关注" },
@@ -36,19 +48,33 @@
   "exec_policy_title": { "en": "Policy + wage crossover", "zh": "政策与工资交叉" },
   "exec_market_title": { "en": "Market overview", "zh": "市场概览" },
   "exec_wage_volatility_title": { "en": "Wage data anomaly", "zh": "薪资数据异常波动" },
-  "exec_movers_empty": { "en": "No baseline diff yet — copy web/data/data.json to web/data/data_baseline.json and run python3 scripts/generate_insights.py.", "zh": "尚无基线对比——请将 web/data/data.json 复制为 data_baseline.json 后运行 generate_insights.py。" },
+  "exec_movers_empty": {
+    "en": "Year-on-year movers will appear here once a baseline snapshot is published for this site.",
+    "zh": "在发布基线快照后，此处将展示跨年暴露度变化最大的职业。"
+  },
   "insight_sg": { "en": "In Singapore,", "zh": "在新加坡，" },
   "insight_mid": { "en": "% of occupations currently sit in the low-wage/high-exposure bucket.", "zh": "% 的职业处于低薪/高暴露区间。" },
   "insight_stress": { "en": "Stress mode: non-PWM scores scaled ×1.2 (capped at 10). Low-wage / high-exposure share ≈", "zh": "压力模式：非 PWM 分数×1.2（上限10）。低薪/高暴露占比约" },
   "insight_stress_suffix": { "en": "%.", "zh": "%。" },
+  "insight_worker_est": {
+    "en": "Approximate employment in that low-wage / high-exposure bucket: {{n}}.",
+    "zh": "低薪且高暴露区间对应的估计就业：{{n}}。"
+  },
   "salary_high_high": { "en": "High salary + high exposure:", "zh": "高薪且高暴露：" },
   "salary_low_high": { "en": "Low salary + high exposure:", "zh": "低薪且高暴露：" },
+  "salary_low_high_workers": { "en": "Est. workers in that bucket (scaled totals):", "zh": "该区间估计就业（已按锚定缩放）：" },
+  "salary_high_high_workers": { "en": "Est. workers (scaled totals):", "zh": "估计就业（已按锚定缩放）：" },
   "mobile_jobs": { "en": "jobs", "zh": "个职位" },
   "drawer_category": { "en": "Category", "zh": "行业" },
   "drawer_wage": { "en": "Median Wage", "zh": "工资中位数" },
   "drawer_employment": { "en": "Employment", "zh": "就业人数" },
   "drawer_ai_impact": { "en": "AI Impact", "zh": "AI 影响" },
   "drawer_risk_factor": { "en": "Risk Factor", "zh": "风险因素" },
+  "drawer_vulnerability": { "en": "Vulnerability (0–1)", "zh": "脆弱度（0–1）" },
+  "drawer_vulnerability_hint": {
+    "en": "Companion metric from the graph bundle: AI score ÷ 10 with small PWM / licensing / WFH adjustments (see Methodology).",
+    "zh": "图谱配套指标：在 AI 分÷10 基础上对 PWM、监管、远程岗位做小幅加减（见方法论页）。"
+  },
   "drawer_wfh_pwm": { "en": "WFH / PWM / Regulated", "zh": "远程 / PWM / 受监管" },
   "drawer_yes": { "en": "Yes", "zh": "是" },
   "drawer_no": { "en": "No", "zh": "否" },
