@@ -161,6 +161,16 @@ def main() -> int:
         print("ERROR: web/ directory not found", file=sys.stderr)
         return 1
 
+    cname_path = WEB / "CNAME"
+    if cname_path.is_file():
+        print(
+            "ERROR: web/CNAME is present. GitHub Pages will treat it as a custom domain and "
+            "redirect github.io visitors. Remove web/CNAME and manage domains only via "
+            "repository Settings → Pages when you are ready for production DNS.",
+            file=sys.stderr,
+        )
+        return 1
+
     if INDEX.exists():
         idx_html = INDEX.read_text(encoding="utf-8")
         idx_new, idx_changed = inject_index_recency(idx_html)

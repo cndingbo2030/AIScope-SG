@@ -18,6 +18,9 @@ on:
 
 permissions:
   contents: write
+  # Required so the workflow can clear a stale Pages custom domain (e.g. aiscope.sg)
+  # that would otherwise 301 all github.io traffic away from this project site.
+  pages: write
 
 concurrency:
   group: "gh-pages-deploy"
@@ -72,3 +75,28 @@ jobs:
           folder: web
           clean: true
           commit-message: "chore: deploy AIScope SG static site"
+
+      - name: Remove Pages custom domain (restore default github.io URL)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          # Settings → Pages "Custom domain" (e.g. aiscope.sg) makes GitHub 301
+          # https://USER.github.io/REPO/ → that host. Re-fetch current Pages config
+          # and PUT it back with cname=null so the demo stays on github.io.
+          API="repos/${{ github.repository }}/pages"
+          gh api "$API" -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28" > /tmp/pages.json
+          jq '
+            {
+              cname: null,
+              https_enforced: (.https_enforced // true),
+              build_type: (.build_type // "legacy"),
+              source: .source
+            }
+            | if .source == null then del(.source) else . end
+          ' /tmp/pages.json > /tmp/pages-put.json
+          gh api --method PUT "$API" \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            --input /tmp/pages-put.json
+          echo "OK: Pages cname cleared (default github.io host)."
