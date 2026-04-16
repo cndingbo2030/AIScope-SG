@@ -1684,18 +1684,18 @@
 {"head": "ADMINISTRATION PROFESSIONALS", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "ADMINISTRATION PROFESSIONALS", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "ADMINISTRATION PROFESSIONALS", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "ADMINISTRATION PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "ADMINISTRATION PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "ADMINISTRATION PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "ADMINISTRATION PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "ADMINISTRATION PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "ADMINISTRATION PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "ARCHITECTS, PLANNERS, SURVEYORS AND DESIGNERS", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "ARCHITECTS, PLANNERS, SURVEYORS AND DESIGNERS", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "ARCHITECTS, PLANNERS, SURVEYORS AND DESIGNERS", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "ARCHITECTS, PLANNERS, SURVEYORS AND DESIGNERS", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "ARCHITECTS, PLANNERS, SURVEYORS AND DESIGNERS", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "ARCHITECTS, PLANNERS, SURVEYORS AND DESIGNERS", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "ARCHITECTS, PLANNERS, SURVEYORS AND DESIGNERS", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "ARCHITECTS, PLANNERS, SURVEYORS AND DESIGNERS", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "ARCHITECTS, PLANNERS, SURVEYORS AND DESIGNERS", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "AUTHORS, JOURNALISTS AND EDITORS", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "AUTHORS, JOURNALISTS AND EDITORS", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
@@ -1712,18 +1712,18 @@
 {"head": "Advertising and Marketing Professionals", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Advertising and Marketing Professionals", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "Advertising and Marketing Professionals", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "Advertising and Marketing Professionals", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Advertising and Marketing Professionals", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Advertising and Marketing Professionals", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Advertising and Marketing Professionals", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "Advertising and Marketing Professionals", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Advertising and Marketing Professionals", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Aircraft Pilots and Related Professionals", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Aircraft Pilots and Related Professionals", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "Aircraft Pilots and Related Professionals", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "Aircraft Pilots and Related Professionals", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Aircraft Pilots and Related Professionals", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Aircraft Pilots and Related Professionals", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Aircraft Pilots and Related Professionals", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "Aircraft Pilots and Related Professionals", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Aircraft Pilots and Related Professionals", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Applications and Systems Programmers", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Applications and Systems Programmers", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
@@ -1731,10 +1731,10 @@
 {"head": "Archivists, Curators and Conservators", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Archivists, Curators and Conservators", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "Archivists, Curators and Conservators", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "Archivists, Curators and Conservators", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Archivists, Curators and Conservators", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Archivists, Curators and Conservators", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Archivists, Curators and Conservators", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "Archivists, Curators and Conservators", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Archivists, Curators and Conservators", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Audiologists and Speech Therapists", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Audiologists and Speech Therapists", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
@@ -1745,10 +1745,10 @@
 {"head": "BUSINESS AND ADMINISTRATION PROFESSIONALS", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "BUSINESS AND ADMINISTRATION PROFESSIONALS", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "BUSINESS AND ADMINISTRATION PROFESSIONALS", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "BUSINESS AND ADMINISTRATION PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "BUSINESS AND ADMINISTRATION PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "BUSINESS AND ADMINISTRATION PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "BUSINESS AND ADMINISTRATION PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "BUSINESS AND ADMINISTRATION PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "BUSINESS AND ADMINISTRATION PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Biologists, Botanists, Zoologists and Related Professionals", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Biologists, Botanists, Zoologists and Related Professionals", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
@@ -1762,10 +1762,10 @@
 {"head": "Chemical Engineers", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Chemical Engineers", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "Chemical Engineers", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "Chemical Engineers", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Chemical Engineers", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Chemical Engineers", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Chemical Engineers", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "Chemical Engineers", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Chemical Engineers", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Chemists", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Chemists", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
@@ -1773,26 +1773,26 @@
 {"head": "Civil Engineers", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Civil Engineers", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "Civil Engineers", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "Civil Engineers", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Civil Engineers", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Civil Engineers", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Civil Engineers", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "Civil Engineers", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Civil Engineers", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Commodities and Freight Traders", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Commodities and Freight Traders", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "Commodities and Freight Traders", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "Commodities and Freight Traders", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Commodities and Freight Traders", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Commodities and Freight Traders", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Commodities and Freight Traders", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "Commodities and Freight Traders", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Commodities and Freight Traders", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Commodities and Ship Brokers", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Commodities and Ship Brokers", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "Commodities and Ship Brokers", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "Commodities and Ship Brokers", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Commodities and Ship Brokers", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Commodities and Ship Brokers", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Commodities and Ship Brokers", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "Commodities and Ship Brokers", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Commodities and Ship Brokers", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Computer Network, Infrastructure and Platform Professionals", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Computer Network, Infrastructure and Platform Professionals", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
@@ -1800,10 +1800,10 @@
 {"head": "Counselling Professionals", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Counselling Professionals", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "Counselling Professionals", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "Counselling Professionals", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Counselling Professionals", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Counselling Professionals", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Counselling Professionals", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "Counselling Professionals", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Counselling Professionals", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Cybersecurity Professionals", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Cybersecurity Professionals", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
@@ -1811,10 +1811,10 @@
 {"head": "DATABASE, NETWORK, INFRASTRUCTURE AND CYBERSECURITY PROFESSIONALS", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "DATABASE, NETWORK, INFRASTRUCTURE AND CYBERSECURITY PROFESSIONALS", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "DATABASE, NETWORK, INFRASTRUCTURE AND CYBERSECURITY PROFESSIONALS", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "DATABASE, NETWORK, INFRASTRUCTURE AND CYBERSECURITY PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "DATABASE, NETWORK, INFRASTRUCTURE AND CYBERSECURITY PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "DATABASE, NETWORK, INFRASTRUCTURE AND CYBERSECURITY PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "DATABASE, NETWORK, INFRASTRUCTURE AND CYBERSECURITY PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "DATABASE, NETWORK, INFRASTRUCTURE AND CYBERSECURITY PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "DATABASE, NETWORK, INFRASTRUCTURE AND CYBERSECURITY PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Dancers and Choreographers", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Dancers and Choreographers", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
@@ -1834,34 +1834,34 @@
 {"head": "ENGINEERING PROFESSIONALS I", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "ENGINEERING PROFESSIONALS I", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "ENGINEERING PROFESSIONALS I", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "ENGINEERING PROFESSIONALS I", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "ENGINEERING PROFESSIONALS I", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "ENGINEERING PROFESSIONALS I", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "ENGINEERING PROFESSIONALS I", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "ENGINEERING PROFESSIONALS I", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "ENGINEERING PROFESSIONALS I", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "ENGINEERING PROFESSIONALS II (Cont’d)", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "ENGINEERING PROFESSIONALS II (Cont’d)", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "ENGINEERING PROFESSIONALS II (Cont’d)", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "ENGINEERING PROFESSIONALS II (Cont’d)", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "ENGINEERING PROFESSIONALS II (Cont’d)", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "ENGINEERING PROFESSIONALS II (Cont’d)", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "ENGINEERING PROFESSIONALS II (Cont’d)", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "ENGINEERING PROFESSIONALS II (Cont’d)", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "ENGINEERING PROFESSIONALS II (Cont’d)", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Economists", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Economists", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "Economists", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "Economists", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Economists", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Economists", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Economists", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "Economists", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Economists", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Education Methods Specialists", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Education Methods Specialists", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "Education Methods Specialists", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "Education Methods Specialists", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Education Methods Specialists", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Education Methods Specialists", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Education Methods Specialists", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "Education Methods Specialists", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Education Methods Specialists", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Electrical Engineers", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Electrical Engineers", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
@@ -1872,10 +1872,10 @@
 {"head": "Employment Support Professionals", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Employment Support Professionals", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "Employment Support Professionals", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "Employment Support Professionals", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Employment Support Professionals", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Employment Support Professionals", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Employment Support Professionals", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "Employment Support Professionals", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Employment Support Professionals", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Engineering Professionals Not Elsewhere Classified", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Engineering Professionals Not Elsewhere Classified", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
@@ -1883,10 +1883,10 @@
 {"head": "Environmental Engineers", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Environmental Engineers", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "Environmental Engineers", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "Environmental Engineers", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Environmental Engineers", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Environmental Engineers", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Environmental Engineers", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "Environmental Engineers", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Environmental Engineers", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Environmental Protection and Related Professionals", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Environmental Protection and Related Professionals", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
@@ -1915,10 +1915,10 @@
 {"head": "Generalist Medical Practitioners", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Generalist Medical Practitioners", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "Generalist Medical Practitioners", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "Generalist Medical Practitioners", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Generalist Medical Practitioners", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Generalist Medical Practitioners", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Generalist Medical Practitioners", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "Generalist Medical Practitioners", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Generalist Medical Practitioners", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Geologists, Geophysicists and Related Physical Science Professionals", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Geologists, Geophysicists and Related Physical Science Professionals", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
@@ -1929,10 +1929,10 @@
 {"head": "HEALTH PROFESSIONALS", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "HEALTH PROFESSIONALS", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "HEALTH PROFESSIONALS", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "HEALTH PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "HEALTH PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "HEALTH PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "HEALTH PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "HEALTH PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "HEALTH PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Health Professionals Not Elsewhere Classified", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Health Professionals Not Elsewhere Classified", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
@@ -1940,10 +1940,10 @@
 {"head": "Historians, Political Scientists and Related Social Science Professionals", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Historians, Political Scientists and Related Social Science Professionals", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "Historians, Political Scientists and Related Social Science Professionals", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "Historians, Political Scientists and Related Social Science Professionals", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Historians, Political Scientists and Related Social Science Professionals", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Historians, Political Scientists and Related Social Science Professionals", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Historians, Political Scientists and Related Social Science Professionals", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "Historians, Political Scientists and Related Social Science Professionals", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Historians, Political Scientists and Related Social Science Professionals", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Human Resource Professionals", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Human Resource Professionals", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
@@ -1975,18 +1975,18 @@
 {"head": "Junior College and Pre-University Education Teachers", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Junior College and Pre-University Education Teachers", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "Junior College and Pre-University Education Teachers", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "Junior College and Pre-University Education Teachers", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Junior College and Pre-University Education Teachers", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Junior College and Pre-University Education Teachers", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Junior College and Pre-University Education Teachers", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "Junior College and Pre-University Education Teachers", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Junior College and Pre-University Education Teachers", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "LEGAL PROFESSIONALS", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "LEGAL PROFESSIONALS", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "LEGAL PROFESSIONALS", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "LEGAL PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "LEGAL PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "LEGAL PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "LEGAL PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "LEGAL PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "LEGAL PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "LEGAL, SOCIAL, RELIGIOUS AND CULTURAL PROFESSIONALS", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "LEGAL, SOCIAL, RELIGIOUS AND CULTURAL PROFESSIONALS", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
@@ -1994,18 +1994,18 @@
 {"head": "LIBRARIANS, ARCHIVISTS AND CURATORS", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "LIBRARIANS, ARCHIVISTS AND CURATORS", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "LIBRARIANS, ARCHIVISTS AND CURATORS", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "LIBRARIANS, ARCHIVISTS AND CURATORS", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "LIBRARIANS, ARCHIVISTS AND CURATORS", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "LIBRARIANS, ARCHIVISTS AND CURATORS", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "LIBRARIANS, ARCHIVISTS AND CURATORS", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "LIBRARIANS, ARCHIVISTS AND CURATORS", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "LIBRARIANS, ARCHIVISTS AND CURATORS", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "LIFE SCIENCE PROFESSIONALS", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "LIFE SCIENCE PROFESSIONALS", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "LIFE SCIENCE PROFESSIONALS", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "LIFE SCIENCE PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "LIFE SCIENCE PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "LIFE SCIENCE PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "LIFE SCIENCE PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "LIFE SCIENCE PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "LIFE SCIENCE PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Landscape Architects and Designers", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Landscape Architects and Designers", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
@@ -2019,26 +2019,26 @@
 {"head": "Librarians and Related Information Professionals", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Librarians and Related Information Professionals", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "Librarians and Related Information Professionals", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "Librarians and Related Information Professionals", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Librarians and Related Information Professionals", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Librarians and Related Information Professionals", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Librarians and Related Information Professionals", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "Librarians and Related Information Professionals", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Librarians and Related Information Professionals", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "MARKETING AND PUBLIC RELATIONS PROFESSIONALS", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "MARKETING AND PUBLIC RELATIONS PROFESSIONALS", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "MARKETING AND PUBLIC RELATIONS PROFESSIONALS", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "MARKETING AND PUBLIC RELATIONS PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "MARKETING AND PUBLIC RELATIONS PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "MARKETING AND PUBLIC RELATIONS PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "MARKETING AND PUBLIC RELATIONS PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "MARKETING AND PUBLIC RELATIONS PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "MARKETING AND PUBLIC RELATIONS PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "MATHEMATICIANS, ACTUARIES, STATISTICIANS AND RELATED PROFESSIONALS", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "MATHEMATICIANS, ACTUARIES, STATISTICIANS AND RELATED PROFESSIONALS", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "MATHEMATICIANS, ACTUARIES, STATISTICIANS AND RELATED PROFESSIONALS", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "MATHEMATICIANS, ACTUARIES, STATISTICIANS AND RELATED PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "MATHEMATICIANS, ACTUARIES, STATISTICIANS AND RELATED PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "MATHEMATICIANS, ACTUARIES, STATISTICIANS AND RELATED PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "MATHEMATICIANS, ACTUARIES, STATISTICIANS AND RELATED PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "MATHEMATICIANS, ACTUARIES, STATISTICIANS AND RELATED PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "MATHEMATICIANS, ACTUARIES, STATISTICIANS AND RELATED PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "MEDICAL DOCTORS", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "MEDICAL DOCTORS", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
@@ -2052,10 +2052,10 @@
 {"head": "Mechanical Engineers (Excluding Transport and Vehicle Engineers)", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Mechanical Engineers (Excluding Transport and Vehicle Engineers)", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "Mechanical Engineers (Excluding Transport and Vehicle Engineers)", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "Mechanical Engineers (Excluding Transport and Vehicle Engineers)", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Mechanical Engineers (Excluding Transport and Vehicle Engineers)", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Mechanical Engineers (Excluding Transport and Vehicle Engineers)", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Mechanical Engineers (Excluding Transport and Vehicle Engineers)", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "Mechanical Engineers (Excluding Transport and Vehicle Engineers)", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Mechanical Engineers (Excluding Transport and Vehicle Engineers)", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Meteorologists", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Meteorologists", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
@@ -2063,10 +2063,10 @@
 {"head": "Mining Engineers, Metallurgists and Related Professionals", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Mining Engineers, Metallurgists and Related Professionals", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "Mining Engineers, Metallurgists and Related Professionals", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "Mining Engineers, Metallurgists and Related Professionals", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Mining Engineers, Metallurgists and Related Professionals", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Mining Engineers, Metallurgists and Related Professionals", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Mining Engineers, Metallurgists and Related Professionals", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "Mining Engineers, Metallurgists and Related Professionals", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Mining Engineers, Metallurgists and Related Professionals", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Musicians, Composers and Singers", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Musicians, Composers and Singers", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
@@ -2080,10 +2080,10 @@
 {"head": "Nursing Professionals", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Nursing Professionals", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "Nursing Professionals", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "Nursing Professionals", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Nursing Professionals", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Nursing Professionals", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Nursing Professionals", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "Nursing Professionals", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Nursing Professionals", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "OTHER HEALTH PROFESSIONALS", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "OTHER HEALTH PROFESSIONALS", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
@@ -2118,10 +2118,10 @@
 {"head": "Physicists and Astronomers", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Physicists and Astronomers", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "Physicists and Astronomers", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "Physicists and Astronomers", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Physicists and Astronomers", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Physicists and Astronomers", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Physicists and Astronomers", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "Physicists and Astronomers", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Physicists and Astronomers", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Physiotherapists", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Physiotherapists", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
@@ -2132,10 +2132,10 @@
 {"head": "Primary School Teachers", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Primary School Teachers", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "Primary School Teachers", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "Primary School Teachers", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Primary School Teachers", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Primary School Teachers", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Primary School Teachers", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "Primary School Teachers", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Primary School Teachers", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Psychologists", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Psychologists", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
@@ -2143,10 +2143,10 @@
 {"head": "Public Relations Professionals", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Public Relations Professionals", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "Public Relations Professionals", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "Public Relations Professionals", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Public Relations Professionals", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Public Relations Professionals", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Public Relations Professionals", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "Public Relations Professionals", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Public Relations Professionals", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Radio and Television Presenters and Related Professionals", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Radio and Television Presenters and Related Professionals", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
@@ -2154,18 +2154,18 @@
 {"head": "Religious Professionals", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Religious Professionals", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "Religious Professionals", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "Religious Professionals", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Religious Professionals", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Religious Professionals", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Religious Professionals", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "Religious Professionals", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Religious Professionals", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "SCIENCE AND ENGINEERING PROFESSIONALS", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "SCIENCE AND ENGINEERING PROFESSIONALS", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "SCIENCE AND ENGINEERING PROFESSIONALS", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "SCIENCE AND ENGINEERING PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "SCIENCE AND ENGINEERING PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "SCIENCE AND ENGINEERING PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "SCIENCE AND ENGINEERING PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "SCIENCE AND ENGINEERING PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "SCIENCE AND ENGINEERING PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "SECONDARY EDUCATION TEACHERS", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "SECONDARY EDUCATION TEACHERS", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
@@ -2173,10 +2173,10 @@
 {"head": "SHIP AND AIRCRAFT RELATED PROFESSIONALS", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "SHIP AND AIRCRAFT RELATED PROFESSIONALS", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "SHIP AND AIRCRAFT RELATED PROFESSIONALS", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "SHIP AND AIRCRAFT RELATED PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "SHIP AND AIRCRAFT RELATED PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "SHIP AND AIRCRAFT RELATED PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "SHIP AND AIRCRAFT RELATED PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "SHIP AND AIRCRAFT RELATED PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "SHIP AND AIRCRAFT RELATED PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "SOCIAL SCIENCE RESEARCHERS AND PROFESSIONALS; RELIGIOUS PROFESSIONALS", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "SOCIAL SCIENCE RESEARCHERS AND PROFESSIONALS; RELIGIOUS PROFESSIONALS", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
@@ -2187,18 +2187,18 @@
 {"head": "SOFTWARE AND APPLICATIONS DEVELOPERS AND ANALYSTS", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "SOFTWARE AND APPLICATIONS DEVELOPERS AND ANALYSTS", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "SOFTWARE AND APPLICATIONS DEVELOPERS AND ANALYSTS", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "SOFTWARE AND APPLICATIONS DEVELOPERS AND ANALYSTS", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "SOFTWARE AND APPLICATIONS DEVELOPERS AND ANALYSTS", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "SOFTWARE AND APPLICATIONS DEVELOPERS AND ANALYSTS", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "SOFTWARE AND APPLICATIONS DEVELOPERS AND ANALYSTS", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "SOFTWARE AND APPLICATIONS DEVELOPERS AND ANALYSTS", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "SOFTWARE AND APPLICATIONS DEVELOPERS AND ANALYSTS", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Secondary Education Teachers", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Secondary Education Teachers", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "Secondary Education Teachers", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "Secondary Education Teachers", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Secondary Education Teachers", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Secondary Education Teachers", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Secondary Education Teachers", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "Secondary Education Teachers", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Secondary Education Teachers", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Securities and Finance Brokers", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Securities and Finance Brokers", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
@@ -2212,10 +2212,10 @@
 {"head": "Ship Engineers and Related Professionals", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Ship Engineers and Related Professionals", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "Ship Engineers and Related Professionals", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "Ship Engineers and Related Professionals", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Ship Engineers and Related Professionals", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Ship Engineers and Related Professionals", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Ship Engineers and Related Professionals", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "Ship Engineers and Related Professionals", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Ship Engineers and Related Professionals", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Social Work Professionals", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Social Work Professionals", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
@@ -2223,10 +2223,10 @@
 {"head": "Sociologists, Anthropologists and Related Professionals", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Sociologists, Anthropologists and Related Professionals", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "Sociologists, Anthropologists and Related Professionals", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "Sociologists, Anthropologists and Related Professionals", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Sociologists, Anthropologists and Related Professionals", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Sociologists, Anthropologists and Related Professionals", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Sociologists, Anthropologists and Related Professionals", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "Sociologists, Anthropologists and Related Professionals", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Sociologists, Anthropologists and Related Professionals", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Software and Applications Developers and Analysts Not Elsewhere Classified", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Software and Applications Developers and Analysts Not Elsewhere Classified", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
@@ -2240,34 +2240,34 @@
 {"head": "Specialised Goods Sales Professionals", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Specialised Goods Sales Professionals", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "Specialised Goods Sales Professionals", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "Specialised Goods Sales Professionals", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Specialised Goods Sales Professionals", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Specialised Goods Sales Professionals", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Specialised Goods Sales Professionals", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "Specialised Goods Sales Professionals", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Specialised Goods Sales Professionals", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Specialist Medical Practitioners (Medical)", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Specialist Medical Practitioners (Medical)", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "Specialist Medical Practitioners (Medical)", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "Specialist Medical Practitioners (Medical)", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Specialist Medical Practitioners (Medical)", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Specialist Medical Practitioners (Medical)", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Specialist Medical Practitioners (Medical)", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "Specialist Medical Practitioners (Medical)", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Specialist Medical Practitioners (Medical)", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Specialist Medical Practitioners (Other Specialisations)", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Specialist Medical Practitioners (Other Specialisations)", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "Specialist Medical Practitioners (Other Specialisations)", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "Specialist Medical Practitioners (Other Specialisations)", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Specialist Medical Practitioners (Other Specialisations)", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Specialist Medical Practitioners (Other Specialisations)", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Specialist Medical Practitioners (Other Specialisations)", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "Specialist Medical Practitioners (Other Specialisations)", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Specialist Medical Practitioners (Other Specialisations)", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Specialist Medical Practitioners (Surgical)", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Specialist Medical Practitioners (Surgical)", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "Specialist Medical Practitioners (Surgical)", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "Specialist Medical Practitioners (Surgical)", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Specialist Medical Practitioners (Surgical)", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Specialist Medical Practitioners (Surgical)", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Specialist Medical Practitioners (Surgical)", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "Specialist Medical Practitioners (Surgical)", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Specialist Medical Practitioners (Surgical)", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Statisticians and Data Scientists", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Statisticians and Data Scientists", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
@@ -2278,18 +2278,18 @@
 {"head": "Systems Analysts", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Systems Analysts", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "Systems Analysts", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "Systems Analysts", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Systems Analysts", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Systems Analysts", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Systems Analysts", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "Systems Analysts", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Systems Analysts", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "TEACHING AND TRAINING PROFESSIONALS", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "TEACHING AND TRAINING PROFESSIONALS", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "TEACHING AND TRAINING PROFESSIONALS", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "TEACHING AND TRAINING PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "TEACHING AND TRAINING PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "TEACHING AND TRAINING PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "TEACHING AND TRAINING PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "TEACHING AND TRAINING PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "TEACHING AND TRAINING PROFESSIONALS", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "TRADITIONAL AND COMPLEMENTARY MEDICINE PROFESSIONALS", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "TRADITIONAL AND COMPLEMENTARY MEDICINE PROFESSIONALS", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
@@ -2312,10 +2312,10 @@
 {"head": "Transport and Vehicle Engineers", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Transport and Vehicle Engineers", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "Transport and Vehicle Engineers", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "Transport and Vehicle Engineers", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Transport and Vehicle Engineers", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Transport and Vehicle Engineers", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Transport and Vehicle Engineers", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "Transport and Vehicle Engineers", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Transport and Vehicle Engineers", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "UNIVERSITY, POLYTECHNIC AND HIGHER EDUCATION TEACHERS", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "UNIVERSITY, POLYTECHNIC AND HIGHER EDUCATION TEACHERS", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
@@ -2323,10 +2323,10 @@
 {"head": "University, Polytechnic and Higher Education Teachers", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "University, Polytechnic and Higher Education Teachers", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "University, Polytechnic and Higher Education Teachers", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "University, Polytechnic and Higher Education Teachers", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "University, Polytechnic and Higher Education Teachers", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "University, Polytechnic and Higher Education Teachers", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "University, Polytechnic and Higher Education Teachers", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "University, Polytechnic and Higher Education Teachers", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "University, Polytechnic and Higher Education Teachers", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Urban and Related Planners", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Urban and Related Planners", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
@@ -2346,10 +2346,10 @@
 {"head": "Vocational Education Teachers and Trainers", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Vocational Education Teachers and Trainers", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "Vocational Education Teachers and Trainers", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "Vocational Education Teachers and Trainers", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Vocational Education Teachers and Trainers", "relation": "TRANSFER_PATH", "tail": "Veterinarians", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Vocational Education Teachers and Trainers", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Vocational Education Teachers and Trainers", "relation": "TRANSFER_PATH", "tail": "Engineering Professionals Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
-{"head": "Vocational Education Teachers and Trainers", "relation": "TRANSFER_PATH", "tail": "Accountants", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Vocational Education Teachers and Trainers", "relation": "TRANSFER_PATH", "tail": "Traditional and Complementary Medicine Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Astrologers, Fortune-Tellers and Related Workers", "relation": "IN_SECTOR", "tail": "Service & Sales Workers", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Astrologers, Fortune-Tellers and Related Workers", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
