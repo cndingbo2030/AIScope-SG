@@ -28,6 +28,7 @@ DEFAULT_OUTPUT = BASE / "web" / "data" / "data.json"
 SNAPSHOT_DIR = BASE / "data" / "processed" / "snapshots"
 SSOC_MAP = BASE / "data" / "ssoc2024_name_map.json"
 ZH_OUTPUT = BASE / "web" / "data" / "data_zh.json"
+SCORES_PATH = BASE / "data" / "processed" / "scores.json"
 
 _CATEGORY_ZH = {
     "Professionals": "专业人员",
@@ -149,6 +150,25 @@ def _prepare_occupations(occupations: list[dict[str, Any]]) -> list[dict[str, An
             gross_2025 = int(round((gross_2024 * WAGE_GROWTH_2025) / 100.0) * 100)
             o["gross_wage_2025"] = gross_2025
             o["gross_wage"] = gross_2025
+
+    # Optional score overrides from scores.json
+    if SCORES_PATH.is_file():
+        try:
+            payload = json.loads(SCORES_PATH.read_text(encoding="utf-8"))
+            by_name = {str(k).strip().lower(): v for k, v in payload.items() if isinstance(v, dict)}
+            for o in rows:
+                key = str(o.get("name") or "").strip().lower()
+                hit = by_name.get(key)
+                if not hit:
+                    continue
+                if "score" in hit:
+                    o["ai_score"] = float(hit["score"])
+                    if float(o["ai_score"]) > 4.0:
+                        o["pwm"] = False
+                if "reason" in hit and str(hit["reason"]).strip():
+                    o["reason"] = str(hit["reason"]).strip()
+        except Exception:
+            pass
     return rows
 
 

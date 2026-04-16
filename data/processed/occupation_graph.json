@@ -398,7 +398,7 @@
       "label": "Chefs",
       "occ_name": "Chefs",
       "ai_score": 6.6,
-      "wage": 3780.0,
+      "wage": 2700.0,
       "vulnerability_index": 0.66,
       "core_node": false,
       "ssoc_code": "03434",
@@ -1543,7 +1543,7 @@
       "label": "CLEANERS AND HELPERS IN HOTELS, OFFICES AND OTHER ESTABLISHMENTS",
       "occ_name": "CLEANERS AND HELPERS IN HOTELS, OFFICES AND OTHER ESTABLISHMENTS",
       "ai_score": 5.2,
-      "wage": 8235.0,
+      "wage": 2000.0,
       "vulnerability_index": 0.6,
       "core_node": false,
       "ssoc_code": "00911",
@@ -1555,7 +1555,7 @@
       "label": "CLEANERS AND RELATED WORKERS",
       "occ_name": "CLEANERS AND RELATED WORKERS",
       "ai_score": 7.3,
-      "wage": 3895.0,
+      "wage": 2000.0,
       "vulnerability_index": 0.81,
       "core_node": false,
       "ssoc_code": "00091",
@@ -1567,7 +1567,7 @@
       "label": "CLEANERS, LABOURERS AND RELATED WORKERS",
       "occ_name": "CLEANERS, LABOURERS AND RELATED WORKERS",
       "ai_score": 6.0,
-      "wage": 3765.0,
+      "wage": 2000.0,
       "vulnerability_index": 0.6,
       "core_node": false,
       "ssoc_code": "00009",
@@ -1687,7 +1687,7 @@
       "label": "DOMESTIC HELPERS AND CLEANERS",
       "occ_name": "DOMESTIC HELPERS AND CLEANERS",
       "ai_score": 6.1,
-      "wage": 7130.0,
+      "wage": 2000.0,
       "vulnerability_index": 0.61,
       "core_node": false,
       "ssoc_code": "00913",
@@ -2507,7 +2507,7 @@
       "label": "Building Maintenance Workers, Building Structure Cleaners and Related Workers",
       "occ_name": "Building Maintenance Workers, Building Structure Cleaners and Related Workers",
       "ai_score": 2.8,
-      "wage": 4480.0,
+      "wage": 2000.0,
       "vulnerability_index": 0.36,
       "core_node": false,
       "ssoc_code": "07133",
@@ -2975,7 +2975,7 @@
       "label": "PAINTERS, BUILDING STRUCTURE CLEANERS AND RELATED WORKERS",
       "occ_name": "PAINTERS, BUILDING STRUCTURE CLEANERS AND RELATED WORKERS",
       "ai_score": 5.6,
-      "wage": 7520.0,
+      "wage": 2000.0,
       "vulnerability_index": 0.56,
       "core_node": false,
       "ssoc_code": "00713",
@@ -4765,9 +4765,9 @@
       "node_type": "Occupation",
       "label": "Accountants",
       "occ_name": "Accountants",
-      "ai_score": 3.0,
+      "ai_score": 7.5,
       "wage": 5800.0,
-      "vulnerability_index": 0.38,
+      "vulnerability_index": 0.83,
       "core_node": false,
       "ssoc_code": "02411",
       "pwm": false,
@@ -5269,12 +5269,12 @@
       "node_type": "Occupation",
       "label": "Financial Analysts and Related Professionals",
       "occ_name": "Financial Analysts and Related Professionals",
-      "ai_score": 4.0,
-      "wage": 3000.0,
-      "vulnerability_index": 0.2,
+      "ai_score": 8.0,
+      "wage": 7900.0,
+      "vulnerability_index": 0.8,
       "core_node": false,
       "ssoc_code": "02413",
-      "pwm": true,
+      "pwm": false,
       "id": "occupation::Financial Analysts and Related Professionals"
     },
     {
@@ -6819,7 +6819,7 @@
       "label": "Security Guards",
       "occ_name": "Security Guards",
       "ai_score": 6.3,
-      "wage": 3960.0,
+      "wage": 2600.0,
       "vulnerability_index": 0.71,
       "core_node": false,
       "ssoc_code": "05414",
@@ -19153,6 +19153,51 @@
       "rel_type": "REQUIRES_SKILL",
       "source": "occupation::Accountants",
       "target": "skill::process automation exposure",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::Accountants",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::Accountants",
+      "target": "occupation::Software, Web, Multimedia and Games Developers and Designers",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::Accountants",
+      "target": "occupation::Applications and Systems Programmers",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::Accountants",
+      "target": "occupation::Software and Applications Developers and Analysts Not Elsewhere Classified",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::Accountants",
+      "target": "occupation::Other Statistical, Mathematical and Actuarial Professionals",
       "key": 0
     },
     {

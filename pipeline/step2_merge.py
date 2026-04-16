@@ -52,6 +52,10 @@ _WAGE_OVERRIDES = {
     "air traffic controller": 8000,
     "registered nurse": 4800,
     "nursing professional": 4800,
+    "security guard": 2600,
+    "chef": 2700,
+    "cleaner": 2000,
+    "financial analyst": 7900,
     "accountant": 5800,
 }
 

@@ -355,7 +355,7 @@ Occupation: CREATIVE AND PERFORMING ARTS ASSOCIATE PROFESSIONALS
 
 Occupation: Chefs
   AI score: 6.6
-  Median wage: 3780.0
+  Median wage: 2700.0
   Vulnerability index: 0.66
   Core node: False
   Sector: Associate Professionals & Technicians
@@ -1440,7 +1440,7 @@ Occupation: Building Caretaker and Related Workers
 
 Occupation: CLEANERS AND HELPERS IN HOTELS, OFFICES AND OTHER ESTABLISHMENTS
   AI score: 5.2
-  Median wage: 8235.0
+  Median wage: 2000.0
   Vulnerability index: 0.6
   Core node: False
   Sector: Cleaners & Labourers
@@ -1450,7 +1450,7 @@ Occupation: CLEANERS AND HELPERS IN HOTELS, OFFICES AND OTHER ESTABLISHMENTS
 
 Occupation: CLEANERS AND RELATED WORKERS
   AI score: 7.3
-  Median wage: 3895.0
+  Median wage: 2000.0
   Vulnerability index: 0.81
   Core node: False
   Sector: Cleaners & Labourers
@@ -1465,7 +1465,7 @@ Occupation: CLEANERS AND RELATED WORKERS
 
 Occupation: CLEANERS, LABOURERS AND RELATED WORKERS
   AI score: 6.0
-  Median wage: 3765.0
+  Median wage: 2000.0
   Vulnerability index: 0.6
   Core node: False
   Sector: Cleaners & Labourers
@@ -1570,7 +1570,7 @@ Occupation: Concierge and Related Workers
 
 Occupation: DOMESTIC HELPERS AND CLEANERS
   AI score: 6.1
-  Median wage: 7130.0
+  Median wage: 2000.0
   Vulnerability index: 0.61
   Core node: False
   Sector: Cleaners & Labourers
@@ -2345,7 +2345,7 @@ Occupation: Building Frame and Related Trades Workers Not Elsewhere Classified
 
 Occupation: Building Maintenance Workers, Building Structure Cleaners and Related Workers
   AI score: 2.8
-  Median wage: 4480.0
+  Median wage: 2000.0
   Vulnerability index: 0.36
   Core node: False
   Sector: Craft & Trades Workers
@@ -2810,7 +2810,7 @@ Occupation: OTHER CRAFT AND RELATED WORKERS
 
 Occupation: PAINTERS, BUILDING STRUCTURE CLEANERS AND RELATED WORKERS
   AI score: 5.6
-  Median wage: 7520.0
+  Median wage: 2000.0
   Vulnerability index: 0.56
   Core node: False
   Sector: Craft & Trades Workers
@@ -4464,13 +4464,18 @@ Occupation: AUTHORS, JOURNALISTS AND EDITORS
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Accountants
-  AI score: 3.0
+  AI score: 7.5
   Median wage: 5800.0
-  Vulnerability index: 0.38
+  Vulnerability index: 0.83
   Core node: False
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
+  Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Actors
@@ -4964,9 +4969,9 @@ Occupation: Film, Stage and Related Directors and Producers
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Financial Analysts and Related Professionals
-  AI score: 4.0
-  Median wage: 3000.0
-  Vulnerability index: 0.2
+  AI score: 8.0
+  Median wage: 7900.0
+  Vulnerability index: 0.8
   Core node: False
   Sector: Professionals
   Primary risk: Self-checkout and AI recommendations
@@ -6450,7 +6455,7 @@ Occupation: Sales Workers Not Elsewhere Classified
 
 Occupation: Security Guards
   AI score: 6.3
-  Median wage: 3960.0
+  Median wage: 2600.0
   Vulnerability index: 0.71
   Core node: False
   Sector: Service & Sales Workers

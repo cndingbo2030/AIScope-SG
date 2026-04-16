@@ -1,0 +1,10 @@
+{
+  "Accountants": {
+    "score": 7.5,
+    "reason": "Routine accounting, reconciliation and financial reporting are being automated by AI accounting software widely adopted in Singapore's SME sector. ICPAS acknowledges significant role transformation."
+  },
+  "Financial Analysts and Related Professionals": {
+    "score": 8.0,
+    "reason": "Bloomberg and MAS-regulated broker research already integrate AI-generated analysis. Singapore capital markets face significant compression as LLMs generate earnings models at near-zero cost."
+  }
+}

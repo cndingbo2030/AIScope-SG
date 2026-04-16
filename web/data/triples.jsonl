@@ -1743,6 +1743,11 @@
 {"head": "Accountants", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Accountants", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "Accountants", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
+{"head": "Accountants", "relation": "TRANSFER_PATH", "tail": "MEDICAL DOCTORS", "head_type": "Occupation", "tail_type": "Occupation"}
+{"head": "Accountants", "relation": "TRANSFER_PATH", "tail": "Software, Web, Multimedia and Games Developers and Designers", "head_type": "Occupation", "tail_type": "Occupation"}
+{"head": "Accountants", "relation": "TRANSFER_PATH", "tail": "Applications and Systems Programmers", "head_type": "Occupation", "tail_type": "Occupation"}
+{"head": "Accountants", "relation": "TRANSFER_PATH", "tail": "Software and Applications Developers and Analysts Not Elsewhere Classified", "head_type": "Occupation", "tail_type": "Occupation"}
+{"head": "Accountants", "relation": "TRANSFER_PATH", "tail": "Other Statistical, Mathematical and Actuarial Professionals", "head_type": "Occupation", "tail_type": "Occupation"}
 {"head": "Actors", "relation": "IN_SECTOR", "tail": "Professionals", "head_type": "Occupation", "tail_type": "Sector"}
 {"head": "Actors", "relation": "HAS_RISK", "tail": "Process automation exposure", "head_type": "Occupation", "tail_type": "Risk Factor"}
 {"head": "Actors", "relation": "REQUIRES_SKILL", "tail": "process automation exposure", "head_type": "Occupation", "tail_type": "Skills"}
