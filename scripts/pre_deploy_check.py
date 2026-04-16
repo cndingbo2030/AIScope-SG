@@ -142,8 +142,8 @@ def verify_index() -> list[str]:
 
     if "rel=\"canonical\"" not in html and "rel='canonical'" not in html:
         errors.append("index.html: missing canonical link")
-    elif "https://aiscope.sg" not in html:
-        errors.append("index.html: canonical should reference https://aiscope.sg")
+    elif "https://cndingbo2030.github.io/AIiScope-SG" not in html:
+        errors.append("index.html: canonical/OG should reference GitHub Pages base URL")
 
     if 'name="aiscope-recency"' not in html and "name='aiscope-recency'" not in html:
         errors.append("index.html: missing aiscope-recency meta (run pre_deploy_check to inject)")
@@ -184,7 +184,7 @@ def main() -> int:
             print(f"  - {e}", file=sys.stderr)
         return 1
 
-    print("[pre-deploy] index.html SEO checks passed (OG + canonical -> aiscope.sg)")
+    print("[pre-deploy] index.html SEO checks passed (OG + canonical -> github.io/AIiScope-SG)")
     print("[pre-deploy] HTML path audit + i18n key coverage OK")
     return 0
 
