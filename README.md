@@ -4,7 +4,7 @@
 ![SSOC](https://img.shields.io/badge/SSOC-2024-2166ac)
 ![Occupations](https://img.shields.io/badge/Occupations-570-21c7d9)
 
-**[Live Demo →](https://cndingbo2030.github.io/AIiScope-SG/)** · [Canonical site](https://aiscope.sg/) (when configured)
+**[Live site →](https://cndingbo2030.github.io/AIiScope-SG/)**
 
 AIScope SG is a non-commercial, public-interest **Singapore AI Job Exposure Index**: occupation-level scores, wages, policy-aware context (PWM, licensing), and GraphRAG-friendly exports.
 

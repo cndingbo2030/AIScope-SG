@@ -78,12 +78,12 @@ Rollback principle:
 CI workflow: `.github/workflows/deploy-pages.yml`
 
 1. **Gatekeeper:** `python scripts/validate_data.py` must pass (schema + audit).
-2. **Pre-deploy:** `python scripts/pre_deploy_check.py` normalizes any stray root-absolute `href`/`src`/`fetch` paths and verifies Open Graph + canonical (`https://aiscope.sg/`).
+2. **Pre-deploy:** `python scripts/pre_deploy_check.py` normalizes any stray root-absolute `href`/`src`/`fetch` paths and verifies Open Graph + canonical (`https://cndingbo2030.github.io/AIiScope-SG/`).
 3. **Publish:** [JamesIves/github-pages-deploy-action@v4](https://github.com/JamesIves/github-pages-deploy-action) pushes the **`web/`** folder to branch **`gh-pages`** (root of the published site).
 
 Project URL shape: `https://cndingbo2030.github.io/AIiScope-SG/` — `index.html` sets `<base>` from `location.pathname` so assets and `?job=` deep links resolve under the repo prefix.
 
-**`web/CNAME`:** contains `aiscope.sg` for optional GitHub Pages custom domain. It does not affect deployments to other hosts (e.g. `20300000.xyz` subdirectories). Remove or empty `web/CNAME` if you want GitHub Pages to stay on `*.github.io` only.
+**Custom domain:** This repo targets the default GitHub Pages URL `https://cndingbo2030.github.io/AIiScope-SG/` (no `web/CNAME` in the tree). Add `web/CNAME` only if you intentionally wire DNS and enable a custom domain in the repository Pages settings.
 
 ## 7) Operational Checklist
 
