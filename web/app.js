@@ -149,6 +149,7 @@ function applyLocaleStatic() {
   document.getElementById("btn-zh")?.classList.toggle("active", state.lang === "zh");
   document.getElementById("btn-en")?.setAttribute("aria-pressed", state.lang === "en" ? "true" : "false");
   document.getElementById("btn-zh")?.setAttribute("aria-pressed", state.lang === "zh" ? "true" : "false");
+  updateHeaderProvenance();
 }
 
 function refreshCategorySelectOptions() {
@@ -297,6 +298,36 @@ function displayScore(occ) {
   if (!stressTestAi) return base;
   if (occ.pwm) return base;
   return Math.min(10, Math.round(base * 1.2 * 10) / 10);
+}
+
+/** Format headline employment totals (anchored national scale). */
+function formatWorkerScale(v) {
+  const n = Number(v);
+  if (!Number.isFinite(n)) return "—";
+  if (state.lang === "zh") {
+    return `${(n / 10000).toFixed(1).replace(/\.0$/, "")}万`;
+  }
+  return `${(n / 1e6).toFixed(2)}M`;
+}
+
+function updateHeaderProvenance() {
+  const el = document.getElementById("stat-provenance");
+  if (!el || !rawData || !rawData.meta) return;
+  const meta = rawData.meta;
+  const iso = meta.generated_at || "";
+  let datePart = iso;
+  try {
+    datePart = new Date(iso).toLocaleDateString(state.lang === "zh" ? "zh-SG" : "en-SG", {
+      year: "numeric",
+      month: "short",
+      day: "numeric",
+    });
+  } catch (_) {
+    /* ignore */
+  }
+  const occ0 = flattenOccupations()[0];
+  const model = (occ0 && occ0.source_meta && occ0.source_meta.llm_model) || "—";
+  el.textContent = t("header_provenance").replace(/\{\{date\}\}/g, datePart).replace(/\{\{model\}\}/g, String(model));
 }
 
 function skillTokensForOccName(name) {
@@ -551,8 +582,11 @@ async function bootstrap() {
 
 function initUI() {
   document.getElementById("stat-occ").textContent = rawData.meta.total_occupations.toLocaleString();
-  document.getElementById("stat-emp").textContent = Math.round(rawData.meta.total_employment / 1000) + "K";
+  const empEl = document.getElementById("stat-emp");
+  empEl.textContent = formatWorkerScale(rawData.meta.total_employment);
+  empEl.title = t("stat_emp_tooltip");
   document.getElementById("stat-avg").textContent = rawData.meta.avg_ai_score.toFixed(2);
+  updateHeaderProvenance();
 
   const catSelect = document.getElementById("cat-select");
   refreshCategorySelectOptions();
@@ -626,8 +660,8 @@ function getFilteredCategories() {
         const scoreMatch = occ.ai_score >= filterMin && occ.ai_score <= filterMax;
         const q = searchQ;
         const disp = nameForOcc(occ).toLowerCase();
-        const catd = categoryDisplay(cat.name).toLowerCase();
-        const textMatch = q === "" || occ.name.toLowerCase().includes(q) || disp.includes(q) || catd.includes(q);
+        const en = String(occ.name || "").toLowerCase();
+        const textMatch = q === "" || en.includes(q) || disp.includes(q);
         return scoreMatch && textMatch;
       })
     }))
@@ -943,6 +977,8 @@ function openDrawer(occupation, updateUrl = false) {
   const policyTip = occupation.pwm ? t("drawer_pwm_tip") : t("drawer_nopwm_tip");
   const sm = occupation.source_meta || {};
   const batchTs = rawData?.meta?.generated_at || "";
+  const vulnN = Number(occupation.vulnerability_index);
+  const vulnDisp = Number.isFinite(vulnN) ? vulnN.toFixed(2) : "—";
   const drawerFooter = `<footer class="drawer-footer-ts"><div><span class="drawer-footer-k">${escapeHtml(t("drawer_source_meta"))}</span> ${escapeHtml(String(sm.llm_model || "—"))} · ${escapeHtml(String(sm.wage_stat_year || "—"))}</div><div><span class="drawer-footer-k">${escapeHtml(t("drawer_model_time"))}</span> ${escapeHtml(String(batchTs || "—"))}</div></footer>`;
 
   const deepLink = `${window.location.origin}${window.location.pathname}?job=${encodeURIComponent(occupation.ssoc_code || "")}`;
@@ -958,6 +994,7 @@ function openDrawer(occupation, updateUrl = false) {
       <div><div class="drawer-item-label">${escapeHtml(t("drawer_wage"))}</div><div class="drawer-item-val">S$${occupation.gross_wage.toLocaleString()} / mo</div></div>
       <div><div class="drawer-item-label">${escapeHtml(t("drawer_employment"))}</div><div class="drawer-item-val">${occupation.employment.toLocaleString()}</div></div>
       <div><div class="drawer-item-label">${escapeHtml(t("drawer_ai_impact"))}</div><div class="drawer-item-val">${escapeHtml(aiRole)}</div></div>
+      <div><div class="drawer-item-label" title="${escapeHtml(t("drawer_vulnerability_hint"))}">${escapeHtml(t("drawer_vulnerability"))}</div><div class="drawer-item-val">${escapeHtml(vulnDisp)}</div></div>
       <div><div class="drawer-item-label">${escapeHtml(t("drawer_risk_factor"))}</div><div class="drawer-item-val">${escapeHtml(occupation.risk_factor || t("drawer_na"))}</div></div>
       <div><div class="drawer-item-label">${escapeHtml(t("drawer_wfh_pwm"))}</div><div class="drawer-item-val">${occupation.wfh ? t("drawer_yes") : t("drawer_no")} / ${occupation.pwm ? t("drawer_yes") : t("drawer_no")} / ${occupation.regulated ? t("drawer_yes") : t("drawer_no")}</div></div>
     </div>
@@ -1038,13 +1075,21 @@ function getSemanticMatches(query) {
 
   const scored = all.map((occ) => {
     let score = 0;
-    if (occ.name.toLowerCase().includes(q) || nameForOcc(occ).toLowerCase().includes(q)) score += 5;
-    if ((occ.risk_factor || "").toLowerCase().includes(q)) score += 3;
+    const nameHit =
+      String(occ.name || "").toLowerCase().includes(q) ||
+      nameForOcc(occ).toLowerCase().includes(q);
+    if (nameHit) score += 5;
     if (riskIntent && occ.ai_score <= 4.2) score += 4;
     if (outdoorIntent && !occ.wfh) score += 4;
-    if (occ.pwm) score += 1;
     return { occ, score };
-  }).filter((x) => x.score > 0);
+  }).filter((x) => {
+    if (x.score <= 0) return false;
+    const nameHit =
+      String(x.occ.name || "").toLowerCase().includes(q) ||
+      nameForOcc(x.occ).toLowerCase().includes(q);
+    if (nameHit) return true;
+    return riskIntent || outdoorIntent;
+  });
 
   scored.sort((a, b) => b.score - a.score);
   const primary = scored.slice(0, 6).map((x) => x.occ);
@@ -1089,24 +1134,31 @@ function renderExecutiveSummary() {
     byCategory.get(occ.category).push(occ);
   });
 
-  const categoryScores = [...byCategory.entries()].map(([category, occs]) => ({
-    category,
-    avg: occs.reduce((s, o) => s + displayScore(o), 0) / occs.length
-  }));
+  const categoryScores = [...byCategory.entries()].map(([category, occs]) => {
+    const w = occs.reduce((s, o) => s + Number(o.employment || 0), 0);
+    const denom = w > 0 ? w : 1;
+    const avg = occs.reduce((s, o) => s + displayScore(o) * Number(o.employment || 0), 0) / denom;
+    return { category, avg };
+  });
   categoryScores.sort((a, b) => b.avg - a.avg);
 
   const top5 = categoryScores.slice(0, 5);
-  const bottom5 = [...categoryScores].reverse().slice(0, 5);
+  const bottom5 = [...categoryScores].sort((a, b) => a.avg - b.avg).slice(0, 5);
 
-  const highWageHighExposure = all.filter((o) => o.gross_wage >= 5000 && displayScore(o) >= 7).length;
-  const lowWageHighExposure = all.filter((o) => o.gross_wage < 5000 && displayScore(o) >= 7).length;
+  const highWageOccs = all.filter((o) => o.gross_wage >= 5000 && displayScore(o) >= 7);
+  const lowWageOccs = all.filter((o) => o.gross_wage < 5000 && displayScore(o) >= 7);
+  const highWageHighExposure = highWageOccs.length;
+  const lowWageHighExposure = lowWageOccs.length;
+  const highWageHighExposureEmp = highWageOccs.reduce((s, o) => s + Number(o.employment || 0), 0);
+  const lowWageHighExposureEmp = lowWageOccs.reduce((s, o) => s + Number(o.employment || 0), 0);
   const total = all.length || 1;
   const highPct = ((highWageHighExposure / total) * 100).toFixed(1);
   const lowPct = ((lowWageHighExposure / total) * 100).toFixed(1);
 
+  const workerEst = t("insight_worker_est").replace(/\{\{n\}\}/g, formatWorkerScale(lowWageHighExposureEmp));
   const insight = stressTestAi
-    ? `${t("insight_stress")} ${lowPct}${t("insight_stress_suffix")}`
-    : `${t("insight_sg")} ${lowPct}${t("insight_mid")}`;
+    ? `${t("insight_stress")} ${lowPct}${t("insight_stress_suffix")} ${workerEst}`
+    : `${t("insight_sg")} ${lowPct}${t("insight_mid")} ${workerEst}`;
 
   const interests = getTopInterests(5);
   const interestsHtml = interests.length
@@ -1133,6 +1185,11 @@ function renderExecutiveSummary() {
     ? `<div class="wage-volatility-banner" role="alert"><strong>${escapeHtml(t("exec_wage_volatility_title"))}</strong> ${escapeHtml(wvNote)}</div>`
     : "";
 
+  const sectorFoot =
+    categoryScores.length <= 5
+      ? `<p class="exec-sector-foot">${escapeHtml(t("exec_sector_footnote"))}</p>`
+      : "";
+
   const overviewPanel = `
     <div class="exec-grid" data-exec-panel="overview" style="display:${executiveTab === "overview" ? "grid" : "none"}">
       <article class="exec-card">
@@ -1147,13 +1204,16 @@ function renderExecutiveSummary() {
         <div class="exec-label">${escapeHtml(t("exec_salary_split"))}</div>
         <div class="exec-list">
           <span>${escapeHtml(t("salary_high_high"))} ${highPct}%</span>
+          <span>${escapeHtml(t("salary_high_high_workers"))} ${formatWorkerScale(highWageHighExposureEmp)}</span>
           <span>${escapeHtml(t("salary_low_high"))} ${lowPct}%</span>
+          <span>${escapeHtml(t("salary_low_high_workers"))} ${formatWorkerScale(lowWageHighExposureEmp)}</span>
         </div>
       </article>
       <article class="exec-card">
         <div class="exec-label">${escapeHtml(t("exec_auto_comment"))}</div>
         <div class="exec-list"><span id="summary-quote">${escapeHtml(insight)}</span></div>
       </article>
+      ${sectorFoot}
     </div>`;
 
   const outlookPanel = `

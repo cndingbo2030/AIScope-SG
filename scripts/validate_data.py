@@ -115,6 +115,18 @@ def main() -> int:
         errors.append("children must be a non-empty list")
     all_occupations = flatten_occupations(data)
 
+    meta = data.get("meta") or {}
+    te = meta.get("total_employment")
+    sum_rows = sum(int(o.get("employment") or 0) for o in all_occupations)
+    if isinstance(te, (int, float)):
+        if int(te) > 4_800_000 or int(te) < 2_800_000:
+            errors.append(
+                f"meta.total_employment={int(te)} outside policy-credible band 2.8M–4.8M "
+                "(national workforce scale; re-run pipeline.step4_export if synthetic data regressed)"
+            )
+        if abs(int(te) - sum_rows) > 8:
+            errors.append(f"meta.total_employment ({int(te)}) != sum of occupation employment ({sum_rows})")
+
     errors.extend(validate_occupations_zh(all_occupations))
 
     validator = Draft202012Validator(schema)

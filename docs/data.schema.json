@@ -13,6 +13,8 @@
         "generated_at": { "type": "string" },
         "total_occupations": { "type": "integer", "minimum": 1 },
         "total_employment": { "type": "integer", "minimum": 1 },
+        "employment_anchor": { "type": "integer", "minimum": 1 },
+        "employment_method": { "type": "string" },
         "avg_ai_score": { "type": "number", "minimum": 0, "maximum": 10 }
       }
     },
