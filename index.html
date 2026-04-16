@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<base id="ais-base" href="./">
+<script>
+(function () {
+  var p = window.location.pathname;
+  var dir = p.endsWith("/") ? p : p.replace(/\/[^/]*$/, "/") || "/";
+  if (dir === "//") dir = "/";
+  var b = document.getElementById("ais-base");
+  if (b) b.href = dir;
+})();
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AIScope SG — Singapore AI Job Exposure Index</title>
+<link rel="canonical" href="https://aiscope.sg/">
+<meta name="description" content="AIScope SG: Singapore AI Job Exposure Index for occupations, wages, and transition pathways.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="AIScope SG: Singapore AI Job Exposure Index">
+<meta property="og:description" content="Explore Singapore occupations by AI exposure, wages, and policy-aware transition insights.">
+<meta property="og:image" content="https://aiscope.sg/og-cover.png">
+<meta property="og:url" content="https://aiscope.sg/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<div id="app">
+  <header class="top-header">
+    <div class="brand">
+      <div class="brand-name">AI<span>Scope</span> SG</div>
+      <div class="brand-sub">Singapore AI Job Exposure Index · Public-Interest</div>
+    </div>
+    <div class="header-stats">
+      <div class="stat"><div class="stat-val" id="stat-occ">—</div><div class="stat-label">Occupations</div></div>
+      <div class="stat"><div class="stat-val" id="stat-emp">—</div><div class="stat-label">Workers</div></div>
+      <div class="stat"><div class="stat-val accent" id="stat-avg">—</div><div class="stat-label">Avg AI Score</div></div>
+    </div>
+  </header>
+
+  <section id="executive-summary" class="executive"></section>
+
+  <section id="controls">
+    <input id="search" type="text" placeholder="Search occupation...">
+    <div class="filter-group">
+      <span class="filter-label">Risk</span>
+      <button class="pill active" data-filter="all">All</button>
+      <button class="pill" data-filter="low" data-min="0" data-max="3">Low</button>
+      <button class="pill" data-filter="medium" data-min="3" data-max="6">Med</button>
+      <button class="pill" data-filter="high" data-min="6" data-max="10">High</button>
+    </div>
+    <div class="filter-group">
+      <span class="filter-label">Category</span>
+      <select id="cat-select"><option value="all">All categories</option></select>
+    </div>
+    <button id="zoom-reset" class="pill hidden">Back to All Categories</button>
+    <button id="share-btn" class="pill share-btn">Share Snapshot</button>
+  </section>
+  <section id="concierge-results" class="concierge-results" aria-live="polite"></section>
+
+  <div id="canvas-wrap">
+    <div id="loading-overlay"><div class="loader"></div><span>Loading Singapore occupation graph...</span></div>
+    <svg id="treemap"></svg>
+    <div id="mobile-list"></div>
+  </div>
+
+  <footer id="legend">
+    <span>Tip: Click category tiles to zoom-in, click occupation for details. Keyboard: Tab to category, Enter to zoom.</span>
+    <span class="legend-links"><a href="./methodology.html">Methodology</a></span>
+  </footer>
+  <footer class="disclaimer">
+    Disclaimer: AIScope SG data is for policy and research reference only, and does not constitute legal advice or an official regulatory determination.
+  </footer>
+</div>
+
+<div id="tooltip"></div>
+<div id="drawer-backdrop"></div>
+<aside id="drawer">
+  <button class="drawer-close" id="drawer-close">Close</button>
+  <div id="drawer-content"></div>
+</aside>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script src="./app.js"></script>
+</body>
+</html>
