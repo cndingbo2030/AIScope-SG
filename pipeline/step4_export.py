@@ -16,6 +16,8 @@ BASE = Path(__file__).resolve().parent.parent
 
 # National workforce anchor for treemap / drawer employment weights (SSOC-weighted gross scale).
 TARGET_TOTAL_EMPLOYMENT = int(os.getenv("AISCOPE_TARGET_TOTAL_EMPLOYMENT", "3720000"))
+WAGE_YEAR = str(os.getenv("AISCOPE_WAGE_YEAR", "2024")).strip()
+WAGE_GROWTH_2025 = 1.055
 
 _PLACEHOLDER_NAME_RE = re.compile(r"^.+\sOccupation\s\d{3}\s*$")
 
@@ -139,6 +141,14 @@ def _prepare_occupations(occupations: list[dict[str, Any]]) -> list[dict[str, An
         _scale_employment_from_est(rows, TARGET_TOTAL_EMPLOYMENT)
     else:
         _scale_employments_to_anchor(rows, TARGET_TOTAL_EMPLOYMENT)
+
+    if WAGE_YEAR == "2025":
+        for o in rows:
+            gross_2024 = int(o.get("gross_wage") or 0)
+            o["gross_wage_2024_ref"] = gross_2024
+            gross_2025 = int(round((gross_2024 * WAGE_GROWTH_2025) / 100.0) * 100)
+            o["gross_wage_2025"] = gross_2025
+            o["gross_wage"] = gross_2025
     return rows
 
 
@@ -221,6 +231,13 @@ def build_hierarchy(occupations: list[dict[str, Any]]) -> dict[str, Any]:
             "employment_anchor": TARGET_TOTAL_EMPLOYMENT,
             "employment_method": employment_method,
             "avg_ai_score": avg_score,
+            "data_year": WAGE_YEAR,
+            "wage_source": (
+                "MOM Occupational Wages 2025 (estimated; official release pending Aug 2026)"
+                if WAGE_YEAR == "2025"
+                else "MOM Occupational Wages 2024"
+            ),
+            "national_median_2025": 5775 if WAGE_YEAR == "2025" else None,
         },
         "name": "Singapore Occupations",
         "children": categories,

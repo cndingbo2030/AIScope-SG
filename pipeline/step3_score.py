@@ -73,6 +73,14 @@ MANDATORY OVERRIDE RULES:
 - If occupation involves physical presence AND government licensing: score <= 4.0
 - 'Accountant','Bookkeeper','Auditor': score must be 7.0-8.5
 - 'Air Traffic Controller','Pilot','Security Officer': score must be 2.0-3.5
+
+MANDATORY SCORE CONSTRAINTS:
+1. Accountants / Auditors / Bookkeepers: MUST score 7.0–8.5
+2. Air Traffic Controllers / Pilots: MUST score 2.0–3.5
+3. Nurses (all nursing roles): MUST score 2.5–4.0
+4. Doctors / Medical Practitioners: MUST score 4.0–5.5
+5. Any occupation where 'physical presence' OR 'government licensed' appears in reason:
+   AUTO-CAP at 5.0 unless cognitive-only evidence
 """
 
 
@@ -176,7 +184,7 @@ def coerce_json(raw_text: str) -> dict[str, Any]:
     return json.loads(text[left : right + 1])
 
 
-def validate_result(payload: dict[str, Any], is_pwm: bool) -> ScoreResult:
+def validate_result(payload: dict[str, Any], is_pwm: bool, occupation_name: str) -> ScoreResult:
     required = {"score", "reason", "wfh", "ai_assists", "risk_factor"}
     missing = required - payload.keys()
     if missing:
@@ -184,6 +192,19 @@ def validate_result(payload: dict[str, Any], is_pwm: bool) -> ScoreResult:
 
     score = round(float(payload["score"]), 1)
     score = max(0.0, min(10.0, score))
+    role = str(occupation_name or "").lower()
+    reason_txt = str(payload.get("reason", "")).lower()
+
+    if any(k in role for k in ("accountant", "bookkeeper", "auditor")):
+        score = min(8.5, max(7.0, score))
+    if any(k in role for k in ("air traffic controller", "pilot")):
+        score = min(3.5, max(2.0, score))
+    if "nurs" in role:
+        score = min(4.0, max(2.5, score))
+    if any(k in role for k in ("doctor", "medical practitioner", "physician")):
+        score = min(5.5, max(4.0, score))
+    if "physical presence" in reason_txt or "government licensed" in reason_txt:
+        score = min(score, 5.0)
     if is_pwm:
         score = min(score, 4.0)
 
@@ -216,7 +237,11 @@ def score_with_retry(
             )
             raw = extract_text_content(response)
             parsed = coerce_json(raw)
-            return validate_result(parsed, is_pwm=bool(occupation.get("pwm", False)))
+            return validate_result(
+                parsed,
+                is_pwm=bool(occupation.get("pwm", False)),
+                occupation_name=str(occupation.get("name", "")),
+            )
         except Exception as err:  # noqa: BLE001
             last_err = err
             if attempt == retries:
@@ -261,6 +286,7 @@ def run_step3(
     output_path: Path = DEFAULT_OUTPUT,
     *,
     refresh_scores: bool = False,
+    rerun_categories: list[str] | None = None,
 ) -> None:
     api_key = os.getenv("ANTHROPIC_API_KEY", "").strip()
     if not api_key:
@@ -282,9 +308,16 @@ def run_step3(
     print(f"[Step 3] Loaded occupations: {len(occupations)}")
     print(f"[Step 3] Existing scored entries: {len(scored)}")
     print(f"[Step 3] refresh_scores={refresh_scores}")
+    if rerun_categories:
+        print(f"[Step 3] rerun_categories={rerun_categories}")
 
     for idx, occ in enumerate(occupations, start=1):
         name = occ.get("name", f"occupation_{idx}")
+        if rerun_categories:
+            lname = str(name).lower()
+            lcat = str(occ.get("category", "")).lower()
+            if not any(p.lower() in lname or p.lower() in lcat for p in rerun_categories):
+                continue
         if not refresh_scores and name in scored:
             continue
 
@@ -326,8 +359,19 @@ def main() -> None:
         default=DEFAULT_OUTPUT,
         help="scores.json output path.",
     )
+    parser.add_argument(
+        "--rerun-categories",
+        nargs="+",
+        default=None,
+        help="Only re-score occupations whose name/category contains these substrings.",
+    )
     args = parser.parse_args()
-    run_step3(args.input, args.output, refresh_scores=args.refresh_scores)
+    run_step3(
+        args.input,
+        args.output,
+        refresh_scores=args.refresh_scores,
+        rerun_categories=args.rerun_categories,
+    )
 
 
 if __name__ == "__main__":

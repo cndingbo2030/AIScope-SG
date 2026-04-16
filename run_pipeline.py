@@ -11,6 +11,7 @@ Examples:
 from __future__ import annotations
 
 import argparse
+import os
 import sys
 from pathlib import Path
 
@@ -31,7 +32,21 @@ def main() -> None:
         action="store_true",
         help="Re-score all occupations (see pipeline/step3_score.py).",
     )
+    parser.add_argument(
+        "--wage-year",
+        default=None,
+        help="Set wage projection year for export metadata/scaling (e.g. 2025).",
+    )
+    parser.add_argument(
+        "--rerun-categories",
+        nargs="+",
+        default=None,
+        help="Re-score occupations by name/category keyword subsets.",
+    )
     args = parser.parse_args()
+
+    if args.wage_year:
+        os.environ["AISCOPE_WAGE_YEAR"] = str(args.wage_year).strip()
 
     if args.fetch:
         from pipeline.step1_fetch import main as step1_main
@@ -42,7 +57,13 @@ def main() -> None:
     if args.refresh_scores:
         from pipeline.step3_score import run_step3
 
-        run_step3(refresh_scores=True)
+        run_step3(refresh_scores=True, rerun_categories=args.rerun_categories)
+        return
+
+    if args.rerun_categories:
+        from pipeline.step3_score import run_step3
+
+        run_step3(refresh_scores=True, rerun_categories=args.rerun_categories)
         return
 
     parser.print_help()

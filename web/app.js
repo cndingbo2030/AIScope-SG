@@ -47,6 +47,18 @@ function assetUrl(relativePath) {
   return new URL(clean, getBaseHrefForAssets()).href;
 }
 
+function noCacheUrl(relativePath) {
+  const ts = Date.now();
+  return `${assetUrl(relativePath)}?v=${DATA_VERSION}-${ts}`;
+}
+
+function fetchNoCache(relativePath) {
+  return fetch(noCacheUrl(relativePath), {
+    cache: "no-store",
+    headers: { "Cache-Control": "no-cache" },
+  });
+}
+
 let i18nBundle = {};
 let occupationsZh = null;
 /** SSOC → { name, reason, category } from data_zh.json (Chinese display strings). */
@@ -250,7 +262,7 @@ async function ensureZhPackLoaded() {
 
   setLangSpinner(true);
   try {
-    const r1 = await fetch(`${assetUrl("data/data_zh.json")}?v=${DATA_VERSION}`, { cache: "no-store" });
+    const r1 = await fetchNoCache("data/data_zh.json");
     if (r1.ok) {
       const tree = await r1.json();
       const overlay = buildZhOverlayFromDataTree(tree);
@@ -273,7 +285,7 @@ async function ensureZhPackLoaded() {
       }
       zhOccOverlay = null;
     }
-    const r2 = await fetch(`${assetUrl("data/occupations_zh.json")}?v=${DATA_VERSION}`, { cache: "no-store" });
+    const r2 = await fetchNoCache("data/occupations_zh.json");
     if (r2.ok) {
       occupationsZh = await r2.json();
       if (occupationsZh.category_labels && typeof occupationsZh.category_labels === "object") {
@@ -565,10 +577,10 @@ async function bootstrap() {
   try {
     setLoading(true, pendingDeepLinkJob);
     const startTs = performance.now();
-    const dataUrl = `${assetUrl("data/data.json")}?v=${DATA_VERSION}`;
+    const dataUrl = noCacheUrl("data/data.json");
     const kgUrl = assetUrl("data/kg_indices.jsonl");
     const tripleUrl = assetUrl("data/triples.jsonl");
-    const occZhPromise = fetch(`${assetUrl("data/occupations_zh.json")}?v=${DATA_VERSION}`, { cache: "no-store" })
+    const occZhPromise = fetchNoCache("data/occupations_zh.json")
       .then(async (r) => (r.ok ? await r.json() : null))
       .catch(() => null);
     const [data, kgRaw, triplesRaw, zhEarly] = await Promise.all([
@@ -582,7 +594,7 @@ async function bootstrap() {
     triples = triplesRaw.trim() ? triplesRaw.trim().split("\n").map((line) => JSON.parse(line)) : [];
 
     try {
-      const ir = await fetch(assetUrl("data/insights.json"));
+      const ir = await fetchNoCache("data/insights.json");
       insightsData = ir.ok ? await ir.json() : null;
     } catch (_) {
       insightsData = null;

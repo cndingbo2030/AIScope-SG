@@ -38,16 +38,6 @@ Occupation: ANIMAL PRODUCERS
   Skill: process automation exposure
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
-Occupation: Agricultural Workers Not Elsewhere Classified
-  AI score: 2.1
-  Median wage: 4415.0
-  Vulnerability index: 0.29
-  Core node: False
-  Sector: Agricultural & Fishery Workers
-  Primary risk: Process automation exposure
-  Skill: process automation exposure
-  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
-
 Occupation: Aquaculture Workers
   AI score: 2.5
   Median wage: 4675.0
@@ -69,15 +59,12 @@ Occupation: Coastal Waters and Deep Sea Fishery Workers
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: FISHERY WORKERS
-  AI score: 3.9
-  Median wage: 8105.0
-  Vulnerability index: 0.47
+  AI score: 3.3
+  Median wage: 3180.0
+  Vulnerability index: 0.41
   Core node: False
   Sector: Agricultural & Fishery Workers
-  Sector: Agricultural & Fishery Workers
   Primary risk: Process automation exposure
-  Primary risk: Process automation exposure
-  Skill: process automation exposure
   Skill: process automation exposure
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -89,11 +76,11 @@ Occupation: Gardeners, Horticultural and Nursery Growers
   Sector: Agricultural & Fishery Workers
   Primary risk: Process automation exposure
   Skill: process automation exposure
-  Transfer path to: FISHERY WORKERS via skills [process automation exposure]
   Transfer path to: AGRICULTURAL WORKERS NOT ELSEWHERE CLASSIFIED via skills [process automation exposure]
   Transfer path to: ANIMAL PRODUCERS via skills [process automation exposure]
   Transfer path to: Coastal Waters and Deep Sea Fishery Workers via skills [process automation exposure]
   Transfer path to: Aquaculture Workers via skills [process automation exposure]
+  Transfer path to: AGRICULTURAL WORKERS via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Livestock and Dairy Farm Workers
@@ -104,11 +91,11 @@ Occupation: Livestock and Dairy Farm Workers
   Sector: Agricultural & Fishery Workers
   Primary risk: Process automation exposure
   Skill: process automation exposure
-  Transfer path to: FISHERY WORKERS via skills [process automation exposure]
   Transfer path to: AGRICULTURAL WORKERS NOT ELSEWHERE CLASSIFIED via skills [process automation exposure]
   Transfer path to: ANIMAL PRODUCERS via skills [process automation exposure]
   Transfer path to: Coastal Waters and Deep Sea Fishery Workers via skills [process automation exposure]
   Transfer path to: Aquaculture Workers via skills [process automation exposure]
+  Transfer path to: AGRICULTURAL WORKERS via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: MARKET GARDENERS AND CROP GROWERS
@@ -129,11 +116,11 @@ Occupation: Poultry Farm Workers
   Sector: Agricultural & Fishery Workers
   Primary risk: Process automation exposure
   Skill: process automation exposure
-  Transfer path to: FISHERY WORKERS via skills [process automation exposure]
   Transfer path to: AGRICULTURAL WORKERS NOT ELSEWHERE CLASSIFIED via skills [process automation exposure]
   Transfer path to: ANIMAL PRODUCERS via skills [process automation exposure]
   Transfer path to: Coastal Waters and Deep Sea Fishery Workers via skills [process automation exposure]
   Transfer path to: Aquaculture Workers via skills [process automation exposure]
+  Transfer path to: AGRICULTURAL WORKERS via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Vegetable Farm Workers
@@ -144,11 +131,11 @@ Occupation: Vegetable Farm Workers
   Sector: Agricultural & Fishery Workers
   Primary risk: Process automation exposure
   Skill: process automation exposure
-  Transfer path to: FISHERY WORKERS via skills [process automation exposure]
   Transfer path to: AGRICULTURAL WORKERS NOT ELSEWHERE CLASSIFIED via skills [process automation exposure]
   Transfer path to: ANIMAL PRODUCERS via skills [process automation exposure]
   Transfer path to: Coastal Waters and Deep Sea Fishery Workers via skills [process automation exposure]
   Transfer path to: Aquaculture Workers via skills [process automation exposure]
+  Transfer path to: AGRICULTURAL WORKERS via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: ADMINISTRATIVE ASSOCIATE PROFESSIONALS
@@ -233,7 +220,7 @@ Occupation: Agronomy, Horticultural and Farming Technicians
 
 Occupation: Air Traffic Controllers
   AI score: 9.5
-  Median wage: 3195.0
+  Median wage: 8000.0
   Vulnerability index: 1.0
   Core node: False
   Sector: Associate Professionals & Technicians
@@ -250,21 +237,6 @@ Occupation: Artistic and Cultural Associate Professionals Not Elsewhere Classifi
   AI score: 7.1
   Median wage: 4040.0
   Vulnerability index: 0.79
-  Core node: False
-  Sector: Associate Professionals & Technicians
-  Primary risk: Process automation exposure
-  Skill: process automation exposure
-  Transfer path to: SALES AND RELATED ASSOCIATE PROFESSIONALS via skills [process automation exposure]
-  Transfer path to: Telecommunications and Broadcasting Technicians and Audio-Visual Operators Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Police Inspectors via skills [process automation exposure]
-  Transfer path to: Building and Fire Inspectors via skills [process automation exposure]
-  Transfer path to: PHYSICAL AND ENGINEERING SCIENCE TECHNICIANS I via skills [process automation exposure]
-  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
-
-Occupation: Assistant Engineers
-  AI score: 7.9
-  Median wage: 4235.0
-  Vulnerability index: 0.87
   Core node: False
   Sector: Associate Professionals & Technicians
   Primary risk: Process automation exposure
@@ -506,21 +478,6 @@ Occupation: Conference and Event Planners
   Skill: process automation exposure
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
-Occupation: Creative and Performing Arts Associate Professionals
-  AI score: 7.5
-  Median wage: 4300.0
-  Vulnerability index: 0.83
-  Core node: False
-  Sector: Associate Professionals & Technicians
-  Primary risk: Process automation exposure
-  Skill: process automation exposure
-  Transfer path to: SALES AND RELATED ASSOCIATE PROFESSIONALS via skills [process automation exposure]
-  Transfer path to: Telecommunications and Broadcasting Technicians and Audio-Visual Operators Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Police Inspectors via skills [process automation exposure]
-  Transfer path to: Building and Fire Inspectors via skills [process automation exposure]
-  Transfer path to: PHYSICAL AND ENGINEERING SCIENCE TECHNICIANS I via skills [process automation exposure]
-  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
-
 Occupation: Credit and Loans Officers
   AI score: 2.9
   Median wage: 3520.0
@@ -615,16 +572,6 @@ Occupation: Environmental and Occupational Health Inspectors
   AI score: 2.0
   Median wage: 3000.0
   Vulnerability index: 0.28
-  Core node: False
-  Sector: Associate Professionals & Technicians
-  Primary risk: Process automation exposure
-  Skill: process automation exposure
-  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
-
-Occupation: Extracurriculum Instructors
-  AI score: 3.8
-  Median wage: 3390.0
-  Vulnerability index: 0.46
   Core node: False
   Sector: Associate Professionals & Technicians
   Primary risk: Process automation exposure
@@ -793,7 +740,7 @@ Occupation: Legal Associate Professionals
 
 Occupation: Life Science Technicians (Excluding Medical)
   AI score: 7.7
-  Median wage: 3780.0
+  Median wage: 9000.0
   Vulnerability index: 0.85
   Core node: False
   Sector: Associate Professionals & Technicians
@@ -823,7 +770,7 @@ Occupation: Logistics and Maintenance Planners
 
 Occupation: MEDICAL AND PHARMACEUTICAL TECHNICIANS
   AI score: 7.5
-  Median wage: 3050.0
+  Median wage: 9000.0
   Vulnerability index: 0.83
   Core node: False
   Sector: Associate Professionals & Technicians
@@ -858,7 +805,7 @@ Occupation: Mechanical Engineering Technicians (Excluding Transport and Vehicle 
 
 Occupation: Medical Imaging and Therapeutic Equipment Technicians
   AI score: 4.9
-  Median wage: 3390.0
+  Median wage: 9000.0
   Vulnerability index: 0.49
   Core node: False
   Sector: Associate Professionals & Technicians
@@ -868,7 +815,7 @@ Occupation: Medical Imaging and Therapeutic Equipment Technicians
 
 Occupation: Medical and Dental Prosthetic Technicians
   AI score: 6.2
-  Median wage: 4170.0
+  Median wage: 9000.0
   Vulnerability index: 0.62
   Core node: False
   Sector: Associate Professionals & Technicians
@@ -878,7 +825,7 @@ Occupation: Medical and Dental Prosthetic Technicians
 
 Occupation: Medical and Pathology Laboratory Technicians
   AI score: 5.3
-  Median wage: 3650.0
+  Median wage: 9000.0
   Vulnerability index: 0.61
   Core node: False
   Sector: Associate Professionals & Technicians
@@ -911,32 +858,14 @@ Occupation: NURSING ASSOCIATE PROFESSIONALS
   Transfer path to: PHYSICAL AND ENGINEERING SCIENCE TECHNICIANS I via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
-Occupation: Nursing Associate Professionals
-  AI score: 6.6
-  Median wage: 4430.0
-  Vulnerability index: 0.74
-  Core node: False
-  Sector: Associate Professionals & Technicians
-  Primary risk: Process automation exposure
-  Skill: process automation exposure
-  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
-
 Occupation: OTHER ASSOCIATE PROFESSIONALS NOT ELSEWHERE CLASSIFIED
-  AI score: 8.6
-  Median wage: 3375.0
-  Vulnerability index: 0.86
+  AI score: 5.7
+  Median wage: 3310.0
+  Vulnerability index: 0.65
   Core node: False
   Sector: Associate Professionals & Technicians
-  Sector: Associate Professionals & Technicians
-  Primary risk: Process automation exposure
   Primary risk: Process automation exposure
   Skill: process automation exposure
-  Skill: process automation exposure
-  Transfer path to: SALES AND RELATED ASSOCIATE PROFESSIONALS via skills [process automation exposure]
-  Transfer path to: Telecommunications and Broadcasting Technicians and Audio-Visual Operators Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Police Inspectors via skills [process automation exposure]
-  Transfer path to: Building and Fire Inspectors via skills [process automation exposure]
-  Transfer path to: PHYSICAL AND ENGINEERING SCIENCE TECHNICIANS I via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: OTHER HEALTH ASSOCIATE PROFESSIONALS
@@ -1118,26 +1047,6 @@ Occupation: Power Generating Plant Operators
   AI score: 5.1
   Median wage: 3845.0
   Vulnerability index: 0.59
-  Core node: False
-  Sector: Associate Professionals & Technicians
-  Primary risk: Process automation exposure
-  Skill: process automation exposure
-  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
-
-Occupation: Premises and Parks Officers
-  AI score: 3.5
-  Median wage: 4235.0
-  Vulnerability index: 0.35
-  Core node: False
-  Sector: Associate Professionals & Technicians
-  Primary risk: Process automation exposure
-  Skill: process automation exposure
-  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
-
-Occupation: Preschool Education Teachers
-  AI score: 3.3
-  Median wage: 3130.0
-  Vulnerability index: 0.41
   Core node: False
   Sector: Associate Professionals & Technicians
   Primary risk: Process automation exposure
@@ -1374,16 +1283,6 @@ Occupation: TRANSPORT OPERATIONS PLANNERS AND EXECUTIVES
   Skill: process automation exposure
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
-Occupation: Teaching Associate Professionals Not Elsewhere Classified
-  AI score: 4.6
-  Median wage: 3910.0
-  Vulnerability index: 0.54
-  Core node: False
-  Sector: Associate Professionals & Technicians
-  Primary risk: Process automation exposure
-  Skill: process automation exposure
-  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
-
 Occupation: Telecommunications Engineering Technicians
   AI score: 2.0
   Median wage: 3975.0
@@ -1412,21 +1311,6 @@ Occupation: Telecommunications and Broadcasting Technicians and Audio-Visual Ope
   Sector: Associate Professionals & Technicians
   Primary risk: Process automation exposure
   Skill: process automation exposure
-  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
-
-Occupation: Traditional and Complementary Medicine Associate Professionals
-  AI score: 7.1
-  Median wage: 3065.0
-  Vulnerability index: 0.79
-  Core node: False
-  Sector: Associate Professionals & Technicians
-  Primary risk: Process automation exposure
-  Skill: process automation exposure
-  Transfer path to: SALES AND RELATED ASSOCIATE PROFESSIONALS via skills [process automation exposure]
-  Transfer path to: Telecommunications and Broadcasting Technicians and Audio-Visual Operators Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Police Inspectors via skills [process automation exposure]
-  Transfer path to: Building and Fire Inspectors via skills [process automation exposure]
-  Transfer path to: PHYSICAL AND ENGINEERING SCIENCE TECHNICIANS I via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Transport Controllers and Related Workers Not Elsewhere Classified
@@ -1494,21 +1378,6 @@ Occupation: Valuers and Loss Assessors
   Skill: process automation exposure
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
-Occupation: Veterinary Technicians and Assistants
-  AI score: 7.5
-  Median wage: 3325.0
-  Vulnerability index: 0.75
-  Core node: False
-  Sector: Associate Professionals & Technicians
-  Primary risk: Process automation exposure
-  Skill: process automation exposure
-  Transfer path to: SALES AND RELATED ASSOCIATE PROFESSIONALS via skills [process automation exposure]
-  Transfer path to: Telecommunications and Broadcasting Technicians and Audio-Visual Operators Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Police Inspectors via skills [process automation exposure]
-  Transfer path to: Building and Fire Inspectors via skills [process automation exposure]
-  Transfer path to: PHYSICAL AND ENGINEERING SCIENCE TECHNICIANS I via skills [process automation exposure]
-  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
-
 Occupation: Website Administrators
   AI score: 8.8
   Median wage: 3455.0
@@ -1525,15 +1394,47 @@ Occupation: Website Administrators
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: AGRICULTURAL, FISHERY AND RELATED LABOURERS
-  AI score: 6.5
-  Median wage: 7390.0
-  Vulnerability index: 0.73
+  AI score: 7.7
+  Median wage: 4155.0
+  Vulnerability index: 0.77
   Core node: False
   Sector: Cleaners & Labourers
-  Sector: Cleaners & Labourers
-  Primary risk: Process automation exposure
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: Window Cleaners via skills [process automation exposure]
+  Transfer path to: Waste Collection, Recycling and Material Recovery Supervisors via skills [process automation exposure]
+  Transfer path to: Vehicle Cleaners via skills [process automation exposure]
+  Transfer path to: Porters and Related Workers via skills [process automation exposure]
+  Transfer path to: Park, Garden and Landscape Maintenance Workers via skills [process automation exposure]
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
+Occupation: Agricultural, Fishery and Related Labourers Not Elsewhere Classified
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
+  Core node: False
+  Sector: Cleaners & Labourers
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
+Occupation: Attendants
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
+  Core node: False
+  Sector: Cleaners & Labourers
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
+Occupation: Building Caretaker and Related Workers
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
+  Core node: False
+  Sector: Cleaners & Labourers
+  Primary risk: Process automation exposure
   Skill: process automation exposure
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -1555,6 +1456,11 @@ Occupation: CLEANERS AND RELATED WORKERS
   Sector: Cleaners & Labourers
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: Window Cleaners via skills [process automation exposure]
+  Transfer path to: Waste Collection, Recycling and Material Recovery Supervisors via skills [process automation exposure]
+  Transfer path to: Vehicle Cleaners via skills [process automation exposure]
+  Transfer path to: Porters and Related Workers via skills [process automation exposure]
+  Transfer path to: Park, Garden and Landscape Maintenance Workers via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: CLEANERS, LABOURERS AND RELATED WORKERS
@@ -1585,6 +1491,81 @@ Occupation: CONSTRUCTION LABOURERS AND RELATED WORKERS
   Sector: Cleaners & Labourers
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: Window Cleaners via skills [process automation exposure]
+  Transfer path to: Waste Collection, Recycling and Material Recovery Supervisors via skills [process automation exposure]
+  Transfer path to: Vehicle Cleaners via skills [process automation exposure]
+  Transfer path to: Porters and Related Workers via skills [process automation exposure]
+  Transfer path to: Park, Garden and Landscape Maintenance Workers via skills [process automation exposure]
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
+Occupation: Civil Engineering and Building Construction Labourers
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
+  Core node: False
+  Sector: Cleaners & Labourers
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
+Occupation: Cleaners and Helpers in Hotels and Related Establishments
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
+  Core node: False
+  Sector: Cleaners & Labourers
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
+Occupation: Cleaners in Food and Beverage Establishments
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
+  Core node: False
+  Sector: Cleaners & Labourers
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
+Occupation: Cleaners in Offices, Commercial and Industrial Establishments
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
+  Core node: False
+  Sector: Cleaners & Labourers
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
+Occupation: Cleaners in Residential and Open Areas
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
+  Core node: False
+  Sector: Cleaners & Labourers
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
+Occupation: Cleaning Workers Not Elsewhere Classified
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
+  Core node: False
+  Sector: Cleaners & Labourers
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
+Occupation: Concierge and Related Workers
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
+  Core node: False
+  Sector: Cleaners & Labourers
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: DOMESTIC HELPERS AND CLEANERS
@@ -1597,16 +1578,48 @@ Occupation: DOMESTIC HELPERS AND CLEANERS
   Skill: process automation exposure
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
-Occupation: FOOD PREPARATION AND KITCHEN ASSISTANTS
-  AI score: 8.3
-  Median wage: 8430.0
-  Vulnerability index: 0.91
+Occupation: Elementary Workers Not Elsewhere Classified
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
   Core node: False
   Sector: Cleaners & Labourers
-  Sector: Cleaners & Labourers
-  Primary risk: Process automation exposure
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
+Occupation: FOOD PREPARATION AND KITCHEN ASSISTANTS
+  AI score: 8.6
+  Median wage: 3050.0
+  Vulnerability index: 0.94
+  Core node: False
+  Sector: Cleaners & Labourers
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
+  Transfer path to: Window Cleaners via skills [process automation exposure]
+  Transfer path to: Waste Collection, Recycling and Material Recovery Supervisors via skills [process automation exposure]
+  Transfer path to: Vehicle Cleaners via skills [process automation exposure]
+  Transfer path to: Porters and Related Workers via skills [process automation exposure]
+  Transfer path to: Park, Garden and Landscape Maintenance Workers via skills [process automation exposure]
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
+Occupation: Hand Launderers and Pressers
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
+  Core node: False
+  Sector: Cleaners & Labourers
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
+Occupation: Hand and Pedal Vehicle Drivers
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
+  Core node: False
+  Sector: Cleaners & Labourers
+  Primary risk: Process automation exposure
   Skill: process automation exposure
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -1618,12 +1631,32 @@ Occupation: LABOURERS AND RELATED WORKERS
   Sector: Cleaners & Labourers
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: Window Cleaners via skills [process automation exposure]
+  Transfer path to: Waste Collection, Recycling and Material Recovery Supervisors via skills [process automation exposure]
+  Transfer path to: Vehicle Cleaners via skills [process automation exposure]
+  Transfer path to: Porters and Related Workers via skills [process automation exposure]
+  Transfer path to: Park, Garden and Landscape Maintenance Workers via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: MANUFACTURING LABOURERS AND RELATED WORKERS
   AI score: 7.4
   Median wage: 7910.0
   Vulnerability index: 0.74
+  Core node: False
+  Sector: Cleaners & Labourers
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
+  Transfer path to: Window Cleaners via skills [process automation exposure]
+  Transfer path to: Waste Collection, Recycling and Material Recovery Supervisors via skills [process automation exposure]
+  Transfer path to: Vehicle Cleaners via skills [process automation exposure]
+  Transfer path to: Porters and Related Workers via skills [process automation exposure]
+  Transfer path to: Park, Garden and Landscape Maintenance Workers via skills [process automation exposure]
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
+Occupation: Material and Freight Handling Workers
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
   Core node: False
   Sector: Cleaners & Labourers
   Primary risk: Process automation exposure
@@ -1638,6 +1671,31 @@ Occupation: PORTERS, ATTENDANTS AND RELATED WORKERS
   Sector: Cleaners & Labourers
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: Window Cleaners via skills [process automation exposure]
+  Transfer path to: Waste Collection, Recycling and Material Recovery Supervisors via skills [process automation exposure]
+  Transfer path to: Vehicle Cleaners via skills [process automation exposure]
+  Transfer path to: Porters and Related Workers via skills [process automation exposure]
+  Transfer path to: Park, Garden and Landscape Maintenance Workers via skills [process automation exposure]
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
+Occupation: Park, Garden and Landscape Maintenance Workers
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
+  Core node: False
+  Sector: Cleaners & Labourers
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
+Occupation: Porters and Related Workers
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
+  Core node: False
+  Sector: Cleaners & Labourers
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: TRANSPORT AND STORAGE LABOURERS
@@ -1648,12 +1706,27 @@ Occupation: TRANSPORT AND STORAGE LABOURERS
   Sector: Cleaners & Labourers
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: Window Cleaners via skills [process automation exposure]
+  Transfer path to: Waste Collection, Recycling and Material Recovery Supervisors via skills [process automation exposure]
+  Transfer path to: Vehicle Cleaners via skills [process automation exposure]
+  Transfer path to: Porters and Related Workers via skills [process automation exposure]
+  Transfer path to: Park, Garden and Landscape Maintenance Workers via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: VEHICLE, WINDOW, LAUNDRY AND OTHER HAND CLEANING WORKERS
   AI score: 5.6
   Median wage: 8495.0
   Vulnerability index: 0.64
+  Core node: False
+  Sector: Cleaners & Labourers
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
+Occupation: Vehicle Cleaners
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
   Core node: False
   Sector: Cleaners & Labourers
   Primary risk: Process automation exposure
@@ -1668,6 +1741,11 @@ Occupation: WASTE AND RECYCLABLES COLLECTION SUPERVISORS
   Sector: Cleaners & Labourers
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: Window Cleaners via skills [process automation exposure]
+  Transfer path to: Waste Collection, Recycling and Material Recovery Supervisors via skills [process automation exposure]
+  Transfer path to: Vehicle Cleaners via skills [process automation exposure]
+  Transfer path to: Porters and Related Workers via skills [process automation exposure]
+  Transfer path to: Park, Garden and Landscape Maintenance Workers via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: WASTE COLLECTION, RECYCLING AND MATERIAL RECOVERY WORKERS
@@ -1678,12 +1756,42 @@ Occupation: WASTE COLLECTION, RECYCLING AND MATERIAL RECOVERY WORKERS
   Sector: Cleaners & Labourers
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: Window Cleaners via skills [process automation exposure]
+  Transfer path to: Waste Collection, Recycling and Material Recovery Supervisors via skills [process automation exposure]
+  Transfer path to: Vehicle Cleaners via skills [process automation exposure]
+  Transfer path to: Porters and Related Workers via skills [process automation exposure]
+  Transfer path to: Park, Garden and Landscape Maintenance Workers via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: WASTE COLLECTION, RECYCLING AND MATERIAL RECOVERY WORKERS AND OTHER ELEMENTARY WORKERS
   AI score: 9.0
   Median wage: 3310.0
   Vulnerability index: 0.9
+  Core node: False
+  Sector: Cleaners & Labourers
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
+  Transfer path to: Window Cleaners via skills [process automation exposure]
+  Transfer path to: Waste Collection, Recycling and Material Recovery Supervisors via skills [process automation exposure]
+  Transfer path to: Vehicle Cleaners via skills [process automation exposure]
+  Transfer path to: Porters and Related Workers via skills [process automation exposure]
+  Transfer path to: Park, Garden and Landscape Maintenance Workers via skills [process automation exposure]
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
+Occupation: Waste Collection, Recycling and Material Recovery Supervisors
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
+  Core node: False
+  Sector: Cleaners & Labourers
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
+Occupation: Window Cleaners
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
   Core node: False
   Sector: Cleaners & Labourers
   Primary risk: Process automation exposure
@@ -1731,21 +1839,13 @@ Occupation: Bill Collectors and Related Workers
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: CLERICAL SUPERVISORS
-  AI score: 9.0
-  Median wage: 3635.0
-  Vulnerability index: 0.98
+  AI score: 6.2
+  Median wage: 3570.0
+  Vulnerability index: 0.62
   Core node: False
   Sector: Clerical Support Workers
-  Sector: Clerical Support Workers
-  Primary risk: Process automation exposure
   Primary risk: Process automation exposure
   Skill: process automation exposure
-  Skill: process automation exposure
-  Transfer path to: Transport Clerks via skills [process automation exposure]
-  Transfer path to: Production Clerks via skills [process automation exposure]
-  Transfer path to: Stock Clerks via skills [process automation exposure]
-  Transfer path to: KEYBOARD OPERATORS via skills [process automation exposure]
-  Transfer path to: Computer Operations Clerks via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: CLERICAL SUPPORT WORKERS
@@ -1781,16 +1881,6 @@ Occupation: CUSTOMER SERVICES OFFICERS AND CLERKS
   Transfer path to: Stock Clerks via skills [process automation exposure]
   Transfer path to: KEYBOARD OPERATORS via skills [process automation exposure]
   Transfer path to: Computer Operations Clerks via skills [process automation exposure]
-  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
-
-Occupation: Clerical Supervisors
-  AI score: 5.5
-  Median wage: 4430.0
-  Vulnerability index: 0.55
-  Core node: False
-  Sector: Clerical Support Workers
-  Primary risk: Process automation exposure
-  Skill: process automation exposure
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Clerical Support Workers Not Elsewhere Classified
@@ -1873,16 +1963,6 @@ Occupation: GENERAL OFFICE CLERKS
   Transfer path to: Computer Operations Clerks via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
-Occupation: General Office Clerks
-  AI score: 6.0
-  Median wage: 3065.0
-  Vulnerability index: 0.68
-  Core node: False
-  Sector: Clerical Support Workers
-  Primary risk: Process automation exposure
-  Skill: process automation exposure
-  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
-
 Occupation: KEYBOARD OPERATORS
   AI score: 2.7
   Median wage: 4415.0
@@ -1959,15 +2039,12 @@ Occupation: NUMERICAL CLERKS
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: OTHER CLERICAL SUPPORT WORKERS
-  AI score: 4.9
-  Median wage: 4090.0
-  Vulnerability index: 0.49
+  AI score: 7.9
+  Median wage: 4610.0
+  Vulnerability index: 0.87
   Core node: False
   Sector: Clerical Support Workers
-  Sector: Clerical Support Workers
   Primary risk: Process automation exposure
-  Primary risk: Process automation exposure
-  Skill: process automation exposure
   Skill: process automation exposure
   Transfer path to: Transport Clerks via skills [process automation exposure]
   Transfer path to: Production Clerks via skills [process automation exposure]
@@ -2015,16 +2092,6 @@ Occupation: SECRETARIES AND VERBATIM REPORTERS
   AI score: 2.2
   Median wage: 4155.0
   Vulnerability index: 0.22
-  Core node: False
-  Sector: Clerical Support Workers
-  Primary risk: Process automation exposure
-  Skill: process automation exposure
-  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
-
-Occupation: Secretaries and Verbatim Reporters
-  AI score: 6.4
-  Median wage: 3325.0
-  Vulnerability index: 0.72
   Core node: False
   Sector: Clerical Support Workers
   Primary risk: Process automation exposure
@@ -3011,61 +3078,6 @@ Occupation: Structural Metal Preparers and Erectors
   Skill: process automation exposure
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
-Occupation: Supervisors and General Foremen (Building and Related Trades)
-  AI score: 3.4
-  Median wage: 5195.0
-  Vulnerability index: 0.42
-  Core node: False
-  Sector: Craft & Trades Workers
-  Primary risk: Process automation exposure
-  Skill: process automation exposure
-  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
-
-Occupation: Supervisors and General Foremen (Electrical and Electronic Trades)
-  AI score: 6.1
-  Median wage: 4480.0
-  Vulnerability index: 0.61
-  Core node: False
-  Sector: Craft & Trades Workers
-  Primary risk: Process automation exposure
-  Skill: process automation exposure
-  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
-
-Occupation: Supervisors and General Foremen (Food Processing, Woodworking, Garment, Leather and Related Trades)
-  AI score: 8.7
-  Median wage: 4415.0
-  Vulnerability index: 0.87
-  Core node: False
-  Sector: Craft & Trades Workers
-  Primary risk: Process automation exposure
-  Skill: process automation exposure
-  Transfer path to: ELECTRONICS AND TELECOMMUNICATIONS RELATED TRADES WORKERS via skills [process automation exposure]
-  Transfer path to: SUPERVISORS AND GENERAL FOREMEN (BUILDING AND RELATED TRADES) via skills [process automation exposure]
-  Transfer path to: OTHER CRAFT AND RELATED WORKERS via skills [process automation exposure]
-  Transfer path to: GARMENT, LEATHER AND RELATED TRADES WORKERS via skills [process automation exposure]
-  Transfer path to: WOOD TREATERS, CABINET MAKERS AND RELATED TRADES WORKERS via skills [process automation exposure]
-  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
-
-Occupation: Supervisors and General Foremen (Metal, Machinery and Related Trades)
-  AI score: 3.2
-  Median wage: 4740.0
-  Vulnerability index: 0.32
-  Core node: False
-  Sector: Craft & Trades Workers
-  Primary risk: Process automation exposure
-  Skill: process automation exposure
-  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
-
-Occupation: Supervisors and General Foremen (Precision, Handicraft, Printing and Related Trades)
-  AI score: 2.1
-  Median wage: 3765.0
-  Vulnerability index: 0.21
-  Core node: False
-  Sector: Craft & Trades Workers
-  Primary risk: Process automation exposure
-  Skill: process automation exposure
-  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
-
 Occupation: Tailors and Dressmakers
   AI score: 4.5
   Median wage: 4870.0
@@ -3146,6 +3158,16 @@ Occupation: ADMINISTRATIVE AND COMMERCIAL MANAGERS
   Skill: process automation exposure
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
+Occupation: Administration manager
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
+  Core node: False
+  Sector: Managers
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
 Occupation: Aged Care Services Managers
   AI score: 4.3
   Median wage: 7065.0
@@ -3168,13 +3190,33 @@ Occupation: Arts and Cultural Centre Managers
   Transfer path to: Senior Officials of Political Party Organisations via skills [process automation exposure]
   Transfer path to: Preschool Education and Early Intervention Centre Managers via skills [process automation exposure]
   Transfer path to: Senior Government and Statutory Board Officials via skills [process automation exposure]
-  Transfer path to: Information and Communications Technology Service Managers via skills [process automation exposure]
+  Transfer path to: Legislators via skills [process automation exposure]
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
+Occupation: Audit manager
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
+  Core node: False
+  Sector: Managers
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: BUSINESS SERVICES AND ADMINISTRATION MANAGERS
   AI score: 2.7
   Median wage: 4090.0
   Vulnerability index: 0.27
+  Core node: False
+  Sector: Managers
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
+Occupation: Budgeting/Financial accounting manager
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
   Core node: False
   Sector: Managers
   Primary risk: Process automation exposure
@@ -3191,10 +3233,30 @@ Occupation: Business Services and Administration Managers Not Elsewhere Classifi
   Skill: process automation exposure
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
+Occupation: Chief operating officer (COO)/General manager
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
+  Core node: False
+  Sector: Managers
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
 Occupation: Community and Social Services Managers
   AI score: 4.8
   Median wage: 7325.0
   Vulnerability index: 0.56
+  Core node: False
+  Sector: Managers
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
+Occupation: Company director
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
   Core node: False
   Sector: Managers
   Primary risk: Process automation exposure
@@ -3213,7 +3275,7 @@ Occupation: Construction Managers
   Transfer path to: Senior Officials of Political Party Organisations via skills [process automation exposure]
   Transfer path to: Preschool Education and Early Intervention Centre Managers via skills [process automation exposure]
   Transfer path to: Senior Government and Statutory Board Officials via skills [process automation exposure]
-  Transfer path to: Information and Communications Technology Service Managers via skills [process automation exposure]
+  Transfer path to: Legislators via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Customer Service and Call Centre Managers
@@ -3228,7 +3290,7 @@ Occupation: Customer Service and Call Centre Managers
   Transfer path to: Senior Officials of Political Party Organisations via skills [process automation exposure]
   Transfer path to: Preschool Education and Early Intervention Centre Managers via skills [process automation exposure]
   Transfer path to: Senior Government and Statutory Board Officials via skills [process automation exposure]
-  Transfer path to: Information and Communications Technology Service Managers via skills [process automation exposure]
+  Transfer path to: Legislators via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Education and Training Institution Managers
@@ -3273,7 +3335,7 @@ Occupation: Food and Beverages Services Managers
   Transfer path to: Senior Officials of Political Party Organisations via skills [process automation exposure]
   Transfer path to: Preschool Education and Early Intervention Centre Managers via skills [process automation exposure]
   Transfer path to: Senior Government and Statutory Board Officials via skills [process automation exposure]
-  Transfer path to: Information and Communications Technology Service Managers via skills [process automation exposure]
+  Transfer path to: Legislators via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: HOSPITALITY, RETAIL AND RELATED SERVICES MANAGERS
@@ -3288,7 +3350,7 @@ Occupation: HOSPITALITY, RETAIL AND RELATED SERVICES MANAGERS
   Transfer path to: Senior Officials of Political Party Organisations via skills [process automation exposure]
   Transfer path to: Preschool Education and Early Intervention Centre Managers via skills [process automation exposure]
   Transfer path to: Senior Government and Statutory Board Officials via skills [process automation exposure]
-  Transfer path to: Information and Communications Technology Service Managers via skills [process automation exposure]
+  Transfer path to: Legislators via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: HOTEL AND FOOD AND BEVERAGES SERVICES MANAGERS
@@ -3341,10 +3403,10 @@ Occupation: INFORMATION AND COMMUNICATIONS TECHNOLOGY SERVICE MANAGERS
   Skill: process automation exposure
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
-Occupation: Information and Communications Technology Service Managers
-  AI score: 3.0
-  Median wage: 7910.0
-  Vulnerability index: 0.38
+Occupation: Industrial relations manager
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
   Core node: False
   Sector: Managers
   Primary risk: Process automation exposure
@@ -3363,13 +3425,23 @@ Occupation: LEGISLATORS AND SENIOR OFFICIALS
   Transfer path to: Senior Officials of Political Party Organisations via skills [process automation exposure]
   Transfer path to: Preschool Education and Early Intervention Centre Managers via skills [process automation exposure]
   Transfer path to: Senior Government and Statutory Board Officials via skills [process automation exposure]
-  Transfer path to: Information and Communications Technology Service Managers via skills [process automation exposure]
+  Transfer path to: Legislators via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: LEGISLATORS, SENIOR OFFICIALS AND CHIEF EXECUTIVES
   AI score: 6.4
   Median wage: 4025.0
   Vulnerability index: 0.72
+  Core node: False
+  Sector: Managers
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
+Occupation: Legislator
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
   Core node: False
   Sector: Managers
   Primary risk: Process automation exposure
@@ -3406,10 +3478,10 @@ Occupation: MANUFACTURING, CONSTRUCTION, TRANSPORT, DISTRIBUTION AND RELATED PRO
   Skill: process automation exposure
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
-Occupation: Managing Directors, Chief Executives and General Managers
-  AI score: 4.5
-  Median wage: 7520.0
-  Vulnerability index: 0.53
+Occupation: Managing director/Chief executive officer (CEO)
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
   Core node: False
   Sector: Managers
   Primary risk: Process automation exposure
@@ -3428,7 +3500,7 @@ Occupation: Manufacturing Managers
   Transfer path to: Senior Officials of Political Party Organisations via skills [process automation exposure]
   Transfer path to: Preschool Education and Early Intervention Centre Managers via skills [process automation exposure]
   Transfer path to: Senior Government and Statutory Board Officials via skills [process automation exposure]
-  Transfer path to: Information and Communications Technology Service Managers via skills [process automation exposure]
+  Transfer path to: Legislators via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Marketing, Advertising and Public Relations Managers
@@ -3443,7 +3515,7 @@ Occupation: Marketing, Advertising and Public Relations Managers
   Transfer path to: Senior Officials of Political Party Organisations via skills [process automation exposure]
   Transfer path to: Preschool Education and Early Intervention Centre Managers via skills [process automation exposure]
   Transfer path to: Senior Government and Statutory Board Officials via skills [process automation exposure]
-  Transfer path to: Information and Communications Technology Service Managers via skills [process automation exposure]
+  Transfer path to: Legislators via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: OTHER SERVICES MANAGERS
@@ -3468,7 +3540,7 @@ Occupation: PRODUCTION AND SPECIALISED SERVICES MANAGERS
   Transfer path to: Senior Officials of Political Party Organisations via skills [process automation exposure]
   Transfer path to: Preschool Education and Early Intervention Centre Managers via skills [process automation exposure]
   Transfer path to: Senior Government and Statutory Board Officials via skills [process automation exposure]
-  Transfer path to: Information and Communications Technology Service Managers via skills [process automation exposure]
+  Transfer path to: Legislators via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: PRODUCTION MANAGERS IN AGRICULTURE AND FISHERIES
@@ -3491,10 +3563,30 @@ Occupation: PROFESSIONAL, FINANCIAL, COMMUNITY AND SOCIAL SERVICES MANAGERS
   Skill: process automation exposure
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
+Occupation: Personnel/Human resource (HR) manager
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
+  Core node: False
+  Sector: Managers
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
 Occupation: Policy and Planning Managers
   AI score: 5.8
   Median wage: 8300.0
   Vulnerability index: 0.66
+  Core node: False
+  Sector: Managers
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
+Occupation: Policy manager
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
   Core node: False
   Sector: Managers
   Primary risk: Process automation exposure
@@ -3509,21 +3601,6 @@ Occupation: Preschool Education and Early Intervention Centre Managers
   Sector: Managers
   Primary risk: Process automation exposure
   Skill: process automation exposure
-  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
-
-Occupation: Production Managers in Agriculture and Fisheries
-  AI score: 8.5
-  Median wage: 8235.0
-  Vulnerability index: 0.93
-  Core node: False
-  Sector: Managers
-  Primary risk: Process automation exposure
-  Skill: process automation exposure
-  Transfer path to: Health Services Managers via skills [process automation exposure]
-  Transfer path to: Senior Officials of Political Party Organisations via skills [process automation exposure]
-  Transfer path to: Preschool Education and Early Intervention Centre Managers via skills [process automation exposure]
-  Transfer path to: Senior Government and Statutory Board Officials via skills [process automation exposure]
-  Transfer path to: Information and Communications Technology Service Managers via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Production and Operations Managers Not Elsewhere Classified
@@ -3568,7 +3645,7 @@ Occupation: Recreation Centre Managers
   Transfer path to: Senior Officials of Political Party Organisations via skills [process automation exposure]
   Transfer path to: Preschool Education and Early Intervention Centre Managers via skills [process automation exposure]
   Transfer path to: Senior Government and Statutory Board Officials via skills [process automation exposure]
-  Transfer path to: Information and Communications Technology Service Managers via skills [process automation exposure]
+  Transfer path to: Legislators via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Research and Development Managers
@@ -3583,22 +3660,7 @@ Occupation: Research and Development Managers
   Transfer path to: Senior Officials of Political Party Organisations via skills [process automation exposure]
   Transfer path to: Preschool Education and Early Intervention Centre Managers via skills [process automation exposure]
   Transfer path to: Senior Government and Statutory Board Officials via skills [process automation exposure]
-  Transfer path to: Information and Communications Technology Service Managers via skills [process automation exposure]
-  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
-
-Occupation: Retail and Wholesale Trade Managers
-  AI score: 7.4
-  Median wage: 7260.0
-  Vulnerability index: 0.82
-  Core node: False
-  Sector: Managers
-  Primary risk: Process automation exposure
-  Skill: process automation exposure
-  Transfer path to: Health Services Managers via skills [process automation exposure]
-  Transfer path to: Senior Officials of Political Party Organisations via skills [process automation exposure]
-  Transfer path to: Preschool Education and Early Intervention Centre Managers via skills [process automation exposure]
-  Transfer path to: Senior Government and Statutory Board Officials via skills [process automation exposure]
-  Transfer path to: Information and Communications Technology Service Managers via skills [process automation exposure]
+  Transfer path to: Legislators via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: SALES, MARKETING, DEVELOPMENT AND CUSTOMER SERVICE MANAGERS
@@ -3661,6 +3723,56 @@ Occupation: Senior Officials of Political Party Organisations
   Skill: process automation exposure
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
+Occupation: Senior government official
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
+  Core node: False
+  Sector: Managers
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
+Occupation: Senior official of employers'/workers' and related economic-interest organisation
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
+  Core node: False
+  Sector: Managers
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
+Occupation: Senior official of humanitarian and other special-interest organisation
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
+  Core node: False
+  Sector: Managers
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
+Occupation: Senior official of political party organisation
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
+  Core node: False
+  Sector: Managers
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
+Occupation: Senior statutory board official
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
+  Core node: False
+  Sector: Managers
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
 Occupation: Services Managers Not Elsewhere Classified
   AI score: 9.2
   Median wage: 8300.0
@@ -3673,7 +3785,7 @@ Occupation: Services Managers Not Elsewhere Classified
   Transfer path to: Senior Officials of Political Party Organisations via skills [process automation exposure]
   Transfer path to: Preschool Education and Early Intervention Centre Managers via skills [process automation exposure]
   Transfer path to: Senior Government and Statutory Board Officials via skills [process automation exposure]
-  Transfer path to: Information and Communications Technology Service Managers via skills [process automation exposure]
+  Transfer path to: Legislators via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Sports Centre Managers
@@ -3688,7 +3800,17 @@ Occupation: Sports Centre Managers
   Transfer path to: Senior Officials of Political Party Organisations via skills [process automation exposure]
   Transfer path to: Preschool Education and Early Intervention Centre Managers via skills [process automation exposure]
   Transfer path to: Senior Government and Statutory Board Officials via skills [process automation exposure]
-  Transfer path to: Information and Communications Technology Service Managers via skills [process automation exposure]
+  Transfer path to: Legislators via skills [process automation exposure]
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
+Occupation: Training manager
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
+  Core node: False
+  Sector: Managers
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Transport, Supply, Distribution and Related Managers
@@ -3726,6 +3848,26 @@ Occupation: ASSEMBLERS, QUALITY CHECKERS AND TESTERS
   Transfer path to: MOBILE MACHINERY OPERATORS via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
+Occupation: Assemblers Not Elsewhere Classified
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
+  Core node: False
+  Sector: Plant & Machine Operators
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
+Occupation: Bus and Tram Drivers
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
+  Core node: False
+  Sector: Plant & Machine Operators
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
 Occupation: CAR AND LIGHT GOODS VEHICLE DRIVERS
   AI score: 3.0
   Median wage: 8560.0
@@ -3740,6 +3882,16 @@ Occupation: CHEMICAL PROCESSING, CHEMICAL AND PHOTOGRAPHIC PRODUCTS PLANT AND MA
   AI score: 6.3
   Median wage: 7585.0
   Vulnerability index: 0.71
+  Core node: False
+  Sector: Plant & Machine Operators
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
+Occupation: Car, Taxi, Van and Light Goods Vehicle Drivers
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
   Core node: False
   Sector: Plant & Machine Operators
   Primary risk: Process automation exposure
@@ -3781,6 +3933,16 @@ Occupation: Chemical Processing, Chemical and Photographic Products Plant and Ma
   Skill: process automation exposure
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
+Occupation: Crane, Hoist and Related Equipment Operators
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
+  Core node: False
+  Sector: Plant & Machine Operators
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
 Occupation: DRIVERS AND MOBILE MACHINERY OPERATORS
   AI score: 6.8
   Median wage: 3635.0
@@ -3791,25 +3953,30 @@ Occupation: DRIVERS AND MOBILE MACHINERY OPERATORS
   Skill: process automation exposure
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
-Occupation: FOOD AND RELATED PRODUCTS MACHINE OPERATORS
-  AI score: 7.6
-  Median wage: 8365.0
-  Vulnerability index: 0.84
+Occupation: Earth Moving and Related Machinery Operators
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
   Core node: False
   Sector: Plant & Machine Operators
   Primary risk: Process automation exposure
   Skill: process automation exposure
-  Transfer path to: CAR AND LIGHT GOODS VEHICLE DRIVERS via skills [process automation exposure]
-  Transfer path to: TRAIN OPERATORS AND RELATED WORKERS via skills [process automation exposure]
-  Transfer path to: MOBILE MACHINERY SUPERVISORS AND GENERAL FOREMEN via skills [process automation exposure]
-  Transfer path to: SHIPS’ DECK CREW AND RELATED WORKERS via skills [process automation exposure]
-  Transfer path to: MOBILE MACHINERY OPERATORS via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
-Occupation: Food and Related Products Machine Operators
-  AI score: 7.0
-  Median wage: 4350.0
-  Vulnerability index: 0.78
+Occupation: Electrical and Electronic Equipment Assemblers
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
+  Core node: False
+  Sector: Plant & Machine Operators
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
+Occupation: FOOD AND RELATED PRODUCTS MACHINE OPERATORS
+  AI score: 7.6
+  Median wage: 8365.0
+  Vulnerability index: 0.84
   Core node: False
   Sector: Plant & Machine Operators
   Primary risk: Process automation exposure
@@ -3840,6 +4007,26 @@ Occupation: HEAVY TRUCK AND BUS DRIVERS
   AI score: 3.4
   Median wage: 7195.0
   Vulnerability index: 0.34
+  Core node: False
+  Sector: Plant & Machine Operators
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
+Occupation: Heavy Truck and Lorry Drivers
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
+  Core node: False
+  Sector: Plant & Machine Operators
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
+Occupation: Lifting Truck Operators
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
   Core node: False
   Sector: Plant & Machine Operators
   Primary risk: Process automation exposure
@@ -3951,6 +4138,26 @@ Occupation: Metal Melters, Casters and Rolling Mill Operators
   Transfer path to: MOBILE MACHINERY OPERATORS via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
+Occupation: Mobile Machinery Operators Not Elsewhere Classified
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
+  Core node: False
+  Sector: Plant & Machine Operators
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
+Occupation: Motorcycle Delivery Workers
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
+  Core node: False
+  Sector: Plant & Machine Operators
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
 Occupation: OTHER STATIONARY PLANT AND MACHINE OPERATORS
   AI score: 8.5
   Median wage: 7260.0
@@ -4036,10 +4243,30 @@ Occupation: Printing, Binding and Related Machine Operators
   Transfer path to: MOBILE MACHINERY OPERATORS via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
+Occupation: Quality Checkers and Testers
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
+  Core node: False
+  Sector: Plant & Machine Operators
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
 Occupation: RUBBER, PLASTIC AND PAPER PRODUCTS MACHINE OPERATORS
   AI score: 6.7
   Median wage: 7845.0
   Vulnerability index: 0.75
+  Core node: False
+  Sector: Plant & Machine Operators
+  Primary risk: Process automation exposure
+  Skill: process automation exposure
+  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
+
+Occupation: Railway Brakers and Related Workers
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
   Core node: False
   Sector: Plant & Machine Operators
   Primary risk: Process automation exposure
@@ -4116,21 +4343,6 @@ Occupation: Stationary Plant and Machine Operators Not Elsewhere Classified
   Transfer path to: MOBILE MACHINERY OPERATORS via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
-Occupation: Stationary Plant and Machine Supervisors and General Foremen
-  AI score: 8.1
-  Median wage: 3700.0
-  Vulnerability index: 0.89
-  Core node: False
-  Sector: Plant & Machine Operators
-  Primary risk: Process automation exposure
-  Skill: process automation exposure
-  Transfer path to: CAR AND LIGHT GOODS VEHICLE DRIVERS via skills [process automation exposure]
-  Transfer path to: TRAIN OPERATORS AND RELATED WORKERS via skills [process automation exposure]
-  Transfer path to: MOBILE MACHINERY SUPERVISORS AND GENERAL FOREMEN via skills [process automation exposure]
-  Transfer path to: SHIPS’ DECK CREW AND RELATED WORKERS via skills [process automation exposure]
-  Transfer path to: MOBILE MACHINERY OPERATORS via skills [process automation exposure]
-  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
-
 Occupation: Steam Engine and Boiler Operators
   AI score: 8.3
   Median wage: 5130.0
@@ -4144,16 +4356,6 @@ Occupation: Steam Engine and Boiler Operators
   Transfer path to: MOBILE MACHINERY SUPERVISORS AND GENERAL FOREMEN via skills [process automation exposure]
   Transfer path to: SHIPS’ DECK CREW AND RELATED WORKERS via skills [process automation exposure]
   Transfer path to: MOBILE MACHINERY OPERATORS via skills [process automation exposure]
-  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
-
-Occupation: Supervisors and General Foremen of Assemblers and Quality Checkers
-  AI score: 2.3
-  Median wage: 4545.0
-  Vulnerability index: 0.31
-  Core node: False
-  Sector: Plant & Machine Operators
-  Primary risk: Process automation exposure
-  Skill: process automation exposure
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: TEXTILE, FUR AND LEATHER PRODUCTS MACHINE OPERATORS
@@ -4181,10 +4383,10 @@ Occupation: TRAIN OPERATORS AND RELATED WORKERS
   Skill: process automation exposure
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
-Occupation: Textile, Fur and Leather Products Machine Operators
-  AI score: 6.5
-  Median wage: 4090.0
-  Vulnerability index: 0.65
+Occupation: Train Operators
+  AI score: 2.8
+  Median wage: 4805.0
+  Vulnerability index: 0.28
   Core node: False
   Sector: Plant & Machine Operators
   Primary risk: Process automation exposure
@@ -4221,21 +4423,6 @@ Occupation: Well Drillers and Borers and Related Mining Workers
   Transfer path to: MOBILE MACHINERY OPERATORS via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
-Occupation: Wood Processing and Papermaking Plant Operators
-  AI score: 7.4
-  Median wage: 4610.0
-  Vulnerability index: 0.82
-  Core node: False
-  Sector: Plant & Machine Operators
-  Primary risk: Process automation exposure
-  Skill: process automation exposure
-  Transfer path to: CAR AND LIGHT GOODS VEHICLE DRIVERS via skills [process automation exposure]
-  Transfer path to: TRAIN OPERATORS AND RELATED WORKERS via skills [process automation exposure]
-  Transfer path to: MOBILE MACHINERY SUPERVISORS AND GENERAL FOREMEN via skills [process automation exposure]
-  Transfer path to: SHIPS’ DECK CREW AND RELATED WORKERS via skills [process automation exposure]
-  Transfer path to: MOBILE MACHINERY OPERATORS via skills [process automation exposure]
-  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
-
 Occupation: ADMINISTRATION PROFESSIONALS
   AI score: 7.3
   Median wage: 3245.0
@@ -4245,10 +4432,10 @@ Occupation: ADMINISTRATION PROFESSIONALS
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: ARCHITECTS, PLANNERS, SURVEYORS AND DESIGNERS
@@ -4260,10 +4447,10 @@ Occupation: ARCHITECTS, PLANNERS, SURVEYORS AND DESIGNERS
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: AUTHORS, JOURNALISTS AND EDITORS
@@ -4315,10 +4502,10 @@ Occupation: Advertising and Marketing Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Aircraft Pilots and Related Professionals
@@ -4330,15 +4517,15 @@ Occupation: Aircraft Pilots and Related Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Applications and Systems Programmers
   AI score: 2.4
-  Median wage: 4560.0
+  Median wage: 8500.0
   Vulnerability index: 0.32
   Core node: False
   Sector: Professionals
@@ -4355,10 +4542,10 @@ Occupation: Archivists, Curators and Conservators
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Audiologists and Speech Therapists
@@ -4390,10 +4577,10 @@ Occupation: BUSINESS AND ADMINISTRATION PROFESSIONALS
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Biologists, Botanists, Zoologists and Related Professionals
@@ -4435,10 +4622,10 @@ Occupation: Chemical Engineers
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Chemists
@@ -4460,10 +4647,10 @@ Occupation: Civil Engineers
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Commodities and Freight Traders
@@ -4475,10 +4662,10 @@ Occupation: Commodities and Freight Traders
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Commodities and Ship Brokers
@@ -4490,10 +4677,10 @@ Occupation: Commodities and Ship Brokers
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Computer Network, Infrastructure and Platform Professionals
@@ -4515,10 +4702,10 @@ Occupation: Counselling Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Cybersecurity Professionals
@@ -4540,10 +4727,10 @@ Occupation: DATABASE, NETWORK, INFRASTRUCTURE AND CYBERSECURITY PROFESSIONALS
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Dancers and Choreographers
@@ -4605,10 +4792,10 @@ Occupation: ENGINEERING PROFESSIONALS I
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: ENGINEERING PROFESSIONALS II (Cont’d)
@@ -4620,10 +4807,10 @@ Occupation: ENGINEERING PROFESSIONALS II (Cont’d)
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Economists
@@ -4635,10 +4822,10 @@ Occupation: Economists
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Education Methods Specialists
@@ -4650,10 +4837,10 @@ Occupation: Education Methods Specialists
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Electrical Engineers
@@ -4685,10 +4872,10 @@ Occupation: Employment Support Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Engineering Professionals Not Elsewhere Classified
@@ -4710,10 +4897,10 @@ Occupation: Environmental Engineers
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Environmental Protection and Related Professionals
@@ -4798,17 +4985,17 @@ Occupation: Financial and Investment Advisers
 
 Occupation: Generalist Medical Practitioners
   AI score: 7.8
-  Median wage: 8495.0
+  Median wage: 9000.0
   Vulnerability index: 0.86
   Core node: False
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Geologists, Geophysicists and Related Physical Science Professionals
@@ -4840,10 +5027,10 @@ Occupation: HEALTH PROFESSIONALS
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Health Professionals Not Elsewhere Classified
@@ -4865,10 +5052,10 @@ Occupation: Historians, Political Scientists and Related Social Science Professi
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Human Resource Professionals
@@ -4961,21 +5148,6 @@ Occupation: Judges
   Skill: process automation exposure
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
-Occupation: Junior College and Pre-University Education Teachers
-  AI score: 7.6
-  Median wage: 8040.0
-  Vulnerability index: 0.84
-  Core node: False
-  Sector: Professionals
-  Primary risk: Process automation exposure
-  Skill: process automation exposure
-  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
-  Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
-  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
-
 Occupation: LEGAL PROFESSIONALS
   AI score: 9.0
   Median wage: 4285.0
@@ -4985,10 +5157,10 @@ Occupation: LEGAL PROFESSIONALS
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: LEGAL, SOCIAL, RELIGIOUS AND CULTURAL PROFESSIONALS
@@ -5010,10 +5182,10 @@ Occupation: LIBRARIANS, ARCHIVISTS AND CURATORS
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: LIFE SCIENCE PROFESSIONALS
@@ -5025,10 +5197,10 @@ Occupation: LIFE SCIENCE PROFESSIONALS
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Landscape Architects and Designers
@@ -5070,10 +5242,10 @@ Occupation: Librarians and Related Information Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: MARKETING AND PUBLIC RELATIONS PROFESSIONALS
@@ -5085,10 +5257,10 @@ Occupation: MARKETING AND PUBLIC RELATIONS PROFESSIONALS
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: MATHEMATICIANS, ACTUARIES, STATISTICIANS AND RELATED PROFESSIONALS
@@ -5100,10 +5272,10 @@ Occupation: MATHEMATICIANS, ACTUARIES, STATISTICIANS AND RELATED PROFESSIONALS
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: MEDICAL DOCTORS
@@ -5145,10 +5317,10 @@ Occupation: Mechanical Engineers (Excluding Transport and Vehicle Engineers)
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Meteorologists
@@ -5170,10 +5342,10 @@ Occupation: Mining Engineers, Metallurgists and Related Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Musicians, Composers and Singers
@@ -5188,7 +5360,7 @@ Occupation: Musicians, Composers and Singers
 
 Occupation: NURSING PROFESSIONALS
   AI score: 2.4
-  Median wage: 3635.0
+  Median wage: 4800.0
   Vulnerability index: 0.32
   Core node: False
   Sector: Professionals
@@ -5204,21 +5376,6 @@ Occupation: Network, Servers, Applications and Computer Systems Administrators
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
-  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
-
-Occupation: Nursing Professionals
-  AI score: 9.6
-  Median wage: 7910.0
-  Vulnerability index: 0.96
-  Core node: False
-  Sector: Professionals
-  Primary risk: Process automation exposure
-  Skill: process automation exposure
-  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
-  Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: OTHER HEALTH PROFESSIONALS
@@ -5330,10 +5487,10 @@ Occupation: Physicists and Astronomers
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Physiotherapists
@@ -5365,10 +5522,10 @@ Occupation: Primary School Teachers
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Psychologists
@@ -5390,10 +5547,10 @@ Occupation: Public Relations Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Radio and Television Presenters and Related Professionals
@@ -5415,10 +5572,10 @@ Occupation: Religious Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: SCIENCE AND ENGINEERING PROFESSIONALS
@@ -5430,10 +5587,10 @@ Occupation: SCIENCE AND ENGINEERING PROFESSIONALS
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: SECONDARY EDUCATION TEACHERS
@@ -5455,10 +5612,10 @@ Occupation: SHIP AND AIRCRAFT RELATED PROFESSIONALS
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: SOCIAL SCIENCE RESEARCHERS AND PROFESSIONALS; RELIGIOUS PROFESSIONALS
@@ -5483,32 +5640,17 @@ Occupation: SOCIAL SERVICES, COUNSELLING AND RELATED PROFESSIONALS
 
 Occupation: SOFTWARE AND APPLICATIONS DEVELOPERS AND ANALYSTS
   AI score: 8.2
-  Median wage: 3765.0
+  Median wage: 8500.0
   Vulnerability index: 0.82
   Core node: False
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
-  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
-
-Occupation: Secondary Education Teachers
-  AI score: 8.5
-  Median wage: 8560.0
-  Vulnerability index: 0.85
-  Core node: False
-  Sector: Professionals
-  Primary risk: Process automation exposure
-  Skill: process automation exposure
-  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
-  Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Securities and Finance Brokers
@@ -5550,10 +5692,10 @@ Occupation: Ship Engineers and Related Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Social Work Professionals
@@ -5575,15 +5717,15 @@ Occupation: Sociologists, Anthropologists and Related Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Software and Applications Developers and Analysts Not Elsewhere Classified
   AI score: 3.3
-  Median wage: 3455.0
+  Median wage: 8500.0
   Vulnerability index: 0.41
   Core node: False
   Sector: Professionals
@@ -5593,7 +5735,7 @@ Occupation: Software and Applications Developers and Analysts Not Elsewhere Clas
 
 Occupation: Software, Web, Multimedia and Games Developers and Designers
   AI score: 2.0
-  Median wage: 4300.0
+  Median wage: 8500.0
   Vulnerability index: 0.28
   Core node: False
   Sector: Professionals
@@ -5620,55 +5762,55 @@ Occupation: Specialised Goods Sales Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Specialist Medical Practitioners (Medical)
   AI score: 8.3
-  Median wage: 7130.0
+  Median wage: 15000.0
   Vulnerability index: 0.83
   Core node: False
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Specialist Medical Practitioners (Other Specialisations)
   AI score: 9.2
-  Median wage: 7650.0
+  Median wage: 15000.0
   Vulnerability index: 1.0
   Core node: False
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Specialist Medical Practitioners (Surgical)
   AI score: 8.7
-  Median wage: 7390.0
+  Median wage: 15000.0
   Vulnerability index: 0.95
   Core node: False
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Statisticians and Data Scientists
@@ -5700,10 +5842,10 @@ Occupation: Systems Analysts
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: TEACHING AND TRAINING PROFESSIONALS
@@ -5715,10 +5857,10 @@ Occupation: TEACHING AND TRAINING PROFESSIONALS
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: TRADITIONAL AND COMPLEMENTARY MEDICINE PROFESSIONALS
@@ -5745,16 +5887,6 @@ Occupation: Telecommunications Engineers
   AI score: 3.4
   Median wage: 7520.0
   Vulnerability index: 0.42
-  Core node: False
-  Sector: Professionals
-  Primary risk: Process automation exposure
-  Skill: process automation exposure
-  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
-
-Occupation: Traditional and Complementary Medicine Professionals
-  AI score: 2.3
-  Median wage: 8170.0
-  Vulnerability index: 0.31
   Core node: False
   Sector: Professionals
   Primary risk: Process automation exposure
@@ -5790,10 +5922,10 @@ Occupation: Transport and Vehicle Engineers
   Primary risk: Process automation exposure
   Skill: process automation exposure
   Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
+  Transfer path to: Software, Web, Multimedia and Games Developers and Designers via skills [process automation exposure]
+  Transfer path to: Applications and Systems Programmers via skills [process automation exposure]
+  Transfer path to: Software and Applications Developers and Analysts Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: UNIVERSITY, POLYTECHNIC AND HIGHER EDUCATION TEACHERS
@@ -5804,21 +5936,6 @@ Occupation: UNIVERSITY, POLYTECHNIC AND HIGHER EDUCATION TEACHERS
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
-  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
-
-Occupation: University, Polytechnic and Higher Education Teachers
-  AI score: 7.2
-  Median wage: 7780.0
-  Vulnerability index: 0.72
-  Core node: False
-  Sector: Professionals
-  Primary risk: Process automation exposure
-  Skill: process automation exposure
-  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
-  Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Urban and Related Planners
@@ -5851,16 +5968,6 @@ Occupation: VOCATIONAL EDUCATION TEACHERS AND TRAINERS
   Skill: process automation exposure
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
-Occupation: Veterinarians
-  AI score: 2.8
-  Median wage: 8430.0
-  Vulnerability index: 0.36
-  Core node: False
-  Sector: Professionals
-  Primary risk: Process automation exposure
-  Skill: process automation exposure
-  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
-
 Occupation: Visual Artists
   AI score: 3.5
   Median wage: 3260.0
@@ -5869,21 +5976,6 @@ Occupation: Visual Artists
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
-  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
-
-Occupation: Vocational Education Teachers and Trainers
-  AI score: 8.1
-  Median wage: 8300.0
-  Vulnerability index: 0.89
-  Core node: False
-  Sector: Professionals
-  Primary risk: Process automation exposure
-  Skill: process automation exposure
-  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
-  Transfer path to: Veterinarians via skills [process automation exposure]
-  Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
-  Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Astrologers, Fortune-Tellers and Related Workers
@@ -5907,8 +5999,8 @@ Occupation: BOOKMAKERS, CROUPIERS AND RELATED GAMING WORKERS
   Transfer path to: Contact Centre Salespersons via skills [process automation exposure]
   Transfer path to: Waiters and Bartenders Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Sales Demonstrators and Door-to-Door Salespersons via skills [process automation exposure]
-  Transfer path to: Bookmakers, Croupiers and Related Gaming Workers via skills [process automation exposure]
-  Transfer path to: Healthcare Assistants and Related Personal Care Workers via skills [process automation exposure]
+  Transfer path to: SERVICES WORKERS NOT ELSEWHERE CLASSIFIED via skills [process automation exposure]
+  Transfer path to: SERVICES AND SALES WORKERS via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Bar and Lounge Hostesses
@@ -5922,8 +6014,8 @@ Occupation: Bar and Lounge Hostesses
   Transfer path to: Contact Centre Salespersons via skills [process automation exposure]
   Transfer path to: Waiters and Bartenders Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Sales Demonstrators and Door-to-Door Salespersons via skills [process automation exposure]
-  Transfer path to: Bookmakers, Croupiers and Related Gaming Workers via skills [process automation exposure]
-  Transfer path to: Healthcare Assistants and Related Personal Care Workers via skills [process automation exposure]
+  Transfer path to: SERVICES WORKERS NOT ELSEWHERE CLASSIFIED via skills [process automation exposure]
+  Transfer path to: SERVICES AND SALES WORKERS via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Bartenders and Baristas
@@ -5937,24 +6029,14 @@ Occupation: Bartenders and Baristas
   Transfer path to: Contact Centre Salespersons via skills [process automation exposure]
   Transfer path to: Waiters and Bartenders Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Sales Demonstrators and Door-to-Door Salespersons via skills [process automation exposure]
-  Transfer path to: Bookmakers, Croupiers and Related Gaming Workers via skills [process automation exposure]
-  Transfer path to: Healthcare Assistants and Related Personal Care Workers via skills [process automation exposure]
+  Transfer path to: SERVICES WORKERS NOT ELSEWHERE CLASSIFIED via skills [process automation exposure]
+  Transfer path to: SERVICES AND SALES WORKERS via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Beauticians and Related Workers
   AI score: 3.0
   Median wage: 3960.0
   Vulnerability index: 0.38
-  Core node: False
-  Sector: Service & Sales Workers
-  Primary risk: Process automation exposure
-  Skill: process automation exposure
-  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
-
-Occupation: Bookmakers, Croupiers and Related Gaming Workers
-  AI score: 4.3
-  Median wage: 4740.0
-  Vulnerability index: 0.51
   Core node: False
   Sector: Service & Sales Workers
   Primary risk: Process automation exposure
@@ -5972,8 +6054,8 @@ Occupation: CASHIERS AND TICKET CLERKS
   Transfer path to: Contact Centre Salespersons via skills [process automation exposure]
   Transfer path to: Waiters and Bartenders Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Sales Demonstrators and Door-to-Door Salespersons via skills [process automation exposure]
-  Transfer path to: Bookmakers, Croupiers and Related Gaming Workers via skills [process automation exposure]
-  Transfer path to: Healthcare Assistants and Related Personal Care Workers via skills [process automation exposure]
+  Transfer path to: SERVICES WORKERS NOT ELSEWHERE CLASSIFIED via skills [process automation exposure]
+  Transfer path to: SERVICES AND SALES WORKERS via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: CHILD CARE WORKERS AND TEACHER AIDES
@@ -5996,21 +6078,6 @@ Occupation: COOKS
   Skill: process automation exposure
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
-Occupation: Cashiers and Ticket Clerks
-  AI score: 9.2
-  Median wage: 4350.0
-  Vulnerability index: 0.92
-  Core node: False
-  Sector: Service & Sales Workers
-  Primary risk: Process automation exposure
-  Skill: process automation exposure
-  Transfer path to: Contact Centre Salespersons via skills [process automation exposure]
-  Transfer path to: Waiters and Bartenders Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Sales Demonstrators and Door-to-Door Salespersons via skills [process automation exposure]
-  Transfer path to: Bookmakers, Croupiers and Related Gaming Workers via skills [process automation exposure]
-  Transfer path to: Healthcare Assistants and Related Personal Care Workers via skills [process automation exposure]
-  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
-
 Occupation: Child Care and Related Workers
   AI score: 3.6
   Median wage: 4025.0
@@ -6029,21 +6096,6 @@ Occupation: Contact Centre Salespersons
   Sector: Service & Sales Workers
   Primary risk: Process automation exposure
   Skill: process automation exposure
-  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
-
-Occupation: Cooks
-  AI score: 8.1
-  Median wage: 4025.0
-  Vulnerability index: 0.89
-  Core node: False
-  Sector: Service & Sales Workers
-  Primary risk: Process automation exposure
-  Skill: process automation exposure
-  Transfer path to: Contact Centre Salespersons via skills [process automation exposure]
-  Transfer path to: Waiters and Bartenders Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Sales Demonstrators and Door-to-Door Salespersons via skills [process automation exposure]
-  Transfer path to: Bookmakers, Croupiers and Related Gaming Workers via skills [process automation exposure]
-  Transfer path to: Healthcare Assistants and Related Personal Care Workers via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Driving Instructors
@@ -6067,8 +6119,8 @@ Occupation: Fashion and Related Models
   Transfer path to: Contact Centre Salespersons via skills [process automation exposure]
   Transfer path to: Waiters and Bartenders Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Sales Demonstrators and Door-to-Door Salespersons via skills [process automation exposure]
-  Transfer path to: Bookmakers, Croupiers and Related Gaming Workers via skills [process automation exposure]
-  Transfer path to: Healthcare Assistants and Related Personal Care Workers via skills [process automation exposure]
+  Transfer path to: SERVICES WORKERS NOT ELSEWHERE CLASSIFIED via skills [process automation exposure]
+  Transfer path to: SERVICES AND SALES WORKERS via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Fire-Fighting and Rescue Officers
@@ -6122,8 +6174,8 @@ Occupation: HOUSEKEEPERS AND RELATED WORKERS
   Transfer path to: Contact Centre Salespersons via skills [process automation exposure]
   Transfer path to: Waiters and Bartenders Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Sales Demonstrators and Door-to-Door Salespersons via skills [process automation exposure]
-  Transfer path to: Bookmakers, Croupiers and Related Gaming Workers via skills [process automation exposure]
-  Transfer path to: Healthcare Assistants and Related Personal Care Workers via skills [process automation exposure]
+  Transfer path to: SERVICES WORKERS NOT ELSEWHERE CLASSIFIED via skills [process automation exposure]
+  Transfer path to: SERVICES AND SALES WORKERS via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Hairdressers, Barbers and Related Workers
@@ -6147,8 +6199,8 @@ Occupation: Hawkers and Stall Holders (Excluding Prepared Food and Drinks)
   Transfer path to: Contact Centre Salespersons via skills [process automation exposure]
   Transfer path to: Waiters and Bartenders Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Sales Demonstrators and Door-to-Door Salespersons via skills [process automation exposure]
-  Transfer path to: Bookmakers, Croupiers and Related Gaming Workers via skills [process automation exposure]
-  Transfer path to: Healthcare Assistants and Related Personal Care Workers via skills [process automation exposure]
+  Transfer path to: SERVICES WORKERS NOT ELSEWHERE CLASSIFIED via skills [process automation exposure]
+  Transfer path to: SERVICES AND SALES WORKERS via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Hawkers and Stall Holders (Prepared Food or Drinks)
@@ -6162,28 +6214,8 @@ Occupation: Hawkers and Stall Holders (Prepared Food or Drinks)
   Transfer path to: Contact Centre Salespersons via skills [process automation exposure]
   Transfer path to: Waiters and Bartenders Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Sales Demonstrators and Door-to-Door Salespersons via skills [process automation exposure]
-  Transfer path to: Bookmakers, Croupiers and Related Gaming Workers via skills [process automation exposure]
-  Transfer path to: Healthcare Assistants and Related Personal Care Workers via skills [process automation exposure]
-  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
-
-Occupation: Healthcare Assistants and Related Personal Care Workers
-  AI score: 4.5
-  Median wage: 4545.0
-  Vulnerability index: 0.53
-  Core node: False
-  Sector: Service & Sales Workers
-  Primary risk: Process automation exposure
-  Skill: process automation exposure
-  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
-
-Occupation: Housekeepers and Related Workers
-  AI score: 3.9
-  Median wage: 4480.0
-  Vulnerability index: 0.39
-  Core node: False
-  Sector: Service & Sales Workers
-  Primary risk: Process automation exposure
-  Skill: process automation exposure
+  Transfer path to: SERVICES WORKERS NOT ELSEWHERE CLASSIFIED via skills [process automation exposure]
+  Transfer path to: SERVICES AND SALES WORKERS via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Lifeguards
@@ -6217,8 +6249,8 @@ Occupation: Newsvendors
   Transfer path to: Contact Centre Salespersons via skills [process automation exposure]
   Transfer path to: Waiters and Bartenders Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Sales Demonstrators and Door-to-Door Salespersons via skills [process automation exposure]
-  Transfer path to: Bookmakers, Croupiers and Related Gaming Workers via skills [process automation exposure]
-  Transfer path to: Healthcare Assistants and Related Personal Care Workers via skills [process automation exposure]
+  Transfer path to: SERVICES WORKERS NOT ELSEWHERE CLASSIFIED via skills [process automation exposure]
+  Transfer path to: SERVICES AND SALES WORKERS via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Other Personal Services Workers Not Elsewhere Classified
@@ -6242,8 +6274,8 @@ Occupation: PERSONAL CARE WORKERS
   Transfer path to: Contact Centre Salespersons via skills [process automation exposure]
   Transfer path to: Waiters and Bartenders Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Sales Demonstrators and Door-to-Door Salespersons via skills [process automation exposure]
-  Transfer path to: Bookmakers, Croupiers and Related Gaming Workers via skills [process automation exposure]
-  Transfer path to: Healthcare Assistants and Related Personal Care Workers via skills [process automation exposure]
+  Transfer path to: SERVICES WORKERS NOT ELSEWHERE CLASSIFIED via skills [process automation exposure]
+  Transfer path to: SERVICES AND SALES WORKERS via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: PERSONAL SERVICES WORKERS
@@ -6257,8 +6289,8 @@ Occupation: PERSONAL SERVICES WORKERS
   Transfer path to: Contact Centre Salespersons via skills [process automation exposure]
   Transfer path to: Waiters and Bartenders Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Sales Demonstrators and Door-to-Door Salespersons via skills [process automation exposure]
-  Transfer path to: Bookmakers, Croupiers and Related Gaming Workers via skills [process automation exposure]
-  Transfer path to: Healthcare Assistants and Related Personal Care Workers via skills [process automation exposure]
+  Transfer path to: SERVICES WORKERS NOT ELSEWHERE CLASSIFIED via skills [process automation exposure]
+  Transfer path to: SERVICES AND SALES WORKERS via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: PERSONAL SERVICES WORKERS NOT ELSEWHERE CLASSIFIED
@@ -6272,21 +6304,18 @@ Occupation: PERSONAL SERVICES WORKERS NOT ELSEWHERE CLASSIFIED
   Transfer path to: Contact Centre Salespersons via skills [process automation exposure]
   Transfer path to: Waiters and Bartenders Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Sales Demonstrators and Door-to-Door Salespersons via skills [process automation exposure]
-  Transfer path to: Bookmakers, Croupiers and Related Gaming Workers via skills [process automation exposure]
-  Transfer path to: Healthcare Assistants and Related Personal Care Workers via skills [process automation exposure]
+  Transfer path to: SERVICES WORKERS NOT ELSEWHERE CLASSIFIED via skills [process automation exposure]
+  Transfer path to: SERVICES AND SALES WORKERS via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: PROTECTIVE SERVICES WORKERS
-  AI score: 9.5
-  Median wage: 2900.0
-  Vulnerability index: 1.0
+  AI score: 2.0
+  Median wage: 4025.0
+  Vulnerability index: 0.28
   Core node: False
-  Sector: Service & Sales Workers
   Sector: Service & Sales Workers
   Primary risk: Process automation exposure
   Skill: process automation exposure
-  Primary risk: RPA plus document AI
-  Skill: rpa plus document ai
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Pet Groomers, Animal Keepers and Trainers
@@ -6330,8 +6359,8 @@ Occupation: Protective Services and Related Workers Not Elsewhere Classified
   Transfer path to: Contact Centre Salespersons via skills [process automation exposure]
   Transfer path to: Waiters and Bartenders Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Sales Demonstrators and Door-to-Door Salespersons via skills [process automation exposure]
-  Transfer path to: Bookmakers, Croupiers and Related Gaming Workers via skills [process automation exposure]
-  Transfer path to: Healthcare Assistants and Related Personal Care Workers via skills [process automation exposure]
+  Transfer path to: SERVICES WORKERS NOT ELSEWHERE CLASSIFIED via skills [process automation exposure]
+  Transfer path to: SERVICES AND SALES WORKERS via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: SALES WORKERS
@@ -6345,8 +6374,8 @@ Occupation: SALES WORKERS
   Transfer path to: Contact Centre Salespersons via skills [process automation exposure]
   Transfer path to: Waiters and Bartenders Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Sales Demonstrators and Door-to-Door Salespersons via skills [process automation exposure]
-  Transfer path to: Bookmakers, Croupiers and Related Gaming Workers via skills [process automation exposure]
-  Transfer path to: Healthcare Assistants and Related Personal Care Workers via skills [process automation exposure]
+  Transfer path to: SERVICES WORKERS NOT ELSEWHERE CLASSIFIED via skills [process automation exposure]
+  Transfer path to: SERVICES AND SALES WORKERS via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: SERVICES AND SALES WORKERS
@@ -6360,16 +6389,13 @@ Occupation: SERVICES AND SALES WORKERS
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: SERVICES WORKERS NOT ELSEWHERE CLASSIFIED
-  AI score: 8.9
-  Median wage: 3200.0
-  Vulnerability index: 0.97
+  AI score: 2.4
+  Median wage: 4285.0
+  Vulnerability index: 0.24
   Core node: False
-  Sector: Service & Sales Workers
   Sector: Service & Sales Workers
   Primary risk: Process automation exposure
   Skill: process automation exposure
-  Primary risk: Workflow copilots
-  Skill: workflow copilots
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: SHOP SALESPERSONS
@@ -6383,8 +6409,8 @@ Occupation: SHOP SALESPERSONS
   Transfer path to: Contact Centre Salespersons via skills [process automation exposure]
   Transfer path to: Waiters and Bartenders Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Sales Demonstrators and Door-to-Door Salespersons via skills [process automation exposure]
-  Transfer path to: Bookmakers, Croupiers and Related Gaming Workers via skills [process automation exposure]
-  Transfer path to: Healthcare Assistants and Related Personal Care Workers via skills [process automation exposure]
+  Transfer path to: SERVICES WORKERS NOT ELSEWHERE CLASSIFIED via skills [process automation exposure]
+  Transfer path to: SERVICES AND SALES WORKERS via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: STALL SALES WORKERS
@@ -6398,8 +6424,8 @@ Occupation: STALL SALES WORKERS
   Transfer path to: Contact Centre Salespersons via skills [process automation exposure]
   Transfer path to: Waiters and Bartenders Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Sales Demonstrators and Door-to-Door Salespersons via skills [process automation exposure]
-  Transfer path to: Bookmakers, Croupiers and Related Gaming Workers via skills [process automation exposure]
-  Transfer path to: Healthcare Assistants and Related Personal Care Workers via skills [process automation exposure]
+  Transfer path to: SERVICES WORKERS NOT ELSEWHERE CLASSIFIED via skills [process automation exposure]
+  Transfer path to: SERVICES AND SALES WORKERS via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Sales Demonstrators and Door-to-Door Salespersons
@@ -6432,21 +6458,6 @@ Occupation: Security Guards
   Skill: process automation exposure
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
-Occupation: Services Workers Not Elsewhere Classified
-  AI score: 7.6
-  Median wage: 4740.0
-  Vulnerability index: 0.84
-  Core node: False
-  Sector: Service & Sales Workers
-  Primary risk: Process automation exposure
-  Skill: process automation exposure
-  Transfer path to: Contact Centre Salespersons via skills [process automation exposure]
-  Transfer path to: Waiters and Bartenders Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Sales Demonstrators and Door-to-Door Salespersons via skills [process automation exposure]
-  Transfer path to: Bookmakers, Croupiers and Related Gaming Workers via skills [process automation exposure]
-  Transfer path to: Healthcare Assistants and Related Personal Care Workers via skills [process automation exposure]
-  Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
-
 Occupation: Shop and Store Salespersons
   AI score: 8.7
   Median wage: 4090.0
@@ -6458,8 +6469,8 @@ Occupation: Shop and Store Salespersons
   Transfer path to: Contact Centre Salespersons via skills [process automation exposure]
   Transfer path to: Waiters and Bartenders Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Sales Demonstrators and Door-to-Door Salespersons via skills [process automation exposure]
-  Transfer path to: Bookmakers, Croupiers and Related Gaming Workers via skills [process automation exposure]
-  Transfer path to: Healthcare Assistants and Related Personal Care Workers via skills [process automation exposure]
+  Transfer path to: SERVICES WORKERS NOT ELSEWHERE CLASSIFIED via skills [process automation exposure]
+  Transfer path to: SERVICES AND SALES WORKERS via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Stall Sales Workers Not Elsewhere Classified
@@ -6473,8 +6484,8 @@ Occupation: Stall Sales Workers Not Elsewhere Classified
   Transfer path to: Contact Centre Salespersons via skills [process automation exposure]
   Transfer path to: Waiters and Bartenders Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Sales Demonstrators and Door-to-Door Salespersons via skills [process automation exposure]
-  Transfer path to: Bookmakers, Croupiers and Related Gaming Workers via skills [process automation exposure]
-  Transfer path to: Healthcare Assistants and Related Personal Care Workers via skills [process automation exposure]
+  Transfer path to: SERVICES WORKERS NOT ELSEWHERE CLASSIFIED via skills [process automation exposure]
+  Transfer path to: SERVICES AND SALES WORKERS via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: TRAVEL ATTENDANTS, CONDUCTORS AND GUIDES
@@ -6508,8 +6519,8 @@ Occupation: Tour and Related Guides
   Transfer path to: Contact Centre Salespersons via skills [process automation exposure]
   Transfer path to: Waiters and Bartenders Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Sales Demonstrators and Door-to-Door Salespersons via skills [process automation exposure]
-  Transfer path to: Bookmakers, Croupiers and Related Gaming Workers via skills [process automation exposure]
-  Transfer path to: Healthcare Assistants and Related Personal Care Workers via skills [process automation exposure]
+  Transfer path to: SERVICES WORKERS NOT ELSEWHERE CLASSIFIED via skills [process automation exposure]
+  Transfer path to: SERVICES AND SALES WORKERS via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Transport Service Inspectors and Related Workers
@@ -6523,8 +6534,8 @@ Occupation: Transport Service Inspectors and Related Workers
   Transfer path to: Contact Centre Salespersons via skills [process automation exposure]
   Transfer path to: Waiters and Bartenders Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Sales Demonstrators and Door-to-Door Salespersons via skills [process automation exposure]
-  Transfer path to: Bookmakers, Croupiers and Related Gaming Workers via skills [process automation exposure]
-  Transfer path to: Healthcare Assistants and Related Personal Care Workers via skills [process automation exposure]
+  Transfer path to: SERVICES WORKERS NOT ELSEWHERE CLASSIFIED via skills [process automation exposure]
+  Transfer path to: SERVICES AND SALES WORKERS via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Travel Attendants and Stewards
@@ -6558,8 +6569,8 @@ Occupation: Waiters
   Transfer path to: Contact Centre Salespersons via skills [process automation exposure]
   Transfer path to: Waiters and Bartenders Not Elsewhere Classified via skills [process automation exposure]
   Transfer path to: Sales Demonstrators and Door-to-Door Salespersons via skills [process automation exposure]
-  Transfer path to: Bookmakers, Croupiers and Related Gaming Workers via skills [process automation exposure]
-  Transfer path to: Healthcare Assistants and Related Personal Care Workers via skills [process automation exposure]
+  Transfer path to: SERVICES WORKERS NOT ELSEWHERE CLASSIFIED via skills [process automation exposure]
+  Transfer path to: SERVICES AND SALES WORKERS via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: Waiters and Bartenders Not Elsewhere Classified

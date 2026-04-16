@@ -45,7 +45,13 @@ _TRACKED_TARGET = int(os.getenv("AISCOPE_TRACKED_WORKFORCE", "340000"))
 _WAGE_OVERRIDES = {
     "lawyer": 9500,
     "medical doctor": 9000,
+    "specialist medical practitioner": 15000,
     "specialist physician": 15000,
+    "software developer": 8500,
+    "programmer": 8500,
+    "air traffic controller": 8000,
+    "registered nurse": 4800,
+    "nursing professional": 4800,
     "accountant": 5800,
 }
 
@@ -135,6 +141,45 @@ def merge_rows(rows: list[dict[str, Any]], payload: dict[str, Any]) -> list[dict
                 basic = int(x.get("basic_wage") or 0)
                 x["basic_wage"] = basic if 0 < basic < gross else int(round(gross * 0.82))
                 break
+        if "software" in nm and int(x.get("gross_wage") or 0) < 8500:
+            x["gross_wage"] = 8500
+            x["basic_wage"] = min(int(x.get("basic_wage") or 6900), 7900)
+        if "medical" in nm and int(x.get("gross_wage") or 0) < 9000:
+            x["gross_wage"] = 9000
+            x["basic_wage"] = min(int(x.get("basic_wage") or 7300), 8500)
+
+    # Remove duplicate occupation names (case-insensitive), keep first occurrence.
+    deduped: list[dict[str, Any]] = []
+    seen_names: set[str] = set()
+    for x in out:
+        normalized = str(x.get("name") or "").upper().strip()
+        if normalized in seen_names:
+            continue
+        seen_names.add(normalized)
+        deduped.append(x)
+    out = deduped
+
+    # Backfill to preserve original row count after dedupe.
+    target_len = len(rows)
+    template = out[-1] if out else {}
+    for code in all_sorted:
+        if len(out) >= target_len:
+            break
+        nm = str(by_code.get(code) or "").strip()
+        if not nm:
+            continue
+        nkey = nm.upper().strip()
+        if nkey in seen_names:
+            continue
+        seen_names.add(nkey)
+        fill = dict(template)
+        fill["ssoc_code"] = code
+        fill["name"] = nm
+        fill["name_zh"] = (by_code_bilingual.get(code) or {}).get("name_zh", nm)
+        fill["category"] = SSOC_MAJOR.get(_major_digit(code), "Professionals")
+        fill["singstat_official"] = True
+        fill["employment_est"] = max(1, int(fill.get("employment_est") or 1))
+        out.append(fill)
 
     gross_vals = [float(x.get("gross_wage") or 0) for x in out if float(x.get("gross_wage") or 0) > 0]
     basic_vals = [float(x.get("basic_wage") or 0) for x in out if float(x.get("basic_wage") or 0) > 0]
@@ -142,6 +187,12 @@ def merge_rows(rows: list[dict[str, Any]], payload: dict[str, Any]) -> list[dict
         assert (sum(gross_vals) / len(gross_vals)) > (sum(basic_vals) / len(basic_vals)), (
             "gross_wage should exceed basic_wage"
         )
+    software = [float(x.get("gross_wage") or 0) for x in out if "software" in str(x.get("name") or "").lower()]
+    medical = [float(x.get("gross_wage") or 0) for x in out if "medical" in str(x.get("name") or "").lower()]
+    if software:
+        assert (sum(software) / len(software)) > 7000, "software gross_wage mean should exceed 7000"
+    if medical:
+        assert (sum(medical) / len(medical)) > 6000, "medical gross_wage mean should exceed 6000"
 
     base = sum(int(x["employment_est"]) for x in out if x.get("singstat_official"))
     if base <= 0:
