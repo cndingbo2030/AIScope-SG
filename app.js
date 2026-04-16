@@ -305,6 +305,23 @@ function flatOccupations() {
   return rawData.children.flatMap((cat) => cat.children || []);
 }
 
+function queryMatchesOccupation(q, occ) {
+  if (!q) return true;
+  const en = String(occ.name || "").toLowerCase();
+  const disp = nameForOcc(occ).toLowerCase();
+  if (en.includes(q) || disp.includes(q)) return true;
+  if (q === "nurse") {
+    return en.includes("nurs") || disp.includes("护");
+  }
+  if (q === "software") {
+    return en.includes("software") || en.includes("application developer");
+  }
+  if (q === "lawyer") {
+    return en.includes("lawyer") || en.includes("legal");
+  }
+  return false;
+}
+
 function displayScore(occ) {
   const base = Number(occ.ai_score) || 0;
   if (!stressTestAi) return base;
@@ -682,10 +699,7 @@ function getFilteredCategories() {
       ...cat,
       children: cat.children.filter((occ) => {
         const scoreMatch = occ.ai_score >= filterMin && occ.ai_score <= filterMax;
-        const q = searchQ;
-        const disp = nameForOcc(occ).toLowerCase();
-        const en = String(occ.name || "").toLowerCase();
-        const textMatch = q === "" || en.includes(q) || disp.includes(q);
+        const textMatch = queryMatchesOccupation(searchQ, occ);
         return scoreMatch && textMatch;
       })
     }))
@@ -1131,18 +1145,14 @@ function getSemanticMatches(query) {
 
   const scored = all.map((occ) => {
     let score = 0;
-    const nameHit =
-      String(occ.name || "").toLowerCase().includes(q) ||
-      nameForOcc(occ).toLowerCase().includes(q);
+    const nameHit = queryMatchesOccupation(q, occ);
     if (nameHit) score += 5;
     if (riskIntent && occ.ai_score <= 4.2) score += 4;
     if (outdoorIntent && !occ.wfh) score += 4;
     return { occ, score };
   }).filter((x) => {
     if (x.score <= 0) return false;
-    const nameHit =
-      String(x.occ.name || "").toLowerCase().includes(q) ||
-      nameForOcc(x.occ).toLowerCase().includes(q);
+    const nameHit = queryMatchesOccupation(q, x.occ);
     if (nameHit) return true;
     return riskIntent || outdoorIntent;
   });
@@ -1158,7 +1168,7 @@ function getFeaturedCards() {
   const filtered = allOccupations.filter((o) =>
     Number(o.ai_score) >= filterMin &&
     Number(o.ai_score) <= filterMax &&
-    (q === "" || String(o.name || "").toLowerCase().includes(q) || nameForOcc(o).toLowerCase().includes(q))
+    queryMatchesOccupation(q, o)
   );
   return filtered
     .slice()
