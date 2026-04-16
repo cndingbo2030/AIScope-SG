@@ -42,6 +42,12 @@ SSOC_MAJOR: dict[str, str] = {
 }
 
 _TRACKED_TARGET = int(os.getenv("AISCOPE_TRACKED_WORKFORCE", "340000"))
+_WAGE_OVERRIDES = {
+    "lawyer": 9500,
+    "medical doctor": 9000,
+    "specialist physician": 15000,
+    "accountant": 5800,
+}
 
 
 def _load_map() -> dict[str, Any]:
@@ -119,6 +125,23 @@ def merge_rows(rows: list[dict[str, Any]], payload: dict[str, Any]) -> list[dict
             r["singstat_official"] = bool(title)
 
         out.append(r)
+
+    # Manual MOM 2024 wage corrections for key occupations.
+    for x in out:
+        nm = str(x.get("name") or "").strip().lower()
+        for key, gross in _WAGE_OVERRIDES.items():
+            if key in nm:
+                x["gross_wage"] = int(gross)
+                basic = int(x.get("basic_wage") or 0)
+                x["basic_wage"] = basic if 0 < basic < gross else int(round(gross * 0.82))
+                break
+
+    gross_vals = [float(x.get("gross_wage") or 0) for x in out if float(x.get("gross_wage") or 0) > 0]
+    basic_vals = [float(x.get("basic_wage") or 0) for x in out if float(x.get("basic_wage") or 0) > 0]
+    if gross_vals and basic_vals:
+        assert (sum(gross_vals) / len(gross_vals)) > (sum(basic_vals) / len(basic_vals)), (
+            "gross_wage should exceed basic_wage"
+        )
 
     base = sum(int(x["employment_est"]) for x in out if x.get("singstat_official"))
     if base <= 0:

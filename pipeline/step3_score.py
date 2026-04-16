@@ -68,6 +68,11 @@ Scoring requirements (2026 technology boundary):
 Reason style:
 - 2 to 4 concise sentences.
 - Mention one Singapore-specific factor and one transition pathway.
+
+MANDATORY OVERRIDE RULES:
+- If occupation involves physical presence AND government licensing: score <= 4.0
+- 'Accountant','Bookkeeper','Auditor': score must be 7.0-8.5
+- 'Air Traffic Controller','Pilot','Security Officer': score must be 2.0-3.5
 """
 
 
