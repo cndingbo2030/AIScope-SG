@@ -58,22 +58,22 @@
 <div id="app">
   <div class="live-ticker-strip" role="status">
     <span id="live-ticker-text" data-i18n="ticker_live">● Live Data: AI Exposure Model v2026.4 (Updated Apr 2026)</span>
-    <a id="methodology-ticker-link" class="ticker-meth" href="./methodology.html" data-i18n="methodology">Methodology</a>
+    <a id="methodology-ticker-link" class="ticker-meth" href="./methodology.html" data-i18n="methodology" data-aiscope-rel="methodology">Methodology</a>
   </div>
   <header class="top-header">
     <div class="brand">
       <div class="brand-name">AI<span>Scope</span> SG</div>
       <div class="brand-sub" data-i18n="brand_sub">Singapore AI Job Exposure Index · Public-Interest</div>
     </div>
+    <div id="lang-control" class="lang-control" role="group" aria-label="Language">
+      <span id="lang-switch-spinner" class="lang-switch-spinner" aria-hidden="true" hidden></span>
+      <button type="button" class="lang-btn" id="btn-en" aria-pressed="true">EN</button>
+      <button type="button" class="lang-btn" id="btn-zh" aria-pressed="false">中文</button>
+    </div>
     <div class="header-stats">
       <div class="stat"><div class="stat-val" id="stat-occ">—</div><div class="stat-label" data-i18n="stat_occ">Occupations</div></div>
       <div class="stat"><div class="stat-val" id="stat-emp">—</div><div class="stat-label" data-i18n="stat_emp">Workers</div></div>
       <div class="stat"><div class="stat-val accent" id="stat-avg">—</div><div class="stat-label" data-i18n="stat_avg">Avg AI Score</div></div>
-    </div>
-    <div id="lang-switcher" class="lang-switch" role="group" aria-label="Language">
-      <span id="lang-switch-spinner" class="lang-switch-spinner" aria-hidden="true" hidden></span>
-      <button type="button" class="lang-btn" id="btn-en" aria-pressed="true">EN</button>
-      <button type="button" class="lang-btn" id="btn-zh" aria-pressed="false">中文</button>
     </div>
   </header>
 
@@ -110,7 +110,7 @@
 
   <footer id="legend">
     <span data-i18n="legend_tip">Tip: Click category tiles to zoom-in, click occupation for details. Keyboard: Tab to category, Enter to zoom.</span>
-    <span class="legend-links"><a href="./methodology.html" data-i18n="methodology">Methodology</a></span>
+    <span class="legend-links"><a id="methodology-footer-link" href="./methodology.html" data-i18n="methodology" data-aiscope-rel="methodology">Methodology</a></span>
   </footer>
   <footer class="disclaimer" data-i18n="disclaimer">
     Disclaimer: AIScope SG data is for policy and research reference only, and does not constitute legal advice or an official regulatory determination.

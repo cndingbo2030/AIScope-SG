@@ -2,6 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <base id="ais-base" href="./">
+  <script>
+    (function () {
+      var p = window.location.pathname;
+      var dir = p.endsWith("/") ? p : p.replace(/\/[^/]*$/, "/") || "/";
+      if (dir === "//") dir = "/";
+      var b = document.getElementById("ais-base");
+      if (b) b.href = dir;
+    })();
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AIScope SG — Methodology / 方法论</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,12 +22,34 @@
     html[data-lang="en"] [data-lang="zh"] { display: none !important; }
     html[data-lang="zh"] [data-lang="en"] { display: none !important; }
     .meth-wrap { max-width: 920px; margin: 0 auto; padding: 28px 20px 80px; }
+    .meth-topnav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 22px;
+    }
+    .meth-back-index {
+      font-family: var(--mono);
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      color: #00d1ff;
+      text-decoration: none;
+      opacity: 0.88;
+    }
+    .meth-back-index:hover {
+      opacity: 1;
+      text-decoration: underline;
+      text-shadow: 0 0 12px rgba(0, 209, 255, 0.25);
+    }
     .meth-lang-bar {
       display: flex;
       justify-content: flex-end;
       align-items: center;
       gap: 10px;
-      margin-bottom: 18px;
+      margin-left: auto;
     }
     .meth-lang-bar button {
       border: none;
@@ -85,15 +117,40 @@
 </head>
 <body>
   <div class="meth-wrap">
-    <div id="meth-lang-switcher" class="meth-lang-bar" role="group" aria-label="Language">
-      <button type="button" id="meth-btn-en">EN</button>
-      <button type="button" id="meth-btn-zh">中文</button>
+    <div class="meth-topnav">
+      <a id="meth-back-index" class="meth-back-index" href="./index.html">← Back to Index</a>
+      <div id="meth-lang-switcher" class="meth-lang-bar" role="group" aria-label="Language">
+        <button type="button" id="meth-btn-en">EN</button>
+        <button type="button" id="meth-btn-zh">中文</button>
+      </div>
     </div>
 
     <div data-lang="en">
       <p class="pill-tag">Lawgorithm · AIScope SG</p>
       <h1>Methodology — government-grade transparency</h1>
       <p class="lead">This page documents how AIScope SG turns Singapore occupation statistics into an auditable AI exposure index, how the 2026 scoring model reasons about cognition vs. physical work, and how GraphRAG-style triples suggest transition paths.</p>
+
+      <h2>Exposure calculation</h2>
+      <p>
+        Each occupation ships a structured payload (wages, employment, SSOC metadata, PWM/regulated flags, and a short task narrative).
+        A calibrated reasoning model estimates how much of the <em>documented task bundle</em> is already automatable with frontier AI systems, producing a raw exposure score \(Score_{raw}\in[0,10]\).
+        The dashboard never treats that number as law: it is merged with deterministic policy gates in <code>validate_data.py</code> before publication.
+      </p>
+      <p>A compact regulatory discount form (the deployed tree also applies PWM caps separately) is:</p>
+      $$Score_{final} = \min\left(4.0,\; Score_{raw} \times W_{reg}\right)$$
+      <p>
+        Here \(W_{reg}\in(0,1]\) encodes licensing moats for desk-heavy professions where MOH clinical governance, MAS financial-stability rules, or legal practice management materially slow automation,
+        even when raw task text looks “GPT-friendly”. Values clamp so narrative cannot outrank code.
+      </p>
+
+      <h2>Mitigation factors (Singapore policy stack)</h2>
+      <p>
+        <strong>PWM (Progressive Wage Model):</strong> covered occupations receive a hard ceiling on the public score so wage-floor policy and AI substitution risk are not conflated in the headline index.
+      </p>
+      <p>
+        <strong>Regulated sectors:</strong> MOH (clinical and patient-safety workflows), MAS (financial market infrastructure and conduct tech), SAL/BCA-adjacent licensing (built-environment assurance) each imply additional human-in-the-loop obligations.
+        Those levers enter as \(W_{reg}\) and/or PWM caps rather than prose-only disclaimers.
+      </p>
 
       <h2>1. Scoring algebra (PWM & regulation)</h2>
       <p>The public dashboard shows a calibrated score per occupation. The LLM proposes a raw automatibility score \(S_{raw}\in[0,10]\). Policy levers (PWM wage floors, licensing) are enforced as <strong>hard caps</strong> in code — not as post-hoc narrative.</p>
@@ -102,15 +159,19 @@
       <p>where \(w_{pwm}\rightarrow 0\) enforces the <strong>PWM ceiling at 4.0</strong> for covered roles, and \(w_{reg}&lt;1\) discounts desk risk when statutory licensing is binding (SAL / MOH / MAS contexts). Non-PWM cognitive roles can approach the top of the scale under the <strong>2026 reasoning-model</strong> calibration (long-horizon document chains).</p>
 
       <h2>2. Data pipeline (MOM → model → D3)</h2>
+      <p>End-to-end delivery: open-data ingest, model scoring with audit artefacts, schema validation, graph generation, and the static GitHub Pages bundle.</p>
       <pre class="mermaid">
-flowchart LR
-  A[data.gov.sg / MOM tables] --> B[Processed occupations JSON]
-  B --> C[Claude 3.5 Sonnet scoring]
-  C --> D[scores.json + audit]
-  D --> E[step4_export → data.json]
-  E --> F[generate_graph.py]
-  F --> G[triples.jsonl + kg_indices.jsonl]
-  E --> H[D3 treemap + drawer UI]
+flowchart TB
+  API[data.gov.sg datastore_search] --> FETCH[run_pipeline.py --fetch]
+  FETCH --> RAW[data/raw/wages_fetched.json]
+  RAW --> EXP[step4_export → web/data/data.json]
+  EXP --> LLM[Claude 3.5 Sonnet scoring + audit]
+  LLM --> VAL[validate_data.py + audit_report]
+  VAL --> GRAPH[generate_graph.py]
+  GRAPH --> TRIP[triples.jsonl + kg_indices.jsonl]
+  EXP --> UI[D3 treemap + drawer + i18n]
+  TRIP --> UI
+  VAL --> CI[GitHub Actions / gh-pages]
       </pre>
 
       <h2>3. Scoring logic — physical vs cognitive</h2>
@@ -192,13 +253,27 @@ flowchart LR
         <span>Official Data Source: Open Government Products / data.gov.sg</span>
       </footer>
 
-      <p class="meta"><a class="back" href="./index.html?lang=en">← Back to dashboard</a></p>
     </div>
 
     <div data-lang="zh">
       <p class="pill-tag">Lawgorithm · AIScope SG</p>
       <h1>方法论 — 政府级透明说明</h1>
       <p class="lead">本页说明 AIScope SG 如何将新加坡职业统计转化为可审计的 AI 暴露指数、2026 评分模型如何区分认知型与体力型工作，以及 GraphRAG 风格三元组如何提示转型路径。</p>
+
+      <h2>暴露度计算（Exposure）</h2>
+      <p>
+        每个职业载荷包含工资、就业、SSOC 元数据、PWM/监管标记及简短任务叙述。推理模型据此估计<strong>已文档化的任务束</strong>在前沿 AI 下可被自动化的比例，得到原始暴露分 \(Score_{raw}\in[0,10]\)。
+        仪表板不会把该数值当作终裁：发布前在 <code>validate_data.py</code> 中与确定性政策门合并。
+      </p>
+      <p>为突出监管折扣，给出与英文版一致的紧凑形式（线上另含 PWM 等硬上限）：</p>
+      $$Score_{final} = \min\left(4.0,\; Score_{raw} \times W_{reg}\right)$$
+      <p>
+        其中 \(W_{reg}\in(0,1]\) 吸收 MOH 临床治理、MAS 市场基础设施与行为监管、以及法律/建筑环境类执业约束对「案头可自动化」叙事的下修，即使任务文本看似可被大模型直接执行。
+      </p>
+
+      <h2>缓释因子（Mitigation）</h2>
+      <p><strong>渐进式薪资（PWM）：</strong>对适用职业在公开分数上设置硬上限，避免把最低工资政策与 AI 替代风险混在同一 headline。</p>
+      <p><strong>行业监管：</strong>卫生部（MOH）、金管局（MAS）、律师会及 BCA 相关许可语境下的人机协同义务，通过 \(W_{reg}\) 与/或 PWM 上限进入模型，而非仅靠免责声明段落。</p>
 
       <h2>1. 评分代数（PWM 与监管）</h2>
       <p>公开仪表板展示每个职业的校准分数。大模型给出原始可自动化分数 \(S_{raw}\in[0,10]\)。PWM 工资底线、执业牌照等政策工具在代码中作为<strong>硬上限</strong>执行，而非事后叙事补丁。</p>
@@ -207,15 +282,19 @@ flowchart LR
       <p>其中 \(w_{pwm}\rightarrow 0\) 对适用职业落实 <strong>PWM 上限 4.0</strong>；\(w_{reg}&lt;1\) 在法定执业约束显著时下调案头风险（如律师会、卫生部、金管局等语境）。非 PWM 的认知型岗位在 <strong>2026 推理模型</strong>标定下仍可达标尺上端（长链路文档任务）。</p>
 
       <h2>2. 数据流水线（MOM → 模型 → D3）</h2>
+      <p>从开放数据抓取、带审计的模型打分、模式校验、图谱生成到 GitHub Pages 静态交付的完整链路。</p>
       <pre class="mermaid">
-flowchart LR
-  A[data.gov.sg / MOM 表格] --> B[职业层级 JSON]
-  B --> C[Claude 3.5 Sonnet 打分]
-  C --> D[scores.json + 审计]
-  D --> E[step4_export → data.json]
-  E --> F[generate_graph.py]
-  F --> G[triples.jsonl + kg_indices.jsonl]
-  E --> H[D3 树图 + 抽屉 UI]
+flowchart TB
+  API[data.gov.sg datastore_search] --> FETCH[run_pipeline.py --fetch]
+  FETCH --> RAW[data/raw/wages_fetched.json]
+  RAW --> EXP[step4_export → web/data/data.json]
+  EXP --> LLM[Claude 3.5 Sonnet 打分 + 审计]
+  LLM --> VAL[validate_data.py + audit_report]
+  VAL --> GRAPH[generate_graph.py]
+  GRAPH --> TRIP[triples.jsonl + kg_indices.jsonl]
+  EXP --> UI[D3 树图 + 抽屉 + i18n]
+  TRIP --> UI
+  VAL --> CI[GitHub Actions / gh-pages]
       </pre>
 
       <h2>3. 评分逻辑 — 体力与认知</h2>
@@ -292,7 +371,6 @@ flowchart LR
         <span>官方数据来源：Open Government Products / data.gov.sg</span>
       </footer>
 
-      <p class="meta"><a class="back" href="./index.html?lang=zh">← 返回仪表板</a></p>
     </div>
   </div>
 
@@ -305,6 +383,13 @@ flowchart LR
   <script>
     (function () {
       var K = "aiscope-locale";
+      function indexHrefForLang(lang) {
+        return "./index.html?lang=" + encodeURIComponent(lang);
+      }
+      function syncBackLink(lang) {
+        var back = document.getElementById("meth-back-index");
+        if (back) back.setAttribute("href", indexHrefForLang(lang || "en"));
+      }
       function syncButtons(lang) {
         var en = document.getElementById("meth-btn-en");
         var zh = document.getElementById("meth-btn-zh");
@@ -329,6 +414,7 @@ flowchart LR
           history.replaceState({}, "", url);
         } catch (_) {}
         syncButtons(lang);
+        syncBackLink(lang);
       }
       document.getElementById("meth-btn-en").addEventListener("click", function () {
         methSetLang("en");
@@ -336,7 +422,9 @@ flowchart LR
       document.getElementById("meth-btn-zh").addEventListener("click", function () {
         methSetLang("zh");
       });
-      syncButtons(document.documentElement.getAttribute("data-lang") || "en");
+      var initial = document.documentElement.getAttribute("data-lang") || "en";
+      syncButtons(initial);
+      syncBackLink(initial);
     })();
     document.addEventListener("DOMContentLoaded", function () {
       if (window.renderMathInElement) {

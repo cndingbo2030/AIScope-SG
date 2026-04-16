@@ -71,6 +71,7 @@
   "drawer_stress_raw": { "en": "raw", "zh": "原始" },
   "drawer_model_time": { "en": "Model batch timestamp", "zh": "模型批次时间" },
   "drawer_source_meta": { "en": "Scoring meta (LLM / wage year)", "zh": "评分元数据（模型 / 工资年）" },
+  "toast_lang_updated": { "en": "Language updated", "zh": "语言已更新" },
   "toast_link_copied": { "en": "Link Copied to Clipboard", "zh": "链接已复制" },
   "share_alert": { "en": "Snapshot downloaded. AI summary copied (when allowed) for LinkedIn/WhatsApp sharing.", "zh": "快照已下载。摘要已尝试复制（若浏览器允许）。" },
   "not_found_toast": { "en": "Occupation not found for SSOC:", "zh": "未找到 SSOC 职业：" },
