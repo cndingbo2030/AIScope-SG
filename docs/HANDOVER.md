@@ -73,7 +73,19 @@ Rollback principle:
   - audit report has no errors
   - graph assets were regenerated and synchronized into `web/data/`
 
-## 6) Operational Checklist
+## 6) GitHub Pages deployment (`gh-pages`)
+
+CI workflow: `.github/workflows/deploy-pages.yml`
+
+1. **Gatekeeper:** `python scripts/validate_data.py` must pass (schema + audit).
+2. **Pre-deploy:** `python scripts/pre_deploy_check.py` normalizes any stray root-absolute `href`/`src`/`fetch` paths and verifies Open Graph + canonical (`https://aiscope.sg/`).
+3. **Publish:** [JamesIves/github-pages-deploy-action@v4](https://github.com/JamesIves/github-pages-deploy-action) pushes the **`web/`** folder to branch **`gh-pages`** (root of the published site).
+
+Project URL shape: `https://cndingbo2030.github.io/AIiScope-SG/` — `index.html` sets `<base>` from `location.pathname` so assets and `?job=` deep links resolve under the repo prefix.
+
+**`web/CNAME`:** contains `aiscope.sg` for optional GitHub Pages custom domain. It does not affect deployments to other hosts (e.g. `20300000.xyz` subdirectories). Remove or empty `web/CNAME` if you want GitHub Pages to stay on `*.github.io` only.
+
+## 7) Operational Checklist
 
 Before each release:
 - [ ] `python3 scripts/expand_occupations.py`
