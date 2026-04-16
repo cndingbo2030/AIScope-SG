@@ -6,6 +6,7 @@ Run before GitHub Pages deploy so cndingbo2030.github.io/AIiScope-SG/ and other 
 
 from __future__ import annotations
 
+import json
 import re
 import sys
 from pathlib import Path
@@ -13,6 +14,8 @@ from pathlib import Path
 BASE = Path(__file__).resolve().parent.parent
 WEB = BASE / "web"
 INDEX = WEB / "index.html"
+APP_JS = WEB / "app.js"
+I18N_JSON = WEB / "data" / "i18n.json"
 
 RECENCY_META = """<meta name="aiscope-recency" content="AI Exposure Model v2026.4 · Updated Apr 2026">
 <meta name="aiscope-methodology" content="./methodology.html">
@@ -71,6 +74,57 @@ def fix_file(path: Path) -> bool:
     return False
 
 
+def audit_html_root_absolute_paths() -> list[str]:
+    """Fail if any web/**/*.html uses same-origin root-absolute href/src (breaks /repo/ Pages)."""
+    errs: list[str] = []
+    bad = re.compile(r"""(?:href|src)\s*=\s*["']/(?!/|https?:)""")
+    for path in sorted(WEB.rglob("*.html")):
+        text = path.read_text(encoding="utf-8")
+        for m in bad.finditer(text):
+            snippet = text[m.start() : m.start() + 48].replace("\n", " ")
+            errs.append(f"{path.relative_to(BASE)}: root-absolute ref near {snippet!r}")
+    return errs
+
+
+def _t_keys_from_app_js() -> set[str]:
+    if not APP_JS.exists():
+        return set()
+    text = APP_JS.read_text(encoding="utf-8")
+    return set(re.findall(r'\bt\(\s*"([a-z0-9_]+)"\s*\)', text, flags=re.IGNORECASE))
+
+
+def _data_i18n_keys_from_index() -> set[str]:
+    if not INDEX.exists():
+        return set()
+    text = INDEX.read_text(encoding="utf-8")
+    return set(re.findall(r'data-i18n\s*=\s*"([^"]+)"', text))
+
+
+def verify_i18n_json_coverage() -> list[str]:
+    errs: list[str] = []
+    if not I18N_JSON.exists():
+        errs.append(f"missing {I18N_JSON.relative_to(BASE)}")
+        return errs
+    try:
+        bundle: dict[str, object] = json.loads(I18N_JSON.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as exc:
+        return [f"i18n.json invalid JSON: {exc}"]
+
+    needed = _t_keys_from_app_js() | _data_i18n_keys_from_index()
+    missing = sorted(k for k in needed if k not in bundle)
+    if missing:
+        sample = ", ".join(missing[:24])
+        errs.append(f"i18n.json missing {len(missing)} key(s) used by UI (e.g. {sample})")
+
+    for key, row in bundle.items():
+        if not isinstance(row, dict):
+            errs.append(f"i18n.json[{key!r}] must be an object with en/zh strings")
+            continue
+        if "en" not in row or "zh" not in row:
+            errs.append(f"i18n.json[{key!r}] must include both 'en' and 'zh'")
+    return errs
+
+
 def verify_index() -> list[str]:
     errors: list[str] = []
     if not INDEX.exists():
@@ -122,6 +176,8 @@ def main() -> int:
     print(f"[pre-deploy] scanned {len(scan_files())} files, {changed} updated")
 
     errors = verify_index()
+    errors.extend(audit_html_root_absolute_paths())
+    errors.extend(verify_i18n_json_coverage())
     if errors:
         print("ERROR: pre-deploy verification failed:", file=sys.stderr)
         for e in errors:
@@ -129,6 +185,7 @@ def main() -> int:
         return 1
 
     print("[pre-deploy] index.html SEO checks passed (OG + canonical -> aiscope.sg)")
+    print("[pre-deploy] HTML path audit + i18n key coverage OK")
     return 0
 
 

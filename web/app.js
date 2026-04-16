@@ -34,17 +34,29 @@ let occupationsZh = null;
 /** SSOC → { name, reason, category } from data_zh.json (Chinese display strings). */
 let zhOccOverlay = null;
 let categoryLabelMapZh = {};
-let currentLang = "en";
+/** Reactive UI + i18n: `state.lang` is persisted under LOCALE_KEY. */
+const state = { lang: "en" };
 let drawerOpenSsoc = null;
 
 function t(key) {
   const row = i18nBundle[key];
   if (!row || typeof row !== "object") return key;
-  return row[currentLang] || row.en || key;
+  return row[state.lang] || row.en || key;
+}
+
+function methodologyHref() {
+  return `./methodology.html?lang=${encodeURIComponent(state.lang)}`;
+}
+
+function updateMethodologyLinks() {
+  const href = methodologyHref();
+  document.querySelectorAll('[data-aiscope-rel="methodology"]').forEach((el) => {
+    el.setAttribute("href", href);
+  });
 }
 
 function categoryDisplay(name) {
-  if (currentLang === "zh") {
+  if (state.lang === "zh") {
     if (name && categoryLabelMapZh[name]) return categoryLabelMapZh[name];
     if (occupationsZh && occupationsZh.category_labels && occupationsZh.category_labels[name]) {
       return occupationsZh.category_labels[name];
@@ -56,7 +68,10 @@ function categoryDisplay(name) {
 function occDisplayTitle(occ) {
   if (!occ) return "";
   const code = String(occ.ssoc_code || "").trim();
-  if (currentLang === "zh") {
+  if (occ.title_zh && state.lang === "zh") {
+    return occ.title_zh;
+  }
+  if (state.lang === "zh") {
     const z = zhOccOverlay && zhOccOverlay.get(code);
     if (z && z.name) return z.name;
     if (occupationsZh && occupationsZh.by_ssoc && occupationsZh.by_ssoc[code]) {
@@ -69,7 +84,7 @@ function occDisplayTitle(occ) {
 
 function reasonForOcc(occ) {
   if (!occ) return "";
-  if (currentLang !== "zh") return occ.reason || "";
+  if (state.lang !== "zh") return occ.reason || "";
   const code = String(occ.ssoc_code || "").trim();
   const z = zhOccOverlay && zhOccOverlay.get(code);
   if (z && z.reason) return z.reason;
@@ -78,6 +93,14 @@ function reasonForOcc(occ) {
 
 function nameForOcc(occ) {
   return occDisplayTitle(occ);
+}
+
+/** Treemap / tooltip: explicit title_zh branch matches D3 node contract. */
+function occNodeDisplayTitle(d) {
+  const o = d && d.data ? d.data : d;
+  if (!o) return "";
+  if (state.lang === "zh" && o.title_zh) return o.title_zh;
+  return occDisplayTitle(o);
 }
 
 function nameForEnglishJobName(enName) {
@@ -91,7 +114,7 @@ function nameForSsocc(ssoc) {
 }
 
 function applyLocaleStatic() {
-  document.documentElement.lang = currentLang === "zh" ? "zh-Hans" : "en";
+  document.documentElement.lang = state.lang === "zh" ? "zh-Hans" : "en";
   document.querySelectorAll("[data-i18n]").forEach((el) => {
     const k = el.getAttribute("data-i18n");
     if (k) el.textContent = t(k);
@@ -104,13 +127,11 @@ function applyLocaleStatic() {
   if (stressLbl) stressLbl.textContent = stressTestAi ? t("stress_desc_agi") : t("stress_label");
   const stressToggle = document.querySelector(".stress-toggle");
   if (stressToggle) stressToggle.title = stressTestAi ? t("stress_desc_agi") : t("stress_title");
-  const methHref = `./methodology.html?lang=${encodeURIComponent(currentLang)}`;
-  document.getElementById("methodology-ticker-link")?.setAttribute("href", methHref);
-  document.querySelector("#legend .legend-links a")?.setAttribute("href", methHref);
-  document.getElementById("btn-en")?.classList.toggle("active", currentLang === "en");
-  document.getElementById("btn-zh")?.classList.toggle("active", currentLang === "zh");
-  document.getElementById("btn-en")?.setAttribute("aria-pressed", currentLang === "en" ? "true" : "false");
-  document.getElementById("btn-zh")?.setAttribute("aria-pressed", currentLang === "zh" ? "true" : "false");
+  updateMethodologyLinks();
+  document.getElementById("btn-en")?.classList.toggle("active", state.lang === "en");
+  document.getElementById("btn-zh")?.classList.toggle("active", state.lang === "zh");
+  document.getElementById("btn-en")?.setAttribute("aria-pressed", state.lang === "en" ? "true" : "false");
+  document.getElementById("btn-zh")?.setAttribute("aria-pressed", state.lang === "zh" ? "true" : "false");
 }
 
 function refreshCategorySelectOptions() {
@@ -167,9 +188,8 @@ function hydrateCategoryMapFromParallelTrees(enRoot, zhRoot) {
 }
 
 async function ensureZhPackLoaded() {
-  if (currentLang !== "zh") return;
+  if (state.lang !== "zh") return;
   if (zhOccOverlay && zhOccOverlay.size) return;
-  if (occupationsZh && occupationsZh.by_ssoc && Object.keys(occupationsZh.by_ssoc).length) return;
 
   setLangSpinner(true);
   try {
@@ -224,16 +244,19 @@ function renderAll() {
 }
 
 async function setLocale(next) {
-  currentLang = next === "zh" ? "zh" : "en";
+  const nl = next === "zh" ? "zh" : "en";
+  if (nl === state.lang) return;
+  state.lang = nl;
   try {
-    localStorage.setItem(LOCALE_KEY, currentLang);
+    localStorage.setItem(LOCALE_KEY, state.lang);
   } catch (_) {
     /* ignore */
   }
-  if (currentLang === "zh") {
+  if (state.lang === "zh") {
     await ensureZhPackLoaded();
   }
   renderAll();
+  showToast(t("toast_lang_updated"), { center: true, duration: 1500 });
 }
 
 function detectSubpathName() {
@@ -430,10 +453,14 @@ async function bootstrap() {
     const dataUrl = assetUrl("data/data.json");
     const kgUrl = assetUrl("data/kg_indices.jsonl");
     const tripleUrl = assetUrl("data/triples.jsonl");
-    const [data, kgRaw, triplesRaw] = await Promise.all([
+    const occZhPromise = fetch(assetUrl("data/occupations_zh.json"))
+      .then(async (r) => (r.ok ? await r.json() : null))
+      .catch(() => null);
+    const [data, kgRaw, triplesRaw, zhEarly] = await Promise.all([
       cachedJson(dataUrl),
       cachedText(kgUrl),
       cachedText(tripleUrl),
+      occZhPromise,
     ]);
     rawData = data;
     kgIndices = kgRaw.trim() ? kgRaw.trim().split("\n").map((line) => JSON.parse(line)) : [];
@@ -452,22 +479,28 @@ async function bootstrap() {
     } catch (_) {
       i18nBundle = {};
     }
+    if (zhEarly && typeof zhEarly === "object") {
+      occupationsZh = zhEarly;
+      if (zhEarly.category_labels && typeof zhEarly.category_labels === "object") {
+        categoryLabelMapZh = { ...categoryLabelMapZh, ...zhEarly.category_labels };
+      }
+    }
     try {
       const qp = new URL(window.location.href).searchParams.get("lang");
       if (qp === "zh" || qp === "en") {
-        currentLang = qp;
+        state.lang = qp;
         try {
-          localStorage.setItem(LOCALE_KEY, currentLang);
+          localStorage.setItem(LOCALE_KEY, state.lang);
         } catch (_) {
           /* ignore */
         }
       } else {
-        currentLang = (localStorage.getItem(LOCALE_KEY) || "en").toLowerCase() === "zh" ? "zh" : "en";
+        state.lang = (localStorage.getItem(LOCALE_KEY) || "en").toLowerCase() === "zh" ? "zh" : "en";
       }
     } catch (_) {
-      currentLang = "en";
+      state.lang = "en";
     }
-    if (currentLang === "zh") {
+    if (state.lang === "zh") {
       await ensureZhPackLoaded();
     }
 
@@ -661,7 +694,7 @@ function drawTreemap(categories) {
 
   d3.treemap().size([width, height]).paddingOuter(5).paddingTop(24).paddingInner(3)(hierarchy);
 
-  const t = svg.transition().duration(620).ease(d3.easeCubicOut);
+  const treemapTransition = svg.transition().duration(620).ease(d3.easeCubicOut);
 
   const catGroups = svg.selectAll("g.category")
     .data(hierarchy.children || [], (d) => d.data.name)
@@ -727,7 +760,7 @@ function drawTreemap(categories) {
     .attr("fill", (d) => scoreColor(displayScore(d.data)))
     .attr("stroke", "rgba(0,0,0,0.42)")
     .attr("rx", 2)
-    .transition(t)
+    .transition(treemapTransition)
     .attr("x", (d) => d.x0)
     .attr("y", (d) => d.y0)
     .attr("width", (d) => d.x1 - d.x0)
@@ -739,8 +772,8 @@ function drawTreemap(categories) {
     .attr("opacity", 0)
     .attr("font-size", 11)
     .attr("fill", "rgba(255,255,255,.9)")
-    .text((d) => shorten(nameForOcc(d.data), Math.max(8, Math.floor((d.x1 - d.x0) / 8))))
-    .transition(t)
+    .text((d) => shorten(occNodeDisplayTitle(d), Math.max(8, Math.floor((d.x1 - d.x0) / 8))))
+    .transition(treemapTransition)
     .attr("opacity", (d) => ((d.x1 - d.x0) > 44 && (d.y1 - d.y0) > 24 ? 1 : 0));
 
   groups.on("mousemove", (event, d) => {
@@ -775,7 +808,7 @@ function renderTooltip(event, node) {
 
   tooltip.innerHTML = `
     <div class="tt-score" style="color:${scoreColor(displayScore(d))}">${displayScore(d).toFixed(1)}${stressTestAi && !d.pwm ? " *" : ""}</div>
-    <div class="tt-name">${escapeHtml(nameForOcc(d))}</div>
+    <div class="tt-name">${escapeHtml(occNodeDisplayTitle(node))}</div>
     <div class="tt-cat">${escapeHtml(categoryDisplay(node.parent.data.name))}</div>
     <div class="tt-meta">S$${d.gross_wage.toLocaleString()} ${escapeHtml(t("tt_month"))} ${d.employment.toLocaleString()} ${escapeHtml(t("tt_workers"))}</div>
     ${renderRadarSvg(replaceRisk, collaboration, moat)}
@@ -824,13 +857,16 @@ function escapeHtml(text) {
     .replace(/"/g, "&quot;");
 }
 
-function showToast(text) {
+function showToast(text, opts = {}) {
   const root = document.getElementById("toast-root");
   if (!root) return;
+  const duration = typeof opts.duration === "number" ? opts.duration : 2600;
+  root.classList.toggle("toast-root--center", Boolean(opts.center));
   root.innerHTML = `<div class="toast-msg">${escapeHtml(text)}</div>`;
   setTimeout(() => {
     root.innerHTML = "";
-  }, 2600);
+    root.classList.remove("toast-root--center");
+  }, duration);
 }
 
 function getTopInterests(limit) {
@@ -1074,7 +1110,7 @@ function renderExecutiveSummary() {
   const overviewTxt = escapeHtml((insightsData && insightsData.market_overview) || "");
   const wv = insightsData && insightsData.wage_volatility;
   const wvNote = wv && wv.flag
-    ? (currentLang === "zh" ? (wv.note_zh || wv.note_en || "") : (wv.note_en || wv.note_zh || ""))
+    ? (state.lang === "zh" ? (wv.note_zh || wv.note_en || "") : (wv.note_en || wv.note_zh || ""))
     : "";
   const wvHtml = wv && wv.flag && wvNote
     ? `<div class="wage-volatility-banner" role="alert"><strong>${escapeHtml(t("exec_wage_volatility_title"))}</strong> ${escapeHtml(wvNote)}</div>`
