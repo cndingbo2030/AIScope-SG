@@ -1,10 +1,14 @@
 {
   "brand_sub": { "en": "Singapore AI Job Exposure Index · Public-Interest", "zh": "新加坡人工智能职业暴露指数 · 公共信息" },
   "stat_occ": { "en": "Occupations", "zh": "职业数" },
-  "stat_emp": { "en": "Workers", "zh": "就业人数" },
+  "stat_emp": { "en": "Tracked workers", "zh": "追踪岗位" },
   "stat_emp_tooltip": {
     "en": "Total scaled to a national workforce anchor (default 3.72M) so headline totals match Singapore scale; shares preserve SSOC row weights.",
     "zh": "总人数按全国劳动力锚定值缩放（默认 372 万），与新加坡量级一致；结构占比保留各 SSOC 行的相对权重。"
+  },
+  "stat_emp_tooltip_tracked": {
+    "en": "Sum of employment_est across SingStat-titled SSOC rows in this bundle (~370K by default); treemap tile sizes still use a 3.72M national anchor for comparability.",
+    "zh": "本数据包中带 SingStat 主名称的 SSOC 行的 employment_est 之和（默认约 37 万）；树图块面积仍按 372 万全国锚定缩放以便对比。"
   },
   "header_provenance": {
     "en": "Scoring model: {{model}} · Data bundle: {{date}}",
@@ -31,11 +35,11 @@
   "disclaimer": { "en": "Disclaimer: AIScope SG data is for policy and research reference only, and does not constitute legal advice or an official regulatory determination.", "zh": "免责声明：AIScope SG 数据仅供政策与研究参考，不构成法律意见或官方监管认定。" },
   "drawer_close": { "en": "Close", "zh": "关闭" },
   "ticker_live": { "en": "● Live Data: AI Exposure Model v2026.4 (Updated Apr 2026)", "zh": "● 实时数据：AI 暴露模型 v2026.4（2026年4月更新）" },
-  "exec_top_exposed": { "en": "Top 5 Exposed Sectors", "zh": "暴露度最高的 5 个行业" },
-  "exec_bottom_protected": { "en": "Bottom 5 Protected Sectors", "zh": "受保护程度最高的 5 个行业" },
+  "exec_top_exposed": { "en": "Most AI-Exposed Sector", "zh": "AI 暴露度最高的行业" },
+  "exec_bottom_protected": { "en": "Most Policy-Protected Sector", "zh": "政策保护度最高的行业" },
   "exec_sector_footnote": {
-    "en": "Only four SSOC major groups ship in this dataset; lists rank the same groups by employment-weighted mean AI score (highest vs lowest first).",
-    "zh": "本版数据仅含四个 SSOC 大类；两栏按就业加权平均 AI 分排序（左为高暴露端，右为低暴露端），因此行业集合相同、顺序相反属预期现象。"
+    "en": "Dataset covers 4 SSOC major groups. Ranked by employment-weighted mean.",
+    "zh": "数据集覆盖 4 个 SSOC 大类；按就业加权平均排序。"
   },
   "exec_salary_split": { "en": "Salary Exposure Split", "zh": "薪资与暴露结构" },
   "exec_auto_comment": { "en": "Auto Comment", "zh": "自动解读" },
@@ -49,8 +53,8 @@
   "exec_market_title": { "en": "Market overview", "zh": "市场概览" },
   "exec_wage_volatility_title": { "en": "Wage data anomaly", "zh": "薪资数据异常波动" },
   "exec_movers_empty": {
-    "en": "Year-on-year movers will appear here once a baseline snapshot is published for this site.",
-    "zh": "在发布基线快照后，此处将展示跨年暴露度变化最大的职业。"
+    "en": "Year-over-year comparison available after first annual update (Aug 2026).",
+    "zh": "首次年度更新（2026 年 8 月）后可查看同比变化。"
   },
   "insight_sg": { "en": "In Singapore,", "zh": "在新加坡，" },
   "insight_mid": { "en": "% of occupations currently sit in the low-wage/high-exposure bucket.", "zh": "% 的职业处于低薪/高暴露区间。" },
@@ -81,6 +85,10 @@
   "drawer_na": { "en": "N/A", "zh": "暂无" },
   "drawer_ai_augment": { "en": "AI augments this role", "zh": "AI 主要增强本岗位" },
   "drawer_ai_replace": { "en": "AI may replace core routine tasks", "zh": "AI 可能替代核心例行工作" },
+  "drawer_ai_displacement": {
+    "en": "AI Score {{score}} — High displacement risk",
+    "zh": "AI 分 {{score}} — 高替代风险"
+  },
   "drawer_no_reason": { "en": "No reason available.", "zh": "暂无说明。" },
   "drawer_insights_title": { "en": "AIScope SG Insights", "zh": "AIScope SG 洞察" },
   "drawer_national_avg": { "en": "National Avg", "zh": "全国平均" },

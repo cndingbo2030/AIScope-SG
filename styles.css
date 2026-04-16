@@ -708,6 +708,8 @@ html, body {
 }
 
 .drawer-item-val { font-family: var(--mono); margin-top: 4px; font-size: 12px; }
+.drawer-item-val.warning { color: #f4a582; }
+.drawer-item-val.danger { color: #d6604d; }
 .drawer-reason { margin-top: 12px; color: var(--muted); line-height: 1.6; font-size: 13px; }
 
 .insight-panel {
@@ -784,4 +786,14 @@ html, body {
   .share-btn { margin-left: 0; }
   .exec-grid { grid-template-columns: 1fr; }
   .concierge-results { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 480px) {
+  #canvas-wrap #treemap,
+  #canvas-wrap #treemap-overlay {
+    display: none;
+  }
+  #mobile-list {
+    display: block;
+  }
 }

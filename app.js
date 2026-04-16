@@ -150,6 +150,14 @@ function applyLocaleStatic() {
   document.getElementById("btn-en")?.setAttribute("aria-pressed", state.lang === "en" ? "true" : "false");
   document.getElementById("btn-zh")?.setAttribute("aria-pressed", state.lang === "zh" ? "true" : "false");
   updateHeaderProvenance();
+  if (rawData && rawData.meta) {
+    const empEl = document.getElementById("stat-emp");
+    if (empEl) {
+      const tracked = rawData.meta.total_employment < 1_000_000;
+      empEl.textContent = tracked ? formatTrackedWorkers(rawData.meta.total_employment) : formatWorkerScale(rawData.meta.total_employment);
+      empEl.title = t(tracked ? "stat_emp_tooltip_tracked" : "stat_emp_tooltip");
+    }
+  }
 }
 
 function refreshCategorySelectOptions() {
@@ -253,7 +261,7 @@ function renderAll() {
   refreshCategorySelectOptions();
   renderExecutiveSummary();
   draw();
-  renderConciergeCards(getSemanticMatches(searchQ));
+  renderConciergeCards(searchQ ? getSemanticMatches(searchQ) : getFeaturedCards());
   const drawer = document.getElementById("drawer");
   if (drawerOpenSsoc && drawer && drawer.classList.contains("open")) {
     const occ = bySsocCode.get(drawerOpenSsoc);
@@ -308,6 +316,18 @@ function formatWorkerScale(v) {
     return `${(n / 10000).toFixed(1).replace(/\.0$/, "")}万`;
   }
   return `${(n / 1e6).toFixed(2)}M`;
+}
+
+/** Tracked workforce headline (~370K) from meta.total_employment when using employment_est pipeline. */
+function formatTrackedWorkers(v) {
+  const n = Number(v);
+  if (!Number.isFinite(n)) return "—";
+  const k = Math.round(n / 1000);
+  if (state.lang === "zh") {
+    const wan = (n / 10000).toFixed(1).replace(/\.0$/, "");
+    return `约${wan}万追踪岗位（具名职业）`;
+  }
+  return `~${k}K tracked workers (named occupations)`;
 }
 
 function updateHeaderProvenance() {
@@ -558,7 +578,7 @@ async function bootstrap() {
     draw();
     renderExecutiveSummary();
     applyDeepLink();
-    renderConciergeCards(getSemanticMatches(searchQ));
+    renderConciergeCards(searchQ ? getSemanticMatches(searchQ) : getFeaturedCards());
     const elapsed = performance.now() - startTs;
     console.info(`[AIScope] data bootstrapped in ${elapsed.toFixed(1)}ms (base=${getBaseHrefForAssets()})`);
     logSystemHealthReport(true);
@@ -583,8 +603,9 @@ async function bootstrap() {
 function initUI() {
   document.getElementById("stat-occ").textContent = rawData.meta.total_occupations.toLocaleString();
   const empEl = document.getElementById("stat-emp");
-  empEl.textContent = formatWorkerScale(rawData.meta.total_employment);
-  empEl.title = t("stat_emp_tooltip");
+  const tracked = rawData.meta && rawData.meta.total_employment < 1_000_000;
+  empEl.textContent = tracked ? formatTrackedWorkers(rawData.meta.total_employment) : formatWorkerScale(rawData.meta.total_employment);
+  empEl.title = t(tracked ? "stat_emp_tooltip_tracked" : "stat_emp_tooltip");
   document.getElementById("stat-avg").textContent = rawData.meta.avg_ai_score.toFixed(2);
   updateHeaderProvenance();
 
@@ -602,7 +623,7 @@ function initUI() {
     searchQ = event.target.value.trim().toLowerCase();
     draw();
     const t0 = performance.now();
-    renderConciergeCards(getSemanticMatches(searchQ));
+    renderConciergeCards(searchQ ? getSemanticMatches(searchQ) : getFeaturedCards());
     const latency = performance.now() - t0;
     console.info(`[AIScope] concierge search latency ${latency.toFixed(1)}ms`);
   });
@@ -680,6 +701,9 @@ function draw() {
   drawMobile(categories);
   drawTreemap(categories);
   zoomResetBtn.classList.toggle("hidden", !zoomCategory);
+  if (!searchQ) {
+    renderConciergeCards(getFeaturedCards());
+  }
 }
 
 function drawMobile(categories) {
@@ -703,7 +727,7 @@ function drawMobile(categories) {
         <div class="mobile-occ-name">${escapeHtml(nameForOcc(occ))}</div>
         <div class="mobile-occ-meta">
           <span>S$${occ.gross_wage.toLocaleString()}/mo</span>
-          <span style="color:${scoreColor(occ.ai_score)}">${occ.ai_score.toFixed(1)}</span>
+          <span style="color:${scoreColor(displayScore(occ))}">${displayScore(occ).toFixed(1)}</span>
         </div>
       `;
       card.addEventListener("click", () => {
@@ -854,7 +878,8 @@ function renderTooltip(event, node) {
   tooltip.style.top = `${event.clientY + 14}px`;
 
   const replaceRisk = clamp01(displayScore(d) / 10);
-  const collaboration = clamp01((d.ai_assists ? 0.7 : 0.35) + (d.wfh ? 0.1 : 0));
+  const assistsRadar = Number(d.ai_score) >= 7 ? false : Boolean(d.ai_assists);
+  const collaboration = clamp01((assistsRadar ? 0.7 : 0.35) + (d.wfh ? 0.1 : 0));
   const moat = clamp01((d.regulated ? 0.75 : 0.3) + (d.pwm ? 0.2 : 0));
 
   tooltip.innerHTML = `
@@ -964,7 +989,16 @@ function openDrawer(occupation, updateUrl = false) {
   drawerOpenSsoc = String(occupation.ssoc_code || "").trim() || null;
   recordOccupationView(occupation);
   emitViewOccupation(occupation);
-  const aiRole = occupation.ai_assists ? t("drawer_ai_augment") : t("drawer_ai_replace");
+  const rawAiDrawer = Number(occupation.ai_score) || 0;
+  let aiRole = t("drawer_ai_replace");
+  let aiRoleClass = "danger";
+  if (rawAiDrawer >= 6.5) {
+    aiRole = t("drawer_ai_displacement").replace(/\{\{score\}\}/g, rawAiDrawer.toFixed(1));
+    aiRoleClass = "danger";
+  } else if (rawAiDrawer >= 4.0) {
+    aiRole = t("drawer_ai_augment");
+    aiRoleClass = "warning";
+  }
   const all = flattenOccupations();
   const nationalAvg = average(all.map((x) => Number(x.ai_score)));
   const sectorRows = all.filter((x) => x.category === occupation.category);
@@ -993,7 +1027,7 @@ function openDrawer(occupation, updateUrl = false) {
       <div><div class="drawer-item-label">${escapeHtml(t("drawer_category"))}</div><div class="drawer-item-val">${escapeHtml(categoryDisplay(occupation.category))}</div></div>
       <div><div class="drawer-item-label">${escapeHtml(t("drawer_wage"))}</div><div class="drawer-item-val">S$${occupation.gross_wage.toLocaleString()} / mo</div></div>
       <div><div class="drawer-item-label">${escapeHtml(t("drawer_employment"))}</div><div class="drawer-item-val">${occupation.employment.toLocaleString()}</div></div>
-      <div><div class="drawer-item-label">${escapeHtml(t("drawer_ai_impact"))}</div><div class="drawer-item-val">${escapeHtml(aiRole)}</div></div>
+      <div><div class="drawer-item-label">${escapeHtml(t("drawer_ai_impact"))}</div><div class="drawer-item-val ${aiRoleClass}">${escapeHtml(aiRole)}</div></div>
       <div><div class="drawer-item-label" title="${escapeHtml(t("drawer_vulnerability_hint"))}">${escapeHtml(t("drawer_vulnerability"))}</div><div class="drawer-item-val">${escapeHtml(vulnDisp)}</div></div>
       <div><div class="drawer-item-label">${escapeHtml(t("drawer_risk_factor"))}</div><div class="drawer-item-val">${escapeHtml(occupation.risk_factor || t("drawer_na"))}</div></div>
       <div><div class="drawer-item-label">${escapeHtml(t("drawer_wfh_pwm"))}</div><div class="drawer-item-val">${occupation.wfh ? t("drawer_yes") : t("drawer_no")} / ${occupation.pwm ? t("drawer_yes") : t("drawer_no")} / ${occupation.regulated ? t("drawer_yes") : t("drawer_no")}</div></div>
@@ -1096,6 +1130,17 @@ function getSemanticMatches(query) {
   return prioritizeTransferPaths(primary).slice(0, 6);
 }
 
+function getFeaturedCards() {
+  const allOccupations = flattenOccupations();
+  const filtered = allOccupations.filter((o) =>
+    Number(o.ai_score) >= filterMin && Number(o.ai_score) <= filterMax
+  );
+  return filtered
+    .slice()
+    .sort((a, b) => Number(displayScore(b)) - Number(displayScore(a)))
+    .slice(0, 3);
+}
+
 function prioritizeTransferPaths(rows) {
   const transferTriples = triples.filter((t) => t.relation === "TRANSFER_PATH");
   const transferTargets = new Set(transferTriples.map((t) => String(t.tail || "").toLowerCase()));
@@ -1175,7 +1220,10 @@ function renderExecutiveSummary() {
     }).join("")}</ol>`
     : `<p class="exec-outlook" style="color:var(--muted)">${escapeHtml(t("exec_movers_empty"))}</p>`;
 
-  const policyTxt = escapeHtml((insightsData && insightsData.policy_crossover) || "");
+  const policyRaw = state.lang === "zh"
+    ? ((insightsData && (insightsData.policy_crossover_zh || insightsData.policy_crossover)) || "")
+    : ((insightsData && insightsData.policy_crossover) || "");
+  const policyTxt = escapeHtml(policyRaw);
   const overviewTxt = escapeHtml((insightsData && insightsData.market_overview) || "");
   const wv = insightsData && insightsData.wage_volatility;
   const wvNote = wv && wv.flag
@@ -1185,20 +1233,26 @@ function renderExecutiveSummary() {
     ? `<div class="wage-volatility-banner" role="alert"><strong>${escapeHtml(t("exec_wage_volatility_title"))}</strong> ${escapeHtml(wvNote)}</div>`
     : "";
 
-  const sectorFoot =
-    categoryScores.length <= 5
-      ? `<p class="exec-sector-foot">${escapeHtml(t("exec_sector_footnote"))}</p>`
-      : "";
+  const sectorFoot = `<p class="exec-sector-foot">${escapeHtml(t("exec_sector_footnote"))}</p>`;
+
+  const topSector = top5[0];
+  const botSector = bottom5[0];
+  const topSectorHtml = topSector
+    ? `<span>${escapeHtml(categoryDisplay(topSector.category))} (${topSector.avg.toFixed(2)})</span>`
+    : `<span>—</span>`;
+  const botSectorHtml = botSector
+    ? `<span>${escapeHtml(categoryDisplay(botSector.category))} (${botSector.avg.toFixed(2)})</span>`
+    : `<span>—</span>`;
 
   const overviewPanel = `
     <div class="exec-grid" data-exec-panel="overview" style="display:${executiveTab === "overview" ? "grid" : "none"}">
       <article class="exec-card">
         <div class="exec-label">${escapeHtml(t("exec_top_exposed"))}</div>
-        <div class="exec-list">${top5.map((x) => `<span>${escapeHtml(categoryDisplay(x.category))} (${x.avg.toFixed(2)})</span>`).join("")}</div>
+        <div class="exec-list">${topSectorHtml}</div>
       </article>
       <article class="exec-card">
         <div class="exec-label">${escapeHtml(t("exec_bottom_protected"))}</div>
-        <div class="exec-list">${bottom5.map((x) => `<span>${escapeHtml(categoryDisplay(x.category))} (${x.avg.toFixed(2)})</span>`).join("")}</div>
+        <div class="exec-list">${botSectorHtml}</div>
       </article>
       <article class="exec-card">
         <div class="exec-label">${escapeHtml(t("exec_salary_split"))}</div>
@@ -1258,6 +1312,7 @@ async function shareSnapshot() {
 
   if (navigator.canShare && navigator.canShare({ files: [file] })) {
     await navigator.share({ title: "AIScope SG Snapshot", text: shareText, files: [file] });
+    showToast("Snapshot saved", { center: true, duration: 2000 });
     return;
   }
 
@@ -1265,8 +1320,12 @@ async function shareSnapshot() {
   link.href = URL.createObjectURL(blob);
   link.download = "aiscope-sg-summary.png";
   link.click();
-  navigator.clipboard.writeText(shareText).catch(() => {});
-  alert(t("share_alert"));
+  const deepLink = `${window.location.origin}${window.location.pathname}?job=${encodeURIComponent(drawerOpenSsoc || "")}`;
+  navigator.clipboard.writeText(deepLink).then(() => {
+    showToast(`Link copied to clipboard: ${deepLink}`, { center: true, duration: 2000 });
+  }).catch(() => {
+    showToast("Snapshot saved", { center: true, duration: 2000 });
+  });
 }
 
 function applyDeepLink() {
