@@ -4,6 +4,8 @@ Thumbs.db
 *.tmp
 *.swp
 .env
+.env.local
+.env.*.local
 .venv/
 venv/
 __pycache__/

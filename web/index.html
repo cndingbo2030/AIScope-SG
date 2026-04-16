@@ -13,6 +13,9 @@
 })();
 </script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="aiscope-recency" content="AI Exposure Model v2026.4 · Updated Apr 2026">
+<meta name="aiscope-methodology" content="./methodology.html">
+
 <title>AIScope SG — Singapore AI Job Exposure Index</title>
 <link rel="canonical" href="https://aiscope.sg/">
 <meta name="description" content="AIScope SG: Singapore AI Job Exposure Index for occupations, wages, and transition pathways.">
@@ -53,15 +56,24 @@
 <body>
 <div id="toast-root" class="toast-root" aria-live="polite"></div>
 <div id="app">
+  <div class="live-ticker-strip" role="status">
+    <span id="live-ticker-text" data-i18n="ticker_live">● Live Data: AI Exposure Model v2026.4 (Updated Apr 2026)</span>
+    <a id="methodology-ticker-link" class="ticker-meth" href="./methodology.html" data-i18n="methodology">Methodology</a>
+  </div>
   <header class="top-header">
     <div class="brand">
       <div class="brand-name">AI<span>Scope</span> SG</div>
-      <div class="brand-sub">Singapore AI Job Exposure Index · Public-Interest</div>
+      <div class="brand-sub" data-i18n="brand_sub">Singapore AI Job Exposure Index · Public-Interest</div>
     </div>
     <div class="header-stats">
-      <div class="stat"><div class="stat-val" id="stat-occ">—</div><div class="stat-label">Occupations</div></div>
-      <div class="stat"><div class="stat-val" id="stat-emp">—</div><div class="stat-label">Workers</div></div>
-      <div class="stat"><div class="stat-val accent" id="stat-avg">—</div><div class="stat-label">Avg AI Score</div></div>
+      <div class="stat"><div class="stat-val" id="stat-occ">—</div><div class="stat-label" data-i18n="stat_occ">Occupations</div></div>
+      <div class="stat"><div class="stat-val" id="stat-emp">—</div><div class="stat-label" data-i18n="stat_emp">Workers</div></div>
+      <div class="stat"><div class="stat-val accent" id="stat-avg">—</div><div class="stat-label" data-i18n="stat_avg">Avg AI Score</div></div>
+    </div>
+    <div id="lang-switcher" class="lang-switch" role="group" aria-label="Language">
+      <span id="lang-switch-spinner" class="lang-switch-spinner" aria-hidden="true" hidden></span>
+      <button type="button" class="lang-btn" id="btn-en" aria-pressed="true">EN</button>
+      <button type="button" class="lang-btn" id="btn-zh" aria-pressed="false">中文</button>
     </div>
   </header>
 
@@ -70,32 +82,37 @@
   <section id="controls">
     <input id="search" type="text" placeholder="Search occupation...">
     <div class="filter-group">
-      <span class="filter-label">Risk</span>
-      <button class="pill active" data-filter="all">All</button>
-      <button class="pill" data-filter="low" data-min="0" data-max="3">Low</button>
-      <button class="pill" data-filter="medium" data-min="3" data-max="6">Med</button>
-      <button class="pill" data-filter="high" data-min="6" data-max="10">High</button>
+      <span class="filter-label" data-i18n="filter_risk">Risk</span>
+      <button class="pill active" data-filter="all" data-i18n="pill_all">All</button>
+      <button class="pill" data-filter="low" data-min="0" data-max="3" data-i18n="pill_low">Low</button>
+      <button class="pill" data-filter="medium" data-min="3" data-max="6" data-i18n="pill_med">Med</button>
+      <button class="pill" data-filter="high" data-min="6" data-max="10" data-i18n="pill_high">High</button>
     </div>
     <div class="filter-group">
-      <span class="filter-label">Category</span>
+      <span class="filter-label" data-i18n="filter_cat">Category</span>
       <select id="cat-select"><option value="all">All categories</option></select>
     </div>
-    <button id="zoom-reset" class="pill hidden">Back to All Categories</button>
-    <button id="share-btn" class="pill share-btn">Share Snapshot</button>
+    <button id="zoom-reset" class="pill hidden" data-i18n="zoom_back">Back to All Categories</button>
+    <label class="stress-toggle" title="">
+      <input id="stress-ai" type="checkbox">
+      <span id="stress-toggle-label" data-i18n="stress_label">If AI capability doubles…</span>
+    </label>
+    <button id="share-btn" class="pill share-btn" data-i18n="share_btn">Share Snapshot</button>
   </section>
   <section id="concierge-results" class="concierge-results" aria-live="polite"></section>
 
-  <div id="canvas-wrap">
-    <div id="loading-overlay"><div class="loader"></div><span id="loading-main-msg">Loading Singapore occupation graph...</span><span id="loading-job-hint" class="loading-job-hint" aria-live="polite"></span></div>
+  <div id="canvas-wrap" class="canvas-wrap">
+    <div id="loading-overlay"><div class="loader"></div><span id="loading-main-msg" data-i18n="loading_msg">Loading Singapore occupation graph...</span><span id="loading-job-hint" class="loading-job-hint" aria-live="polite"></span></div>
     <svg id="treemap"></svg>
+    <svg id="treemap-overlay" class="treemap-overlay" aria-hidden="true"></svg>
     <div id="mobile-list"></div>
   </div>
 
   <footer id="legend">
-    <span>Tip: Click category tiles to zoom-in, click occupation for details. Keyboard: Tab to category, Enter to zoom.</span>
-    <span class="legend-links"><a href="./methodology.html">Methodology</a></span>
+    <span data-i18n="legend_tip">Tip: Click category tiles to zoom-in, click occupation for details. Keyboard: Tab to category, Enter to zoom.</span>
+    <span class="legend-links"><a href="./methodology.html" data-i18n="methodology">Methodology</a></span>
   </footer>
-  <footer class="disclaimer">
+  <footer class="disclaimer" data-i18n="disclaimer">
     Disclaimer: AIScope SG data is for policy and research reference only, and does not constitute legal advice or an official regulatory determination.
   </footer>
 </div>
@@ -103,7 +120,7 @@
 <div id="tooltip"></div>
 <div id="drawer-backdrop"></div>
 <aside id="drawer">
-  <button class="drawer-close" id="drawer-close">Close</button>
+  <button class="drawer-close" id="drawer-close" data-i18n="drawer_close">Close</button>
   <div id="drawer-content"></div>
 </aside>
 

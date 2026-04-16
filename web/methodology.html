@@ -3,50 +3,351 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AIScope SG Methodology</title>
+  <title>AIScope SG — Methodology / 方法论</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
   <style>
-    body { margin: 0; padding: 24px; background: #080b0f; color: #e8edf2; font-family: "Sora", sans-serif; }
-    .wrap { max-width: 840px; margin: 0 auto; }
-    h1 { margin-bottom: 8px; }
-    h2 { margin-top: 20px; font-size: 18px; }
-    p, li { color: #b8c4d3; line-height: 1.7; }
-    .meta { color: #6b7a8d; font-family: "IBM Plex Mono", monospace; font-size: 12px; }
-    a { color: #00d4a0; }
+    html[data-lang="en"] [data-lang="zh"] { display: none !important; }
+    html[data-lang="zh"] [data-lang="en"] { display: none !important; }
+    .meth-wrap { max-width: 920px; margin: 0 auto; padding: 28px 20px 80px; }
+    .meth-lang-bar {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+    .meth-lang-bar button {
+      border: none;
+      border-bottom: 1px solid transparent;
+      background: transparent;
+      color: rgba(230, 237, 243, 0.45);
+      font-family: var(--mono);
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      padding: 2px 2px 3px;
+      cursor: pointer;
+      transition: color 0.15s ease, border-color 0.15s ease, text-shadow 0.15s ease;
+    }
+    .meth-lang-bar button:hover { color: rgba(230, 237, 243, 0.78); }
+    .meth-lang-bar button.active {
+      color: #f2f6fa;
+      border-bottom-color: rgba(242, 246, 250, 0.55);
+      text-shadow: 0 0 12px rgba(242, 246, 250, 0.18);
+    }
+    .meth-wrap h1 { font-size: 1.65rem; margin-bottom: 6px; }
+    .meth-wrap h2 { font-size: 1.1rem; margin-top: 32px; color: var(--accent); font-family: var(--mono); letter-spacing: 0.06em; text-transform: uppercase; }
+    .meth-wrap p, .meth-wrap li { color: var(--muted); line-height: 1.75; font-size: 0.95rem; }
+    .meth-wrap .lead { color: var(--text); font-size: 1rem; }
+    .meth-card { border: 1px solid var(--border); border-radius: 10px; padding: 18px 20px; margin-top: 16px; background: var(--surface); }
+    .meth-card h3 { margin: 0 0 10px; font-size: 1rem; color: var(--text); }
+    pre.mermaid {
+      background: var(--surface-2);
+      border-radius: 8px;
+      padding: 16px;
+      margin: 12px 0;
+      overflow-x: auto;
+      border: 1px solid var(--border);
+      font-size: 11px;
+    }
+    .katex-display { overflow-x: auto; margin: 12px 0 !important; }
+    .example-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 12px; }
+    @media (max-width: 720px) { .example-grid { grid-template-columns: 1fr; } }
+    .pill-tag { display: inline-block; font-family: var(--mono); font-size: 10px; padding: 3px 8px; border-radius: 4px; border: 1px solid var(--border); color: var(--accent); margin-right: 6px; }
+    .back { display: inline-block; margin-top: 28px; font-family: var(--mono); font-size: 12px; color: var(--accent); }
   </style>
+  <script>
+    (function () {
+      var K = "aiscope-locale";
+      var lang = "en";
+      try {
+        var q = new URLSearchParams(window.location.search).get("lang");
+        if (q === "zh" || q === "en") {
+          lang = q;
+        } else {
+          throw 0;
+        }
+      } catch (_) {
+        try {
+          lang = localStorage.getItem(K) === "zh" ? "zh" : "en";
+        } catch (__) {}
+      }
+      document.documentElement.setAttribute("data-lang", lang);
+      document.documentElement.setAttribute("lang", lang === "zh" ? "zh-Hans" : "en");
+      try {
+        localStorage.setItem(K, lang);
+      } catch (_) {}
+    })();
+  </script>
 </head>
 <body>
-  <main class="wrap">
-    <h1>AIScope SG Methodology</h1>
-    <p class="meta">Transparent scoring framework for Singapore AI Job Exposure Index</p>
+  <div class="meth-wrap">
+    <div id="meth-lang-switcher" class="meth-lang-bar" role="group" aria-label="Language">
+      <button type="button" id="meth-btn-en">EN</button>
+      <button type="button" id="meth-btn-zh">中文</button>
+    </div>
 
-    <h2>1. Core Score</h2>
-    <p>
-      Each occupation receives an AI exposure score on a 0-10 scale. The baseline is estimated from
-      task automability, language dependence, workflow digitization readiness, and substitution speed.
-    </p>
+    <div data-lang="en">
+      <p class="pill-tag">Lawgorithm · AIScope SG</p>
+      <h1>Methodology — government-grade transparency</h1>
+      <p class="lead">This page documents how AIScope SG turns Singapore occupation statistics into an auditable AI exposure index, how the 2026 scoring model reasons about cognition vs. physical work, and how GraphRAG-style triples suggest transition paths.</p>
 
-    <h2>2. Singapore Local Protection Factors</h2>
-    <ul>
-      <li><strong>PWM constraint:</strong> PWM-covered occupations apply a hard risk cap to reflect wage-floor protection and physical task isolation.</li>
-      <li><strong>Regulatory moat:</strong> SAL, MOH, and MAS licensing barriers reduce short-term replacement exposure.</li>
-      <li><strong>Work context:</strong> on-site physical presence and multi-lingual frontline communication can reduce pure automation risk.</li>
-    </ul>
+      <h2>1. Scoring algebra (PWM & regulation)</h2>
+      <p>The public dashboard shows a calibrated score per occupation. The LLM proposes a raw automatibility score \(S_{raw}\in[0,10]\). Policy levers (PWM wage floors, licensing) are enforced as <strong>hard caps</strong> in code — not as post-hoc narrative.</p>
+      <p>For exposition we write a compact multiplicative intuition (the deployed pipeline applies caps in <code>validate_data.py</code> and in the LLM system prompt):</p>
+      $$S_{final} = \min\left(4.0,\; S_{raw} \cdot w_{reg} \cdot w_{pwm}\right)$$
+      <p>where \(w_{pwm}\rightarrow 0\) enforces the <strong>PWM ceiling at 4.0</strong> for covered roles, and \(w_{reg}&lt;1\) discounts desk risk when statutory licensing is binding (SAL / MOH / MAS contexts). Non-PWM cognitive roles can approach the top of the scale under the <strong>2026 reasoning-model</strong> calibration (long-horizon document chains).</p>
 
-    <h2>3. Explainability and Audit Trail</h2>
-    <p>
-      Every occupation includes source metadata in <code>source_meta</code>:
-      SSOC version, wage statistic year, and LLM model used for scoring.
-    </p>
+      <h2>2. Data pipeline (MOM → model → D3)</h2>
+      <pre class="mermaid">
+flowchart LR
+  A[data.gov.sg / MOM tables] --> B[Processed occupations JSON]
+  B --> C[Claude 3.5 Sonnet scoring]
+  C --> D[scores.json + audit]
+  D --> E[step4_export → data.json]
+  E --> F[generate_graph.py]
+  F --> G[triples.jsonl + kg_indices.jsonl]
+  E --> H[D3 treemap + drawer UI]
+      </pre>
 
-    <h2>4. Intended Use</h2>
-    <p>
-      AIScope SG is designed for policy research, workforce transition planning, and public education.
-      It is not legal advice or a formal determination of employment rights.
-    </p>
+      <h2>3. Scoring logic — physical vs cognitive</h2>
+      <pre class="mermaid">
+flowchart TD
+  O[Occupation payload] --> Q{PWM-covered?}
+  Q -->|Yes| C[PWM hard cap 4.0]
+  Q -->|No| R{Regulated profession?}
+  R -->|Yes| L[Apply licensing moat discount]
+  R -->|No| K[Cognitive exposure pathway]
+  K --> T[2026 CoT / cross-document risk uplift]
+  L --> U[Merge + SkillsFuture transition text]
+  T --> U
+  C --> U[Validated JSON row]
+      </pre>
 
-    <p class="meta"><a href="./index.html">Back to dashboard</a></p>
-  </main>
+      <h2>4. GraphRAG retrieval for pivots</h2>
+      <pre class="mermaid">
+flowchart LR
+  S[Skill tokens from risk_factor] --> G[NetworkX graph]
+  G --> E1[REQUIRES_SKILL edges]
+  G --> E2[TRANSFER_PATH high to low AI score]
+  E2 --> T[triples.jsonl]
+  T --> U[Frontend: dashed transfer arcs]
+      </pre>
+
+      <h2>5. Worked example — “Accountant” class desk role</h2>
+      <div class="meth-card">
+        <h3>Interactive narrative (illustrative)</h3>
+        <p>Consider a median-wage <strong>accounting / bookkeeping</strong> style occupation (SSOC clerical/professional mix in the dataset). The 2026 model elevates exposure because chain-of-thought systems already handle multi-voucher reconciliation, intercompany eliminations, and policy cross-checks across PDF + spreadsheet sources.</p>
+        <div class="example-grid">
+          <div>
+            <p class="pill-tag">Inputs</p>
+            <ul>
+              <li>Median gross wage &amp; employment weights</li>
+              <li>PWM / regulated flags from occupation name heuristics</li>
+              <li>Singapore multilingual front-line factor (weaker for pure back-office)</li>
+            </ul>
+          </div>
+          <div>
+            <p class="pill-tag">Output shape</p>
+            <ul>
+              <li>\(S_{raw}\) high if tasks are structured cognition</li>
+              <li>If PWM: hard clamp \(S_{final}\le 4\) regardless of narrative</li>
+              <li><code>reason</code> must cite SkillsFuture transition path</li>
+            </ul>
+          </div>
+        </div>
+        <p style="margin-top:12px">The live treemap colour encodes \(S_{final}\) after caps; the drawer shows <code>source_meta.llm_model</code> and wage year for reproducibility.</p>
+      </div>
+
+      <h2>6. Data compliance & official provenance</h2>
+      <div class="meth-card">
+        <h3>API lineage</h3>
+        <p>
+          Where configured, wage and employment tabular extracts are pulled through the
+          <strong>data.gov.sg</strong> production <code>datastore_search</code> API using the
+          <code>x-api-key</code> header. If the key is absent or the service is temporarily unavailable,
+          the repository pipeline falls back to a <strong>bundled reference extract</strong> under
+          <code>data/raw/wages_fallback.json</code> so automated builds remain deterministic.
+        </p>
+        <h3>Licence</h3>
+        <p>
+          Open datasets on data.gov.sg are published under the
+          <a href="https://data.gov.sg/open-data-licence" rel="noopener noreferrer" style="color:var(--accent)">Singapore Open Data Licence</a>.
+          AIScope SG redistributes only aggregated, transformed indicators in <code>web/data/data.json</code> and does not republish full proprietary MOM tables beyond what the licence permits for the API responses you retrieve.
+        </p>
+        <h3>Update cadence</h3>
+        <p>
+          <strong>Synced with MOM/SSOC-aligned databases via Production API</strong> whenever operators run
+          <code>python run_pipeline.py --fetch</code> (or the equivalent GitHub Actions step). The dashboard
+          <code>meta.generated_at</code> field records the last hierarchy export; snapshot archives under
+          <code>data/processed/snapshots/</code> support wage-drift checks in <code>generate_insights.py</code>.
+        </p>
+      </div>
+
+      <footer class="meth-official-footer" style="margin-top:28px;padding-top:16px;border-top:1px solid var(--border);font-family:var(--mono);font-size:11px;color:var(--muted);display:flex;align-items:center;gap:8px;">
+        <span aria-hidden="true" style="color:var(--accent)">◇</span>
+        <span>Official Data Source: Open Government Products / data.gov.sg</span>
+      </footer>
+
+      <p class="meta"><a class="back" href="./index.html?lang=en">← Back to dashboard</a></p>
+    </div>
+
+    <div data-lang="zh">
+      <p class="pill-tag">Lawgorithm · AIScope SG</p>
+      <h1>方法论 — 政府级透明说明</h1>
+      <p class="lead">本页说明 AIScope SG 如何将新加坡职业统计转化为可审计的 AI 暴露指数、2026 评分模型如何区分认知型与体力型工作，以及 GraphRAG 风格三元组如何提示转型路径。</p>
+
+      <h2>1. 评分代数（PWM 与监管）</h2>
+      <p>公开仪表板展示每个职业的校准分数。大模型给出原始可自动化分数 \(S_{raw}\in[0,10]\)。PWM 工资底线、执业牌照等政策工具在代码中作为<strong>硬上限</strong>执行，而非事后叙事补丁。</p>
+      <p>为便于理解，我们用紧凑的乘性直觉表述（线上流水线在 <code>validate_data.py</code> 与 LLM system prompt 中落实上限）：</p>
+      $$S_{final} = \min\left(4.0,\; S_{raw} \cdot w_{reg} \cdot w_{pwm}\right)$$
+      <p>其中 \(w_{pwm}\rightarrow 0\) 对适用职业落实 <strong>PWM 上限 4.0</strong>；\(w_{reg}&lt;1\) 在法定执业约束显著时下调案头风险（如律师会、卫生部、金管局等语境）。非 PWM 的认知型岗位在 <strong>2026 推理模型</strong>标定下仍可达标尺上端（长链路文档任务）。</p>
+
+      <h2>2. 数据流水线（MOM → 模型 → D3）</h2>
+      <pre class="mermaid">
+flowchart LR
+  A[data.gov.sg / MOM 表格] --> B[职业层级 JSON]
+  B --> C[Claude 3.5 Sonnet 打分]
+  C --> D[scores.json + 审计]
+  D --> E[step4_export → data.json]
+  E --> F[generate_graph.py]
+  F --> G[triples.jsonl + kg_indices.jsonl]
+  E --> H[D3 树图 + 抽屉 UI]
+      </pre>
+
+      <h2>3. 评分逻辑 — 体力与认知</h2>
+      <pre class="mermaid">
+flowchart TD
+  O[职业载荷] --> Q{适用 PWM?}
+  Q -->|是| C[PWM 硬上限 4.0]
+  Q -->|否| R{受监管专业?}
+  R -->|是| L[执业护城河折扣]
+  R -->|否| K[认知暴露路径]
+  K --> T[2026 CoT / 跨文档风险上调]
+  L --> U[合并 + SkillsFuture 转型叙述]
+  T --> U
+  C --> U[校验后的 JSON 行]
+      </pre>
+
+      <h2>4. GraphRAG 检索与转型枢轴</h2>
+      <pre class="mermaid">
+flowchart LR
+  S[risk_factor 技能词] --> G[NetworkX 图]
+  G --> E1[REQUIRES_SKILL 边]
+  G --> E2[TRANSFER_PATH 高→低 AI 分]
+  E2 --> T[triples.jsonl]
+  T --> U[前端：虚线转型弧]
+      </pre>
+
+      <h2>5. 示例 — 会计 / 簿记类案头岗位</h2>
+      <div class="meth-card">
+        <h3>交互叙事（示意）</h3>
+        <p>以数据集中<strong>会计 / 簿记</strong>类中等薪岗位为例（SSOC 文书/专业混合）。2026 模型认为思维链系统已能处理多凭证核对、公司间抵销与跨 PDF+试算表的策略核对，因此暴露度上调。</p>
+        <div class="example-grid">
+          <div>
+            <p class="pill-tag">输入</p>
+            <ul>
+              <li>月薪中位数与就业权重</li>
+              <li>由职业名称启发式推断的 PWM / 监管标记</li>
+              <li>新加坡多语前线因素（纯后勤岗影响较弱）</li>
+            </ul>
+          </div>
+          <div>
+            <p class="pill-tag">输出形态</p>
+            <ul>
+              <li>结构化认知任务多则 \(S_{raw}\) 偏高</li>
+              <li>若 PWM：无论叙事如何，\(S_{final}\le 4\) 硬夹</li>
+              <li><code>reason</code> 须引用 SkillsFuture 转型路径</li>
+            </ul>
+          </div>
+        </div>
+        <p style="margin-top:12px">树图颜色编码上限后的 \(S_{final}\)；抽屉展示 <code>source_meta.llm_model</code> 与工资年份以便复现。</p>
+      </div>
+
+      <h2>6. 数据合规与官方来源</h2>
+      <div class="meth-card">
+        <h3>API 血缘</h3>
+        <p>
+          在已配置时，工资与就业表格经 <strong>data.gov.sg</strong> 生产环境 <code>datastore_search</code> API 拉取，并使用 <code>x-api-key</code> 头。
+          若密钥缺失或服务暂不可用，流水线回退到 <code>data/raw/wages_fallback.json</code> 中的<strong>打包参考抽取</strong>，以保证自动化构建可重复。
+        </p>
+        <h3>许可</h3>
+        <p>
+          data.gov.sg 开放数据遵循
+          <a href="https://data.gov.sg/open-data-licence" rel="noopener noreferrer" style="color:var(--accent)">Singapore Open Data Licence</a>。
+          AIScope SG 仅再分发 <code>web/data/data.json</code> 中的聚合与变换指标，不在许可范围外再发布完整专有 MOM 表。
+        </p>
+        <h3>更新节奏</h3>
+        <p>
+          当运维执行 <code>python run_pipeline.py --fetch</code>（或等效 GitHub Actions 步骤）时，经 <strong>Production API</strong> 与 MOM/SSOC 对齐库同步。
+          仪表板 <code>meta.generated_at</code> 记录最近层级导出；<code>data/processed/snapshots/</code> 下的快照支持 <code>generate_insights.py</code> 的工资漂移检查。
+        </p>
+      </div>
+
+      <footer class="meth-official-footer" style="margin-top:28px;padding-top:16px;border-top:1px solid var(--border);font-family:var(--mono);font-size:11px;color:var(--muted);display:flex;align-items:center;gap:8px;">
+        <span aria-hidden="true" style="color:var(--accent)">◇</span>
+        <span>官方数据来源：Open Government Products / data.gov.sg</span>
+      </footer>
+
+      <p class="meta"><a class="back" href="./index.html?lang=zh">← 返回仪表板</a></p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script>
+    mermaid.initialize({ startOnLoad: true, theme: "dark", securityLevel: "loose" });
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+  <script>
+    (function () {
+      var K = "aiscope-locale";
+      function syncButtons(lang) {
+        var en = document.getElementById("meth-btn-en");
+        var zh = document.getElementById("meth-btn-zh");
+        if (en) {
+          en.classList.toggle("active", lang === "en");
+          en.setAttribute("aria-pressed", lang === "en" ? "true" : "false");
+        }
+        if (zh) {
+          zh.classList.toggle("active", lang === "zh");
+          zh.setAttribute("aria-pressed", lang === "zh" ? "true" : "false");
+        }
+      }
+      function methSetLang(next) {
+        var lang = next === "zh" ? "zh" : "en";
+        document.documentElement.setAttribute("data-lang", lang);
+        document.documentElement.setAttribute("lang", lang === "zh" ? "zh-Hans" : "en");
+        try {
+          localStorage.setItem(K, lang);
+        } catch (_) {}
+        var url = lang === "en" ? "./methodology.html" : "./methodology.html?lang=" + encodeURIComponent(lang);
+        try {
+          history.replaceState({}, "", url);
+        } catch (_) {}
+        syncButtons(lang);
+      }
+      document.getElementById("meth-btn-en").addEventListener("click", function () {
+        methSetLang("en");
+      });
+      document.getElementById("meth-btn-zh").addEventListener("click", function () {
+        methSetLang("zh");
+      });
+      syncButtons(document.documentElement.getAttribute("data-lang") || "en");
+    })();
+    document.addEventListener("DOMContentLoaded", function () {
+      if (window.renderMathInElement) {
+        renderMathInElement(document.body, {
+          delimiters: [
+            { left: "$$", right: "$$", display: true },
+            { left: "$", right: "$", display: false },
+          ],
+        });
+      }
+    });
+  </script>
 </body>
 </html>

@@ -1,0 +1,19 @@
+{
+  "source": "bundled_fallback",
+  "records": [
+    {
+      "_id": 1,
+      "ssoc_code": "20008",
+      "occupation": "Clerical Support Occupation 001",
+      "gross_median_wage": 3570,
+      "employment_count": 25640
+    },
+    {
+      "_id": 2,
+      "ssoc_code": "20012",
+      "occupation": "Clerical Support Occupation 005",
+      "gross_median_wage": 3830,
+      "employment_count": 24960
+    }
+  ]
+}

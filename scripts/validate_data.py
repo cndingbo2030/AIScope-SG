@@ -14,6 +14,7 @@ from jsonschema import Draft202012Validator
 
 BASE = Path(__file__).resolve().parent.parent
 DATA_JSON = BASE / "web" / "data" / "data.json"
+ZH_JSON = BASE / "web" / "data" / "occupations_zh.json"
 SCHEMA_JSON = BASE / "docs" / "data.schema.json"
 DOCS_DIR = BASE / "docs"
 AUDIT_JSON = DOCS_DIR / "audit_report.json"
@@ -35,6 +36,31 @@ REQUIRED_OCC_FIELDS = {
     "source_meta",
     "vulnerability_index",
 }
+
+
+def validate_occupations_zh(rows: list[dict[str, Any]]) -> list[str]:
+    errs: list[str] = []
+    if not ZH_JSON.exists():
+        errs.append(f"missing {ZH_JSON.relative_to(BASE)} (run: python3 scripts/translate_data.py --seed)")
+        return errs
+    try:
+        zh_payload = json.loads(ZH_JSON.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as exc:
+        return [f"occupations_zh.json invalid JSON: {exc}"]
+    by_ssoc = zh_payload.get("by_ssoc") or {}
+    codes = {str(r["ssoc_code"]).strip() for r in rows if str(r.get("ssoc_code", "")).strip()}
+    if len(by_ssoc) != len(codes):
+        errs.append(
+            f"occupations_zh.json: by_ssoc count {len(by_ssoc)} != occupations {len(codes)}"
+        )
+    missing = codes - set(by_ssoc.keys())
+    if missing:
+        sample = sorted(missing)[:8]
+        errs.append(f"occupations_zh.json missing {len(missing)} ssoc keys (e.g. {sample})")
+    extra = set(by_ssoc.keys()) - codes
+    if extra:
+        errs.append(f"occupations_zh.json has {len(extra)} unknown ssoc keys vs data.json")
+    return errs
 
 
 def flatten_occupations(data: dict[str, Any]) -> list[dict[str, Any]]:
@@ -88,6 +114,8 @@ def main() -> int:
     if not isinstance(children, list) or not children:
         errors.append("children must be a non-empty list")
     all_occupations = flatten_occupations(data)
+
+    errors.extend(validate_occupations_zh(all_occupations))
 
     validator = Draft202012Validator(schema)
     schema_errors = sorted(validator.iter_errors(data), key=lambda e: e.path)
