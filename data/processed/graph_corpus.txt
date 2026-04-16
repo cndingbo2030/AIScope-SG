@@ -4244,10 +4244,10 @@ Occupation: ADMINISTRATION PROFESSIONALS
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -4259,10 +4259,10 @@ Occupation: ARCHITECTS, PLANNERS, SURVEYORS AND DESIGNERS
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -4278,7 +4278,7 @@ Occupation: AUTHORS, JOURNALISTS AND EDITORS
 
 Occupation: Accountants
   AI score: 3.0
-  Median wage: 8235.0
+  Median wage: 5800.0
   Vulnerability index: 0.38
   Core node: False
   Sector: Professionals
@@ -4314,10 +4314,10 @@ Occupation: Advertising and Marketing Professionals
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -4329,10 +4329,10 @@ Occupation: Aircraft Pilots and Related Professionals
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -4354,10 +4354,10 @@ Occupation: Archivists, Curators and Conservators
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -4389,10 +4389,10 @@ Occupation: BUSINESS AND ADMINISTRATION PROFESSIONALS
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -4434,10 +4434,10 @@ Occupation: Chemical Engineers
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -4459,10 +4459,10 @@ Occupation: Civil Engineers
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -4474,10 +4474,10 @@ Occupation: Commodities and Freight Traders
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -4489,10 +4489,10 @@ Occupation: Commodities and Ship Brokers
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -4514,10 +4514,10 @@ Occupation: Counselling Professionals
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -4539,10 +4539,10 @@ Occupation: DATABASE, NETWORK, INFRASTRUCTURE AND CYBERSECURITY PROFESSIONALS
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -4604,10 +4604,10 @@ Occupation: ENGINEERING PROFESSIONALS I
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -4619,10 +4619,10 @@ Occupation: ENGINEERING PROFESSIONALS II (Cont’d)
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -4634,10 +4634,10 @@ Occupation: Economists
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -4649,10 +4649,10 @@ Occupation: Education Methods Specialists
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -4684,10 +4684,10 @@ Occupation: Employment Support Professionals
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -4709,10 +4709,10 @@ Occupation: Environmental Engineers
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -4804,10 +4804,10 @@ Occupation: Generalist Medical Practitioners
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -4839,10 +4839,10 @@ Occupation: HEALTH PROFESSIONALS
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -4864,10 +4864,10 @@ Occupation: Historians, Political Scientists and Related Social Science Professi
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -4969,10 +4969,10 @@ Occupation: Junior College and Pre-University Education Teachers
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -4984,10 +4984,10 @@ Occupation: LEGAL PROFESSIONALS
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -5009,10 +5009,10 @@ Occupation: LIBRARIANS, ARCHIVISTS AND CURATORS
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -5024,10 +5024,10 @@ Occupation: LIFE SCIENCE PROFESSIONALS
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -5043,7 +5043,7 @@ Occupation: Landscape Architects and Designers
 
 Occupation: Lawyers
   AI score: 6.0
-  Median wage: 3390.0
+  Median wage: 9500.0
   Vulnerability index: 0.68
   Core node: False
   Sector: Professionals
@@ -5069,10 +5069,10 @@ Occupation: Librarians and Related Information Professionals
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -5084,10 +5084,10 @@ Occupation: MARKETING AND PUBLIC RELATIONS PROFESSIONALS
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -5099,16 +5099,16 @@ Occupation: MATHEMATICIANS, ACTUARIES, STATISTICIANS AND RELATED PROFESSIONALS
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
 Occupation: MEDICAL DOCTORS
   AI score: 2.0
-  Median wage: 3375.0
+  Median wage: 9000.0
   Vulnerability index: 0.28
   Core node: False
   Sector: Professionals
@@ -5144,10 +5144,10 @@ Occupation: Mechanical Engineers (Excluding Transport and Vehicle Engineers)
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -5169,10 +5169,10 @@ Occupation: Mining Engineers, Metallurgists and Related Professionals
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -5214,10 +5214,10 @@ Occupation: Nursing Professionals
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -5329,10 +5329,10 @@ Occupation: Physicists and Astronomers
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -5364,10 +5364,10 @@ Occupation: Primary School Teachers
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -5389,10 +5389,10 @@ Occupation: Public Relations Professionals
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -5414,10 +5414,10 @@ Occupation: Religious Professionals
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -5429,10 +5429,10 @@ Occupation: SCIENCE AND ENGINEERING PROFESSIONALS
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -5454,10 +5454,10 @@ Occupation: SHIP AND AIRCRAFT RELATED PROFESSIONALS
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -5489,10 +5489,10 @@ Occupation: SOFTWARE AND APPLICATIONS DEVELOPERS AND ANALYSTS
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -5504,10 +5504,10 @@ Occupation: Secondary Education Teachers
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -5549,10 +5549,10 @@ Occupation: Ship Engineers and Related Professionals
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -5574,10 +5574,10 @@ Occupation: Sociologists, Anthropologists and Related Professionals
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -5619,10 +5619,10 @@ Occupation: Specialised Goods Sales Professionals
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -5634,10 +5634,10 @@ Occupation: Specialist Medical Practitioners (Medical)
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -5649,10 +5649,10 @@ Occupation: Specialist Medical Practitioners (Other Specialisations)
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -5664,10 +5664,10 @@ Occupation: Specialist Medical Practitioners (Surgical)
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -5699,10 +5699,10 @@ Occupation: Systems Analysts
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -5714,10 +5714,10 @@ Occupation: TEACHING AND TRAINING PROFESSIONALS
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -5789,10 +5789,10 @@ Occupation: Transport and Vehicle Engineers
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -5814,10 +5814,10 @@ Occupation: University, Polytechnic and Higher Education Teachers
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 
@@ -5879,10 +5879,10 @@ Occupation: Vocational Education Teachers and Trainers
   Sector: Professionals
   Primary risk: Process automation exposure
   Skill: process automation exposure
+  Transfer path to: MEDICAL DOCTORS via skills [process automation exposure]
   Transfer path to: Veterinarians via skills [process automation exposure]
   Transfer path to: Other Statistical, Mathematical and Actuarial Professionals via skills [process automation exposure]
   Transfer path to: Engineering Professionals Not Elsewhere Classified via skills [process automation exposure]
-  Transfer path to: Accountants via skills [process automation exposure]
   Transfer path to: Traditional and Complementary Medicine Professionals via skills [process automation exposure]
   Topology note: This role is positioned in Singapore's labor graph by sector regulation, automation pressure, and skill transfer adjacency.
 

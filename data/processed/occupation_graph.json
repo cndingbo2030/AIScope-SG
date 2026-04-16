@@ -4514,7 +4514,7 @@
       "label": "Accountants",
       "occ_name": "Accountants",
       "ai_score": 3.0,
-      "wage": 8235.0,
+      "wage": 5800.0,
       "vulnerability_index": 0.38,
       "core_node": false,
       "ssoc_code": "02411",
@@ -5314,7 +5314,7 @@
       "label": "Lawyers",
       "occ_name": "Lawyers",
       "ai_score": 6.0,
-      "wage": 3390.0,
+      "wage": 9500.0,
       "vulnerability_index": 0.68,
       "core_node": false,
       "ssoc_code": "02611",
@@ -5374,7 +5374,7 @@
       "label": "MEDICAL DOCTORS",
       "occ_name": "MEDICAL DOCTORS",
       "ai_score": 2.0,
-      "wage": 3375.0,
+      "wage": 9000.0,
       "vulnerability_index": 0.28,
       "core_node": false,
       "ssoc_code": "00221",
@@ -18716,6 +18716,15 @@
         "process automation exposure"
       ],
       "source": "occupation::ADMINISTRATION PROFESSIONALS",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::ADMINISTRATION PROFESSIONALS",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -18735,15 +18744,6 @@
       ],
       "source": "occupation::ADMINISTRATION PROFESSIONALS",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::ADMINISTRATION PROFESSIONALS",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -18779,6 +18779,15 @@
         "process automation exposure"
       ],
       "source": "occupation::ARCHITECTS, PLANNERS, SURVEYORS AND DESIGNERS",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::ARCHITECTS, PLANNERS, SURVEYORS AND DESIGNERS",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -18798,15 +18807,6 @@
       ],
       "source": "occupation::ARCHITECTS, PLANNERS, SURVEYORS AND DESIGNERS",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::ARCHITECTS, PLANNERS, SURVEYORS AND DESIGNERS",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -18914,6 +18914,15 @@
         "process automation exposure"
       ],
       "source": "occupation::Advertising and Marketing Professionals",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::Advertising and Marketing Professionals",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -18933,15 +18942,6 @@
       ],
       "source": "occupation::Advertising and Marketing Professionals",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::Advertising and Marketing Professionals",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -18977,6 +18977,15 @@
         "process automation exposure"
       ],
       "source": "occupation::Aircraft Pilots and Related Professionals",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::Aircraft Pilots and Related Professionals",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -18996,15 +19005,6 @@
       ],
       "source": "occupation::Aircraft Pilots and Related Professionals",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::Aircraft Pilots and Related Professionals",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -19058,6 +19058,15 @@
         "process automation exposure"
       ],
       "source": "occupation::Archivists, Curators and Conservators",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::Archivists, Curators and Conservators",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -19077,15 +19086,6 @@
       ],
       "source": "occupation::Archivists, Curators and Conservators",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::Archivists, Curators and Conservators",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -19157,6 +19157,15 @@
         "process automation exposure"
       ],
       "source": "occupation::BUSINESS AND ADMINISTRATION PROFESSIONALS",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::BUSINESS AND ADMINISTRATION PROFESSIONALS",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -19176,15 +19185,6 @@
       ],
       "source": "occupation::BUSINESS AND ADMINISTRATION PROFESSIONALS",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::BUSINESS AND ADMINISTRATION PROFESSIONALS",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -19274,6 +19274,15 @@
         "process automation exposure"
       ],
       "source": "occupation::Chemical Engineers",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::Chemical Engineers",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -19293,15 +19302,6 @@
       ],
       "source": "occupation::Chemical Engineers",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::Chemical Engineers",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -19355,6 +19355,15 @@
         "process automation exposure"
       ],
       "source": "occupation::Civil Engineers",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::Civil Engineers",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -19374,15 +19383,6 @@
       ],
       "source": "occupation::Civil Engineers",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::Civil Engineers",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -19418,6 +19418,15 @@
         "process automation exposure"
       ],
       "source": "occupation::Commodities and Freight Traders",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::Commodities and Freight Traders",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -19437,15 +19446,6 @@
       ],
       "source": "occupation::Commodities and Freight Traders",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::Commodities and Freight Traders",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -19481,6 +19481,15 @@
         "process automation exposure"
       ],
       "source": "occupation::Commodities and Ship Brokers",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::Commodities and Ship Brokers",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -19500,15 +19509,6 @@
       ],
       "source": "occupation::Commodities and Ship Brokers",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::Commodities and Ship Brokers",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -19562,6 +19562,15 @@
         "process automation exposure"
       ],
       "source": "occupation::Counselling Professionals",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::Counselling Professionals",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -19581,15 +19590,6 @@
       ],
       "source": "occupation::Counselling Professionals",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::Counselling Professionals",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -19643,6 +19643,15 @@
         "process automation exposure"
       ],
       "source": "occupation::DATABASE, NETWORK, INFRASTRUCTURE AND CYBERSECURITY PROFESSIONALS",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::DATABASE, NETWORK, INFRASTRUCTURE AND CYBERSECURITY PROFESSIONALS",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -19662,15 +19671,6 @@
       ],
       "source": "occupation::DATABASE, NETWORK, INFRASTRUCTURE AND CYBERSECURITY PROFESSIONALS",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::DATABASE, NETWORK, INFRASTRUCTURE AND CYBERSECURITY PROFESSIONALS",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -19796,6 +19796,15 @@
         "process automation exposure"
       ],
       "source": "occupation::ENGINEERING PROFESSIONALS I",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::ENGINEERING PROFESSIONALS I",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -19815,15 +19824,6 @@
       ],
       "source": "occupation::ENGINEERING PROFESSIONALS I",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::ENGINEERING PROFESSIONALS I",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -19859,6 +19859,15 @@
         "process automation exposure"
       ],
       "source": "occupation::ENGINEERING PROFESSIONALS II (Cont’d)",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::ENGINEERING PROFESSIONALS II (Cont’d)",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -19878,15 +19887,6 @@
       ],
       "source": "occupation::ENGINEERING PROFESSIONALS II (Cont’d)",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::ENGINEERING PROFESSIONALS II (Cont’d)",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -19922,6 +19922,15 @@
         "process automation exposure"
       ],
       "source": "occupation::Economists",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::Economists",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -19941,15 +19950,6 @@
       ],
       "source": "occupation::Economists",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::Economists",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -19985,6 +19985,15 @@
         "process automation exposure"
       ],
       "source": "occupation::Education Methods Specialists",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::Education Methods Specialists",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -20004,15 +20013,6 @@
       ],
       "source": "occupation::Education Methods Specialists",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::Education Methods Specialists",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -20084,6 +20084,15 @@
         "process automation exposure"
       ],
       "source": "occupation::Employment Support Professionals",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::Employment Support Professionals",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -20103,15 +20112,6 @@
       ],
       "source": "occupation::Employment Support Professionals",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::Employment Support Professionals",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -20165,6 +20165,15 @@
         "process automation exposure"
       ],
       "source": "occupation::Environmental Engineers",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::Environmental Engineers",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -20184,15 +20193,6 @@
       ],
       "source": "occupation::Environmental Engineers",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::Environmental Engineers",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -20372,6 +20372,15 @@
         "process automation exposure"
       ],
       "source": "occupation::Generalist Medical Practitioners",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::Generalist Medical Practitioners",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -20391,15 +20400,6 @@
       ],
       "source": "occupation::Generalist Medical Practitioners",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::Generalist Medical Practitioners",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -20471,6 +20471,15 @@
         "process automation exposure"
       ],
       "source": "occupation::HEALTH PROFESSIONALS",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::HEALTH PROFESSIONALS",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -20490,15 +20499,6 @@
       ],
       "source": "occupation::HEALTH PROFESSIONALS",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::HEALTH PROFESSIONALS",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -20552,6 +20552,15 @@
         "process automation exposure"
       ],
       "source": "occupation::Historians, Political Scientists and Related Social Science Professionals",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::Historians, Political Scientists and Related Social Science Professionals",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -20571,15 +20580,6 @@
       ],
       "source": "occupation::Historians, Political Scientists and Related Social Science Professionals",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::Historians, Political Scientists and Related Social Science Professionals",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -20777,6 +20777,15 @@
         "process automation exposure"
       ],
       "source": "occupation::Junior College and Pre-University Education Teachers",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::Junior College and Pre-University Education Teachers",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -20796,15 +20805,6 @@
       ],
       "source": "occupation::Junior College and Pre-University Education Teachers",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::Junior College and Pre-University Education Teachers",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -20840,6 +20840,15 @@
         "process automation exposure"
       ],
       "source": "occupation::LEGAL PROFESSIONALS",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::LEGAL PROFESSIONALS",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -20859,15 +20868,6 @@
       ],
       "source": "occupation::LEGAL PROFESSIONALS",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::LEGAL PROFESSIONALS",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -20921,6 +20921,15 @@
         "process automation exposure"
       ],
       "source": "occupation::LIBRARIANS, ARCHIVISTS AND CURATORS",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::LIBRARIANS, ARCHIVISTS AND CURATORS",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -20940,15 +20949,6 @@
       ],
       "source": "occupation::LIBRARIANS, ARCHIVISTS AND CURATORS",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::LIBRARIANS, ARCHIVISTS AND CURATORS",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -20984,6 +20984,15 @@
         "process automation exposure"
       ],
       "source": "occupation::LIFE SCIENCE PROFESSIONALS",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::LIFE SCIENCE PROFESSIONALS",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -21003,15 +21012,6 @@
       ],
       "source": "occupation::LIFE SCIENCE PROFESSIONALS",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::LIFE SCIENCE PROFESSIONALS",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -21101,6 +21101,15 @@
         "process automation exposure"
       ],
       "source": "occupation::Librarians and Related Information Professionals",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::Librarians and Related Information Professionals",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -21120,15 +21129,6 @@
       ],
       "source": "occupation::Librarians and Related Information Professionals",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::Librarians and Related Information Professionals",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -21164,6 +21164,15 @@
         "process automation exposure"
       ],
       "source": "occupation::MARKETING AND PUBLIC RELATIONS PROFESSIONALS",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::MARKETING AND PUBLIC RELATIONS PROFESSIONALS",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -21183,15 +21192,6 @@
       ],
       "source": "occupation::MARKETING AND PUBLIC RELATIONS PROFESSIONALS",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::MARKETING AND PUBLIC RELATIONS PROFESSIONALS",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -21227,6 +21227,15 @@
         "process automation exposure"
       ],
       "source": "occupation::MATHEMATICIANS, ACTUARIES, STATISTICIANS AND RELATED PROFESSIONALS",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::MATHEMATICIANS, ACTUARIES, STATISTICIANS AND RELATED PROFESSIONALS",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -21246,15 +21255,6 @@
       ],
       "source": "occupation::MATHEMATICIANS, ACTUARIES, STATISTICIANS AND RELATED PROFESSIONALS",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::MATHEMATICIANS, ACTUARIES, STATISTICIANS AND RELATED PROFESSIONALS",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -21344,6 +21344,15 @@
         "process automation exposure"
       ],
       "source": "occupation::Mechanical Engineers (Excluding Transport and Vehicle Engineers)",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::Mechanical Engineers (Excluding Transport and Vehicle Engineers)",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -21363,15 +21372,6 @@
       ],
       "source": "occupation::Mechanical Engineers (Excluding Transport and Vehicle Engineers)",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::Mechanical Engineers (Excluding Transport and Vehicle Engineers)",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -21425,6 +21425,15 @@
         "process automation exposure"
       ],
       "source": "occupation::Mining Engineers, Metallurgists and Related Professionals",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::Mining Engineers, Metallurgists and Related Professionals",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -21444,15 +21453,6 @@
       ],
       "source": "occupation::Mining Engineers, Metallurgists and Related Professionals",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::Mining Engineers, Metallurgists and Related Professionals",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -21542,6 +21542,15 @@
         "process automation exposure"
       ],
       "source": "occupation::Nursing Professionals",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::Nursing Professionals",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -21561,15 +21570,6 @@
       ],
       "source": "occupation::Nursing Professionals",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::Nursing Professionals",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -21785,6 +21785,15 @@
         "process automation exposure"
       ],
       "source": "occupation::Physicists and Astronomers",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::Physicists and Astronomers",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -21804,15 +21813,6 @@
       ],
       "source": "occupation::Physicists and Astronomers",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::Physicists and Astronomers",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -21884,6 +21884,15 @@
         "process automation exposure"
       ],
       "source": "occupation::Primary School Teachers",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::Primary School Teachers",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -21903,15 +21912,6 @@
       ],
       "source": "occupation::Primary School Teachers",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::Primary School Teachers",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -21965,6 +21965,15 @@
         "process automation exposure"
       ],
       "source": "occupation::Public Relations Professionals",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::Public Relations Professionals",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -21984,15 +21993,6 @@
       ],
       "source": "occupation::Public Relations Professionals",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::Public Relations Professionals",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -22046,6 +22046,15 @@
         "process automation exposure"
       ],
       "source": "occupation::Religious Professionals",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::Religious Professionals",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -22065,15 +22074,6 @@
       ],
       "source": "occupation::Religious Professionals",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::Religious Professionals",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -22109,6 +22109,15 @@
         "process automation exposure"
       ],
       "source": "occupation::SCIENCE AND ENGINEERING PROFESSIONALS",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::SCIENCE AND ENGINEERING PROFESSIONALS",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -22128,15 +22137,6 @@
       ],
       "source": "occupation::SCIENCE AND ENGINEERING PROFESSIONALS",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::SCIENCE AND ENGINEERING PROFESSIONALS",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -22190,6 +22190,15 @@
         "process automation exposure"
       ],
       "source": "occupation::SHIP AND AIRCRAFT RELATED PROFESSIONALS",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::SHIP AND AIRCRAFT RELATED PROFESSIONALS",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -22209,15 +22218,6 @@
       ],
       "source": "occupation::SHIP AND AIRCRAFT RELATED PROFESSIONALS",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::SHIP AND AIRCRAFT RELATED PROFESSIONALS",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -22289,6 +22289,15 @@
         "process automation exposure"
       ],
       "source": "occupation::SOFTWARE AND APPLICATIONS DEVELOPERS AND ANALYSTS",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::SOFTWARE AND APPLICATIONS DEVELOPERS AND ANALYSTS",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -22308,15 +22317,6 @@
       ],
       "source": "occupation::SOFTWARE AND APPLICATIONS DEVELOPERS AND ANALYSTS",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::SOFTWARE AND APPLICATIONS DEVELOPERS AND ANALYSTS",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -22352,6 +22352,15 @@
         "process automation exposure"
       ],
       "source": "occupation::Secondary Education Teachers",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::Secondary Education Teachers",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -22371,15 +22380,6 @@
       ],
       "source": "occupation::Secondary Education Teachers",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::Secondary Education Teachers",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -22469,6 +22469,15 @@
         "process automation exposure"
       ],
       "source": "occupation::Ship Engineers and Related Professionals",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::Ship Engineers and Related Professionals",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -22488,15 +22497,6 @@
       ],
       "source": "occupation::Ship Engineers and Related Professionals",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::Ship Engineers and Related Professionals",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -22550,6 +22550,15 @@
         "process automation exposure"
       ],
       "source": "occupation::Sociologists, Anthropologists and Related Professionals",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::Sociologists, Anthropologists and Related Professionals",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -22569,15 +22578,6 @@
       ],
       "source": "occupation::Sociologists, Anthropologists and Related Professionals",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::Sociologists, Anthropologists and Related Professionals",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -22667,6 +22667,15 @@
         "process automation exposure"
       ],
       "source": "occupation::Specialised Goods Sales Professionals",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::Specialised Goods Sales Professionals",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -22686,15 +22695,6 @@
       ],
       "source": "occupation::Specialised Goods Sales Professionals",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::Specialised Goods Sales Professionals",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -22730,6 +22730,15 @@
         "process automation exposure"
       ],
       "source": "occupation::Specialist Medical Practitioners (Medical)",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::Specialist Medical Practitioners (Medical)",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -22749,15 +22758,6 @@
       ],
       "source": "occupation::Specialist Medical Practitioners (Medical)",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::Specialist Medical Practitioners (Medical)",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -22793,6 +22793,15 @@
         "process automation exposure"
       ],
       "source": "occupation::Specialist Medical Practitioners (Other Specialisations)",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::Specialist Medical Practitioners (Other Specialisations)",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -22812,15 +22821,6 @@
       ],
       "source": "occupation::Specialist Medical Practitioners (Other Specialisations)",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::Specialist Medical Practitioners (Other Specialisations)",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -22856,6 +22856,15 @@
         "process automation exposure"
       ],
       "source": "occupation::Specialist Medical Practitioners (Surgical)",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::Specialist Medical Practitioners (Surgical)",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -22875,15 +22884,6 @@
       ],
       "source": "occupation::Specialist Medical Practitioners (Surgical)",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::Specialist Medical Practitioners (Surgical)",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -22955,6 +22955,15 @@
         "process automation exposure"
       ],
       "source": "occupation::Systems Analysts",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::Systems Analysts",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -22974,15 +22983,6 @@
       ],
       "source": "occupation::Systems Analysts",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::Systems Analysts",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -23018,6 +23018,15 @@
         "process automation exposure"
       ],
       "source": "occupation::TEACHING AND TRAINING PROFESSIONALS",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::TEACHING AND TRAINING PROFESSIONALS",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -23037,15 +23046,6 @@
       ],
       "source": "occupation::TEACHING AND TRAINING PROFESSIONALS",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::TEACHING AND TRAINING PROFESSIONALS",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -23189,6 +23189,15 @@
         "process automation exposure"
       ],
       "source": "occupation::Transport and Vehicle Engineers",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::Transport and Vehicle Engineers",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -23208,15 +23217,6 @@
       ],
       "source": "occupation::Transport and Vehicle Engineers",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::Transport and Vehicle Engineers",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -23270,6 +23270,15 @@
         "process automation exposure"
       ],
       "source": "occupation::University, Polytechnic and Higher Education Teachers",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::University, Polytechnic and Higher Education Teachers",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -23289,15 +23298,6 @@
       ],
       "source": "occupation::University, Polytechnic and Higher Education Teachers",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::University, Polytechnic and Higher Education Teachers",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {
@@ -23423,6 +23423,15 @@
         "process automation exposure"
       ],
       "source": "occupation::Vocational Education Teachers and Trainers",
+      "target": "occupation::MEDICAL DOCTORS",
+      "key": 0
+    },
+    {
+      "rel_type": "TRANSFER_PATH",
+      "via": [
+        "process automation exposure"
+      ],
+      "source": "occupation::Vocational Education Teachers and Trainers",
       "target": "occupation::Veterinarians",
       "key": 0
     },
@@ -23442,15 +23451,6 @@
       ],
       "source": "occupation::Vocational Education Teachers and Trainers",
       "target": "occupation::Engineering Professionals Not Elsewhere Classified",
-      "key": 0
-    },
-    {
-      "rel_type": "TRANSFER_PATH",
-      "via": [
-        "process automation exposure"
-      ],
-      "source": "occupation::Vocational Education Teachers and Trainers",
-      "target": "occupation::Accountants",
       "key": 0
     },
     {

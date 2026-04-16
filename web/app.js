@@ -8,6 +8,7 @@ const CACHE_STORE = "payloads";
 const CACHE_TTL_MS = 12 * 60 * 60 * 1000;
 const INTEREST_STORAGE_KEY = "aiscope-sg-recent-interests-v1";
 const LOCALE_KEY = "aiscope-locale";
+const DATA_VERSION = "20260416";
 
 let pendingDeepLinkJob = null;
 try {
@@ -54,6 +55,17 @@ let categoryLabelMapZh = {};
 /** Reactive UI + i18n: `state.lang` is persisted under LOCALE_KEY. */
 const state = { lang: "en" };
 let drawerOpenSsoc = null;
+const CATEGORY_ZH_MAP = {
+  Managers: "经理人员",
+  Professionals: "专业人员",
+  "Associate Professionals & Technicians": "准专业人员及技术员",
+  "Clerical Support Workers": "文书支援人员",
+  "Service & Sales Workers": "服务及销售人员",
+  "Agricultural & Fishery Workers": "农业及渔业工人",
+  "Craft & Trades Workers": "工艺及有关工人",
+  "Plant & Machine Operators": "机台及机器操作员",
+  "Cleaners & Labourers": "清洁工及劳工",
+};
 
 function t(key) {
   const row = i18nBundle[key];
@@ -74,6 +86,7 @@ function updateMethodologyLinks() {
 
 function categoryDisplay(name) {
   if (state.lang === "zh") {
+    if (name && CATEGORY_ZH_MAP[name]) return CATEGORY_ZH_MAP[name];
     if (name && categoryLabelMapZh[name]) return categoryLabelMapZh[name];
     if (occupationsZh && occupationsZh.category_labels && occupationsZh.category_labels[name]) {
       return occupationsZh.category_labels[name];
@@ -151,15 +164,29 @@ function applyLocaleStatic() {
   document.getElementById("btn-zh")?.setAttribute("aria-pressed", state.lang === "zh" ? "true" : "false");
   updateHeaderProvenance();
   if (rawData && rawData.meta) {
-    const empEl = document.getElementById("stat-emp");
-    const empSub = document.getElementById("stat-emp-sub");
-    if (empEl) {
-      const totalWorkers = Number(rawData.meta.employment_anchor || 0);
-      empEl.textContent = formatWorkerScale(totalWorkers);
-      empEl.title = t("stat_emp_tooltip");
+    renderHeaderEmployment();
+  }
+}
+
+function renderHeaderEmployment() {
+  if (!rawData || !rawData.meta) return;
+  const empEl = document.getElementById("stat-emp");
+  const empSub = document.getElementById("stat-emp-sub");
+  const anchor = Number(rawData.meta.employment_anchor || 0);
+  const tracked = Number(rawData.meta.total_employment || 0);
+  if (empEl) {
+    if (state.lang === "zh") {
+      empEl.textContent = `${(anchor / 10000).toFixed(0)}万`;
+    } else {
+      empEl.textContent = `${(anchor / 1_000_000).toFixed(2)}M`;
     }
-    if (empSub) {
-      empSub.textContent = t("stat_emp_sub");
+    empEl.title = t("stat_emp_tooltip");
+  }
+  if (empSub) {
+    if (state.lang === "zh") {
+      empSub.textContent = `（具名职业 ${(tracked / 10000).toFixed(0)}万；新加坡完整劳动力约 370 万）`;
+    } else {
+      empSub.textContent = `(Named occupations ${(tracked / 10000).toFixed(0)}0K; full SG workforce: ~3.7M)`;
     }
   }
 }
@@ -223,7 +250,7 @@ async function ensureZhPackLoaded() {
 
   setLangSpinner(true);
   try {
-    const r1 = await fetch(assetUrl("data/data_zh.json"));
+    const r1 = await fetch(`${assetUrl("data/data_zh.json")}?v=${DATA_VERSION}`, { cache: "no-store" });
     if (r1.ok) {
       const tree = await r1.json();
       const overlay = buildZhOverlayFromDataTree(tree);
@@ -246,7 +273,7 @@ async function ensureZhPackLoaded() {
       }
       zhOccOverlay = null;
     }
-    const r2 = await fetch(assetUrl("data/occupations_zh.json"));
+    const r2 = await fetch(`${assetUrl("data/occupations_zh.json")}?v=${DATA_VERSION}`, { cache: "no-store" });
     if (r2.ok) {
       occupationsZh = await r2.json();
       if (occupationsZh.category_labels && typeof occupationsZh.category_labels === "object") {
@@ -538,10 +565,10 @@ async function bootstrap() {
   try {
     setLoading(true, pendingDeepLinkJob);
     const startTs = performance.now();
-    const dataUrl = assetUrl("data/data.json");
+    const dataUrl = `${assetUrl("data/data.json")}?v=${DATA_VERSION}`;
     const kgUrl = assetUrl("data/kg_indices.jsonl");
     const tripleUrl = assetUrl("data/triples.jsonl");
-    const occZhPromise = fetch(assetUrl("data/occupations_zh.json"))
+    const occZhPromise = fetch(`${assetUrl("data/occupations_zh.json")}?v=${DATA_VERSION}`, { cache: "no-store" })
       .then(async (r) => (r.ok ? await r.json() : null))
       .catch(() => null);
     const [data, kgRaw, triplesRaw, zhEarly] = await Promise.all([
@@ -623,9 +650,7 @@ async function bootstrap() {
 function initUI() {
   document.getElementById("stat-occ").textContent = rawData.meta.total_occupations.toLocaleString();
   const empEl = document.getElementById("stat-emp");
-  const totalWorkers = Number(rawData.meta.employment_anchor || 0);
-  empEl.textContent = formatWorkerScale(totalWorkers);
-  empEl.title = t("stat_emp_tooltip");
+  renderHeaderEmployment();
   document.getElementById("stat-avg").textContent = rawData.meta.avg_ai_score.toFixed(2);
   updateHeaderProvenance();
 
@@ -1391,7 +1416,7 @@ function setLoading(isLoading, jobHint) {
 async function cachedJson(url) {
   const cached = await readCache(url);
   if (cached) return JSON.parse(cached);
-  const raw = await fetch(url).then((r) => r.text());
+  const raw = await fetch(url, { cache: "no-store" }).then((r) => r.text());
   await writeCache(url, raw);
   return JSON.parse(raw);
 }
