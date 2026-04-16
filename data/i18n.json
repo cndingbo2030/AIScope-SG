@@ -10,6 +10,10 @@
     "en": "Sum of employment_est across SingStat-titled SSOC rows in this bundle (~370K by default); treemap tile sizes still use a 3.72M national anchor for comparability.",
     "zh": "本数据包中带 SingStat 主名称的 SSOC 行的 employment_est 之和（默认约 37 万）；树图块面积仍按 372 万全国锚定缩放以便对比。"
   },
+  "stat_emp_sub": {
+    "en": "(Named occupations; full SG workforce: ~3.7M)",
+    "zh": "（具名职业；新加坡完整劳动力约 370 万）"
+  },
   "header_provenance": {
     "en": "Scoring model: {{model}} · Data bundle: {{date}}",
     "zh": "评分模型：{{model}} · 数据快照：{{date}}"
@@ -85,10 +89,8 @@
   "drawer_na": { "en": "N/A", "zh": "暂无" },
   "drawer_ai_augment": { "en": "AI augments this role", "zh": "AI 主要增强本岗位" },
   "drawer_ai_replace": { "en": "AI may replace core routine tasks", "zh": "AI 可能替代核心例行工作" },
-  "drawer_ai_displacement": {
-    "en": "AI Score {{score}} — High displacement risk",
-    "zh": "AI 分 {{score}} — 高替代风险"
-  },
+  "drawer_ai_displacement": { "en": "High displacement risk", "zh": "高替代风险" },
+  "drawer_ai_low": { "en": "Low AI impact", "zh": "低 AI 影响" },
   "drawer_no_reason": { "en": "No reason available.", "zh": "暂无说明。" },
   "drawer_insights_title": { "en": "AIScope SG Insights", "zh": "AIScope SG 洞察" },
   "drawer_national_avg": { "en": "National Avg", "zh": "全国平均" },
