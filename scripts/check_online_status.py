@@ -9,7 +9,7 @@ import sys
 
 import requests
 
-DEFAULT_URL = "https://cndingbo2030.github.io/AIiScope-SG/"
+DEFAULT_URL = "https://cndingbo2030.github.io/AIScope-SG/"
 
 
 def main() -> int:

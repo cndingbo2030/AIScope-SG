@@ -1,7 +1,7 @@
 """
 Pre-deploy: normalize absolute paths under web/ to relative paths, then verify SEO.
 
-Run before GitHub Pages deploy so cndingbo2030.github.io/AIiScope-SG/ and other subpaths work.
+Run before GitHub Pages deploy so cndingbo2030.github.io/AIScope-SG/ and other subpaths work.
 """
 
 from __future__ import annotations
@@ -142,7 +142,7 @@ def verify_index() -> list[str]:
 
     if "rel=\"canonical\"" not in html and "rel='canonical'" not in html:
         errors.append("index.html: missing canonical link")
-    elif "https://cndingbo2030.github.io/AIiScope-SG" not in html:
+    elif "https://cndingbo2030.github.io/AIScope-SG" not in html:
         errors.append("index.html: canonical/OG should reference GitHub Pages base URL")
 
     if 'name="aiscope-recency"' not in html and "name='aiscope-recency'" not in html:
@@ -194,7 +194,7 @@ def main() -> int:
             print(f"  - {e}", file=sys.stderr)
         return 1
 
-    print("[pre-deploy] index.html SEO checks passed (OG + canonical -> github.io/AIiScope-SG)")
+    print("[pre-deploy] index.html SEO checks passed (OG + canonical -> github.io/AIScope-SG)")
     print("[pre-deploy] HTML path audit + i18n key coverage OK")
     return 0
 

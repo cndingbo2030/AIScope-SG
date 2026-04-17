@@ -1,10 +1,10 @@
 # AIScope SG
 
-[![Deploy to GitHub Pages](https://github.com/cndingbo2030/AIiScope-SG/actions/workflows/deploy-pages.yml/badge.svg?branch=main)](https://github.com/cndingbo2030/AIiScope-SG/actions/workflows/deploy-pages.yml)
+[![Deploy to GitHub Pages](https://github.com/cndingbo2030/AIScope-SG/actions/workflows/deploy-pages.yml/badge.svg?branch=main)](https://github.com/cndingbo2030/AIScope-SG/actions/workflows/deploy-pages.yml)
 ![SSOC](https://img.shields.io/badge/SSOC-2024-2166ac)
 ![Occupations](https://img.shields.io/badge/Occupations-570-21c7d9)
 
-**[Live site →](https://cndingbo2030.github.io/AIiScope-SG/)**
+**[Live site →](https://cndingbo2030.github.io/AIScope-SG/)**
 
 AIScope SG is a non-commercial, public-interest **Singapore AI Job Exposure Index**: occupation-level scores, wages, policy-aware context (PWM, licensing), and GraphRAG-friendly exports.
 
@@ -63,17 +63,17 @@ Then open [http://localhost:8000](http://localhost:8000).
 
 ## Product highlights | 核心能力
 
-- D3 treemap + mobile list + **environment-aware** asset URLs (root or `/AIiScope-SG/`).
+- D3 treemap + mobile list + **environment-aware** asset URLs (root or `/AIScope-SG/`).
 - **Deep links** `?job=<SSOC>` with loading placeholder; **`404.html`** redirects to `index.html` with query preserved (GitHub Pages SPA-friendly).
 - Executive summary + **Your Recent Interests** (local-only click ranking).
-- Optional **GA4** on `*.github.io` paths containing `AIiScope-SG` when `meta[name=aiscope-ga4-id]` is set.
+- Optional **GA4** on `*.github.io` paths containing `AIScope-SG` when `meta[name=aiscope-ga4-id]` is set.
 
 ---
 
 ## Repository layout | 仓库结构
 
 ```text
-AIiScope-SG/
+AIScope-SG/
 ├── web/                 # static site (deployed to gh-pages)
 ├── pipeline/
 ├── scripts/
@@ -119,4 +119,4 @@ AIScope SG is for education and workforce transition awareness, not for discrimi
 ## Maintainer | 维护者
 
 - AIScope SG · public-interest research (open repository)  
-- Repository: [cndingbo2030/AIiScope-SG](https://github.com/cndingbo2030/AIiScope-SG)
+- Repository: [cndingbo2030/AIScope-SG](https://github.com/cndingbo2030/AIScope-SG)

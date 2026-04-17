@@ -1,5 +1,5 @@
 """
-Local server that mimics GitHub Pages project-site URLs: /AIiScope-SG/... → web/...
+Local server that mimics GitHub Pages project-site URLs: /AIScope-SG/... → web/...
 
 Use to verify 404.html redirect + ?job= query preservation.
 """
@@ -13,7 +13,7 @@ from urllib.parse import unquote, urlparse
 
 BASE = Path(__file__).resolve().parent.parent
 WEB = BASE / "web"
-DEFAULT_PREFIX = "/AIiScope-SG"
+DEFAULT_PREFIX = "/AIScope-SG"
 
 
 class GHProjectSiteHandler(SimpleHTTPRequestHandler):
@@ -46,7 +46,7 @@ class GHProjectSiteHandler(SimpleHTTPRequestHandler):
             self.send_response(404)
             self.send_header("Content-Type", "text/html; charset=utf-8")
             self.end_headers()
-            self.wfile.write(b"Use project prefix, e.g. /AIiScope-SG/\n")
+            self.wfile.write(b"Use project prefix, e.g. /AIScope-SG/\n")
             return
 
         rel = raw_path[len(self.repo_prefix) :] or "/"
@@ -79,7 +79,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Simulate GitHub Pages /REPO/ layout locally.")
     parser.add_argument("--host", default="127.0.0.1")
     parser.add_argument("--port", type=int, default=8765)
-    parser.add_argument("--prefix", default=DEFAULT_PREFIX, help="Leading path segment, e.g. /AIiScope-SG")
+    parser.add_argument("--prefix", default=DEFAULT_PREFIX, help="Leading path segment, e.g. /AIScope-SG")
     args = parser.parse_args()
     prefix = args.prefix if args.prefix.startswith("/") else f"/{args.prefix}"
     GHProjectSiteHandler.repo_prefix = prefix.rstrip("/") or DEFAULT_PREFIX

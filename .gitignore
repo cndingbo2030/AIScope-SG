@@ -11,3 +11,5 @@ venv/
 __pycache__/
 *.pyc
 data/raw/_ssoc_build_cache/
+AIScope-SG-Cursor-Prompt.md
+AIScope-SG.cursorrules

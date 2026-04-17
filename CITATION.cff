@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use AIScope SG in academic work, please cite the accompanying working paper."
+title: "AIScope SG: A Policy-Aware, Bilingual AI Occupational Exposure Index for Singapore"
+authors:
+  - family-names: "Ding"
+    given-names: "Bo"
+    orcid: "https://orcid.org/0009-0004-1490-1405"
+    affiliation: "Independent Researcher, Singapore"
+repository-code: "https://github.com/cndingbo2030/AIScope-SG"
+url: "https://cndingbo2030.github.io/AIScope-SG/"
+abstract: >-
+  AIScope SG is an open, bilingual (English/Chinese) AI occupational
+  exposure index built on the Singapore Standard Occupational
+  Classification 2024 (SSOC 2024), covering 570 occupations. It
+  encodes Singapore-specific policy levers (Progressive Wage Model cap,
+  MOH/MAS/SAL/BCA regulatory discounts) as hard scoring constraints,
+  and surfaces SkillsFuture-aligned transition paths via a GraphRAG
+  generator.
+keywords:
+  - AI occupational exposure
+  - Singapore
+  - SSOC 2024
+  - Progressive Wage Model
+  - SkillsFuture
+  - GraphRAG
+  - regulatory moat
+  - negotiable parameter framework
+license: MIT
+date-released: 2026-04-15
+version: "1.0.0"
+preferred-citation:
+  type: article
+  title: "AIScope SG: A Policy-Aware, Bilingual AI Occupational Exposure Index for Singapore"
+  authors:
+    - family-names: "Ding"
+      given-names: "Bo"
+      orcid: "https://orcid.org/0009-0004-1490-1405"
+  year: 2026
+  month: 4
+  journal: "SSRN Working Paper"
+  # NOTE: Replace XXXXXXX with the SSRN-assigned Abstract ID once the paper 
+  #       is approved. Currently the ID during preliminary upload is 6593559.
+  number: "6593559"
+  url: "https://ssrn.com/abstract=6593559"
