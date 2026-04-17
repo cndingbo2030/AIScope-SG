@@ -2,11 +2,11 @@
   "last_updated": "2026-04",
   "display_stamp": "2026-04",
   "top_movers": [],
-  "policy_crossover": "MOM median-wage trends intersect with AIScope exposure: 7.9% of occupations sit in the high-wage/high-exposure quadrant while 21.4% combine lower wages with high exposure — a structural tension for SkillsFuture and sector councils as 2026 reasoning-heavy automation compresses premium desk workflows faster than frontline PWM floors adjust.",
+  "policy_crossover": "MOM median-wage trends intersect with AIScope exposure: 8.1% of occupations sit in the high-wage/high-exposure quadrant while 21.2% combine lower wages with high exposure — a structural tension for SkillsFuture and sector councils as 2026 reasoning-heavy automation compresses premium desk workflows faster than frontline PWM floors adjust.",
   "market_overview": "Singapore snapshot (570 SSOC-style rows): mean AI exposure sits near 5.34/10 with a fat right tail in clerical and professional services as 2026 reasoning models absorb cross-document work. PWM-covered frontline roles remain capped but face gradual hardware substitution in pilots; policy focus should pair wage statistics with reskilling velocity, not headline model releases alone.",
   "wage_volatility": {
     "flag": false,
-    "pct_change": 0.0,
+    "pct_change": 0.1,
     "prior_snapshot": "data_20260416.json",
     "note_en": "",
     "note_zh": ""
