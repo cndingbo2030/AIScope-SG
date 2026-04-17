@@ -10,3 +10,4 @@ Thumbs.db
 venv/
 __pycache__/
 *.pyc
+data/raw/_ssoc_build_cache/
