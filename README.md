@@ -118,5 +118,5 @@ AIScope SG is for education and workforce transition awareness, not for discrimi
 
 ## Maintainer | 维护者
 
-- Ding Bo (丁波) · Lawgorithm / AIScope SG  
+- AIScope SG · public-interest research (open repository)  
 - Repository: [cndingbo2030/AIiScope-SG](https://github.com/cndingbo2030/AIiScope-SG)

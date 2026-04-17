@@ -12,7 +12,7 @@
 **定位：** 新加坡版 AI 职业暴露度指数，参考 Andrej Karpathy 的 karpathy/jobs 项目，完全自研，深度本地化  
 **核心问题：** 新加坡每一个职业，面对 AI 浪潮的暴露程度是多少？  
 **目标受众：** 新加坡职场人士、政策研究者、媒体（联合早报、海峡时报）、SkillsFuture 从业者  
-**作者背景：** Lawgorithm（新加坡 LegalTech 初创，KAG 平台），CTO 丁波，《GraphRAG in Production》作者
+**项目背景：** AIScope SG 为新加坡劳动力与政策教育向的公益研究型数据产品；技术栈与方法论以可审计、可复现为优先。
 
 ---
 
@@ -546,5 +546,4 @@ A: step2_merge.py 的 rename_map 负责归一化，
 
 ---
 
-*AIScope SG · Built by Lawgorithm · Powered by MOM Data + Claude AI*
-*作者：丁波 (Ding Bo) · CTO, Lawgorithm Private Limited · Singapore*
+*AIScope SG · Public-Interest Research · Powered by public MOM statistics + Claude API (scoring only)*

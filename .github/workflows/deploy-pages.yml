@@ -1,5 +1,7 @@
 name: Deploy AIScope SG
 
+# GitHub Pages serves the `web/` folder from branch `gh-pages`. Pushes that do not
+# touch any path below will NOT redeploy; the live site can lag until the next deploy.
 on:
   push:
     branches: ["main"]
