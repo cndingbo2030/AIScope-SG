@@ -26,13 +26,13 @@
     } catch (e) {}
 
     /** GitHub Pages project URLs are case-sensitive — only this exact segment serves the site. */
-    var CANONICAL_REPO_SEGMENT = "AIiScope-SG";
+    var CANONICAL_REPO_SEGMENT = "AIScope-SG";
     function repoSegmentFromPath(p) {
       var parts = p.split("/").filter(Boolean);
       if (!parts.length) return "";
       var first = parts[0];
       var low = first.toLowerCase();
-      if (low === "aiiscope-sg" || low === "aiscope-sg") {
+      if (low === "aiscope-sg") {
         return CANONICAL_REPO_SEGMENT;
       }
       return first;
@@ -60,7 +60,7 @@
   })();
   </script>
   <noscript>
-    <meta http-equiv="refresh" content="0; url=https://cndingbo2030.github.io/AIiScope-SG/">
+    <meta http-equiv="refresh" content="0; url=https://cndingbo2030.github.io/AIScope-SG/">
   </noscript>
 </head>
 <body style="margin:0;background:#080b0f;color:#6b7a8d;font-family:IBM Plex Mono,monospace;padding:24px;text-align:center;">
