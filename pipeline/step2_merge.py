@@ -64,6 +64,14 @@ WAGE_CAPS = {
     "Plant & Machine Operators": 4000,
 }
 
+# Exact SingStat principal-title overrides (case-insensitive match on `name`).
+_MANUAL_WAGE_BY_EXACT_NAME: dict[str, int] = {
+    "PORTERS, ATTENDANTS AND RELATED WORKERS": 2000,
+    "Bakers, Pastry and Confectionery Makers": 2300,
+    "Chefs": 2700,
+    "MATHEMATICIANS, ACTUARIES, STATISTICIANS AND RELATED PROFESSIONALS": 9800,
+}
+
 
 def _load_map() -> dict[str, Any]:
     if not MAP_PATH.is_file():
@@ -169,6 +177,17 @@ def merge_rows(rows: list[dict[str, Any]], payload: dict[str, Any]) -> list[dict
             basic = int(x.get("basic_wage") or 0)
             if basic > cap:
                 x["basic_wage"] = int(round(cap * 0.82))
+
+    # Final per-title wage fixes (after caps).
+    wage_by_upper = {k.upper(): v for k, v in _MANUAL_WAGE_BY_EXACT_NAME.items()}
+    for x in out:
+        key = str(x.get("name") or "").upper().strip()
+        gross = wage_by_upper.get(key)
+        if gross is None:
+            continue
+        x["gross_wage"] = int(gross)
+        basic = int(x.get("basic_wage") or 0)
+        x["basic_wage"] = basic if 0 < basic < gross else int(round(gross * 0.82))
 
     # Remove duplicate occupation names (case-insensitive), keep first occurrence.
     deduped: list[dict[str, Any]] = []

@@ -105,5 +105,10 @@
   "Generalist Medical Practitioners": {
     "score": 4.5,
     "reason": "MOH-licensed GPs require clinical judgment, physical examination and doctor-patient trust that current AI systems cannot legally substitute in Singapore's healthcare system. AI assists with diagnosis but MOM/MOH regulations require human physician oversight."
+  },
+  "CLEANERS AND HELPERS IN HOTELS, OFFICES AND OTHER ESTABLISHMENTS": {
+    "score": 2.8,
+    "ai_assists": true,
+    "reason": "PWM-covered cleaning role. Physical mopping, sanitisation and waste disposal cannot be replicated by current AI systems. Singapore's NEA cleaning standards mandate human-performed cleaning in all public premises."
   }
 }
