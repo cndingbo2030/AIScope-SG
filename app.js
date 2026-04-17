@@ -638,49 +638,6 @@ async function bootstrap() {
     draw();
     renderExecutiveSummary();
     applyDeepLink();
-    if (window.innerWidth < 480) {
-      const treemap = document.querySelector(
-        "#treemap-wrap, [class*='treemap-wrap'], .treemap-container, section.treemap, #canvas-wrap"
-      );
-      if (treemap) treemap.style.display = "none";
-      const allOccs = (window.appData?.children || [])
-        .flatMap((c) => (c.children || []).map((o) => ({ ...o, cat: c.name })))
-        .sort((a, b) => Number(b.ai_score || 0) - Number(a.ai_score || 0));
-      if (allOccs.length > 0) {
-        const old = document.getElementById("mobile-occ-list");
-        if (old) old.remove();
-        const container = document.createElement("div");
-        container.id = "mobile-occ-list";
-        container.style.cssText = "padding:12px;overflow-y:auto;max-height:70vh;";
-        container.innerHTML = allOccs.map((o) => `
-          <div data-job="${escapeHtml(String(o.ssoc_code || o.id || ""))}" 
-               style="display:flex;gap:10px;align-items:center;
-               padding:10px 12px;margin:4px 0;cursor:pointer;
-               background:rgba(255,255,255,0.05);
-               border-radius:8px;border:1px solid rgba(255,255,255,0.08)">
-            <b style="color:${Number(o.ai_score) >= 7 ? "#e05f5f" :
-              Number(o.ai_score) >= 4 ? "#d4a04a" : "#4aad7a"};
-               font-size:18px;min-width:32px">${Number(o.ai_score || 0).toFixed(1)}</b>
-            <div>
-              <div style="font-size:12px;font-weight:500;
-                color:#e0e0e0">${escapeHtml(String(o.name || "").substring(0,45))}</div>
-              <div style="font-size:10px;color:#888">
-                S$${Number(o.gross_wage || 0).toLocaleString()}/mo</div>
-            </div>
-          </div>`).join("");
-        container.querySelectorAll("[data-job]").forEach((el) => {
-          el.addEventListener("click", () => {
-            const job = el.dataset.job || "";
-            if (window.openDrawer) window.openDrawer(job);
-            else window.location.href = `?job=${encodeURIComponent(job)}`;
-          });
-        });
-        const anchor = document.querySelector(".filter-bar, #filter-row, [class*='search']")?.parentElement
-          || document.querySelector("main, #app, body")
-          || document.body;
-        anchor.appendChild(container);
-      }
-    }
     renderConciergeCards(searchQ ? getSemanticMatches(searchQ) : getFeaturedCards());
     const elapsed = performance.now() - startTs;
     console.info(`[AIScope] data bootstrapped in ${elapsed.toFixed(1)}ms (base=${getBaseHrefForAssets()})`);
@@ -807,17 +764,18 @@ function draw() {
 function drawMobile(categories) {
   mobileList.innerHTML = "";
   if (window.innerWidth <= 480) {
-    mobileList.id = "mobile-occ-list";
     const occs = (rawData?.children || [])
       .flatMap((cat) => (cat.children || []).map((occ) => ({ ...occ, category: cat.name })))
       .sort((a, b) => Number(b.ai_score || 0) - Number(a.ai_score || 0));
     occs.forEach((occ) => {
       const card = document.createElement("div");
       card.className = "mob-card";
+      const score = Number(occ.ai_score || 0);
       card.innerHTML = `
-        <span class="mob-score" style="color:${scoreColor(Number(occ.ai_score || 0))}">${Number(occ.ai_score || 0).toFixed(1)}</span>
-        <span class="name">${escapeHtml(nameForOcc(occ))}</span>
+        <span class="mob-score" style="color:${scoreColor(score)}">${score.toFixed(1)}</span>
+        <span class="mob-name">${escapeHtml(nameForOcc(occ))}</span>
         <span class="mob-wage">S$${Number(occ.gross_wage || 0).toLocaleString()}/mo</span>
+        <span class="mob-cat">${escapeHtml(categoryDisplay(occ.category || ""))}</span>
       `;
       card.addEventListener("click", () => {
         openDrawer(occ, true);

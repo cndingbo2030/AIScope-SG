@@ -403,7 +403,7 @@ html, body {
 
 #canvas-wrap {
   position: relative;
-  min-height: 420px;
+  min-height: clamp(420px, 58vh, 760px);
   height: auto;
 }
 
@@ -791,7 +791,11 @@ html, body {
 @media (max-width: 768px) {
   #treemap { display: none; }
   #treemap-overlay { display: none; }
-  #mobile-list { display: block; min-height: 420px; }
+  #mobile-list {
+    display: block;
+    min-height: 420px;
+    padding-bottom: calc(10px + env(safe-area-inset-bottom, 0px));
+  }
   #legend { display: none; }
   #search { width: 100%; min-width: 0; }
   .share-btn { margin-left: 0; }
@@ -800,38 +804,92 @@ html, body {
 }
 
 @media (max-width: 480px) {
+  #controls {
+    position: sticky;
+    top: 0;
+    z-index: 35;
+    background: rgba(15, 20, 25, 0.94);
+    backdrop-filter: blur(6px);
+    padding: 10px 12px;
+    row-gap: 8px;
+  }
+  .filter-group {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 2px;
+  }
+  .pill {
+    min-height: 34px;
+    padding: 7px 10px;
+  }
+  #search {
+    min-height: 36px;
+    font-size: 13px;
+  }
   #canvas-wrap #treemap,
   #canvas-wrap #treemap-overlay {
     display: none;
   }
   #mobile-list {
     display: block;
-    padding: 12px;
+    padding: 10px 12px;
   }
   .mob-card {
     border: 1px solid var(--border);
     border-radius: 6px;
     background: var(--surface);
-    padding: 10px;
+    padding: 10px 11px;
     margin-bottom: 8px;
     display: grid;
     grid-template-columns: auto 1fr auto;
-    gap: 8px;
+    grid-template-areas:
+      "score name wage"
+      "score cat cat";
+    gap: 4px 8px;
     align-items: center;
     cursor: pointer;
   }
-  .mob-card .score {
+  .mob-score {
+    grid-area: score;
     font-family: var(--mono);
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 600;
+    line-height: 1;
+    min-width: 34px;
+    text-align: center;
   }
-  .mob-card .name {
+  .mob-name {
+    grid-area: name;
     font-size: 13px;
     color: var(--text);
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
-  .mob-card .wage {
+  .mob-wage {
+    grid-area: wage;
     font-family: var(--mono);
     font-size: 11px;
     color: var(--muted);
+    white-space: nowrap;
+    justify-self: end;
+  }
+  .mob-cat {
+    grid-area: cat;
+    font-family: var(--mono);
+    font-size: 10px;
+    color: #8ea1b5;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+  #drawer {
+    width: 100vw;
+    max-width: 100vw;
+    border-left: none;
+  }
+  .drawer-grid {
+    grid-template-columns: 1fr;
   }
 }
